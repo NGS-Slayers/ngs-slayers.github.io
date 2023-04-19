@@ -1,0 +1,11 @@
+*.bat
+.breakpoints
+.config/
+.git/
+.github/
+Makefile
+.replit
+.upm/
+build/
+replit.nix
+venv/
