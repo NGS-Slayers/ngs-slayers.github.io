@@ -3,5 +3,5 @@ sphinx==6.1.3
 sphinx-autobuild==2021.3.14
 sphinxcontrib-video==0.1.1
 sphinxcontrib-youtube==1.2.0
-sphinx-git
+sphinx-git==11.0.0
 furo==2023.3.27
