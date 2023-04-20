@@ -24,8 +24,8 @@ Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about S
 ```
 
 ```{admonition} Changelog
+[Click here to see the full list of changes](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
 ```{git_changelog}
-:revisions: 5
 ```
 
 ```{todo}
