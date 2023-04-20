@@ -3,12 +3,31 @@
 Depicted below is Slayer's skill tree required skill-point allocation.  
 Afterward, each skill is explained in detail and with some general tips given when they apply.
 
-[Slayer Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
+## Skill Tree Suggestions
+
+```{admonition} [Core Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
+:class: tip
+If you are unsure which skills you prefer and don't need the Battle Power, spend your points accordingly and you will have 7 Points left over for usage at a later point.
+```
+
+```{admonition} [Beginner-Friendly Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~dq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYevererererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
+:class: tip
+Great Skill Tree for beginners.
+```
+
+```{admonition} [Experimental Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~dq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYesereberevIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
+:class: caution
+This skill tree does not have Slug Shot skilled.
+
+To find out more about why click [here](relevant-gunblade-animation-cancels)
+
+If you are still looking to put a skill point into Slug Shot remove one point of [Gunblade Focus Overflow](gunblade-focus-overflow) for it.
+```
+
+If you are looking for what subclass and subclass skills to use visit [Subclasses](#subclass)
 
 (core-skills)=
 ## Core Skills
-
-These are the skills that you should always take.
 
 (gunblade-focus)=
 ### ![icon](_static/skill/38px-NGSUISkillBladeCounter.png) Gunblade Focus
@@ -94,7 +113,7 @@ align: center
 
 (skill-tree-gunblade-focus-overdrive)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverdrive.png) Gunblade Focus Overdrive
-_Active Skill_
+[_Active Skill_](#moveset-gunblade-focus-overdrive)
 
 Expend your entire full Focus Gauge to temporarily increase the effects of Gunblade Focus. Using the skill again while it is active will unleash a powerful attack.
 
@@ -109,7 +128,7 @@ align: center
 
 (skill-tree-unleashed-rage)=
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
-_Active Skill_
+[_Active Skill_](#moveset-unleashed-rage)
 
 Build up the gauge with Photon Arts and/or Relentless Blade, then expend it to fire a single powerful blast.
 

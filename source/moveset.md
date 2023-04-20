@@ -694,6 +694,7 @@ align: center
 "2695", "4.20", "642"
 ```
 
+(relevant-gunblade-animation-cancels)=
 ## Relevant Gunblade Animation Cancels
 You can cancel out most Gunblade PA's and Actions early with a NA or WA input.
 
