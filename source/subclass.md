@@ -22,15 +22,15 @@ It is not as useful for bossing, but it does still help by providing increased n
 ### ![sl](_static/class/UINGSClassSl.png) ![sub](_static/class/UINGSClassTe.png) Slayer/Techter
 Increases [Photon Blast](#photon-blast) accumulation rate by 20% when you are near a boss thanks to Awake Aile.
 Weak Element Amplifier further boosts Photon Blast accumulation rate by 20% if your attacks' element matches the elemental weakness of your enemies, which applies when using an elemental.
-Techter subclass is great for bossing because it allows you to generate Photon Blasts faster which could be helpful in fights were you do not have the Photon Blast ready in time or in longer fights it could even give you an additonal Photon Blast.
+Techter subclass is great for bossing because it allows you to generate Photon Blasts faster which could be helpful in fights were you do not have the Photon Blast ready in time or in longer fights it could even give you an additional Photon Blast.
 Synergizes well with that come with Potentials that further increase Photon Blast accumulation and reduce PP consumption for some time after using a Photon Blast.
 
 [Sl/Te Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29AqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~9SX~fIIq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 
 ### ![sl](_static/class/UINGSClassSl.png) ![sub](_static/class/UINGSClassFi.png) Slayer/Fighter
 Increases damage dealt and active PP regeneration on downed enemies thanks to Defeat Advantage and Defeat PP Recovery.
-However, these bonuses only apply to Physical and Elemental downs and does not apply during Breaks or special downs that occur from breaking specific parts of some enemies.
-This option is only for when all of the above mentioned subclass benefits are not coming into play.
+However, these bonuses only apply to Physical and Elemental downs and do not apply during Breaks or special downs that occur from breaking specific parts of some enemies.
+This option is only for when all of the above-mentioned subclass benefits are not coming into play.
 
 [Sl/Fi Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29kqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~5_G~f~f~f~f~f~f~f~f~f~f~4e~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 
