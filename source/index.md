@@ -8,7 +8,7 @@ Welcome to Theowyn's comprehensive Slayer class guide for Phantasy Star Online 2
 
 Slayer is the newest Precision based class that’s been released into the game.
 
-It’s a high mobility, fast hitting class that specializes in close quarters combat utilizing a Gunblade as its primary and only weapon.
+It’s a high mobility, fast-hitting class that specializes in close-quarters combat utilizing a Gunblade as its primary and only weapon.
 
 If you like high mobility, speedy attacks, and rewarding gameplay that incorporates new mechanics, you might like this class.
 
@@ -16,24 +16,26 @@ Slayer’s only Mainclass weapon is the Gunblade, this is also the only weapon t
 
 Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about Slayer!
 
-```{image} _static/motv.png
-:scale: 50%
+```{raw} html
+<figure>
+<img alt="_images/img.png" src="_static/motv.png" style="width: 30%; height: 30%">
+<figcaption>Meme of the version</figcaption>
+</figure>
 ```
 
 ```{admonition} Changelog
-04/20/23 - Version 1.2
-* inital version of the github page
+```{git_changelog}
+:revisions: 5
 ```
 
 ```{todo}
-* Add Focus and Rager per second values to moveset tables
-* Better image for RB
-* Global Abbreviation hints
-* Add numbers to skill tree
-* Admonition for animation cancels
-* Better banner + Intro
+* Add numeric data to skill tree
+* Global Abbreviation hints and linking
+* Better Intro
+* Add Focus and Rage per second values to moveset tables
 * How to play section
 * Gearing stuff
+* Use github releases for versioning
 ```
 
 ```{toctree} 
