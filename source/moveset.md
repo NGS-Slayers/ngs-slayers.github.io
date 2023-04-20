@@ -1,6 +1,6 @@
 # Moveset
-Slayer has many attacks available for use in combat. Here is a list of each attack and their uses.
-To make the following tables easier to read we will use some abbreviations:
+Slayer has many attacks available for use in combat. Here is a list of each attack and what they do.
+To make the following tables easier to read we will use some abbreviations.
 
 (abbreviation-table)=
 ## Abbreviation Table
@@ -13,7 +13,7 @@ align: center
 ---
 "F0", "Focus Level 0"
 "F5", "Focus Level 5"
-"OD", "Focus Gauge Overdrive"
+"OD", "Focus Overdrive"
 "DPS", "Damge per Second"
 "PA", "Photon Art"
 "PB", "Photon Blast"
@@ -44,22 +44,24 @@ align: center
 
 * Rage Multiplier against Bosses is 3
 
-* Focus Multiplier against bosses is 5
+* Focus Multiplier against Bosses is 5
 ```
 
 More accurate and up-to-date information can be found in [Frame Data](#frame-data).
 
 ## ![icon](_static/skill/38px-NGSUISkillRelentlessBlade.png) Relentless Blade
 During a PA, a purple glow will appear on your character.
-If you press NA while the glow is visible, you will do an additional hitscan attack that is able to build Rage and recover some PP.
+If you press NA while the glow is visible, you will do an additional hitscan attack that can build Rage and recover some PP.
 ```{hint} RBR will increase the potency of this attack.
 ```
 
-IMAGE
+Purple Glow during a PA
 
-When successfully executing RB another visual indicator will appear.
+![image](_static/skill/rb.png)
 
-IMAGE
+When successfully executing RB another visual indicator will appear
+
+![image](_static/skill/rb-success.png)
 
 ```{csv-table}
 ---
@@ -80,7 +82,7 @@ align: center
 ### Making RB Easier
 Some may find the window of RB difficult. To make things easier, you may change where the NA button is. There is a priority system for inputs. The priorities are as follows:
 
-IMAGE
+![image](_static/skill/palette-priority.png)
 
 Binding the NA button to a slot with lower priority allows you to hold down a PA and NA to automatically activate Relentless Blade without canceling into Slug Shot.
 
@@ -619,6 +621,7 @@ align: center
 "550", "1.02", "539", "600", "629", "4", "18", "3"
 ```
 
+(photon-blast)=
 ## ![icon](_static/PA/38px-PhotonBlast.png) Photon Blast
 A powerful attack that generates a special field around you.
 ```{hint} You will be granted invincibility frames during the entire animation of the attack.
@@ -646,7 +649,7 @@ align: center
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
 Approach the enemy to deliver a powerful blow. Not only does the skill greatly help fill the Focus gauge, but through the skill UR After Effect, the critical hit rate increases for a short period of time after as well.
 
-UR's gauge builds from PA's, Relentless Blade and from the StepC WA.
+UR's gauge builds from PA's, Relentless Blade and from StepC WA.
 
 ```{hint} UR requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
 ```
@@ -662,7 +665,7 @@ align: center
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverdrive.png) Gunblade Focus Overdrive
-Activating OD will start a short animation. After the activation you will be granted buffs for a short time period.
+Activating OD will start a short animation. After the activation, you will be granted buffs for a short time period.
 For more information on the buffs check out [Gunblade Focus Overdrive](#skill-tree-gunblade-focus-overdrive)
 
 Re-activating OD while it's in effect, unleashes a powerful finishing move that generates a special zone similar to the visuals seen in the PB.
@@ -694,7 +697,7 @@ align: center
 ## Relevant Gunblade Animation Cancels
 You can cancel out most Gunblade PA's and Actions early with a NA or WA input.
 
-This basically means you can increase the DPS of some PA's and Actions while gaining PP making Slug Shot almost pointless.
+This means you can increase the DPS of some PA's and Actions while gaining PP making Slug Shot almost pointless.
 
 For more information please refer to [Frame Data](#frame-data).
 
@@ -704,11 +707,10 @@ When the description of the cancel includes the word “safely”, it means that
 ```
 
 ### sFS12 -> WA123
-You are able to cancel sFS12 safely at 2.85 seconds.
-
-Basically as soon as your character is about to shoot their gunblade.
-
 Great for downs when low on PP or not having OD Finisher and UR ready.
+
+```{hint} You can cancel sFS12 safely at 2.85 seconds.
+```
 
 ```{video} _static/PA/sFS12-WA123.webm
 ---
@@ -729,9 +731,10 @@ align: center
 ```
 
 ### StepC WA -> Chain
-You are able to cancel out of the StepCounter WA animation with another Step input safely at 0.82 seconds.
-
 This means that chaining this will be stronger than chaining BC NA together.
+
+```{hint} You can cancel out of the StepC WA animation with another Step input safely at 0.82 seconds.
+```
 
 ```{video} _static/PA/StepCWA-chain.webm
 ---
@@ -752,9 +755,10 @@ align: center
 ```
 
 ### StepC WA -> WA123
-You are able to cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
+This increases the total potency of the counter by making use of the damage from WA123.
 
-This basically increases the total potency of the counter by making use of the damage from WA123.
+```{hint} You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
+```
 
 ```{video} _static/PA/StepCWA-WA123.webm
 ---
@@ -775,9 +779,12 @@ align: center
 ```
 
 ### BC WA -> WA123
-You are able to cancel out of the BC WA animation safely at 1.92 seconds after the sixth hit with another WA input.
+You can cancel your BC WA after the sixth hit with another WA input.
 
-This basically increases the total potency of the counter by making use of the damage from WA123.
+This increases the total potency of the counter by making use of the damage from WA123.
+
+```{hint} You can cancel out of the BC WA animation safely at 1.92 seconds.
+```
 
 ```{video} _static/PA/BCWA-WA123.webm
 ---
@@ -800,9 +807,12 @@ align: center
 ### sRR -> StepC WA ("RBC")
 This is the fastest way to build Focus and Rage in a small time window.
 
-By stepping out of the PA early starting at 0.42 seconds.
+Because of the step input you will be able to cancel the recoil of the animation allowing you to chain into a StepC WA.
 
-This way you will be able to cancel the recoil of the animation only adding 0.05 seconds when done perfectly allowing you to chain into a StepC WA.
+```{danger} This is not safe and you can end up canceling the PA early so make sure to be careful.
+
+The perfect timinig for the cancel is at 0.42 seconds.
+```
 
 ```{video} _static/PA/sRR-StepCWA.webm
 ---
@@ -827,9 +837,12 @@ This is another great way of building Rage. Canceling the PA into a Step input w
 
 You can cancel out of the mWR as soon as the last hit occurs.
 
-This is not safe and you can end up canceling the PA early so make sure to be careful.
-
 The example shows 4 PAs to make the comparison more obvious.
+
+```{danger} This is not safe and you can end up canceling the PA early so make sure to be careful.
+
+The perfect timinig for the cancel is at 0.75 seconds.
+```
 
 ```{video} _static/PA/mWR-Step-chain.webm
 ---
@@ -850,9 +863,10 @@ align: center
 ```
 
 ### sWR -> StepC WA
-You can cancel out of the PA safely at 0.18 seconds.
+This is kinda just there and has ridiculous DPS if you can make use of the small time window.
 
-This is kinda just there and has ridiculous DPS if you can make use of that 0.18 second window.
+```{hint} You can cancel out of the PA safely at 0.18 seconds.
+```
 
 ```{video} _static/PA/sWR-StepCWA.webm
 ---
@@ -875,9 +889,10 @@ align: center
 (frame-data)=
 ## Frame Data
 
-For specific Potency distributions, Physical down, Elemental down, refer to the following frame data spreadsheets:
-* [NGS Verification Data Storage](https://docs.google.com/spreadsheets/d/1_OgubzM5QFe4rua4Xu0GSMAI8Idoq8r2yI8Ioyec6oY/edit#gid=932674549)
-* [PSO2NGS Frame Data](https://docs.google.com/spreadsheets/d/1YEg-6eViChVV7HDDlNlgFPJf3qbyIUeAlLYPr9b99t0/edit#gid=329460957)
+For specific Potency distributions, Physical down and Elemental down, refer to the following frame data spreadsheets:
+* [NGS Verification Data Storage](https://docs.google.com/spreadsheets/d/1_OgubzM5QFe4rua4Xu0GSMAI8Idoq8r2yI8Ioyec6oY)
+* [PSO2NGS Frame Data](https://docs.google.com/spreadsheets/d/1YEg-6eViChVV7HDDlNlgFPJf3qbyIUeAlLYPr9b99t0)
+* [Slayer Cancel Timing Sheet](https://docs.google.com/spreadsheets/d/1761j0Antcs4j1L_GhnNsergUQOsinbQlMW3TDydQEms)
 
 For other resources check out
 * [Resources](#resources)
