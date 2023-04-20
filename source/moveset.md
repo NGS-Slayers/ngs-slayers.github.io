@@ -30,7 +30,7 @@ align: center
 "m", "Move Arts"
 "s", "Stay Arts"
 "SS", "Shifting Spica"
-"FS1", "Flowing Sirius"
+"FS", "Flowing Sirius"
 "RR", "Reaping Regulus"
 "WR", "Waving Rigel"
 "123", "Stage 1-3"
