@@ -2,7 +2,6 @@
 .breakpoints
 .config/
 .git/
-.github/
 Makefile
 .replit
 .upm/
