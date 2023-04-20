@@ -601,7 +601,7 @@ align: center
 ### StepC WA
 It is a fast way to build Focus and Rage, serves as a gap closer, has the highest DPS when spammed in a lingering hitbox, and is your highest potency “short counter”.
 
-```{video} _static/PA/stepCWA.webm
+```{video} _static/PA/StepCWA.webm
 ---
 autoplay: true
 loop: true
