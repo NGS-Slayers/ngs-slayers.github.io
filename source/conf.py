@@ -18,6 +18,7 @@ extensions = ['myst_parser', 'sphinxcontrib.youtube', 'sphinxcontrib.video', 'sp
 
 templates_path = ['_templates']
 exclude_patterns = []
+todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -36,5 +37,3 @@ html_theme_options = {
     "source_branch": "main",
     "source_directory": "source/",
 }
-
-todo_include_todos = True
