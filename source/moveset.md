@@ -316,8 +316,6 @@ This skill changes the NA with no directional input slightly after using a PA.
 ```{hint} This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
 ```
 
-IMAGE
-
 The following example shows sSS into Slug Shot
 
 ```{video} _static/PA/SlugShot.webm
@@ -646,6 +644,7 @@ align: center
 ```
 
 ## Active Skills
+(moveset-unleashed-rage)=
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
 Approach the enemy to deliver a powerful blow. Not only does the skill greatly help fill the Focus gauge, but through the skill UR After Effect, the critical hit rate increases for a short period of time after as well.
 
@@ -664,6 +663,7 @@ align: center
 "1000", "1.27", "787", "876", "918", "20", "22"
 ```
 
+(moveset-gunblade-focus-overdrive)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverdrive.png) Gunblade Focus Overdrive
 Activating OD will start a short animation. After the activation, you will be granted buffs for a short time period.
 For more information on the buffs check out [Gunblade Focus Overdrive](#skill-tree-gunblade-focus-overdrive)
