@@ -1,7 +1,7 @@
 # Skill Tree 
 
 Depicted below is Slayer's skill tree required skill-point allocation.  
-Afterwards each skill is explained in detail and with some general tips given when they apply.
+Afterward, each skill is explained in detail and with some general tips given when they apply.
 
 [Slayer Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 
@@ -14,28 +14,33 @@ These are the skills that you should always take.
 ### ![icon](_static/skill/38px-NGSUISkillBladeCounter.png) Gunblade Focus
 Build up the Focus Gauge by hitting enemies. Attack Potency and Offensive PP Recovery increase and PP Consumption decreases in accordance with the gauge level. The Focus Gauge will reset to zero after a certain amount of time passes without hitting an enemy.
 
-```{subfigure} A|B|C|D|E
-:subcaptions: above
-:layout-sm:
-:align: left
-![Focus Reset Indicator](_static/skill/GunbladeFocusGauges.png)
-![Focus Level 0](_static/skill/GunbladeFocus0.png)
-![Focus Level 1](_static/skill/GunbladeFocus1.png)
-![Focus Level 5](_static/skill/GunbladeFocus5.png)
-![Focus Overdrive](_static/skill/GunbladeFocusOD.png)
-```
-
-```{admonition} Gunblade Focus explained
 The UI element at the bottom of your screen helps you identify your current Focus Level and shows you the time that is left until your Focus Level will be reset.
 
-There is five Focus Levels in total. Each one of them will grant you 1% Potency, 2% Critical Hit Rate, 1% PP Consumption Reduction and a 2% Offensive PP Recovery increase.
+```{raw} html
+<figure>
+<figcaption>Focus Reset Indicator: You have recently hit an enemy</figcaption>
+<img alt="_images/img.png" src="_static/skill/GunbladeFocusGauges.png" style="width: 30%; height: 30%">
+<figcaption>Focus Level 0: You have not gained a level of Focus yet</figcaption>
+<img alt="_images/img.png" src="_static/skill/GunbladeFocus0.png" style="width: 30%; height: 30%">
+<figcaption>Focus Level 1: You have reached one level of Focus</figcaption>
+<img alt="_images/img.png" src="_static/skill/GunbladeFocus1.png" style="width: 30%; height: 30%">
+<figcaption>Focus Level 5: You have reached five levels of Focus</figcaption>
+<img alt="_images/img.png" src="_static/skill/GunbladeFocus5.png" style="width: 30%; height: 30%">
+<figcaption>Focus Overdrive: You have activated Gunblade Focus Overdrive</figcaption>
+<img alt="_images/img.png" src="_static/skill/GunbladeFocusOD.png" style="width: 30%; height: 30%">
+</figure>
+```
 
-500 Focus is needed reach Focus Level 5. The Focus Level Indicator will turn from blue to yellow.
+Each Focus Level will grant you 1% Potency, 2% Critical Hit Rate, 1% PP Consumption Reduction and 2% Offensive PP Recovery increase.
 
-When Gunblade Focus Overflow was learned the the skill will then activate and make it easier for you to gain Rage.
+500 Focus is needed to reach Focus Level 5. The Focus Level Indicator will turn from blue to yellow.
+
+When Gunblade Focus Overflow was learned the skill will then activate and make it easier for you to gain Rage.
 
 When Gunblade Focus Overdrive was learned you will also be able to activate this skill.
-```
+
+Gunblade Focus Overdrive is generally treated the same as Gunblade Focus Level 5.
+
 
 ```{raw} html
 <br> <!-- This is really dirty but I don't know a way around it for now --> 
