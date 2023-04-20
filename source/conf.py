@@ -33,7 +33,4 @@ html_favicon = '_static/UINGSClassSl.ico'
 
 html_theme_options = {
 #    "announcement": "<em>Important</em> announcement!",
-    "source_repository": "https://github.com/Aikohh/ngs-slayers.github.io",
-    "source_branch": "main",
-    "source_directory": "source/",
 }
