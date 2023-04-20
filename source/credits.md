@@ -1,10 +1,14 @@
 # Credits
 
-Thanks to iCYpIE#5202, Uber#0002 and to the members of the fleet discord for the help with reviewing the content in this guide and pointing out information that I forgot to include.
+Thanks to iCYpIE#5202 for helping me maintain this guide and reviewing the content.
 
-Special thanks to Aikoh#6996 for letting me use their guide as a template.
+Thanks to Uber#0002 for helping me with game data.
 
-You can check Aikoh's Waker Guide out over [here](https://aikohh.github.io)
+Thanks to Alsry#9622 for proofreading the guide.
+
+Thanks to the members of the fleet discord for all their feedback.
+
+Special thanks to Aikoh#6996 for letting me use their guide as a template. You can check Aikoh's Waker Guide out over [here](https://aikohh.github.io)!
 
 ```{raw} html
 <meta content="Credits" property="og:title" />
