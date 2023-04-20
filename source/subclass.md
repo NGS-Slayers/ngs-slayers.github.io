@@ -39,5 +39,5 @@ This option is only for when all of the above mentioned subclass benefits are no
 <meta content="Not all subclasses are worth using. Here are some recommendations." property="og:description" />
 <meta content="https://ngs-slayers.github.io/subclass.html" property="og:url" />
 <meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#FF794A" data-react-helmet="true" name="theme-color" />
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
 ```

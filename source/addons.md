@@ -63,5 +63,5 @@ Bouncer", "Dash and Glide PP Recovery", "Encore Jump"
 <meta content="Add-on Skills are permanent buffs for the player regardless of which class is being played. Here are the ones you should prioritize." property="og:description" />
 <meta content="https://ngs-slayers.github.io/addons.html" property="og:url" />
 <meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#FF794A" data-react-helmet="true" name="theme-color" />
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
 ```

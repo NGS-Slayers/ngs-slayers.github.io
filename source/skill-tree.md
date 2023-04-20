@@ -113,5 +113,5 @@ Pressing the Normal Attack Button without inputting a direction right after perf
 <meta content="How to allocate skill points in the Slayer Skill Tree, and a brief explanation of each skill with some tips along the way." property="og:description" />
 <meta content="https://ngs-slayers.github.io/skill-tree.html" property="og:url" />
 <meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#FF794A" data-react-helmet="true" name="theme-color" />
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
 ```

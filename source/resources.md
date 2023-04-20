@@ -14,5 +14,5 @@ Here is a list of resources used for data provided in the guide
 <meta content="These are the Resources used to create the guide" property="og:description" />
 <meta content="https://ngs-slayers.github.io/resources.html" property="og:url" />
 <meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#FF794A" data-react-helmet="true" name="theme-color" />
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
 ```

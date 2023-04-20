@@ -887,5 +887,5 @@ For other resources check out
 <meta content="Slayer has alot of options in their arsenal so hopefully this guide will help you decide which one to use." property="og:description" />
 <meta content="https://ngs-slayers.github.io/moveset.html" property="og:url" />
 <meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#FF794A" data-react-helmet="true" name="theme-color" />
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
 ```

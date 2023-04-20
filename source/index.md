@@ -65,5 +65,5 @@ credits
 <meta content="A comprehensive guide to the Slayer class in Phantasy Star Online 2: New Genesis" property="og:description" />
 <meta content="https://ngs-slayers.github.io/" property="og:url" />
 <meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#FF794A" data-react-helmet="true" name="theme-color" />
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
 ```

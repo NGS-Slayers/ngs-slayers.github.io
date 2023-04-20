@@ -11,5 +11,5 @@ You can check Aikoh's Waker Guide out over [here](https://github.com/Aikohh/ngs-
 <meta content="Thanks to these everyone who made this guide possible." property="og:description" />
 <meta content="https://ngs-slayers.github.io/credits.html" property="og:url" />
 <meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#FF794A" data-react-helmet="true" name="theme-color" />
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
 ```
