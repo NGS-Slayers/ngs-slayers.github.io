@@ -101,7 +101,7 @@ Perform a forward slash and fire a Photon Bullet in quick succession.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sSS.webm" type="video/webm">
 </video>
 ```
@@ -123,7 +123,7 @@ This PA will grant you super armor throughout the entire duration.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mSS.webm" type="video/webm">
 </video>
 ```
@@ -146,7 +146,7 @@ This PA will grant you super armor throughout the entire duration.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS1.webm" type="video/webm">
 </video>
 ```
@@ -168,7 +168,7 @@ Stage 2 of the PA has an increased potency on RB and will grant you super armor.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS12.webm" type="video/webm">
 </video>
 ```
@@ -189,7 +189,7 @@ Performs an attack that sweeps the surrounding area while moving.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mFS.webm" type="video/webm">
 </video>
 ```
@@ -211,7 +211,7 @@ Throws a photon bomb while retreating back as it explodes.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sRR.webm" type="video/webm">
 </video>
 ```
@@ -227,7 +227,7 @@ align: center
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mRR.webm" type="video/webm">
 </video>
 ```
@@ -257,7 +257,7 @@ This PA will grant you super armor and a frontal guard for 0.25 seconds after us
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sWR.webm" type="video/webm">
 </video>
 ```
@@ -278,7 +278,7 @@ Slashes the surrounding area while ascending.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWR.webm" type="video/webm">
 </video>
 ```
@@ -301,7 +301,7 @@ This skill changes the NA with no directional input slightly after using a PA.
 The following example shows sSS into Slug Shot
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/SlugShot.webm" type="video/webm">
 </video>
 ```
@@ -325,7 +325,7 @@ Gunblade has three different variations of NA's.
 Tapping the NA fires a single shot ahead. Repeatedly tapping NA will fire up to 3 shots in succession increasing DPS for every Stage.
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/NA123.webm" type="video/webm">
 </video>
 ```
@@ -345,7 +345,7 @@ align: center
 Charging NA up to the first charged stage causes it to release several shots in quick succession.
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/cNA.webm" type="video/webm">
 </video>
 ```
@@ -367,7 +367,7 @@ Charging the attack up to the second charged stage releases a powerful blast.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/scNA.webm" type="video/webm">
 </video>
 ```
@@ -391,7 +391,7 @@ Charged Blade counts as using the WA so after learning the skill BC you will be 
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/ChargedBlade.webm" type="video/webm">
 </video>
 ```
@@ -416,7 +416,7 @@ For WA1 the above mentioned defensive effects will last 0.3 seconds, for WA2 0.2
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/WA123.webm" type="video/webm">
 </video>
 ```
@@ -437,7 +437,7 @@ If the skill Mobile Blade was learned you can use the directional input to perfo
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWA.webm" type="video/webm">
 </video>
 ```
@@ -465,7 +465,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 This variation is useful for when you are fighting a quick enemy and have just countered with WA123 cancel or need a quick ranged counter that you do not need to move to grab.
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCNA.webm" type="video/webm">
 </video>
 ```
@@ -484,7 +484,7 @@ align: center
 This is your go to counter if you can fit all of it and don’t need to move to grab the counter.
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCWA.webm" type="video/webm">
 </video>
 ```
@@ -503,7 +503,7 @@ align: center
 This variation is used for when you need a quick ranged counter and need to move into the hitbox for it. 
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mBCNA.webm" type="video/webm">
 </video>
 ```
@@ -522,7 +522,7 @@ align: center
 This counter is your go to if you have time to fit it and you need to move to grab the counter.
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mBCWA.webm" type="video/webm">
 </video>
 ```
@@ -541,7 +541,7 @@ align: center
 This variation is the fastest counter. It is used for very quick double counters.
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCNA.webm" type="video/webm">
 </video>
 ```
@@ -560,7 +560,7 @@ align: center
 It is a fast way to build Focus and Rage, serves as a gap closer, has the highest DPS when spammed in a lingering hitbox, and is your highest potency “short counter”.
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA.webm" type="video/webm">
 </video>
 ```
@@ -582,7 +582,7 @@ A powerful attack that generates a special field around you.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/PB.webm" type="video/webm">
 </video>
 ```
@@ -608,7 +608,7 @@ UR's gauge builds from PA's, Relentless Blade and from StepC WA.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/UR.webm" type="video/webm">
 </video>
 ```
@@ -637,7 +637,7 @@ The activation of the skill takes 1.4 seconds when not inputting another attack 
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/ODF.webm" type="video/webm">
 </video>
 ```
@@ -672,7 +672,7 @@ Great for downs when low on PP or not having OD Finisher and UR ready.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS12-WA123.webm" type="video/webm">
 </video>
 ```
@@ -694,7 +694,7 @@ This means that chaining this will be stronger than chaining BC NA together.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA-chain.webm" type="video/webm">
 </video>
 ```
@@ -716,7 +716,7 @@ This increases the total potency of the counter by making use of the damage from
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA-WA123.webm" type="video/webm">
 </video>
 ```
@@ -740,7 +740,7 @@ This increases the total potency of the counter by making use of the damage from
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCWA-WA123.webm" type="video/webm">
 </video>
 ```
@@ -766,7 +766,7 @@ The perfect timinig for the cancel is at 0.42 seconds.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sRR-StepCWA.webm" type="video/webm">
 </video>
 ```
@@ -794,7 +794,7 @@ The perfect timinig for the cancel is at 0.75 seconds.
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWR-Step-chain.webm" type="video/webm">
 </video>
 ```
@@ -816,7 +816,7 @@ This is kinda just there and has ridiculous DPS if you can make use of the small
 ```
 
 ```{raw} html
-<video class="lazy" autoplay muted loop playsinline>
+<video class="lazy" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sWR-StepCWA.webm" type="video/webm">
 </video>
 ```
