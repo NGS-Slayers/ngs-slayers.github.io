@@ -29,6 +29,7 @@ Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about S
 ```
 
 ```{todo}
+* Add term switching for global/jp
 * Global Abbreviation hints and linking
 * Better Intro
 * Add Focus and Rage per second values to moveset tables

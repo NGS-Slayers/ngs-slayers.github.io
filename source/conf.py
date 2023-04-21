@@ -32,3 +32,4 @@ html_static_path = ['_static']
 html_title = 'Slayer Guide'
 html_favicon = '_static/UINGSClassSl.ico'
 html_css_files = ['css/video.css']
+html_js_files = ['js/lazyload.js']
