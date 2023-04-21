@@ -390,6 +390,9 @@ The class has several gap closers, one of which is the skill Charged Blade. Afte
 Charged Blade counts as using the WA so after learning the skill BC you will be able to perform a WA Counter with it.
 ```
 
+```{important} This does not include the potency of the WA itself!
+```
+
 ```{raw} html
 <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/ChargedBlade.webm" type="video/webm">
@@ -464,6 +467,9 @@ After successfully countering an enemy attack you will be granted invincibility 
 ### BC NA
 This variation is useful for when you are fighting a quick enemy and have just countered with WA123 cancel or need a quick ranged counter that you do not need to move to grab.
 
+```{important} This does not include the potency of the WA itself!
+```
+
 ```{raw} html
 <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCNA.webm" type="video/webm">
@@ -482,6 +488,8 @@ align: center
 
 ### BC WA
 This is your go to counter if you can fit all of it and don’t need to move to grab the counter.
+```{important} This does not include the potency of the WA itself!
+```
 
 ```{raw} html
 <video class="lozad" width="100%" autoplay muted loop playsinline>
@@ -520,6 +528,9 @@ align: center
 
 ### mBC WA
 This counter is your go to if you have time to fit it and you need to move to grab the counter.
+
+```{important} This does not include the potency of the WA itself!
+```
 
 ```{raw} html
 <video class="lozad" width="100%" autoplay muted loop playsinline>
@@ -737,6 +748,9 @@ You can cancel your BC WA after the sixth hit with another WA input.
 This increases the total potency of the counter by making use of the damage from WA123.
 
 ```{hint} You can cancel out of the BC WA animation safely at 1.92 seconds.
+```
+
+```{important} This does not include the potency of the WA itself!
 ```
 
 ```{raw} html
