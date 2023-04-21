@@ -24,13 +24,11 @@ todo_include_todos = True
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'furo'
-# html_theme = 'sphinx_book_theme'
 # Furo theme documentation: https://pradyunsg.me/furo/
-# Book theme documentation: https://sphinx-book-theme.readthedocs.io/en/latest/
-html_static_path = ['_static']
-html_title = 'Slayer Guide'
-html_favicon = '_static/UINGSClassSl.ico'
-
 html_theme_options = {
 #    "announcement": "<em>Important</em> announcement!",
 }
+html_static_path = ['_static']
+html_title = 'Slayer Guide'
+html_favicon = '_static/UINGSClassSl.ico'
+html_css_files = ['css/video.css']
