@@ -1,17 +1,10 @@
-.lozad {
-    width: 100%;
-}
+.lozad[data-src] {
+  &:not(.no-fade) {
+    transition: opacity 0.8s ease;
+    opacity: 0;
 
-.fade {
-    animation-name: fade;
-    animation-duration: 2s;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0;
+    &[data-fully-loaded="true"] {
+      opacity: 1;
     }
-    to {
-        opacity: 1;
-    }
+  }
 }
