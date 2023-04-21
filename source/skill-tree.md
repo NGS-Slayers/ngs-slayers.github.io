@@ -21,7 +21,7 @@ This skill tree does not have Slug Shot skilled.
 
 To find out more about why click [here](relevant-gunblade-animation-cancels)
 
-If you are still looking to put a skill point into Slug Shot remove one point of [Gunblade Focus Overflow](gunblade-focus-overflow) for it.
+If you are still looking to put a skill point into Slug Shot remove one point of [Gunblade Focus Overflow](skill-tree-gunblade-focus-overflow) for it.
 ```
 
 If you are looking for what subclass and subclass skills to use visit [Subclasses](#subclass)
