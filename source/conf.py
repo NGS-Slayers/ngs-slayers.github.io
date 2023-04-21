@@ -13,7 +13,7 @@ author = 'Theowyn'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinxcontrib.youtube', 'sphinxcontrib.video', 'sphinx.ext.githubpages', 'sphinx.ext.todo', 'sphinx_git']
+extensions = ['myst_parser', 'sphinxcontrib.youtube', 'sphinx.ext.githubpages', 'sphinx.ext.todo', 'sphinx_git']
 # MyST documentation: https://myst-parser.readthedocs.io/en/latest/
 
 templates_path = ['_templates']
