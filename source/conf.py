@@ -32,4 +32,3 @@ html_static_path = ['_static']
 html_title = 'Slayer Guide'
 html_favicon = '_static/favicon.ico'
 html_js_files = ['https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js', 'lazyload.js']
-html_css_files = ['lazyload.css']
