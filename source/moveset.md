@@ -100,12 +100,10 @@ Perform a forward slash and fire a Photon Bullet in quick succession.
 ```{hint} This PA will grant you super armor throughout the entire duration.
 ```
 
-```{video} _static/PA/sSS.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sSS.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -124,12 +122,10 @@ Approach the enemy at high speed with a thrust attack then shoot at close range.
 This PA will grant you super armor throughout the entire duration.
 ```
 
-```{video} _static/PA/mSS.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mSS.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -149,12 +145,10 @@ Perform a forward slash and fire a Photon Bullet in quick succession.
 This PA will grant you super armor throughout the entire duration.
 ```
 
-```{video} _static/PA/sFS1.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sFS1.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -173,12 +167,10 @@ Performs a series of slashes. When activated in succession, it turns into a powe
 Stage 2 of the PA has an increased potency on RB and will grant you super armor.
 ```
 
-```{video} _static/PA/sFS12.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sFS12.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -196,12 +188,10 @@ Performs an attack that sweeps the surrounding area while moving.
 ```{hint} This PA will grant you super armor until before performing the last slash of the attack.
 ```
 
-```{video} _static/PA/mFS.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mFS.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -220,12 +210,10 @@ Throws a photon bomb while retreating back as it explodes.
 ```{hint} This PA will grant you invincibility frames and super armor for 0.35 seconds after using.
 ```
 
-```{video} _static/PA/sRR.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sRR.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -238,12 +226,10 @@ align: center
 "210+25", "0.67", "351", "390", "409", "17", "4", "4"
 ```
 
-```{video} _static/PA/mRR.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mRR.webm" type="video/webm">
+</video>
 ```
 
 #### mRR
@@ -270,12 +256,10 @@ Thrust the weapon into the ground and release a shockwave around you. When perfo
 This PA will grant you super armor and a frontal guard for 0.25 seconds after using.
 ```
 
-```{video} _static/PA/sWR.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sWR.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -293,12 +277,10 @@ Slashes the surrounding area while ascending.
 ```{hint} This PA will grant you super armor throughout the entire animation.
 ```
 
-```{video} _static/PA/mWR.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mWR.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -318,12 +300,10 @@ This skill changes the NA with no directional input slightly after using a PA.
 
 The following example shows sSS into Slug Shot
 
-```{video} _static/PA/SlugShot.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/SlugShot.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -344,12 +324,10 @@ Gunblade has three different variations of NA's.
 ### NA123
 Tapping the NA fires a single shot ahead. Repeatedly tapping NA will fire up to 3 shots in succession increasing DPS for every Stage.
 
-```{video} _static/PA/NA123.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/NA123.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -366,12 +344,10 @@ align: center
 ### cNA
 Charging NA up to the first charged stage causes it to release several shots in quick succession.
 
-```{video} _static/PA/cNA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/cNA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -390,12 +366,10 @@ Charging the attack up to the second charged stage releases a powerful blast.
 ```{hint} After releasing this charged attack you will receive super armor and frontal guard for the duration of 0.5 seconds.
 ```
 
-```{video} _static/PA/scNA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/scNA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -416,12 +390,10 @@ The class has several gap closers, one of which is the skill Charged Blade. Afte
 Charged Blade counts as using the WA so after learning the skill BC you will be able to perform a WA Counter with it.
 ```
 
-```{video} _static/PA/ChargedBlade.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/ChargedBlade.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -443,12 +415,10 @@ The WA enables you to guard against an enemy attack with a slash.
 For WA1 the above mentioned defensive effects will last 0.3 seconds, for WA2 0.2 seconds and for WA3 0.4 seconds
 ```
 
-```{video} _static/PA/WA123.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/WA123.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -466,12 +436,10 @@ If the skill Mobile Blade was learned you can use the directional input to perfo
 ```{hint} During the slash you will be granted invincibility frames for 0.35 seconds.
 ```
 
-```{video} _static/PA/mWA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mWA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -496,12 +464,10 @@ After successfully countering an enemy attack you will be granted invincibility 
 ### BC NA
 This variation is useful for when you are fighting a quick enemy and have just countered with WA123 cancel or need a quick ranged counter that you do not need to move to grab.
 
-```{video} _static/PA/BCNA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/BCNA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -517,12 +483,10 @@ align: center
 ### BC WA
 This is your go to counter if you can fit all of it and don’t need to move to grab the counter.
 
-```{video} _static/PA/BCWA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/BCWA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -538,12 +502,10 @@ align: center
 ### mBC NA
 This variation is used for when you need a quick ranged counter and need to move into the hitbox for it. 
 
-```{video} _static/PA/mBCNA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mBCNA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -559,12 +521,10 @@ align: center
 ### mBC WA
 This counter is your go to if you have time to fit it and you need to move to grab the counter.
 
-```{video} _static/PA/mBCWA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mBCWA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -580,12 +540,10 @@ align: center
 ### StepC NA
 This variation is the fastest counter. It is used for very quick double counters.
 
-```{video} _static/PA/StepCNA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/StepCNA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -601,12 +559,10 @@ align: center
 ### StepC WA
 It is a fast way to build Focus and Rage, serves as a gap closer, has the highest DPS when spammed in a lingering hitbox, and is your highest potency “short counter”.
 
-```{video} _static/PA/StepCWA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/StepCWA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -625,12 +581,10 @@ A powerful attack that generates a special field around you.
 ```{hint} You will be granted invincibility frames during the entire animation of the attack.
 ```
 
-```{video} _static/PA/PB.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/PB.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -651,6 +605,12 @@ Approach the enemy to deliver a powerful blow. Not only does the skill greatly h
 UR's gauge builds from PA's, Relentless Blade and from StepC WA.
 
 ```{hint} UR requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
+```
+
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/UR.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -676,12 +636,10 @@ You will be granted invincibility frames during the entire animation of the fini
 The activation of the skill takes 1.4 seconds when not inputting another attack and 0.67 seconds if you do
 ```
 
-```{video} _static/PA/ODF.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/ODF.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -713,12 +671,10 @@ Great for downs when low on PP or not having OD Finisher and UR ready.
 ```{hint} You can cancel sFS12 safely at 2.85 seconds.
 ```
 
-```{video} _static/PA/sFS12-WA123.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sFS12-WA123.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -737,12 +693,10 @@ This means that chaining this will be stronger than chaining BC NA together.
 ```{hint} You can cancel out of the StepC WA animation with another Step input safely at 0.82 seconds.
 ```
 
-```{video} _static/PA/StepCWA-chain.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/StepCWA-chain.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -761,12 +715,10 @@ This increases the total potency of the counter by making use of the damage from
 ```{hint} You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
 ```
 
-```{video} _static/PA/StepCWA-WA123.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/StepCWA-WA123.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -787,12 +739,10 @@ This increases the total potency of the counter by making use of the damage from
 ```{hint} You can cancel out of the BC WA animation safely at 1.92 seconds.
 ```
 
-```{video} _static/PA/BCWA-WA123.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/BCWA-WA123.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -815,12 +765,10 @@ Because of the step input you will be able to cancel the recoil of the animation
 The perfect timinig for the cancel is at 0.42 seconds.
 ```
 
-```{video} _static/PA/sRR-StepCWA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sRR-StepCWA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -845,12 +793,10 @@ The example shows 4 PAs to make the comparison more obvious.
 The perfect timinig for the cancel is at 0.75 seconds.
 ```
 
-```{video} _static/PA/mWR-Step-chain.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mWR-Step-chain.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}
@@ -869,12 +815,10 @@ This is kinda just there and has ridiculous DPS if you can make use of the small
 ```{hint} You can cancel out of the PA safely at 0.18 seconds.
 ```
 
-```{video} _static/PA/sWR-StepCWA.webm
----
-autoplay: true
-loop: true
-nocontrols: true
----
+```{raw} html
+<video class="lazy" autoplay muted loop playsinline>
+  <source data-src="_static/PA/sWR-StepCWA.webm" type="video/webm">
+</video>
 ```
 
 ```{csv-table}

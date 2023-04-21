@@ -1,9 +1,3 @@
-const videos = document.querySelectorAll('video');
-
-for (const vid of videos) {
-  vid.classList.add('lazy');
-}
-
 document.addEventListener("DOMContentLoaded", function() {
   var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
 
@@ -14,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
           for (var source in video.target.children) {
             var videoSource = video.target.children[source];
             if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
-              videoSource.src = videoSource.src.substring(videoSource.src.indexOf("_") + 0);
+              videoSource.src = videoSource.dataset.src;
             }
           }
 
