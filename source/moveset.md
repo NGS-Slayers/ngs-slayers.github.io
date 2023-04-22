@@ -589,7 +589,10 @@ align: center
 (photon-blast)=
 ## ![icon](_static/PA/38px-PhotonBlast.png) Photon Blast
 A powerful attack that generates a special field around you.
+
 ```{hint} You will be granted invincibility frames during the entire animation of the attack.
+
+This attack will dash you toward an enemy targeted by you, so make sure to target the right enemy.
 ```
 
 ```{raw} html
@@ -602,10 +605,10 @@ A powerful attack that generates a special field around you.
 ---
 header: >
   "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+widths: 5, 5, 5, 5, 5, 5
 align: center
 ---
-"4450", "5.60", "795", "884", "927", "4", "2530"
+"4450", "5.60", "795", "884", "927", "2530"
 ```
 
 ## Active Skills
@@ -638,6 +641,8 @@ align: center
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverdrive.png) Gunblade Focus Overdrive
 Activating OD will start a short animation. After the activation, you will be granted buffs for a short time period.
 For more information on the buffs check out [Gunblade Focus Overdrive](#skill-tree-gunblade-focus-overdrive)
+
+When [Gunblade Focus Reset PP Gain](#skill-tree-gunblade-focus-reset-pp-gain) was learned, the skill will trigger and recover some PP.
 
 Re-activating OD while it's in effect, unleashes a powerful finishing move that generates a special zone similar to the visuals seen in the PB.
 You will be granted invincibility frames during the entire animation of the finisher as well.
