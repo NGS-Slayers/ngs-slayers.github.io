@@ -140,10 +140,7 @@ align: center
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtFlowingSirius.png) Flowing Sirius
 #### sFS1
-Perform a forward slash and fire a Photon Bullet in quick succession.
-```{hint}
-This PA will grant you super armor throughout the entire duration.
-```
+Performs a series of slashes. When activated in succession, it turns into a powerful attack.
 
 ```{raw} html
 <video class="lozad" width="100%" autoplay muted loop playsinline>
