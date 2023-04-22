@@ -334,8 +334,8 @@ header: >
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"with Short Range", "250", "1.20", "271", "301", "316", "19", "6"
-"with Short Range", "175", "1.20", "208", "232", "243", "19", "6"
+"w/ Short Range Hot Shot", "250", "1.20", "271", "301", "316", "19", "6"
+"w/o Short Range Hot Shot", "175", "1.20", "208", "232", "243", "19", "6"
 ```
 
 ### cNA
@@ -354,8 +354,8 @@ header: >
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"with Short Range", "305", "1.45", "273", "304", "319", "21", "5.2"
-"with Short Range", "175", "1.45", "210", "234", "245", "21", "5.2"
+"w/ Short Range Hot Shot", "305", "1.45", "273", "304", "319", "21", "5.2"
+"w/o Short Range Hot Shot", "175", "1.45", "210", "234", "245", "21", "5.2"
 ```
 
 ### scNA
@@ -376,8 +376,8 @@ header: >
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"with Short Range", "550", "2.60", "275", "306", "321", "20", "13"
-"with Short Range", "385", "2.60", "212", "235", "247", "20", "13"
+"w/ Short Range Hot Shot", "550", "2.60", "275", "306", "321", "20", "13"
+"w/o Short Range Hot Shot", "385", "2.60", "212", "235", "247", "20", "13"
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillChargedBlade.png) Charged Blade
@@ -506,6 +506,9 @@ align: center
 
 ### mBC NA
 This variation is used for when you need a quick ranged counter and need to move into the hitbox for it. 
+
+```{important} This does not include the potency of the WA itself!
+```
 
 ```{raw} html
 <video class="lozad" width="100%" autoplay muted loop playsinline>

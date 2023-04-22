@@ -288,6 +288,9 @@ align: center
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusResetPPGain.png) Gunblade Focus Reset PP Gain
 When the Gunblade Focus Gauge is reset, recover an amount of PP in accordance with the Focus Gauge level.
 
+```{hint} This skill also activates when entering [Gunblade Focus Overdrive](#skill-tree-gunblade-focus-overdrive)
+```
+
 ```{csv-table}
 ---
 header: >
