@@ -403,7 +403,7 @@ header: >
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"220", "0.50", "440", "390", "513", "7", "4"
+"220", "0.50", "440", "490", "513", "7", "4"
 ```
 
 ## ![icon](_static/PA/38px-NGSUIWeaponActionGunblade.png) Weapon Action
