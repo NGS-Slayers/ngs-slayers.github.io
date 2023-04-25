@@ -48,6 +48,7 @@ skill-tree
 moveset
 subclass
 addons
+equipment
 resources
 credits
 ```
