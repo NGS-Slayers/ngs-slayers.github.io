@@ -670,7 +670,7 @@ align: center
 
 (relevant-gunblade-animation-cancels)=
 ## Relevant Gunblade Animation Cancels
-You can cancel out most Gunblade PA's and Actions early with a NA or WA input.
+You can cancel out most Gunblade PA's and Actions early with a Step- or WA input.
 
 This means you can increase the DPS of some PA's and Actions while gaining PP making Slug Shot almost pointless.
 
