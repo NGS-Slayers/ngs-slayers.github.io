@@ -5,10 +5,9 @@ Afterward, each skill is explained in detail and with some general tips given wh
 
 ## Skill Tree Suggestions
 
-```{admonition} Warning (06/07/23 Patch)
-:class: warning
+````{admonition} 06/07/23 Patch
+:class: attention
 The following Skill Tree suggestions do not take the new skill [Gunblade Focus Quick Recharge](skill-tree-gunblade-focus-quick-recharge) into consideration yet.
-```
 
 ```{admonition} [Core Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: tip
@@ -28,6 +27,7 @@ To find out more about why click [here](relevant-gunblade-animation-cancels)
 
 If you are still looking to put a skill point into Slug Shot remove one point of [Gunblade Focus Overflow](skill-tree-gunblade-focus-overflow) for it.
 ```
+````
 
 If you are looking for what subclass and subclass skills to use visit [Subclasses](#subclass)
 
