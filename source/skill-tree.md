@@ -5,6 +5,11 @@ Afterward, each skill is explained in detail and with some general tips given wh
 
 ## Skill Tree Suggestions
 
+```{admonition} Warning (06/07/23 Patch)
+:class: warning
+The following Skill Tree suggestions do not take the new skill [Gunblade Focus Quick Recharge](skill-tree-gunblade-focus-quick-recharge) into consideration yet.
+```
+
 ```{admonition} [Core Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: tip
 If you are unsure which skills you prefer and don't need the Battle Power, spend your points accordingly and you will have 7 Points left over for usage at a later point.
@@ -124,6 +129,20 @@ header: >
 align: center
 ---
 "1", "30 sec", "90 sec", "110%", "80%", "150%", "2450"
+```
+
+(skill-tree-gunblade-focus-quick-recharge)=
+### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) Gunblade Focus Quick Recharge
+
+The Gunblade Focus gauge charge rate temporarily increases after the effects of Gunblade Focus Overdrive have ended.
+
+```{csv-table}
+---
+header: >
+  "Skill Level", "Focus Gauge Boost Rate", "Effect Duration"
+align: center
+---
+"1", "120%", "20 sec"
 ```
 
 (skill-tree-unleashed-rage)=

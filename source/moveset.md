@@ -40,7 +40,7 @@ align: center
 
 * Class specific Critical Hit Rate multipliers are included.
 
-* DPS values of PA's include RB and RBR.
+* DPS values of PAs include RB and RBR.
 
 * Rage Multiplier against Bosses is 3
 
@@ -87,11 +87,11 @@ Some may find the window of RB difficult. To make things easier, you may change 
 Binding the NA button to a slot with lower priority allows you to hold down a PA and NA to automatically activate Relentless Blade without canceling into Slug Shot.
 
 ## Photon Arts
-Slayer PA's change depending on if a directional input was pressed upon activation of the PA.
+Slayer PAs change depending on if a directional input was pressed upon activation of the PA.
 
 If you are familiar with the Fighter Class, you might notice a similarity with Fighter Skip Arts.
 
-```{tip} Step Cancel timings are more generous than WA Cancel, so if you find yourself stuck in some PA's consider using a StepC.
+```{tip} Step Cancel timings are more generous than WA Cancel, so if you find yourself stuck in some PAs consider using a StepC.
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtShiftingSpica.png) Shifitng Spica
@@ -314,8 +314,8 @@ align: center
 ```
 
 ## ![icon](_static/PA/38px-NGSUINormalAttackGunblade.png) Normal Attack
-Gunblade has three different variations of NA's.
-```{hint} The skill Short Range Hot Shot increases the potency of the NA's by 30%.
+Gunblade has three different variations of NAs.
+```{hint} The skill Short Range Hot Shot increases the potency of the NAs by 30%.
 ```
 
 ### NA123
@@ -614,9 +614,9 @@ align: center
 ## Active Skills
 (moveset-unleashed-rage)=
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
-Approach the enemy to deliver a powerful blow. Not only does the skill greatly help fill the Focus gauge, but through the skill UR After Effect, the critical hit rate increases for a short period of time after as well.
+Approach the enemy to deliver a powerful blow. Not only does the skill greatly help fill the Focus gauge, but through the skill UR After Effect, the critical hit rate increases for a short period after using the skill.
 
-UR's gauge builds from PA's, Relentless Blade and from StepC WA.
+URs gauge builds from PAs, Relentless Blade and from StepC WA.
 
 ```{hint} UR requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
 ```
@@ -670,9 +670,9 @@ align: center
 
 (relevant-gunblade-animation-cancels)=
 ## Relevant Gunblade Animation Cancels
-You can cancel out most Gunblade PA's and Actions early with a Step- or WA input.
+You can cancel out most Gunblade PAs and Actions early with a Step- or WA input.
 
-This means you can increase the DPS of some PA's and Actions while gaining PP making Slug Shot almost pointless.
+This means you can increase the DPS of some PAs and Actions while gaining PP making Slug Shot almost pointless.
 
 For more information please refer to [Frame Data](#frame-data).
 
