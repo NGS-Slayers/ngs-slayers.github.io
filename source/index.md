@@ -1,6 +1,6 @@
 # Theowyn's Slayer Guide
 
-Written by Theowyn#6969
+Written by [Theowyn](https://discordapp.com/users/243827163709571072)
 
 Welcome to Theowyn's comprehensive Slayer class guide for Phantasy Star Online 2: New Genesis!
 
