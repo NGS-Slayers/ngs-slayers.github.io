@@ -51,7 +51,7 @@ More accurate and up-to-date information can be found in [Frame Data](#frame-dat
 
 ## ![icon](_static/skill/38px-NGSUISkillRelentlessBlade.png) Relentless Blade
 During a PA, a purple glow will appear on your character.
-If you press NA while the glow is visible, you will do an additional hitscan attack that can build Rage and recover some PP.
+If you press NA while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that can build Rage and recover some PP.
 ```{hint} RBR will increase the potency of this attack.
 ```
 
@@ -101,9 +101,9 @@ Perform a forward slash and fire a Photon Bullet in quick succession.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" autoplay muted loop playsinline>
   <source data-src="_static/PA/sSS.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -123,9 +123,9 @@ This PA will grant you super armor throughout the entire duration.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mSS.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -143,9 +143,9 @@ align: center
 Performs a series of slashes. When activated in succession, it turns into a powerful attack.
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS1.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -165,9 +165,9 @@ Stage 2 of the PA has an increased potency on RB and will grant you super armor.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS12.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -186,9 +186,9 @@ Performs an attack that sweeps the surrounding area while moving.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mFS.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -208,9 +208,9 @@ Throws a photon bomb while retreating back as it explodes.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sRR.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -224,9 +224,9 @@ align: center
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mRR.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 #### mRR
@@ -254,9 +254,9 @@ This PA will grant you super armor and a frontal guard for 0.25 seconds after us
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sWR.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -275,9 +275,9 @@ Slashes the surrounding area while ascending.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWR.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -298,9 +298,9 @@ This skill changes the NA with no directional input slightly after using a PA.
 The following example shows sSS into Slug Shot
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/SlugShot.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -322,9 +322,9 @@ Gunblade has three different variations of NAs.
 Tapping the NA fires a single shot ahead. Repeatedly tapping NA will fire up to 3 shots in succession increasing DPS for every Stage.
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/NA123.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -342,9 +342,9 @@ align: center
 Charging NA up to the first charged stage causes it to release several shots in quick succession.
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/cNA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -364,9 +364,9 @@ Charging the attack up to the second charged stage releases a powerful blast.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/scNA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -391,9 +391,9 @@ Charged Blade counts as using the WA so after learning the skill BC you will be 
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/ChargedBlade.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -416,9 +416,9 @@ For WA1 the above mentioned defensive effects will last 0.3 seconds, for WA2 0.2
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/WA123.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -437,9 +437,9 @@ If the skill Mobile Blade was learned you can use the directional input to perfo
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -468,9 +468,9 @@ This variation is useful for when you are fighting a quick enemy and have just c
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCNA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -489,9 +489,9 @@ This is your go to counter if you can fit all of it and don’t need to move to 
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCWA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -511,9 +511,9 @@ This variation is used for when you need a quick ranged counter and need to move
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mBCNA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -533,9 +533,9 @@ This counter is your go to if you have time to fit it and you need to move to gr
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mBCWA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -552,9 +552,9 @@ align: center
 This variation is the fastest counter. It is used for very quick double counters.
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCNA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -571,9 +571,9 @@ align: center
 It is a fast way to build Focus and Rage, serves as a gap closer, has the highest DPS when spammed in a lingering hitbox, and is your highest potency “short counter”.
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -596,9 +596,9 @@ This attack will dash you toward an enemy targeted by you, so make sure to targe
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/PB.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -622,9 +622,9 @@ URs gauge builds from PAs, Relentless Blade and from StepC WA.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/UR.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -653,9 +653,9 @@ The activation of the skill takes 1.4 seconds when not inputting another attack 
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/ODF.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -688,9 +688,9 @@ Great for downs when low on PP or not having OD Finisher and UR ready.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS12-WA123.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -710,9 +710,9 @@ This means that chaining this will be stronger than chaining BC NA together.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA-chain.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -732,9 +732,9 @@ This increases the total potency of the counter by making use of the damage from
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA-WA123.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -759,9 +759,9 @@ This increases the total potency of the counter by making use of the damage from
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCWA-WA123.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -785,9 +785,9 @@ The perfect timinig for the cancel is at 0.42 seconds.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sRR-StepCWA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -813,9 +813,9 @@ The perfect timinig for the cancel is at 0.75 seconds.
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWR-Step-chain.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
@@ -835,9 +835,9 @@ This is kinda just there and has ridiculous DPS if you can make use of the small
 ```
 
 ```{raw} html
-<video class="lozad" width="100%" autoplay muted loop playsinline>
+<div class="wrapper" width="100%" style="--aspect-ratio:150/100"> <video class="lozad" width="100%" autoplay muted loop playsinline>
   <source data-src="_static/PA/sWR-StepCWA.webm" type="video/webm">
-</video>
+</video></div>
 ```
 
 ```{csv-table}
