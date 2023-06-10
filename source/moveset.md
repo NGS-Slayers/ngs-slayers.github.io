@@ -32,7 +32,7 @@ Purple Glow during a {term}`PA`
 
 ![image](_static/skill/rb.png)
 
-When successfully executing [RB](./skill-tree.md#relentless-blade) another visual indicator will appear.
+When successfully executing [Relentless Blade](./skill-tree.md#relentless-blade) another visual indicator will appear.
 
 ![image](_static/skill/rb-success.png)
 
@@ -50,10 +50,10 @@ align: center
 ```
 
 ```{hint}
-Strong [RB](./skill-tree.md#relentless-blade) only applies to [sFS2](#sfs12).
+Strong [Relentless Blade](./skill-tree.md#relentless-blade) only applies to [Stay Arts Flowing Sirius Stage 2](#sfs12).
 ```
 
-### Making [Relentless Blade](./skill-tree.md#relentless-blade) Easier
+### Making [RB](./skill-tree.md#relentless-blade) Easier
 Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade) difficult. To make things easier, you may change the location of your [Normal Attack](#normal-attack) button. There is a priority system for inputs. The priorities are as follows:
 
 ![image](_static/skill/palette-priority.png)
@@ -66,7 +66,7 @@ Slayer {term}`PA`s change depending on if a directional input was pressed upon a
 If you are familiar with the Fighter Class, you might notice a similarity with Fighter Skip Arts.
 
 ```{tip}
-Cancelling a {term}`PA` with a Step Dodge- is more generous than cancelling with a Weapon Action input, so if you find yourself stuck in some {term}`PA`s consider using a Step [Counter](#counters) instead.
+Cancelling a {term}`PA` with a Step Dodge- is more generous than cancelling with a Weapon Action input, so if you find yourself stuck in some {term}`PA`s consider using a [Step Counter](#stepc-wa) instead.
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtShiftingSpica.png) Shifitng Spica
@@ -139,7 +139,7 @@ align: center
 
 (sFS12)=
 #### {term}`sFS12`
-Stay Arts Flowing Sirius will perform a series of slashes. When activated in succession, it turns into a powerful attack.
+Stage 2 of Stay Arts Flowing Sirius turns the {term}`PA` into a powerfull Attack.
 ```{hint}
 Stage 2 of this {term}`PA` has an increased potency on [RB](./skill-tree.md#relentless-blade) and will grant you super armor.
 ```
@@ -284,7 +284,8 @@ align: center
 Slug Shot changes the first [Normal Attack](#normal-attack) with no directional input slightly after using a {term}`PA`.
 ```{hint}
 This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
-This skill will also make it unable to peform a [Charged Normal Attack](#cna) right after using a PA.
+
+This skill will also make it unable to peform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
 ```
 
 The following example shows [Stay Arts Shifitng Spica](#sSS) into Slug Shot
@@ -308,7 +309,7 @@ align: center
 ## ![icon](_static/PA/38px-NGSUINormalAttackGunblade.png) Normal Attack
 Gunblade has three different variations of Normal Attacks.
 ```{hint}
-The skill [Short Range Hot Shot](./skill-tree.md#short-range-hot-shot) increases the potency of the Normal Attacks by 30%.
+The skill [Short Range Hot Shot](./skill-tree.md#short-range-hot-shot) increases the potency of all Normal Attacks by 30%.
 ```
 
 (na123)=
@@ -334,7 +335,7 @@ align: center
 
 (cna)=
 ### {term}`cNA`
-Charging a [Normal Attack](#normal-attack), by holding down the button, initates a Charged Normal Attack. The first charged stage causes it to release several shots in quick succession.
+Charging a Normal Attack, by holding down the button, initates a Charged Normal Attack. The first charged stage causes it to release several shots in quick succession.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -382,7 +383,7 @@ Gunblade has several gap closers, one of which is the skill [Charged Blade](./sk
 ```{hint}
 During this thrust you will be granted super armor and an omnidirectional guard for 0.4 seconds.
 
-[Charged Blade](./skill-tree.md#charged-blade) is treated as using the Weapon Action, so after learning the skill [Blade Counter](./skill-tree.md#blade-counter) you will be able to perform a Counter with it.
+[Charged Blade](./skill-tree.md#charged-blade) is treated as using the Weapon Action, so after learning the skill [Blade Counter](./skill-tree.md#blade-counter) you will be able to perform a [Blade Counter](#bc-wa) with it.
 ```
 
 ```{important} This does not include the potency of the Weapon Action itself!
@@ -455,7 +456,7 @@ align: center
 ```
 
 ## Counters
-With the skill [Blade Counter](./skill-tree.md#blade-counter), you can perform a different counter attack based on the button used. After successfully guarding against an attack, you can use the Weapon Action to perform a long counter attack. When using a Normal Attack input instead, a short counter attack occurs.
+With the skill [Blade Counter](./skill-tree.md#blade-counter), you can perform a different counter attack based on the button used. After successfully guarding against an attack, you can use the Weapon Action to perform a long counter attack. When using a [Normal Attack](#normal-attack) input instead, a short counter attack occurs.
 These options are also available for your Step Counters but result in different counter attacks.
 
 ```{hint}
@@ -466,7 +467,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 
 (bc-na)=
 ### [BC](./skill-tree.md#blade-counter) {term}`NA`
-Blade Counter Normal Attack is useful for when there is multiple seperate attacks incoming from an enemy and [StepC WA](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [WA123](#wa123). You will be moved slightly forward after starting the counter sequence.
+[Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple seperate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be moved slightly forward after starting the counter sequence.
 ```{important}
 This does not include the potency of the Weapon Action itself!
 ```
@@ -489,7 +490,7 @@ align: center
 
 (bc-wa)=
 ### [BC](./skill-tree.md#blade-counter) {term}`WA`
-[Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy isn't attacking in quick succesion. You will be able to move slightly after starting the counter sequence.
+[Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy isn't attacking in quick succession. You will be able to move slightly after starting the counter sequence.
 ```{important}
 This does not include the potency of the Weapon Action itself!
 ```
@@ -512,7 +513,7 @@ align: center
 
 (mbc-na)=
 ### [mBC](./skill-tree.md#mobile-blade-counter) {term}`NA`
-[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into the incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
+[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
 
 ```{important}
 This does not include the potency of the Weapon Action itself!
@@ -538,7 +539,7 @@ align: center
 
 (mbc-wa)=
 ### [mBC](./skill-tree.md#mobile-blade-counter) {term}`WA`
-This counter is your go to option for when you have to move into the incoming attack hitbox. You will be able to move slightly after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
+This counter is your go to option for when you have to move into an incoming attack hitbox. You will be able to move slightly after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
 
 ```{important}
 This does not include the potency of the Weapon Action itself!
@@ -631,7 +632,7 @@ align: center
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
 Approach the enemy to deliver a powerful blow. Not only does this skill greatly help fill the Focus gauge, but through the skill [Unleashed Rage After Effect](./skill-tree.md#unleashed-rage-after-effect), the critical hit rate increases for a short period after using the skill.
 
-[Unleashed Rage](./skill-tree.md#unleashed-rage)´s gauge builds from {term}`PA`s, Relentless Blade and from [StepC WA](#stepc-wa).
+[Unleashed Rage](./skill-tree.md#unleashed-rage)´s gauge builds from {term}`PA`s, Relentless Blade and from [Step Counter Weapon Action](#stepc-wa).
 
 ```{hint}
 [Unleashed Rage](./skill-tree.md#unleashed-rage) requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
@@ -689,7 +690,7 @@ You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge
 
 This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making Slug Shot way less appealing.
 
-For more information please refer to [Frame Data](#frame-data).
+For more information please refer to [Slayer´s cancel timings](#frame-data).
 
 ```{warning}
 No input delay or human error is assumed here.
@@ -845,7 +846,7 @@ align: center
 ```
 
 ### [sWR](#swr) -> [StepC WA](#stepc-wa)
-You can cancel out of [Stay Arts Waving Riegel](#swr) super early meaning this has ridiculous {term}`DPS` if you can make use of the small time window.
+You can cancel out of [Stay Arts Waving Riegel](#swr) with a Step Dodge input super early meaning this has ridiculous {term}`DPS` if you can make use of the small time window.
 
 ```{hint}
 You can cancel out of the {term}`PA` safely at 0.18 seconds.

@@ -29,12 +29,11 @@ Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about S
 ```
 
 ```{todo}
-* Add Focus and Rage per second values to moveset tables
+* Comparision Section of Skills
 * Better Intro
 * How to play section
+* Add Focus and Rage per second values to moveset tables
 * Add term switching for global/jp
-* Global Abbreviation hints and linking
-* Use github releases for versioning
 ```
 
 ```{toctree} 

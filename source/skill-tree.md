@@ -36,12 +36,12 @@ If you are looking for what subclass and subclass skills to use visit [Subclasse
 
 (gunblade-focus)=
 ### ![icon](_static/skill/38px-NGSUISkillBladeCounter.png) Gunblade Focus
-Build up the Focus Gauge by hitting enemies. Attack Potency and Offensive PP Recovery increase and PP Consumption decreases in accordance with the gauge level. The Focus Gauge will reset to zero after a certain amount of time passes without hitting an enemy.
+Build up the Focus Gauge by hitting enemies. Attack Potency and Offensive {term}`PP` Recovery increase and {term}`PP` Consumption decreases in accordance with the gauge level. The Focus Gauge will reset to zero after a certain amount of time passes without hitting an enemy.
 
 ```{csv-table}
 ---
 header: >
-  "Skill Level", "Potency Increase Per Level ", "PP Consumption Reduction Per Level ", "Offensive PP Recovery Per Level "
+  "Skill Level", "Potency Increase Per Level ", "{term}`PP` Consumption Reduction Per Level ", "Offensive {term}`PP` Recovery Per Level "
 align: center
 ---
 "1", "1%", "1%", "2%"
@@ -121,7 +121,7 @@ Expend your entire full Focus Gauge to temporarily increase the effects of Gunbl
 ```{csv-table}
 ---
 header: >
-  "Skill Level", "Effect Duration", "Cooldown", "Potency", "PP Consumption", "PP Recovery", "Finisher Potency"
+  "Skill Level", "Effect Duration", "Cooldown", "Potency", "{term}`PP` Consumption", "{term}`PP` Recovery", "Finisher Potency"
 align: center
 ---
 "1", "30 sec", "90 sec", "110%", "80%", "150%", "2450"
@@ -270,12 +270,12 @@ align: center
 These are the skills you dump the rest of your skill points into after taking all the [Core Skills](#core-skills).
 
 ### ![icon](_static/skill/38px-NGSUISkillCriticalHitPPGain.png) Critical Hit PP Gain
-There is a chance of recovering PP when you land a Critical Hit.
+There is a chance of recovering {term}`PP` when you land a Critical Hit.
 
 ```{csv-table}
 ---
 header: >
-  "Skill Level", "Activation Probability","PP Recovery (Main)","PP Recovery (Sub)", "Cooldown"
+  "Skill Level", "Activation Probability","{term}`PP` Recovery (Main)","{term}`PP` Recovery (Sub)", "Cooldown"
 align: center
 ---
 "1", "30%", "+4", "+2", "1 sec"
@@ -286,7 +286,7 @@ align: center
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusResetPPGain.png) Gunblade Focus Reset PP Gain
-When the Gunblade Focus Gauge is reset, recover an amount of PP in accordance with the Focus Gauge level.
+When the Gunblade Focus Gauge is reset, recover an amount of {term}`PP` in accordance with the Focus Gauge level.
 
 ```{hint} 
 This skill also activates when entering [Gunblade Focus Overdrive](./skill-tree.md#gunblade-focus-overdrive)
@@ -295,7 +295,7 @@ This skill also activates when entering [Gunblade Focus Overdrive](./skill-tree.
 ```{csv-table}
 ---
 header: >
-  "Skill Level", "PP Recovery Rate Per Level (Main)","PP Recovery Rate Per Level (Sub)"
+  "Skill Level", "{term}`PP` Recovery Rate Per Level (Main)","{term}`PP` Recovery Rate Per Level (Sub)"
 align: center
 ---
 "1", "10.00%", "5.00%"
