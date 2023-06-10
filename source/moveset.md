@@ -5,48 +5,14 @@
 ```
 
 # Moveset
-Slayer has many attacks available for use in combat. Here is a list of each attack and what they do.
-To make the following tables easier to read we will use some abbreviations.
+Slayer has many attacks available for use in combat. This page aims to showcase and explain their usecases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don't know what they mean.
 
-(abbreviation-table)=
-## Abbreviation Table
-```{csv-table}
----
-header: >
-  "Abbreviation", "Term"
-widths: 5, 20
-align: center
----
-"F0", "Focus Level 0"
-"F5", "Focus Level 5"
-"OD", "Focus Overdrive"
-"DPS", "Damge per Second"
-"PA", "Photon Art"
-"PB", "Photon Blast"
-"PP", "Photon Power"
-"NA", "Normal Attack"
-"WA", "Weapon Action"
-"BC", "Blade Counter"
-"StepC", "Step Counter"
-"RB", "Relentless Blade"
-"RBR", "Relentless Blade Reinforce"
-"UR", "Unleashed Rage"
-"c", "Charged"
-"sc", "Super Charged"
-"m", "Move Arts"
-"s", "Stay Arts"
-"SS", "Shifting Spica"
-"FS", "Flowing Sirius"
-"RR", "Reaping Regulus"
-"WR", "Waving Rigel"
-"123", "Stage 1-3"
-```
-
-```{important} * Potency values and DPS values are rounded in calculations.
+```{important}
+* Potency values and {term}`DPS` values are rounded in calculations.
 
 * Class specific Critical Hit Rate multipliers are included.
 
-* DPS values of PAs include RB and RBR.
+* {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade) and [RBR](./skill-tree.md#relentless-blade-reinforce).
 
 * Rage Multiplier against Bosses is 3
 
@@ -56,58 +22,63 @@ align: center
 More accurate and up-to-date information can be found in [Frame Data](#frame-data).
 
 ## ![icon](_static/skill/38px-NGSUISkillRelentlessBlade.png) Relentless Blade
-During a PA, a purple glow will appear on your character.
-If you press NA while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that can build Rage and recover some PP.
-```{hint} RBR will increase the potency of this attack.
+During a {term}`PA`, a purple glow will appear on your character.
+If you use a [Normal Attack](#normal-attack) while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that can build Rage and recover some {term}`PA`.
+```{hint}
+The skill [RBR](./skill-tree.md#relentless-blade-reinforce) will increase the potency of this attack.
 ```
 
-Purple Glow during a PA
+Purple Glow during a {term}`PA`
 
 ![image](_static/skill/rb.png)
 
-When successfully executing RB another visual indicator will appear
+When successfully executing [RB](./skill-tree.md#relentless-blade) another visual indicator will appear.
 
 ![image](_static/skill/rb-success.png)
 
 ```{csv-table}
 ---
 header: >
-  "Variant", "Potency", "PP Gain", "Focus", "Rage"
+  "Variant", "Potency", "{term}`PP` Gain", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5
 align: center
 ---
-"Weak RB with RBR", "25", "3", "0.5", "0.5"
-"Weak RB without RBR", "5", "3", "0.5", "0.5"
-"Strong RB with RBR", "75", "3", "2.5", "3.5"
-"Strong RB without RBR", "15", "3", "2.5", "3.5"
+"Weak [RB](./skill-tree.md#relentless-blade) with [RBR](./skill-tree.md#relentless-blade-reinforce)", "25", "3", "0.5", "0.5"
+"Weak [RB](./skill-tree.md#relentless-blade) without [RBR](./skill-tree.md#relentless-blade-reinforce)", "5", "3", "0.5", "0.5"
+"Strong [RB](./skill-tree.md#relentless-blade) with [RBR](./skill-tree.md#relentless-blade-reinforce)", "75", "3", "2.5", "3.5"
+"Strong [RB](./skill-tree.md#relentless-blade) without [RBR](./skill-tree.md#relentless-blade-reinforce)", "15", "3", "2.5", "3.5"
 ```
 
-```{hint} Strong RB only applies to sFS2
+```{hint}
+Strong [RB](./skill-tree.md#relentless-blade) only applies to [sFS2](#sfs12).
 ```
 
-### Making RB Easier
-Some may find the window of RB difficult. To make things easier, you may change where the NA button is. There is a priority system for inputs. The priorities are as follows:
+### Making [Relentless Blade](./skill-tree.md#relentless-blade) Easier
+Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade) difficult. To make things easier, you may change the location of your [Normal Attack](#normal-attack) button. There is a priority system for inputs. The priorities are as follows:
 
 ![image](_static/skill/palette-priority.png)
 
-Binding the NA button to a slot with lower priority allows you to hold down a PA and NA to automatically activate Relentless Blade without canceling into Slug Shot.
+Binding the [Normal Attack](#normal-attack) button to a slot with lower priority allows you to hold down both a {term}`PA` and a [Normal Attack](#normal-attack) to automatically activate [Relentless Blade](./skill-tree.md#relentless-blade) without canceling into [Slug Shot](./skill-tree.md#slug-shot).
 
 ## Photon Arts
-Slayer PAs change depending on if a directional input was pressed upon activation of the PA.
+Slayer {term}`PA`s change depending on if a directional input was pressed upon activation of the {term}`PA`.
 
 If you are familiar with the Fighter Class, you might notice a similarity with Fighter Skip Arts.
 
-```{tip} Step Cancel timings are more generous than WA Cancel, so if you find yourself stuck in some PAs consider using a StepC.
+```{tip}
+Cancelling a {term}`PA` with a Step Dodge- is more generous than cancelling with a Weapon Action input, so if you find yourself stuck in some {term}`PA`s consider using a Step [Counter](#counters) instead.
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtShiftingSpica.png) Shifitng Spica
-#### sSS
-Perform a forward slash and fire a Photon Bullet in quick succession.
-```{hint} This PA will grant you super armor throughout the entire duration.
+(sSS)=
+#### {term}`sSS`
+Stay Arts Shifting Spica will perform a forward slash and fire a Photon Bullet in quick succession.
+```{hint}
+This {term}`PA` will grant you super armor throughout the entire duration.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:"> <video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"> <video class="lozad" autoplay muted loop playsinline>
   <source data-src="_static/PA/sSS.webm" type="video/webm">
 </video></div>
 ```
@@ -115,17 +86,18 @@ Perform a forward slash and fire a Photon Bullet in quick succession.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "190+25", "0.60", "358", "399", "418", "14", "2.6", "0.2"
 ```
 
-#### mSS
-Approach the enemy at high speed with a thrust attack then shoot at close range.
+(mSS)=
+#### {term}`mSS`
+Move Arts Shifting Spica will approach the enemy at high speed with a thrust attack then shoot at close range.
 ```{hint}
-This PA will grant you super armor throughout the entire duration.
+This {term}`PA` will grant you super armor throughout the entire duration.
 ```
 
 ```{raw} html
@@ -137,7 +109,7 @@ This PA will grant you super armor throughout the entire duration.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -145,8 +117,9 @@ align: center
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtFlowingSirius.png) Flowing Sirius
-#### sFS1
-Performs a series of slashes. When activated in succession, it turns into a powerful attack.
+(sFS1)=
+#### {term}`sFS1`
+Stay Arts Flowing Sirius will perform a series of slashes. When activated in succession, it turns into a powerful attack.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -157,17 +130,18 @@ Performs a series of slashes. When activated in succession, it turns into a powe
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "400+25", "1.25", "340", "378", "396", "25", "5.1", "1.5"
 ```
 
-#### sFS12
-Performs a series of slashes. When activated in succession, it turns into a powerful attack.
+(sFS12)=
+#### {term}`sFS12`
+Stay Arts Flowing Sirius will perform a series of slashes. When activated in succession, it turns into a powerful attack.
 ```{hint}
-Stage 2 of the PA has an increased potency on RB and will grant you super armor.
+Stage 2 of this {term}`PA` has an increased potency on [RB](./skill-tree.md#relentless-blade) and will grant you super armor.
 ```
 
 ```{raw} html
@@ -179,16 +153,18 @@ Stage 2 of the PA has an increased potency on RB and will grant you super armor.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "1080+25+75", "3.10", "381", "424", "444", "50", "14.2", "7.5"
 ```
 
-#### mFS
-Performs an attack that sweeps the surrounding area while moving.
-```{hint} This PA will grant you super armor until before performing the last slash of the attack.
+(mFS)=
+#### {term}`mFS`
+Move Arts Flowing Sirius will perform an attack that sweeps the surrounding area while moving.
+```{hint}
+This {term}`PA` will grant you super armor until before performing the last slash of the attack.
 ```
 
 ```{raw} html
@@ -200,7 +176,7 @@ Performs an attack that sweeps the surrounding area while moving.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -208,9 +184,11 @@ align: center
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtReapingRegulus.png) Reaping Regulus
-#### sRR
-Throws a photon bomb while retreating back as it explodes.
-```{hint} This PA will grant you invincibility frames and super armor for 0.35 seconds after using.
+(sRR)=
+#### {term}`sRR`
+Stay Arts Reaping Regulus will throw a photon bomb while retreating back as the photon bomb explodes.
+```{hint}
+This {term}`PA` will grant you invincibility frames and super armor for 0.35 seconds after using.
 ```
 
 ```{raw} html
@@ -222,7 +200,7 @@ Throws a photon bomb while retreating back as it explodes.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -235,15 +213,17 @@ align: center
 </video></div>
 ```
 
-#### mRR
-Kicks the bomb in a curved manner that explodes a certain distance away.
-```{hint} This PA will grant you invincibility frames for 0.2 seconds after using.
+(mRR)=
+#### {term}`mRR`
+Move Arts Reaping Regulus will kick the bomb in a curved manner that explodes a certain distance away.
+```{hint}
+This {term}`PA` will grant you invincibility frames for 0.2 seconds after using.
 ```
 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -251,12 +231,14 @@ align: center
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtWavingRigel.png) Waving Rigel
-#### sWR
-Thrust the weapon into the ground and release a shockwave around you. When performed in the air, you'll fall at high speed and attack upon landing.
+(sWR)=
+#### {term}`sWR`
+Stay Arts Waving Reigel will thrust the weapon into the ground and release a shockwave around you. When performed in the air, you'll fall at high speed and attack upon landing.
 
-```{hint} This attack may also be used to pull small mobs towards you.
+```{hint}
+This attack may also be used to pull small mobs towards you.
 
-This PA will grant you super armor and a frontal guard for 0.25 seconds after using.
+This {term}`PA` will grant you super armor and a frontal guard for 0.25 seconds after using.
 ```
 
 ```{raw} html
@@ -268,16 +250,18 @@ This PA will grant you super armor and a frontal guard for 0.25 seconds after us
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "130+25", "0.44", "356", "397", "415", "18", "1.5", "0.4"
 ```
 
-#### mWR
-Slashes the surrounding area while ascending.
-```{hint} This PA will grant you super armor throughout the entire animation.
+(mWR)=
+#### {term}`mWR`
+Move Arts Waving Riegel will slash the surrounding area while ascending your character.
+```{hint}
+This {term}`PA` will grant you super armor throughout the entire animation.
 ```
 
 ```{raw} html
@@ -289,19 +273,21 @@ Slashes the surrounding area while ascending.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "332+25", "1.0", "357", "397", "416", "18", "5.1", "4.5"
 ```
 
-## Slug Shot
-This skill changes the NA with no directional input slightly after using a PA.
-```{hint} This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
+## [Slug Shot](./skill-tree.md#slug-shot)
+Slug Shot changes the first [Normal Attack](#normal-attack) with no directional input slightly after using a {term}`PA`.
+```{hint}
+This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
+This skill will also make it unable to peform a [Charged Normal Attack](#cna) right after using a PA.
 ```
 
-The following example shows sSS into Slug Shot
+The following example shows [Stay Arts Shifitng Spica](#sSS) into Slug Shot
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -312,7 +298,7 @@ The following example shows sSS into Slug Shot
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -320,12 +306,14 @@ align: center
 ```
 
 ## ![icon](_static/PA/38px-NGSUINormalAttackGunblade.png) Normal Attack
-Gunblade has three different variations of NAs.
-```{hint} The skill Short Range Hot Shot increases the potency of the NAs by 30%.
+Gunblade has three different variations of Normal Attacks.
+```{hint}
+The skill [Short Range Hot Shot](./skill-tree.md#short-range-hot-shot) increases the potency of the Normal Attacks by 30%.
 ```
 
-### NA123
-Tapping the NA fires a single shot ahead. Repeatedly tapping NA will fire up to 3 shots in succession increasing DPS for every Stage.
+(na123)=
+### {term}`NA123`
+Tapping the Normal Attack button fires a single shot ahead. Repeatedly tapping the button will fire up to 3 shots in succession with increasing {term}`DPS` for every Stage.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -336,7 +324,7 @@ Tapping the NA fires a single shot ahead. Repeatedly tapping NA will fire up to 
 ```{csv-table}
 ---
 header: >
-  "Variation", "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -344,8 +332,9 @@ align: center
 "w/o Short Range Hot Shot", "175", "1.20", "208", "232", "243", "19", "6"
 ```
 
-### cNA
-Charging NA up to the first charged stage causes it to release several shots in quick succession.
+(cna)=
+### {term}`cNA`
+Charging a [Normal Attack](#normal-attack), by holding down the button, initates a Charged Normal Attack. The first charged stage causes it to release several shots in quick succession.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -356,7 +345,7 @@ Charging NA up to the first charged stage causes it to release several shots in 
 ```{csv-table}
 ---
 header: >
-  "Variant", "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -364,9 +353,11 @@ align: center
 "w/o Short Range Hot Shot", "175", "1.45", "210", "234", "245", "21", "5.2"
 ```
 
-### scNA
-Charging the attack up to the second charged stage releases a powerful blast.
-```{hint} After releasing this charged attack you will receive super armor and frontal guard for the duration of 0.5 seconds.
+(scna)=
+### {term}`scNA`
+Charging the Normal Attack up to the second charged stage releases a powerful {term}`AoE` blast.
+```{hint}
+After releasing this charged attack you will receive super armor and frontal guard for the duration of 0.5 seconds.
 ```
 
 ```{raw} html
@@ -378,7 +369,7 @@ Charging the attack up to the second charged stage releases a powerful blast.
 ```{csv-table}
 ---
 header: >
-  "Variation", "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -386,14 +377,15 @@ align: center
 "w/o Short Range Hot Shot", "385", "2.60", "212", "235", "247", "20", "13"
 ```
 
-### ![icon](_static/skill/38px-NGSUISkillChargedBlade.png) Charged Blade
-The class has several gap closers, one of which is the skill Charged Blade. After releasing a cNA, using the WA at a certain time will quickly thrust you closer to the enemy.
-```{hint} During this thrust you will be granted super armor and an omnidirectional guard for 0.4 seconds.
+### ![icon](_static/skill/38px-NGSUISkillChargedBlade.png) [Charged Blade](./skill-tree.md#charged-blade)
+Gunblade has several gap closers, one of which is the skill [Charged Blade](./skill-tree.md#charged-blade). After releasing a [charged Normal Attack](#cna), using the Weapon Action at a certain time will quickly thrust you closer to the enemy.
+```{hint}
+During this thrust you will be granted super armor and an omnidirectional guard for 0.4 seconds.
 
-Charged Blade counts as using the WA so after learning the skill BC you will be able to perform a WA Counter with it.
+[Charged Blade](./skill-tree.md#charged-blade) is treated as using the Weapon Action, so after learning the skill [Blade Counter](./skill-tree.md#blade-counter) you will be able to perform a Counter with it.
 ```
 
-```{important} This does not include the potency of the WA itself!
+```{important} This does not include the potency of the Weapon Action itself!
 ```
 
 ```{raw} html
@@ -405,7 +397,7 @@ Charged Blade counts as using the WA so after learning the skill BC you will be 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -413,12 +405,14 @@ align: center
 ```
 
 ## ![icon](_static/PA/38px-NGSUIWeaponActionGunblade.png) Weapon Action
-### WA123
-The WA enables you to guard against an enemy attack with a slash.
+(wa123)=
+### {term}`WA123`
+The Weapon Action enables you to guard against an enemy attack with a slash.
 
-```{hint} After every slash you will be granted super armor and an omnidirectional guard for a short period of time depending on the stage.
+```{hint}
+After every slash you will be granted super armor and an omnidirectional guard for a short period of time depending on the stage.
 
-For WA1 the above mentioned defensive effects will last 0.3 seconds, for WA2 0.2 seconds and for WA3 0.4 seconds
+For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 seconds, for Weapon Action Stage 2 0.2 seconds and for Weapon Action Stage 3 0.4 seconds.
 ```
 
 ```{raw} html
@@ -430,16 +424,18 @@ For WA1 the above mentioned defensive effects will last 0.3 seconds, for WA2 0.2
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "330", "1.03", "319", "355", "372", "8", "6"
 ```
 
-### mWA
-If the skill Mobile Blade was learned you can use the directional input to perform a slash while evading attacks.
-```{hint} During the slash you will be granted invincibility frames for 0.35 seconds.
+(mWA)=
+### {term}`mWA`
+If the skill [Mobile Blade](./skill-tree.md#mobile-blade) was learned you can use the directional input to perform a slash while evading attacks.
+```{hint}
+During the slash you will be granted invincibility frames for 0.35 seconds.
 ```
 
 ```{raw} html
@@ -451,7 +447,7 @@ If the skill Mobile Blade was learned you can use the directional input to perfo
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -459,18 +455,20 @@ align: center
 ```
 
 ## Counters
-With the skill BC, you can perform a different counter attack based on the button used. After successfully guarding against an attack, you can press WA to perform a long continuous attack. If you use NA instead, a short counter attack occurs.
-These options are also available for your StepC too but result in different counters.
+With the skill [Blade Counter](./skill-tree.md#blade-counter), you can perform a different counter attack based on the button used. After successfully guarding against an attack, you can use the Weapon Action to perform a long counter attack. When using a Normal Attack input instead, a short counter attack occurs.
+These options are also available for your Step Counters but result in different counter attacks.
 
-```{hint} The same goes for mBC if you successfully evaded an attack while using a directional input.
+```{hint}
+The same goes for [Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) if you successfully evaded an attack while using a directional input.
 
 After successfully countering an enemy attack you will be granted invincibility frames for the entire duration of the counter animation.
 ```
 
-### BC NA
-This variation is useful for when you are fighting a quick enemy and have just countered with WA123 cancel or need a quick ranged counter that you do not need to move to grab.
-
-```{important} This does not include the potency of the WA itself!
+(bc-na)=
+### [BC](./skill-tree.md#blade-counter) {term}`NA`
+Blade Counter Normal Attack is useful for when there is multiple seperate attacks incoming from an enemy and [StepC WA](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [WA123](#wa123). You will be moved slightly forward after starting the counter sequence.
+```{important}
+This does not include the potency of the Weapon Action itself!
 ```
 
 ```{raw} html
@@ -482,16 +480,18 @@ This variation is useful for when you are fighting a quick enemy and have just c
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "400", "0.77", "520", "578", "606", "13", "4"
 ```
 
-### BC WA
-This is your go to counter if you can fit all of it and don’t need to move to grab the counter.
-```{important} This does not include the potency of the WA itself!
+(bc-wa)=
+### [BC](./skill-tree.md#blade-counter) {term}`WA`
+[Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy isn't attacking in quick succesion. You will be able to move slightly after starting the counter sequence.
+```{important}
+This does not include the potency of the Weapon Action itself!
 ```
 
 ```{raw} html
@@ -503,17 +503,21 @@ This is your go to counter if you can fit all of it and don’t need to move to 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "960", "2.17", "442", "429", "516", "6", "9"
 ```
 
-### mBC NA
-This variation is used for when you need a quick ranged counter and need to move into the hitbox for it. 
+(mbc-na)=
+### [mBC](./skill-tree.md#mobile-blade-counter) {term}`NA`
+[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into the incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
 
-```{important} This does not include the potency of the WA itself!
+```{important}
+This does not include the potency of the Weapon Action itself!
+
+This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up)
 ```
 
 ```{raw} html
@@ -525,17 +529,21 @@ This variation is used for when you need a quick ranged counter and need to move
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "420", "0.87", "483", "537", "563", "13", "4"
 ```
 
-### mBC WA
-This counter is your go to if you have time to fit it and you need to move to grab the counter.
+(mbc-wa)=
+### [mBC](./skill-tree.md#mobile-blade-counter) {term}`WA`
+This counter is your go to option for when you have to move into the incoming attack hitbox. You will be able to move slightly after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
 
-```{important} This does not include the potency of the WA itself!
+```{important}
+This does not include the potency of the Weapon Action itself!
+
+This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up)
 ```
 
 ```{raw} html
@@ -547,15 +555,16 @@ This counter is your go to if you have time to fit it and you need to move to gr
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "960", "2.27", "423", "471", "493", "6", "9"
 ```
 
-### StepC NA
-This variation is the fastest counter. It is used for very quick double counters.
+(stepc-na)=
+### {term}`StepC` {term}`NA`
+Step Counter Normal Attack is the fastest counter the Gunblade has to offer. It is used for very quick double counters. Try to avoid this counter for anything other than the before mentioned purpose.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -566,15 +575,16 @@ This variation is the fastest counter. It is used for very quick double counters
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "380", "0.70", "543", "604", "633", "12", "4"
 ```
 
-### StepC WA
-It is a fast way to build Focus and Rage, serves as a gap closer, has the highest DPS when spammed in a lingering hitbox, and is your highest potency “short counter”.
+(stepc-wa)=
+### {term}`StepC` {term}`WA`
+Step Counter Weapon Action is an amazing tool to build Focus and Rage, it serves as a gap closer, has the highest {term}`DPS` when [chained in a lingering hitbox](#stepc-wa---chain), and is your highest potency “short counter”.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -585,18 +595,18 @@ It is a fast way to build Focus and Rage, serves as a gap closer, has the highes
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "550", "1.02", "539", "600", "629", "4", "18", "3"
 ```
 
-(photon-blast)=
 ## ![icon](_static/PA/38px-PhotonBlast.png) Photon Blast
 A powerful attack that generates a special field around you.
 
-```{hint} You will be granted invincibility frames during the entire animation of the attack.
+```{hint}
+You will be granted invincibility frames during the entire animation of the attack.
 
 This attack will dash you toward an enemy targeted by you, so make sure to target the right enemy.
 ```
@@ -610,7 +620,7 @@ This attack will dash you toward an enemy targeted by you, so make sure to targe
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "Focus"
 widths: 5, 5, 5, 5, 5, 5
 align: center
 ---
@@ -618,13 +628,13 @@ align: center
 ```
 
 ## Active Skills
-(moveset-unleashed-rage)=
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
-Approach the enemy to deliver a powerful blow. Not only does the skill greatly help fill the Focus gauge, but through the skill UR After Effect, the critical hit rate increases for a short period after using the skill.
+Approach the enemy to deliver a powerful blow. Not only does this skill greatly help fill the Focus gauge, but through the skill [Unleashed Rage After Effect](./skill-tree.md#unleashed-rage-after-effect), the critical hit rate increases for a short period after using the skill.
 
-URs gauge builds from PAs, Relentless Blade and from StepC WA.
+[Unleashed Rage](./skill-tree.md#unleashed-rage)´s gauge builds from {term}`PA`s, Relentless Blade and from [StepC WA](#stepc-wa).
 
-```{hint} UR requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
+```{hint}
+[Unleashed Rage](./skill-tree.md#unleashed-rage) requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
 ```
 
 ```{raw} html
@@ -636,26 +646,26 @@ URs gauge builds from PAs, Relentless Blade and from StepC WA.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "1000", "1.27", "787", "876", "918", "20", "22"
 ```
 
-(moveset-gunblade-focus-overdrive)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverdrive.png) Gunblade Focus Overdrive
-Activating OD will start a short animation. After the activation, you will be granted buffs for a short time period.
-For more information on the buffs check out [Gunblade Focus Overdrive](#skill-tree-gunblade-focus-overdrive)
+Activating this skill will start a short animation. After the activation, you will be granted buffs for a short time period.
+For more information on the buffs check out [Gunblade Focus Overdrive](./skill-tree.md#gunblade-focus-overdrive)
 
-When [Gunblade Focus Reset PP Gain](#skill-tree-gunblade-focus-reset-pp-gain) was learned, the skill will trigger and recover some PP.
+When [Gunblade Focus Reset {term}`PP` Gain](./skill-tree.md#gunblade-focus-reset-pp-gain) was learned, the skill will trigger and recover some {term}`PP`.
 
-Re-activating OD while it's in effect, unleashes a powerful finishing move that generates a special zone similar to the visuals seen in the PB.
+Re-activating this skill while it's in effect, unleashes a powerful finishing move that generates a special zone similar to the visuals seen in the [PB](#photon-blast).
 You will be granted invincibility frames during the entire animation of the finisher as well.
 
-```{hint} During both the activation and the finisher animation you will be granted invincibility frames.
+```{hint}
+During both the activation and the finisher animation you will be granted invincibility frames.
 
-The activation of the skill takes 1.4 seconds when not inputting another attack and 0.67 seconds if you do
+The activation takes 1.4 seconds when not inputting another attack and 0.67 seconds if you do.
 ```
 
 ```{raw} html
@@ -667,30 +677,31 @@ The activation of the skill takes 1.4 seconds when not inputting another attack 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "OD DPS"
+  "Potency", "Time (s)", "{term}`OD` {term}`DPS`"
 widths: 5, 5, 5
 align: center
 ---
 "2695", "4.20", "642"
 ```
 
-(relevant-gunblade-animation-cancels)=
 ## Relevant Gunblade Animation Cancels
-You can cancel out most Gunblade PAs and Actions early with a Step- or WA input.
+You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge- or Weapon Action input.
 
-This means you can increase the DPS of some PAs and Actions while gaining PP making Slug Shot almost pointless.
+This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making Slug Shot way less appealing.
 
 For more information please refer to [Frame Data](#frame-data).
 
-```{warning} No input delay or human error is assumed here.
+```{warning}
+No input delay or human error is assumed here.
 
 When the description of the cancel includes the word “safely”, it means that it is impossible to mistime since the earliest time to cancel is the same as the attack hit timing.
 ```
 
-### sFS12 -> WA123
-Great for downs when low on PP or not having OD Finisher and UR ready.
+### [sFS12](#sfs12) -> [WA123](#wa123)
+Great for downs when low on {term}`PP` or not having [Gunblade Focus Over Drive Finisher](#gunblade-focus-overdrive) and [Unleashed Rage](#unleashed-rage) ready.
 
-```{hint} You can cancel sFS12 safely at 2.85 seconds.
+```{hint}
+You can cancel sFS12 safely at 2.85 seconds.
 ```
 
 ```{raw} html
@@ -702,17 +713,18 @@ Great for downs when low on PP or not having OD Finisher and UR ready.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "1410+25+75", "3.88", "389", "433", "454", "42", "14.2", "4.5"
 ```
 
-### StepC WA -> Chain
-This means that chaining this will be stronger than chaining BC NA together.
+### [StepC WA](#stepc-wa) -> Chain
+Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, because of [Slayer´s cancel timings](#frame-data).
 
-```{hint} You can cancel out of the StepC WA animation with another Step input safely at 0.82 seconds.
+```{hint}
+You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodge input safely at 0.82 seconds.
 ```
 
 ```{raw} html
@@ -724,17 +736,18 @@ This means that chaining this will be stronger than chaining BC NA together.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "550", "0.82", "671", "747", "782", "4", "18", "3"
 ```
 
-### StepC WA -> WA123
-This increases the total potency of the counter by making use of the damage from WA123.
+### [StepC WA](#stepc-wa) -> [WA123](#wa123)
+Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter by making use of [Slayer´s cancel timings](#frame-data).
 
-```{hint} You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
+```{hint}
+You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
 ```
 
 ```{raw} html
@@ -746,22 +759,22 @@ This increases the total potency of the counter by making use of the damage from
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "880", "1.85", "476", "529", "555", "4", "12", "3"
 ```
 
-### BC WA -> WA123
-You can cancel your BC WA after the sixth hit with another WA input.
+### [BC WA](#bc-wa) -> [WA123](#wa123)
+You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the endlag of our counter attack with [WA123](#wa123).
 
-This increases the total potency of the counter by making use of the damage from WA123.
-
-```{hint} You can cancel out of the BC WA animation safely at 1.92 seconds.
+```{hint}
+You can cancel out of the [BC WA](#bc-wa) animation safely at 1.92 seconds.
 ```
 
-```{important} This does not include the potency of the WA itself!
+```{important}
+This does not include the potency of the Weapon Action itself!
 ```
 
 ```{raw} html
@@ -773,19 +786,19 @@ This increases the total potency of the counter by making use of the damage from
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Gain", "Focus"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
 widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "1290", "2.95", "437", "587", "510", "14", "15"
 ```
 
-### sRR -> StepC WA ("RBC")
-This is the fastest way to build Focus and Rage in a small time window.
+(srr-stepc-wa)=
+### [sRR](#srr) -> [StepC WA](#stepc-wa) (a.k.a {term}`RBC`)
+The combo known as {term}`RBC` is fastest way to build Focus and Rage in a small time window. Because of the Step Dodge input you will be able to cancel the recoil of the {term}`PA`s animation allowing you to chain into a [StepC WA](#stepc-wa).
 
-Because of the step input you will be able to cancel the recoil of the animation allowing you to chain into a StepC WA.
-
-```{danger} This is not safe and you can end up canceling the PA early so make sure to be careful.
+```{danger}
+This is not safe and you can end up canceling the {term}`PA` early so make sure to be careful.
 
 The perfect timinig for the cancel is at 0.42 seconds.
 ```
@@ -799,21 +812,18 @@ The perfect timinig for the cancel is at 0.42 seconds.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "760+25", "1.44", "545", "607", "636", "13", "22", "7"
 ```
 
-### mWR -> Step -> Chain
-This is another great way of building Rage. Canceling the PA into a Step input will make you lose height that you previously gained.
+### [mWR](#mwr) -> Step Dodge -> Chain
+Cancelling [Move Arts Waving Riegel](#mwr) with a Step Dodge input is another great way of building Rage. Canceling the {term}`PA` into a Step Dodge input will make you lose height that you previously gained. You can cancel out of the {term}`PA` as soon as the last hit occurs. The example shows four {term}`PA`s chained together to make the comparison more obvious.
 
-You can cancel out of the mWR as soon as the last hit occurs.
-
-The example shows 4 PAs to make the comparison more obvious.
-
-```{danger} This is not safe and you can end up canceling the PA early so make sure to be careful.
+```{danger}
+This is not safe and you can end up canceling the {term}`PA` early so make sure to be careful.
 
 The perfect timinig for the cancel is at 0.75 seconds.
 ```
@@ -827,17 +837,18 @@ The perfect timinig for the cancel is at 0.75 seconds.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "332+25", "1.05", "340", "378", "396", "18", "5.1", "4.5"
 ```
 
-### sWR -> StepC WA
-This is kinda just there and has ridiculous DPS if you can make use of the small time window.
+### [sWR](#swr) -> [StepC WA](#stepc-wa)
+You can cancel out of [Stay Arts Waving Riegel](#swr) super early meaning this has ridiculous {term}`DPS` if you can make use of the small time window.
 
-```{hint} You can cancel out of the PA safely at 0.18 seconds.
+```{hint}
+You can cancel out of the {term}`PA` safely at 0.18 seconds.
 ```
 
 ```{raw} html
@@ -849,16 +860,14 @@ This is kinda just there and has ridiculous DPS if you can make use of the small
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "F0 DPS", "F5 DPS", "OD DPS", "PP Cost", "Focus", "Rage"
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
 widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
 "680+25", "1.2", "588", "654", "685", "14", "19.5", "3.4"
 ```
 
-(frame-data)=
 ## Frame Data
-
 For specific Potency distributions, Physical down and Elemental down, refer to the following frame data spreadsheets:
 * [NGS Verification Data Storage](https://docs.google.com/spreadsheets/d/1_OgubzM5QFe4rua4Xu0GSMAI8Idoq8r2yI8Ioyec6oY)
 * [PSO2NGS Frame Data](https://docs.google.com/spreadsheets/d/1YEg-6eViChVV7HDDlNlgFPJf3qbyIUeAlLYPr9b99t0)

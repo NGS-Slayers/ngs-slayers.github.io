@@ -20,7 +20,7 @@ It is not as useful for bossing, but it does still help by providing increased n
 [Sl/Fo Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29wqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~bhi~3b~bq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 
 ### ![sl](_static/class/UINGSClassSl.png) ![sub](_static/class/UINGSClassTe.png) Slayer/Techter
-Increases [Photon Blast](#photon-blast) accumulation rate by 20% when you are near a boss thanks to Awake Aile.
+Increases [Photon Blast](./moveset.md#photon-blast) accumulation rate by 20% when you are near a boss thanks to Awake Aile.
 Weak Element Amplifier further boosts Photon Blast accumulation rate by 20% if your attacks' element matches the elemental weakness of your enemies, which applies when using an elemental weapon.
 Techter subclass is great for bossing because it allows you to generate Photon Blasts faster which could be helpful in fights where you do not have the Photon Blast ready in time or in longer fights it could even give you an additional Photon Blast.
 Synergizes well with weapons that come with Potentials that further increase Photon Blast accumulation and reduce PP consumption for some time after using a Photon Blast.

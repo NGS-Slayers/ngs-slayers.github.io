@@ -7,7 +7,7 @@ Afterward, each skill is explained in detail and with some general tips given wh
 
 ````{admonition} 06/07/23 Patch
 :class: attention
-The following Skill Tree suggestions do not take the new skill [Gunblade Focus Quick Recharge](skill-tree-gunblade-focus-quick-recharge) into consideration yet.
+The following Skill Tree suggestions do not take the new skill [Gunblade Focus Quick Recharge](./skill-tree.md#gunblade-focus-quick-recharge) into consideration yet.
 
 ```{admonition} [Core Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: tip
@@ -23,9 +23,9 @@ Great Skill Tree for beginners.
 :class: caution
 This skill tree does not have Slug Shot skilled.
 
-To find out more about why click [here](relevant-gunblade-animation-cancels)
+To find out more about why click [here](./moveset.md#relevant-gunblade-animation-cancels)
 
-If you are still looking to put a skill point into Slug Shot remove one point of [Gunblade Focus Overflow](skill-tree-gunblade-focus-overflow) for it.
+If you are still looking to put a skill point into Slug Shot remove one point of [Gunblade Focus Overflow](./skill-tree.md#gunblade-focus-overflow) for it.
 ```
 ````
 
@@ -69,7 +69,6 @@ When Gunblade Focus Overdrive was learned you will also be able to activate it.
 Gunblade Focus Overdrive is generally treated the same as Gunblade Focus Level 5.
 ```
 
-(skill-tree-gunblade-focus-gauge-amplifier)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusGaugeAmplifier.png) Gunblade Focus Gauge Amplifier
 Increased Focus Gauge charging up to Gunblade Focus Gauge level one.
 
@@ -86,7 +85,6 @@ align: center
 "5", "200%", "150%"
 ```
 
-(skill-tree-gunblade-focus-critical-up)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusCriticalUp.png) Gunblade Focus Critical Up
 Critical Hit Rate increases according to the Gunblade Focus Gauge level. The Focus Gauge is treated as "at maximum" while Gunblade Focus Overdrive is active.
 
@@ -99,7 +97,6 @@ align: center
 "1", "2%"
 ```
 
-(skill-tree-gunblade-focus-overflow)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverflow.png) Gunblade Focus Overflow
 When the Gunblade Focus Gauge is at its maximum level or while Gunblade Focus Overdrive is active, the Unleashed Rage gauge will charge up and its cooldown time will be reduced.
 
@@ -116,9 +113,8 @@ align: center
 "5", "150%", "5 sec"
 ```
 
-(skill-tree-gunblade-focus-overdrive)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverdrive.png) Gunblade Focus Overdrive
-[_Active Skill_](#moveset-gunblade-focus-overdrive)
+[_Active Skill_](./moveset.md#gunblade-focus-overdrive)
 
 Expend your entire full Focus Gauge to temporarily increase the effects of Gunblade Focus. Using the skill again while it is active will unleash a powerful attack.
 
@@ -131,7 +127,6 @@ align: center
 "1", "30 sec", "90 sec", "110%", "80%", "150%", "2450"
 ```
 
-(skill-tree-gunblade-focus-quick-recharge)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) Gunblade Focus Quick Recharge
 
 The Gunblade Focus gauge charge rate temporarily increases after the effects of Gunblade Focus Overdrive have ended.
@@ -145,9 +140,8 @@ align: center
 "1", "120%", "20 sec"
 ```
 
-(skill-tree-unleashed-rage)=
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
-[_Active Skill_](#moveset-unleashed-rage)
+[_Active Skill_](./moveset.md#unleashed-rage)
 
 Build up the gauge with Photon Arts and/or Relentless Blade, then expend it to fire a single powerful blast.
 
@@ -160,7 +154,6 @@ align: center
 "1", "1000%", "20 sec"
 ```
 
-(skill-tree-unleashed-rage-after-effect)=
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRageAfterEffect.png) Unleashed Rage After Effect
 Temporarily increases Critical Hit Rate after activating Unleashed Rage.
 
@@ -173,11 +166,9 @@ align: center
 "1", "5%", "20 sec"
 ```
 
-(skill-tree-blade-counter)=
 ### ![icon](_static/skill/38px-NGSUISkillBladeCounter.png) Blade Counter
 When you successfully negate an attack using a Weapon Action, using a Normal Attack or Weapon Action will unleash a counter. The counter varies depending on which you use.
 
-(skill-tree-blade-counter-critical-up)=
 ### ![icon](_static/skill/38px-NGSUISkillBladeCounterCriticalUp.png) Blade Counter Critical Up
 Increases Blade Counter's Critical Hit Rate.
 
@@ -190,15 +181,12 @@ align: center
 "1", "5%"
 ```
 
-(skill-tree-mobile-blade)=
 ### ![icon](_static/skill/38px-NGSUISkillMobileBlade.png) Mobile Blade
 Activating the weapon action while performing a directional input will cause invincibility frames to occur, and change the attack behavior while moving.
 
-(skill-tree-mobile-blade-counter)=
 ### ![icon](_static/skill/38px-NGSUISkillMobileBladeCounter.png) Mobile Blade Counter
 When you successfully dodge using Mobile Blade, using a Normal Attack or Weapon Action will unleash a counter. The counter varies depending on which you use.
 
-(skill-tree-critical-up)=
 ### ![icon](_static/skill/38px-NGSUISkillCriticalUp.png) Critical Up
 Increases Critical Hit Rate.
 
@@ -225,7 +213,6 @@ align: center
 "15", "5.00%", "3.00%"
 ```
 
-(skill-tree-galant-attack-critical-up)=
 ### ![icon](_static/skill/38px-NGSUISkillGallantAttackCriticalUp.png) Gallant Attack Critical Up
 Increases Critical Hit Rate when attacking boss enemies.
 
@@ -247,7 +234,6 @@ align: center
 "10", "5.00%", "2.00%"
 ```
 
-(skill-tree-short-range-hot-shot)=
 ### ![icon](_static/skill/38px-NGSUISkillShortRangeHotShot.png) Short Range Hot Shot
 Increases Potency when you hit an enemy with a Normal Attack at close range.
 
@@ -260,15 +246,12 @@ align: center
 "1", "130%"
 ```
 
-(skill-tree-charged-blade)=
 ### ![icon](_static/skill/38px-NGSUISkillChargedBlade.png) Charged Blade
 Pressing the Weapon Action button at just the right time after a charged Normal Attack will unleash a thrust attack.
 
-(skill-tree-relentless-blade)=
 ### ![icon](_static/skill/38px-NGSUISkillRelentlessBlade.png) Relentless Blade
 Pressing the Normal Attack button at just the right time while performing a Photon Art will allow you to perform an additional attack.
 
-(skill-tree-relentless-blade-reinforce)=
 ### ![icon](_static/skill/38px-NGSUISkillRelentlessBladeReinforce.png) Relentless Blade Reinforce
 Increases Relentless Blade Potency.
 
@@ -286,7 +269,6 @@ align: center
 
 These are the skills you dump the rest of your skill points into after taking all the [Core Skills](#core-skills).
 
-(skill-tree-critical-hit-pp-gain)=
 ### ![icon](_static/skill/38px-NGSUISkillCriticalHitPPGain.png) Critical Hit PP Gain
 There is a chance of recovering PP when you land a Critical Hit.
 
@@ -303,11 +285,11 @@ align: center
 "5", "100%", "+4", "+2", "1 sec"
 ```
 
-(skill-tree-gunblade-focus-reset-pp-gain)=
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusResetPPGain.png) Gunblade Focus Reset PP Gain
 When the Gunblade Focus Gauge is reset, recover an amount of PP in accordance with the Focus Gauge level.
 
-```{hint} This skill also activates when entering [Gunblade Focus Overdrive](#skill-tree-gunblade-focus-overdrive)
+```{hint} 
+This skill also activates when entering [Gunblade Focus Overdrive](./skill-tree.md#gunblade-focus-overdrive)
 ```
 
 ```{csv-table}
@@ -323,7 +305,6 @@ align: center
 "5", "20.00%", "10.00%"
 ```
 
-(skill-tree-slug-shot)=
 ### ![icon](_static/skill/38px-NGSUISkillSlugShot.png) Slug Shot
 Pressing the Normal Attack Button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
 
