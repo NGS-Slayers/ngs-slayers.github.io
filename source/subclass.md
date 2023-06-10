@@ -35,9 +35,9 @@ This option is only for when all of the above-mentioned subclass benefits are no
 [Sl/Fi Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29kqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~5_G~f~f~f~f~f~f~f~f~f~f~4e~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 
 ```{raw} html
-<meta content="Slayer subclass Options" property="og:title" />
-<meta content="Not all subclasses are worth using. Here are some recommendations." property="og:description" />
-<meta content="https://ngs-slayers.github.io/subclass.html" property="og:url" />
-<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
+<meta content="Slayer subclass Options" property="og:title">
+<meta content="Not all subclasses are worth using. Here are some recommendations." property="og:description">
+<meta content="https://ngs-slayers.github.io/subclass.html" property="og:url">
+<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image">
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color">
 ```

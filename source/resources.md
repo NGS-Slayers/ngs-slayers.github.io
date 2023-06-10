@@ -10,9 +10,9 @@ Here is a list of resources used for data provided in the guide
 * [Arks-Layer](https://arks-layer.com/)
 
 ```{raw} html
-<meta content="Slayer Guide Resources" property="og:title" />
-<meta content="These are the Resources used to create the guide" property="og:description" />
-<meta content="https://ngs-slayers.github.io/resources.html" property="og:url" />
-<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
+<meta content="Slayer Guide Resources" property="og:title">
+<meta content="These are the Resources used to create the guide" property="og:description">
+<meta content="https://ngs-slayers.github.io/resources.html" property="og:url">
+<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image">
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color">
 ```

@@ -1,3 +1,9 @@
+```{raw} html
+<noscript><div style="padding-top: 1.9em; position: fixed;top: 0;left: 0;width: 100%;z-index: 101;text-align: center;font-weight: bold;color: #FFF;background-color: #AE0000;padding: 5px 0 5px 0;"><p>
+  Please activate JavaScript, this page does not work properly without it enabled.
+</p></div></noscript>
+```
+
 # Moveset
 Slayer has many attacks available for use in combat. Here is a list of each attack and what they do.
 To make the following tables easier to read we will use some abbreviations.
@@ -862,9 +868,9 @@ For other resources check out
 * [Resources](#resources)
 
 ```{raw} html
-<meta content="Slayer's Moveset" property="og:title" />
-<meta content="Slayer has alot of options in their arsenal so hopefully this guide will help you decide which one to use." property="og:description" />
-<meta content="https://ngs-slayers.github.io/moveset.html" property="og:url" />
-<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
+<meta content="Slayer's Moveset" property="og:title">
+<meta content="Slayer has alot of options in their arsenal so hopefully this guide will help you decide which one to use." property="og:description">
+<meta content="https://ngs-slayers.github.io/moveset.html" property="og:url">
+<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image">
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color">
 ```

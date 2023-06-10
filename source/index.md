@@ -63,9 +63,9 @@ credits
 <!--  HTML Metadata  -->
 
 ```{raw} html
-<meta content="Theowyn's Slayer Guide" property="og:title" />
-<meta content="A comprehensive guide to the Slayer class in Phantasy Star Online 2: New Genesis" property="og:description" />
-<meta content="https://ngs-slayers.github.io/" property="og:url" />
-<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image" />
-<meta content="#48AC9C" data-react-helmet="true" name="theme-color" />
+<meta content="Theowyn's Slayer Guide" property="og:title">
+<meta content="A comprehensive guide to the Slayer class in Phantasy Star Online 2: New Genesis" property="og:description">
+<meta content="https://ngs-slayers.github.io/" property="og:url">
+<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image">
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color">
 ```
