@@ -94,3 +94,11 @@ NA123
 
 WA123
 : Weapon Action Stage 1 to 3
+
+```{raw} html
+<meta content="Glossary of the Slayer Guide" property="og:title">
+<meta content="A collection of textual glosses or of specialized terms with their meanings" property="og:description">
+<meta content="https://ngs-slayers.github.io/glossary.html" property="og:url">
+<meta content="https://ngs-slayers.github.io/_static/class/UINGSClassSl.png" property="og:image">
+<meta content="#48AC9C" data-react-helmet="true" name="theme-color">
+```

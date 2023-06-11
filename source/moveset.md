@@ -58,7 +58,7 @@ Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade)
 
 ![image](_static/skill/palette-priority.png)
 
-Binding the [Normal Attack](#normal-attack) button to a slot with lower priority allows you to hold down both a {term}`PA` and a [Normal Attack](#normal-attack) to automatically activate [Relentless Blade](./skill-tree.md#relentless-blade) without canceling into [Slug Shot](./skill-tree.md#slug-shot).
+Binding the [Normal Attack](#normal-attack) button to a slot with lower priority allows you to hold down both a {term}`PA` and a [Normal Attack](#normal-attack) to automatically activate [Relentless Blade](./skill-tree.md#relentless-blade) without canceling into [Slug Shot](./skill-tree.md#slug-shot) or a [Normal Attack](#normal-attack).
 
 ## Photon Arts
 Slayer {term}`PA`s change depending on if a directional input was pressed upon activation of the {term}`PA`.
@@ -137,7 +137,7 @@ align: center
 "400+25", "1.25", "340", "378", "396", "25", "5.1", "1.5"
 ```
 
-(sFS12)=
+(sfs12)=
 #### {term}`sFS12`
 Stage 2 of Stay Arts Flowing Sirius turns the {term}`PA` into a powerful Attack.
 ```{hint}
@@ -285,7 +285,7 @@ Slug Shot changes the first [Normal Attack](#normal-attack) with no directional 
 ```{hint}
 This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
 
-This skill will also make it unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
+This skill will also make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
 ```
 
 The following example shows [Stay Arts Shifting Spica](#sSS) into Slug Shot

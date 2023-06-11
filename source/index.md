@@ -10,9 +10,9 @@ Slayer is the newest Precision based class that’s been released into the game.
 
 It’s a high mobility, fast-hitting class that specializes in close-quarters combat utilizing a Gunblade as its primary and only weapon.
 
-If you like high mobility, speedy attacks, and rewarding gameplay that incorporates new mechanics, you might like this class.
+If you like high mobility, speedy attacks, and rewarding Gameplay that incorporates new mechanics, you might like this class.
 
-Slayer’s only Mainclass weapon is the Gunblade, this is also the only weapon that can build Gunblade [Focus](#gunblade-focus).
+Slayer’s only Mainclass weapon is the Gunblade, this is also the only weapon that can build Gunblade [Gunblade Focus](./skill-tree.md#gunblade-focus).
 
 Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about Slayer!
 
@@ -47,6 +47,7 @@ moveset
 subclass
 addons
 equipment
+other
 resources
 credits
 ```

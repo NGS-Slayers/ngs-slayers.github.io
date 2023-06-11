@@ -13,7 +13,7 @@ Sub Effects are randomly selected from a pool of possible effects from the given
 The Main Effect's level monotonically increases from 1 to 20 with each Add-on Skill generation (i.e., its level can never drop).
 For more information about Add-on Skills, refer to the [Arks-Visiphone](https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/Add-on_Skills).
 
-You should prioritize Main Effects first before the Sub Effects because Main Effects are guaranteed, monotonically increase in level, and are typically more impactful to gameplay than Sub Effects.
+You should prioritize Main Effects first before the Sub Effects because Main Effects are guaranteed, monotonically increase in level, and are typically more impactful to Gameplay than Sub Effects.
 It can also cost a lot to get Add-on Skills to level 20, so Level 18 is considered to be a suitable stopping point.
 
 Here is a class priority in which you should obtain and level up your Add-on Skills:

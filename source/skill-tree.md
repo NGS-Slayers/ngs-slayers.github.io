@@ -5,10 +5,6 @@ Afterward, each skill is explained in detail and with some general tips given wh
 
 ## Skill Tree Suggestions
 
-````{admonition} 06/07/23 Patch
-:class: attention
-The following Skill Tree suggestions do not take the new skill [Gunblade Focus Quick Recharge](./skill-tree.md#gunblade-focus-quick-recharge) into consideration yet.
-
 ```{admonition} [Core Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: tip
 If you are unsure which skills you prefer and don't need the Battle Power, spend your points accordingly and you will have 7 Points left over for usage at a later point.
@@ -16,25 +12,20 @@ If you are unsure which skills you prefer and don't need the Battle Power, spend
 
 ```{admonition} [Beginner-Friendly Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~dq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYevererererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: tip
-Great Skill Tree for beginners.
+Great Skill Tree for beginners and casual play.
 ```
 
 ```{admonition} [Experimental Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~dq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYesereberevIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: caution
-This skill tree does not have Slug Shot skilled.
+This skill tree does not have [Slug Shot](#slug-shot) skilled.
 
-To find out more about why click [here](./moveset.md#relevant-gunblade-animation-cancels)
-
-If you are still looking to put a skill point into Slug Shot remove one point of [Gunblade Focus Overflow](./skill-tree.md#gunblade-focus-overflow) for it.
+To find out more about why click [here](./moveset.md#relevant-gunblade-animation-cancels).
 ```
-````
 
 If you are looking for what subclass and subclass skills to use visit [Subclasses](#subclass)
 
-(core-skills)=
 ## Core Skills
 
-(gunblade-focus)=
 ### ![icon](_static/skill/38px-NGSUISkillBladeCounter.png) Gunblade Focus
 Build up the Focus Gauge by hitting enemies. Attack Potency and Offensive {term}`PP` Recovery increase and {term}`PP` Consumption decreases in accordance with the gauge level. The Focus Gauge will reset to zero after a certain amount of time passes without hitting an enemy.
 
@@ -59,14 +50,12 @@ The UI element at the bottom of your screen helps you identify your current Focu
 
 ![image](_static/skill/GunbladeFocusOD.png) Focus OD: You have activated Gunblade Focus Overdrive
 
+```{seealso}
+500 Focus is needed to reach Focus Level 5. The Focus Level Indicator will turn from blue to yellow.
 
-```{seealso} 500 Focus is needed to reach Focus Level 5. The Focus Level Indicator will turn from blue to yellow.
+When [Gunblade Focus Overflow](#gunblade-focus-overflow) was learned the skill will then activate and make it easier for you to gain Rage.
 
-When Gunblade Focus Overflow was learned the skill will then activate and make it easier for you to gain Rage.
-
-When Gunblade Focus Overdrive was learned you will also be able to activate it.
-
-Gunblade Focus Overdrive is generally treated the same as Gunblade Focus Level 5.
+When [Gunblade Focus Overdrive](#gunblade-focus-overdrive) was learned you will also be able to activate it. It is generally treated the same as Gunblade Focus Level 5
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusGaugeAmplifier.png) Gunblade Focus Gauge Amplifier
@@ -83,6 +72,12 @@ align: center
 "3", "170%", "130%"
 "4", "185%", "140%"
 "5", "200%", "150%"
+```
+
+```{caution}
+Investing more than one point into this skill can cause slower [Gunblade Focus](#gunblade-focus) generation.
+
+To find out more about why click [here](./other.md#gunblade-focus-gauge-amplifier-break-down).
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusCriticalUp.png) Gunblade Focus Critical Up
@@ -138,6 +133,12 @@ header: >
 align: center
 ---
 "1", "120%", "20 sec"
+```
+
+```{caution}
+Pairing this skill with [Gunblade Focus Gauge Amplifier](#gunblade-focus-gauge-amplifier) can cause slower [Gunblade Focus](#gunblade-focus) generation.
+
+To find out more about why click [here](./other.md#gunblade-focus-quick-recharge-break-down).
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
@@ -307,6 +308,10 @@ align: center
 
 ### ![icon](_static/skill/38px-NGSUISkillSlugShot.png) Slug Shot
 Pressing the Normal Attack Button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
+
+```{caution}
+This skill will make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
+```
 
 ```{raw} html
 <meta content="Slayer Skill Tree" property="og:title">

@@ -24,7 +24,7 @@ mRR
 mWR
 Phantasy
 Gunblade
-gameplay
+Gameplay
 Mainclass
 Changelog
 Todo
@@ -34,3 +34,4 @@ Shifting
 Rigel
 Aile
 Synergizes
+impactful
