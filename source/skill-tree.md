@@ -136,7 +136,7 @@ align: center
 ```
 
 ```{caution}
-Pairing this skill with [Gunblade Focus Gauge Amplifier](#gunblade-focus-gauge-amplifier) can cause slower [Gunblade Focus](#gunblade-focus) generation.
+Pairing this skill with [Gunblade Focus Gauge Amplifier](#gunblade-focus-gauge-amplifier) can cause the improvement of this skill to be slightly worse.
 
 To find out more about why click [here](./other.md#gunblade-focus-quick-recharge-break-down).
 ```

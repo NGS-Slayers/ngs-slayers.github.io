@@ -46,8 +46,7 @@ The above example is a 14% difference since we are already not able to make use 
 * Killing an enemy with [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive) will also cause us to lose some buff duration since in most cases there will be a small delay until we fight the next enemy.
 * We usually build and want to build [Gunblade Focus](./skill-tree.md#gunblade-focus) when an enemy is able to move so using [Counters](./moveset.md#counters) will shrink the difference in time even more.
 
-As if those downsides weren't already enough stacking with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) further decreases our returns as you can read up on right below.
-
+On top these downsides when this skill is used together with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) the small boost this Skill provides could be even slightly less of a boost if you reaching [Gunblade Focus](./skill-tree.md#gunblade-focus) Focus Level 5 before the duration of the buff is over.
 
 ## ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) Break Down
 The reason why we don't put more than one point into that skill is because it can cause diminishing returns.
