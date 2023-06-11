@@ -8,13 +8,13 @@ Let's look at what the skill does first.
 
 * The skill amplifies our [Gunblade Focus](./skill-tree.md#gunblade-focus) generation by 120% after using the finisher from [Gunblade Focus Overdrive](./moveset.md#gunblade-focus-overdrive) for a duration of 20 seconds.
 
-* This effect does stack [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier)
+* This effect does stack with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier)
 
 Before we get into the pros and cons of the skill let's create a scenario in which we can compare the buildup with and without the skill.
 
-500 Focus is needed to reach [Gunblade Focus](./skill-tree.md#gunblade-focus) Level 5 and while attacking a Boss enemy our Focus generation is 5 times the original Focus value of our attacks.
+500 Focus is needed to reach [Gunblade Focus](./skill-tree.md#gunblade-focus) Level 5 and while attacking boss enemies our [Gunblade Focus](./skill-tree.md#gunblade-focus) generation is 5 times the original [Gunblade Focus](./skill-tree.md#gunblade-focus) value of our attacks.
 
-In this example I will just chain a bunch of [Stay Arts Flowing Sirius Stage 1 to 2](#sfs12) together until we reach Focus Level 5.
+In this example I will just chain a bunch of [Stay Arts Flowing Sirius Stage 1 to 2](#sfs12) together until we reach [Gunblade Focus](./skill-tree.md#gunblade-focus) Level 5.
 
 Time to do the math first without using the skill. I will round the amount of times required to use the skill to approach an in game scenario.
 
@@ -38,12 +38,12 @@ With using the skill it would take us around 6 of these or 18.6 seconds.
 
 So let's look into the downsides of this skill.
 
-The above example is a 14% difference since we are already not able to make use of the 20 seconds buff duration in a scenario in which our enemy doesn't move.
+The above example is a 14% difference since we are already not able to make use of the 20 seconds buff duration in a scenario in which the enemy doesn't move.
 
 * The skill is not active at the start of a fight.
-* The skill does not help us when we lose [Gunblade Focus](./skill-tree.md#gunblade-focus) due to any other means than using Gunblade Overdrive Finisher.
+* The skill does not help us when we lose [Gunblade Focus](./skill-tree.md#gunblade-focus) due to any other means than using [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive).
 * Buff duration has to be fully utilized to make a minor difference, every second of not using the skills buff duration decreases it's impact.
-* Killing an enemy with [Gunblade Overdrive Finisher](./moveset.md#gunblade-focus-overdrive) will also cause us to lose some buff duration since in most cases there will be a small delay until we fight the next enemy.
+* Killing an enemy with [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive) will also cause us to lose some buff duration since in most cases there will be a small delay until we fight the next enemy.
 * We usually build and want to build [Gunblade Focus](./skill-tree.md#gunblade-focus) when an enemy is able to move so using [Counters](./moveset.md#counters) will shrink the difference in time even more.
 
 As if those downsides weren't already enough stacking with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) further decreases our returns as you can read up on right below.
