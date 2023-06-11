@@ -43,8 +43,8 @@ The above example is a 14% difference since we are already not able to make use 
 * The skill is not active at the start of a fight.
 * The skill does not help us when we lose [Gunblade Focus](./skill-tree.md#gunblade-focus) due to any other means than using Gunblade Overdrive Finisher.
 * Buff duration has to be fully utilized to make a minor difference, every second of not using the skills buff duration decreases it's impact.
-* Killing an enemy with Gunblade Overdrive Finisher will also cause us to lose some buff duration since in most cases there will be a small delay until we fight the next enemy.
-* We mostly build focus when an enemy is able to move so countering will shrink the difference in time even more.
+* Killing an enemy with [Gunblade Overdrive Finisher](./moveset.md#gunblade-focus-overdrive) will also cause us to lose some buff duration since in most cases there will be a small delay until we fight the next enemy.
+* We usually build and want to build [Gunblade Focus](./skill-tree.md#gunblade-focus) when an enemy is able to move so using [Counters](./moveset.md#counters) will shrink the difference in time even more.
 
 As if those downsides weren't already enough stacking with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) further decreases our returns as you can read up on right below.
 
