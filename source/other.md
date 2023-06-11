@@ -1,7 +1,7 @@
 # Other
 This Page will mainly focus on breaking down mechanics of the Slayer class for a better understanding.
 
-## ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) [Gunblade Focus Quick Recharge](./skill-tree.md#gunblade-focus-quick-recharge) break down
+## ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) [Gunblade Focus Quick Recharge](./skill-tree.md#gunblade-focus-quick-recharge) Break Down
 With the Patch from 06/07/2023 came a new Slayer Class Skill which might sound good at first but looking further into it might not be worth your Skill point.
 
 Let's look at what the skill does first.
@@ -49,7 +49,7 @@ The above example is a 14% difference since we are already not able to make use 
 As if those downsides weren't already enough stacking with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) further decreases our returns as you can read up on right below.
 
 
-## ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) break down
+## ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) Break Down
 The reason why we don't put more than one point into that skill is because it can cause diminishing returns.
 
 For example if you use a [Supercharged Normal Attack](#scna) into a [Step Counter Weapon Action](#stepc-wa) you will generate less [Gunblade Focus](./skill-tree.md#gunblade-focus) with the Skill at Level 5 than at Level 1.
