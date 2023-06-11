@@ -3,7 +3,7 @@
 ## Recommended
 
 ```{important}
-These Skill Trees only show the absolutley required skills, the remaining Skill Points can and should be spend according to personal preference.
+These Skill Trees only show the absolutely required skills, the remaining Skill Points can and should be spend according to personal preference.
 ```
 
 ### ![sl](_static/class/UINGSClassSl.png) ![sub](_static/class/UINGSClassBo.png) Slayer/Bouncer

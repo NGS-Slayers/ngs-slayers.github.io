@@ -98,7 +98,7 @@ align: center
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverflow.png) Gunblade Focus Overflow
-When the Gunblade Focus Gauge is at its maximum level or while Gunblade Focus Overdrive is active, the Unleashed Rage gauge will charge up and its cooldown time will be reduced.
+When the Gunblade Focus Gauge is at its maximum level or while Gunblade Focus Overdrive is active, the Unleashed Rage gauge will charge up and its Cooldown time will be reduced.
 
 ```{csv-table}
 ---

@@ -5,7 +5,7 @@
 ```
 
 # Moveset
-Slayer has many attacks available for use in combat. This page aims to showcase and explain their usecases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don't know what they mean.
+Slayer has many attacks available for use in combat. This page aims to showcase and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don't know what they mean.
 
 ```{important}
 * Potency values and {term}`DPS` values are rounded in calculations.
@@ -69,7 +69,7 @@ If you are familiar with the Fighter Class, you might notice a similarity with F
 Cancelling a {term}`PA` with a Step Dodge- is more generous than cancelling with a Weapon Action input, so if you find yourself stuck in some {term}`PA`s consider using a [Step Counter](#stepc-wa) instead.
 ```
 
-### ![icon](_static/PA/38px-NGSUIPhotonArtShiftingSpica.png) Shifitng Spica
+### ![icon](_static/PA/38px-NGSUIPhotonArtShiftingSpica.png) Shifting Spica
 (sSS)=
 #### {term}`sSS`
 Stay Arts Shifting Spica will perform a forward slash and fire a Photon Bullet in quick succession.
@@ -139,7 +139,7 @@ align: center
 
 (sFS12)=
 #### {term}`sFS12`
-Stage 2 of Stay Arts Flowing Sirius turns the {term}`PA` into a powerfull Attack.
+Stage 2 of Stay Arts Flowing Sirius turns the {term}`PA` into a powerful Attack.
 ```{hint}
 Stage 2 of this {term}`PA` has an increased potency on [RB](./skill-tree.md#relentless-blade) and will grant you super armor.
 ```
@@ -233,7 +233,7 @@ align: center
 ### ![icon](_static/PA/38px-NGSUIPhotonArtWavingRigel.png) Waving Rigel
 (sWR)=
 #### {term}`sWR`
-Stay Arts Waving Reigel will thrust the weapon into the ground and release a shockwave around you. When performed in the air, you'll fall at high speed and attack upon landing.
+Stay Arts Waving Rigel will thrust the weapon into the ground and release a shockwave around you. When performed in the air, you'll fall at high speed and attack upon landing.
 
 ```{hint}
 This attack may also be used to pull small mobs towards you.
@@ -259,7 +259,7 @@ align: center
 
 (mWR)=
 #### {term}`mWR`
-Move Arts Waving Riegel will slash the surrounding area while ascending your character.
+Move Arts Waving Rigel will slash the surrounding area while ascending your character.
 ```{hint}
 This {term}`PA` will grant you super armor throughout the entire animation.
 ```
@@ -285,10 +285,10 @@ Slug Shot changes the first [Normal Attack](#normal-attack) with no directional 
 ```{hint}
 This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
 
-This skill will also make it unable to peform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
+This skill will also make it unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
 ```
 
-The following example shows [Stay Arts Shifitng Spica](#sSS) into Slug Shot
+The following example shows [Stay Arts Shifting Spica](#sSS) into Slug Shot
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -335,7 +335,7 @@ align: center
 
 (cna)=
 ### {term}`cNA`
-Charging a Normal Attack, by holding down the button, initates a Charged Normal Attack. The first charged stage causes it to release several shots in quick succession.
+Charging a Normal Attack, by holding down the button, initiates a Charged Normal Attack. The first charged stage causes it to release several shots in quick succession.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -467,7 +467,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 
 (bc-na)=
 ### [BC](./skill-tree.md#blade-counter) {term}`NA`
-[Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple seperate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be moved slightly forward after starting the counter sequence.
+[Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be moved slightly forward after starting the counter sequence.
 ```{important}
 This does not include the potency of the Weapon Action itself!
 ```
@@ -513,7 +513,7 @@ align: center
 
 (mbc-na)=
 ### [mBC](./skill-tree.md#mobile-blade-counter) {term}`NA`
-[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
+[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
 This does not include the potency of the Weapon Action itself!
@@ -539,7 +539,7 @@ align: center
 
 (mbc-wa)=
 ### [mBC](./skill-tree.md#mobile-blade-counter) {term}`WA`
-This counter is your go to option for when you have to move into an incoming attack hitbox. You will be able to move slightly after starting the counter sequence. Try to avoid using this counter attack when it is not neccessary.
+This counter is your go to option for when you have to move into an incoming attack hitbox. You will be able to move slightly after starting the counter sequence. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
 This does not include the potency of the Weapon Action itself!
@@ -768,7 +768,7 @@ align: center
 ```
 
 ### [BC WA](#bc-wa) -> [WA123](#wa123)
-You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the endlag of our counter attack with [WA123](#wa123).
+You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the end lag of our counter attack with [WA123](#wa123).
 
 ```{hint}
 You can cancel out of the [BC WA](#bc-wa) animation safely at 1.92 seconds.
@@ -801,7 +801,7 @@ The combo known as {term}`RBC` is fastest way to build Focus and Rage in a small
 ```{danger}
 This is not safe and you can end up canceling the {term}`PA` early so make sure to be careful.
 
-The perfect timinig for the cancel is at 0.42 seconds.
+The perfect timing for the cancel is at 0.42 seconds.
 ```
 
 ```{raw} html
@@ -821,12 +821,12 @@ align: center
 ```
 
 ### [mWR](#mwr) -> Step Dodge -> Chain
-Cancelling [Move Arts Waving Riegel](#mwr) with a Step Dodge input is another great way of building Rage. Canceling the {term}`PA` into a Step Dodge input will make you lose height that you previously gained. You can cancel out of the {term}`PA` as soon as the last hit occurs. The example shows four {term}`PA`s chained together to make the comparison more obvious.
+Cancelling [Move Arts Waving Rigel](#mwr) with a Step Dodge input is another great way of building Rage. Canceling the {term}`PA` into a Step Dodge input will make you lose height that you previously gained. You can cancel out of the {term}`PA` as soon as the last hit occurs. The example shows four {term}`PA`s chained together to make the comparison more obvious.
 
 ```{danger}
 This is not safe and you can end up canceling the {term}`PA` early so make sure to be careful.
 
-The perfect timinig for the cancel is at 0.75 seconds.
+The perfect timing for the cancel is at 0.75 seconds.
 ```
 
 ```{raw} html
@@ -846,7 +846,7 @@ align: center
 ```
 
 ### [sWR](#swr) -> [StepC WA](#stepc-wa)
-You can cancel out of [Stay Arts Waving Riegel](#swr) with a Step Dodge input super early meaning this has ridiculous {term}`DPS` if you can make use of the small time window.
+You can cancel out of [Stay Arts Waving Rigel](#swr) with a Step Dodge input super early meaning this has ridiculous {term}`DPS` if you can make use of the small time window.
 
 ```{hint}
 You can cancel out of the {term}`PA` safely at 0.18 seconds.
