@@ -29,7 +29,7 @@ Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about S
 ```
 
 ```{todo}
-* Comparison Section of Skills
+* Add Slug Shot to mechanics break down
 * Better Intro
 * How to play section
 * Add Focus and Rage per second values to Moveset tables
