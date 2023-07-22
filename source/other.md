@@ -41,12 +41,13 @@ So let's look into the downsides of this skill.
 The above example is a 14% difference since we are already not able to make use of the 20 seconds buff duration in a scenario in which the enemy doesn't move.
 
 * The skill is not active at the start of a fight.
-* The skill does not help us when we lose [Gunblade Focus](./skill-tree.md#gunblade-focus) due to any other means than using [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive).
+* The skill does not help us when we lose [Gunblade Focus](./skill-tree.md#gunblade-focus) to any other means than using [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive).
 * Buff duration has to be fully utilized to make a minor difference, every second of not using the skills buff duration decreases it's impact.
 * Killing an enemy with [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive) will also cause us to lose some buff duration since in most cases there will be a small delay until we fight the next enemy.
 * We usually build and want to build [Gunblade Focus](./skill-tree.md#gunblade-focus) when an enemy is able to move so using [Counters](./moveset.md#counters) will shrink the difference in time even more.
+* The skill makes no difference if you happen to use your [Photon Blast](./moveset.md#photon-blast) right after using [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive).
 
-On top these downsides when this skill is used together with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) the small boost this Skill provides could be even slightly less of a boost if you reaching [Gunblade Focus](./skill-tree.md#gunblade-focus) Focus Level 5 before the duration of the buff is over.
+On top these downsides when this skill is used together with [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) the small boost this Skill provides could be slightly less of a boost if you reaching [Gunblade Focus](./skill-tree.md#gunblade-focus) Focus Level 5 before the duration of the buff is over.
 
 ## ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) [Gunblade Focus Gauge Amplifier](./skill-tree.md#gunblade-focus-gauge-amplifier) Break Down
 The reason why we don't put more than one point into that skill is because it can cause diminishing returns.

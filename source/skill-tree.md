@@ -122,25 +122,6 @@ align: center
 "1", "30 sec", "90 sec", "110%", "80%", "150%", "2450"
 ```
 
-### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) Gunblade Focus Quick Recharge
-
-The Gunblade Focus gauge charge rate temporarily increases after the effects of Gunblade Focus Overdrive have ended.
-
-```{csv-table}
----
-header: >
-  "Skill Level", "Focus Gauge Boost Rate", "Effect Duration"
-align: center
----
-"1", "120%", "20 sec"
-```
-
-```{caution}
-Pairing this skill with [Gunblade Focus Gauge Amplifier](#gunblade-focus-gauge-amplifier) can cause the improvement of this skill to be slightly worse.
-
-To find out more about why click [here](./other.md#gunblade-focus-quick-recharge-break-down).
-```
-
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
 [_Active Skill_](./moveset.md#unleashed-rage)
 
@@ -311,6 +292,28 @@ Pressing the Normal Attack Button without inputting a direction right after perf
 
 ```{caution}
 This skill will make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
+
+If you wait out the activation window you will be able to perform them as usual.
+```
+
+### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) Gunblade Focus Quick Recharge
+
+The Gunblade Focus gauge charge rate temporarily increases after the effects of Gunblade Focus Overdrive have ended.
+
+```{csv-table}
+---
+header: >
+  "Skill Level", "Focus Gauge Boost Rate", "Effect Duration"
+align: center
+---
+"1", "120%", "20 sec"
+```
+
+```{caution}
+Even though this skill sounds good on first glance it does have some drawbacks which makes justifying this as a core skill hard until we get access to more skill points.
+If you don't use [Slug Shot](#slug-shot) you could remove one point of [Critical Hit PP Gain](#critical-hit-pp-gain) for this skill.
+
+To find out more about why click [here](./other.md#gunblade-focus-quick-recharge-break-down).
 ```
 
 ```{raw} html
