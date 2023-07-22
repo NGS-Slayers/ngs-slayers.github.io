@@ -5,7 +5,7 @@
 ```
 
 # Moveset
-Slayer has many attacks available for use in combat. This page aims to showcase and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don't know what they mean.
+Slayer has many attacks available for use in combat. This page aims to showcase and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don´t know what they mean.
 
 ```{important}
 * Potency values and {term}`DPS` values are rounded in calculations.
@@ -490,7 +490,7 @@ align: center
 
 (bc-wa)=
 ### [BC](./skill-tree.md#blade-counter) {term}`WA`
-[Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy isn't attacking in quick succession. You will be able to move slightly after starting the counter sequence.
+[Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy isn´t attacking in quick succession. You will be able to move slightly after starting the counter sequence.
 ```{important}
 This does not include the potency of the Weapon Action itself!
 ```
