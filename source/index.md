@@ -12,7 +12,7 @@ It’s a high mobility, fast-hitting class that specializes in close-quarters co
 
 If you like high mobility, speedy attacks, and rewarding Gameplay that incorporates new mechanics, you might like this class.
 
-Slayer’s only Mainclass weapon is the Gunblade, this is also the only weapon that can build Gunblade [Gunblade Focus](./skill-tree.md#gunblade-focus).
+Slayer’s only Mainclass weapon is the Gunblade, this is also the only weapon that can build [Gunblade Focus](./skill-tree.md#gunblade-focus).
 
 Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about Slayer!
 
@@ -30,8 +30,7 @@ Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about S
 
 ```{todo}
 * Add Slug Shot to mechanics break down
-* Better Intro
-* How to play section
+* Better Intro & How to play section
 * Add Focus and Rage per second values to Moveset tables
 * Add term switching for the Global and Japanese version
 ```

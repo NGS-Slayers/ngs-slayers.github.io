@@ -1,10 +1,6 @@
 (add-on-skills)=
 # Add-on Skills
 
-```{important}
-If you play Melee and Tech classes, then the Hunter and Force Add-on Skills should be moved closer to the top of the list to maximize their damage output.
-```
-
 Add-on Skills are permanent buffs for the player regardless of which class is being played.
 However, obtaining Add-on Skills requires class-specific materials called N-Class EX-Cubes which are used at the Class Counter to generate Add-on Skills from specific classes.
 Each class gives their own unique buffs which are separated into two categories: Main Effects and Sub Effects.
@@ -18,6 +14,9 @@ It can also cost a lot to get Add-on Skills to level 20, so Level 18 is consider
 
 Here is a class priority in which you should obtain and level up your Add-on Skills:
 
+```{important}
+If you play Melee and Tech classes, then the Hunter and Force Add-on Skills should be moved closer to the top of the list to maximize their damage output.
+```
 
 ```{csv-table}
 ---
