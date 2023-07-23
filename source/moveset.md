@@ -5,7 +5,7 @@
 ```
 
 # Moveset
-Slayer has many attacks available for use in combat. This page aims to showcase and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don´t know what they mean.
+Slayer has many attacks available for use in combat. This page aims to show and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don´t know what they mean.
 
 ```{important}
 * Potency values and {term}`DPS` values are rounded in calculations.
@@ -50,15 +50,23 @@ align: center
 ```
 
 ```{hint}
-Strong [Relentless Blade](./skill-tree.md#relentless-blade) only applies to [Stay Arts Flowing Sirius Stage 2](#sfs12).
+Strong [Relentless Blade](./skill-tree.md#relentless-blade) only occurs during [Stay Arts Flowing Sirius Stage 2](#sfs12).
 ```
 
 ### Making [RB](./skill-tree.md#relentless-blade) Easier
-Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade) difficult. To make things easier, you may change the location of your [Normal Attack](#normal-attack) button. There is a priority system for inputs. The priorities are as follows:
+Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade) difficult. To make things easier, you may change the location of your [Normal Attack](#normal-attack) button. There is a priority system for inputs.The game will process actions with a lower priority value first. The priority values are as follows:
 
 ![image](_static/skill/palette-priority.png)
 
 Binding the [Normal Attack](#normal-attack) button to a slot with lower priority allows you to hold down both a {term}`PA` and a [Normal Attack](#normal-attack) to automatically activate [Relentless Blade](./skill-tree.md#relentless-blade) without canceling into [Slug Shot](./skill-tree.md#slug-shot) or a [Normal Attack](#normal-attack).
+
+Here is an example of me binding [Normal Attack](#normal-attack) to Slot six of my Sub Palette which has a priority value of nine, while I am using a {term}`PA` on my Weapon Palette with a priority value of two.
+
+```{raw} html
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+  <source data-src="_static/PA/EasyRB.webm" type="video/webm">
+</video></div>
+```
 
 ## Photon Arts
 Slayer {term}`PA`s change depending on if a directional input was pressed upon activation of the {term}`PA`.
@@ -284,8 +292,12 @@ align: center
 Slug Shot changes the first [Normal Attack](#normal-attack) with no directional input slightly after using a {term}`PA`.
 ```{hint}
 This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
+```
 
-This skill will also make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
+```{caution}
+This skill will make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
+
+If you wait out the activation window you will be able to perform them as usual.
 ```
 
 The following example shows [Stay Arts Shifting Spica](#sSS) into Slug Shot
@@ -386,7 +398,7 @@ During this thrust you will be granted super armor and an omnidirectional guard 
 [Charged Blade](./skill-tree.md#charged-blade) is treated as using the Weapon Action, so after learning the skill [Blade Counter](./skill-tree.md#blade-counter) you will be able to perform a [Blade Counter](#bc-wa) with it.
 ```
 
-```{important} This does not include the potency of the Weapon Action itself!
+```{important} This does not include the potency of the Weapon Action that was used to initiate the counter itself.
 ```
 
 ```{raw} html
@@ -413,7 +425,7 @@ The Weapon Action enables you to guard against an enemy attack with a slash.
 ```{hint}
 After every slash you will be granted super armor and an omnidirectional guard for a short period of time depending on the stage.
 
-For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 seconds, for Weapon Action Stage 2 0.2 seconds and for Weapon Action Stage 3 0.4 seconds.
+For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 seconds, for the second Weapon Action Stage 0.2 seconds and for third Weapon Action Stage 0.4 seconds.
 ```
 
 ```{raw} html
@@ -469,7 +481,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 ### [BC](./skill-tree.md#blade-counter) {term}`NA`
 [Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be moved slightly forward after starting the counter sequence.
 ```{important}
-This does not include the potency of the Weapon Action itself!
+This does not include the potency of the Weapon Action that was used to initiate the counter itself.
 ```
 
 ```{raw} html
@@ -490,9 +502,9 @@ align: center
 
 (bc-wa)=
 ### [BC](./skill-tree.md#blade-counter) {term}`WA`
-[Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy isn´t attacking in quick succession. You will be able to move slightly after starting the counter sequence.
+[Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy is not attacking in quick succession. You will be able to move slightly after starting the counter sequence.
 ```{important}
-This does not include the potency of the Weapon Action itself!
+This does not include the potency of the Weapon Action that was used to initiate the counter itself.
 ```
 
 ```{raw} html
@@ -516,9 +528,9 @@ align: center
 [Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
-This does not include the potency of the Weapon Action itself!
+This does not include the potency of the Weapon Action that was used to initiate the counter itself.
 
-This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up)
+This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up).
 ```
 
 ```{raw} html
@@ -542,9 +554,9 @@ align: center
 This counter is your go to option for when you have to move into an incoming attack hitbox. You will be able to move slightly after starting the counter sequence. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
-This does not include the potency of the Weapon Action itself!
+This does not include the potency of the Weapon Action that was used to initiate the counter itself.
 
-This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up)
+This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up).
 ```
 
 ```{raw} html
@@ -770,12 +782,15 @@ align: center
 ### [BC WA](#bc-wa) -> [WA123](#wa123)
 You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the end lag of our counter attack with [WA123](#wa123).
 
-```{hint}
-You can cancel out of the [BC WA](#bc-wa) animation safely at 1.92 seconds.
+
+```{danger}
+This is not safe and you can end up canceling the {term}`PA` early so make sure to be careful.
+
+The perfect timing for the cancel is at 1.92 seconds.
 ```
 
 ```{important}
-This does not include the potency of the Weapon Action itself!
+This does not include the potency of the Weapon Action that was used to initiate the counter itself.
 ```
 
 ```{raw} html
@@ -869,9 +884,8 @@ align: center
 ```
 
 ## Frame Data
-For specific Potency distributions, Physical down and Elemental down, refer to the following frame data spreadsheets:
+For specific Potency distributions, Physical and Elemental down values, refer to the following frame data spreadsheets:
 * [NGS Verification Data Storage](https://docs.google.com/spreadsheets/d/1_OgubzM5QFe4rua4Xu0GSMAI8Idoq8r2yI8Ioyec6oY)
-* [PSO2NGS Frame Data](https://docs.google.com/spreadsheets/d/1YEg-6eViChVV7HDDlNlgFPJf3qbyIUeAlLYPr9b99t0)
 * [Slayer Cancel Timing Sheet](https://docs.google.com/spreadsheets/d/1761j0Antcs4j1L_GhnNsergUQOsinbQlMW3TDydQEms)
 
 For other resources check out

@@ -288,7 +288,7 @@ align: center
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillSlugShot.png) Slug Shot
-Pressing the Normal Attack Button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
+Pressing the Normal Attack button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
 
 ```{caution}
 This skill will make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.

@@ -14,26 +14,7 @@ If you like high mobility, speedy attacks, and rewarding Gameplay that incorpora
 
 Slayer’s only Mainclass weapon is the Gunblade, this is also the only weapon that can build [Gunblade Focus](./skill-tree.md#gunblade-focus).
 
-Go on to the [Skill Tree](#skill-tree) section if you wish to learn more about Slayer!
-
-```{raw} html
-<figure>
-<img alt="_images/img.png" src="_static/motv.png" style="width: 30%; height: 30%">
-<figcaption>Meme of the version</figcaption>
-</figure>
-```
-
-```{admonition} Changelog
-[Click here to see the full list of changes](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
-```{git_changelog}
-```
-
-```{todo}
-* Add Slug Shot to mechanics break down
-* Better Intro & How to play section
-* Add Focus and Rage per second values to Moveset tables
-* Add term switching for the Global and Japanese version
-```
+Click on any of the contents below if you wish to learn more about Slayer!
 
 ```{toctree} 
 ---
@@ -49,6 +30,25 @@ equipment
 other
 resources
 credits
+```
+
+```{raw} html
+<figure>
+<img alt="_images/img.png" src="_static/motv.png" style="width: 30%; height: 30%; padding-top: 1em">
+<figcaption>Meme of the version</figcaption>
+</figure>
+```
+
+```{admonition} Changelog
+[Click here to see the full list of changes](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
+```{git_changelog}
+```
+
+```{todo}
+* Add Slug Shot to mechanics break down
+* Better Intro & How to play section
+* Add Focus and Rage per second values to Moveset tables
+* Add term switching for the Global and Japanese version
 ```
 
 <!-- Indices and tables

@@ -38,7 +38,7 @@ With using the skill it would take us around 6 of these or 18.6 seconds.
 
 So let's look into the downsides of this skill.
 
-The above example is a 14% difference since we are already not able to make use of the 20 seconds buff duration in a scenario in which the enemy doesn´t move.
+The above example is a 14% difference since we are already not able to make use of the 20 seconds buff duration in a scenario in which the enemy does not move.
 
 * The skill is not active at the start of a fight.
 * The skill does not help us when we lose [Gunblade Focus](./skill-tree.md#gunblade-focus) to any other means than using [Gunblade Focus Overdrive Finisher](./moveset.md#gunblade-focus-overdrive).
