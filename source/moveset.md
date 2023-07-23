@@ -43,10 +43,10 @@ header: >
 widths: 5, 5, 5, 5, 5
 align: center
 ---
-"Weak [RB](./skill-tree.md#relentless-blade) with [RBR](./skill-tree.md#relentless-blade-reinforce)", "25", "3", "0.5", "0.5"
-"Weak [RB](./skill-tree.md#relentless-blade) without [RBR](./skill-tree.md#relentless-blade-reinforce)", "5", "3", "0.5", "0.5"
-"Strong [RB](./skill-tree.md#relentless-blade) with [RBR](./skill-tree.md#relentless-blade-reinforce)", "75", "3", "2.5", "3.5"
-"Strong [RB](./skill-tree.md#relentless-blade) without [RBR](./skill-tree.md#relentless-blade-reinforce)", "15", "3", "2.5", "3.5"
+"Weak w/ [RBR](./skill-tree.md#relentless-blade-reinforce)", "25", "3", "0.5", "0.5"
+"Weak w/o [RBR](./skill-tree.md#relentless-blade-reinforce)", "5", "3", "0.5", "0.5"
+"Strong w/ [RBR](./skill-tree.md#relentless-blade-reinforce)", "75", "3", "2.5", "3.5"
+"Strong w/o [RBR](./skill-tree.md#relentless-blade-reinforce)", "15", "3", "2.5", "3.5"
 ```
 
 ```{hint}
@@ -700,7 +700,7 @@ align: center
 ## Relevant Gunblade Animation Cancels
 You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge- or Weapon Action input.
 
-This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making Slug Shot way less appealing.
+This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making [Slug Shot](./skill-tree.md#slug-shot) way less appealing.
 
 For more information please refer to [Slayer´s cancel timings](#frame-data).
 
@@ -836,7 +836,7 @@ align: center
 ```
 
 ### [mWR](#mwr) -> Step Dodge -> Chain
-Cancelling [Move Arts Waving Rigel](#mwr) with a Step Dodge input is another great way of building Rage. Canceling the {term}`PA` into a Step Dodge input will make you lose height that you previously gained. You can cancel out of the {term}`PA` as soon as the last hit occurs. The example shows four {term}`PA`s chained together to make the comparison more obvious.
+Cancelling [Move Arts Waving Rigel](#mwr) with a Step Dodge input is another great way of building Rage. Canceling the {term}`PA` into a Step Dodge input will make you lose height that you previously gained. You can cancel out of the {term}`PA` as soon as the last hit occurs.
 
 ```{danger}
 This is not safe and you can end up canceling the {term}`PA` early so make sure to be careful.
