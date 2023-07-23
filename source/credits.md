@@ -1,16 +1,16 @@
 # Credits
 
-Thanks to iCYpIE#5202 for helping me maintain this guide and reviewing the content.
+Thanks to [iCYpIE](https://discordid.netlify.app/?id=402990790583910422) for helping me maintain this guide and reviewing the content.
 
-Thanks to Uber#0002 for helping me with game data.
+Thanks to [Uber](https://discordid.netlify.app/?id=141023874824404992) for helping me with game data.
 
-Thanks to Mille Marteaux#0227 for letting me link their equipment guides.
+Thanks to [Mille Marteaux](https://discordid.netlify.app/?id=126626806601089024) for letting me link their equipment guides.
 
-Thanks to Alsry#9622 for proofreading the guide.
+Thanks to [Alsry](https://discordid.netlify.app/?id=352600767061950465) and [Ondi](https://discordid.netlify.app/?id=245587702232252429) for proofreading the guide.
 
-Thanks to the members of the fleet discord for all their feedback.
+Thanks to the members of the [Phantasy Star Fleet discord](http://discord.gg/PSO2) for all their feedback.
 
-Special thanks to Aikoh#6996 for letting me use their guide as a template. You can check Aikoh's Waker Guide out over [here](https://aikohh.github.io)!
+Special thanks to [Aikoh](https://discordid.netlify.app/?id=778639220955938846) for letting me use their guide as a template. Please check out [Aikoh's Waker Guide](https://aikohh.github.io)!
 
 ```{raw} html
 <meta content="Credits" property="og:title">

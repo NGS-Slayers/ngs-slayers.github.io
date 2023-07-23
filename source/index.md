@@ -32,15 +32,7 @@ resources
 credits
 ```
 
-```{raw} html
-<figure>
-<img alt="_images/img.png" src="_static/motv.png" style="width: 30%; height: 30%; padding-top: 1em">
-<figcaption>Meme of the version</figcaption>
-</figure>
-```
-
-```{admonition} Changelog
-[Click here to see the full list of changes](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
+```{admonition} [Changelog (click to see full history)](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
 ```{git_changelog}
 ```
 
