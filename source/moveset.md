@@ -23,7 +23,7 @@ More accurate and up-to-date information can be found in [Frame Data](#frame-dat
 
 ## ![icon](_static/skill/38px-NGSUISkillRelentlessBlade.png) Relentless Blade
 During a {term}`PA`, a purple glow will appear on your character.
-If you use a [Normal Attack](#normal-attack) while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that can build Rage and recover some {term}`PA`.
+When using a [Normal Attack](#normal-attack) while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that can build Rage and recover some {term}`PP`.
 ```{hint}
 The skill [RBR](./skill-tree.md#relentless-blade-reinforce) will increase the potency of this attack.
 ```
@@ -60,7 +60,7 @@ Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade)
 
 Binding the [Normal Attack](#normal-attack) button to a slot with lower priority allows you to hold down both a {term}`PA` and a [Normal Attack](#normal-attack) to automatically activate [Relentless Blade](./skill-tree.md#relentless-blade) without canceling into [Slug Shot](./skill-tree.md#slug-shot) or a [Normal Attack](#normal-attack).
 
-Here is an example of me binding [Normal Attack](#normal-attack) to Slot six of my Sub Palette which has a priority value of nine, while I am using a {term}`PA` on my Weapon Palette with a priority value of two.
+Here is an example of me binding [Normal Attack](#normal-attack) to Slot 6 of my Sub Palette which has a priority value of 9, while I am using a {term}`PA` on my Weapon Palette with a priority value of 2.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
