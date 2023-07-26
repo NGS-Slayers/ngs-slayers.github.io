@@ -32,8 +32,14 @@ resources
 credits
 ```
 
+```{image} _static/meme.jpg
+:height: 250px
+:align: right
+```
+
 ```{admonition} [Changelog (click to see full history)](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
 ```{git_changelog}
+:revisions: 1
 ```
 
 ```{todo}
