@@ -25,7 +25,7 @@ More accurate and up-to-date information can be found in [Frame Data](#frame-dat
 During a {term}`PA`, a purple glow will appear on your character.
 When using a [Normal Attack](#normal-attack) while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that can build Rage and recover some {term}`PP`.
 ```{hint}
-The skill [RBR](./skill-tree.md#relentless-blade-reinforce) will increase the potency of this attack.
+The skill [Relentless Blade Reinforce](./skill-tree.md#relentless-blade-reinforce) will increase the potency of this attack.
 ```
 
 Purple Glow during a {term}`PA`
@@ -398,9 +398,6 @@ During this thrust you will be granted super armor and an omnidirectional guard 
 [Charged Blade](./skill-tree.md#charged-blade) is treated as using the Weapon Action, so after learning the skill [Blade Counter](./skill-tree.md#blade-counter) you will be able to perform a [Blade Counter](#bc-wa) with it.
 ```
 
-```{important} This does not include the potency of the Weapon Action that was used to initiate the counter itself.
-```
-
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
   <source data-src="_static/PA/ChargedBlade.webm" type="video/webm">
@@ -410,11 +407,13 @@ During this thrust you will be granted super armor and an omnidirectional guard 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"220", "0.50", "440", "490", "513", "7", "4"
+"w/o", "220", "0.50", "440", "490", "513", "7", "4"
+"w/ [cNA](#cNA)", "616", "1.95", "316", "352", "369", "28", "9.2"
+"w/ [scNA](#sCNA)", "936", "3.10", "302", "336", "352", "27", "17"
 ```
 
 ## ![icon](_static/PA/38px-NGSUIWeaponActionGunblade.png) Weapon Action
