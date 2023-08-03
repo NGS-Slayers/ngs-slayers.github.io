@@ -5,7 +5,7 @@
 ```
 
 # Moveset
-Slayer has many attacks available for use in combat. This page aims to show and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you don´t know what they mean.
+Slayer has many attacks available for use in combat. This page aims to show and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you do not know what they mean.
 
 ```{important}
 * Potency values and {term}`DPS` values are rounded in calculations.

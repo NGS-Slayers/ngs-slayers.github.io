@@ -7,7 +7,7 @@ Afterward, each skill is explained in detail and with some general tips given wh
 
 ```{admonition} [Core Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~be~fIq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYeqIrebererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: tip
-If you are unsure which skills you prefer and don´t need the Battle Power, spend your points accordingly and you will have 7 Points left over for usage at a later point.
+A Skill Tree with Slayers Core Skills only in it. Those are the skills you should have, the remaining points can be spent according to preference.
 ```
 
 ```{admonition} [Beginner-Friendly Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~dq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYevererererIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
@@ -311,7 +311,7 @@ align: center
 
 ```{caution}
 Even though this skill sounds good on first glance it does have some drawbacks which makes justifying this as a core skill hard until we get access to more skill points.
-If you don´t use [Slug Shot](#slug-shot) you could remove one point of [Critical Hit PP Gain](#critical-hit-pp-gain) for this skill.
+If you don not use [Slug Shot](#slug-shot) you could remove one point of [Critical Hit PP Gain](#critical-hit-pp-gain) for this skill.
 
 To find out more about why click [here](./other.md#gunblade-focus-quick-recharge-break-down).
 ```
