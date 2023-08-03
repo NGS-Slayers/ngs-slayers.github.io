@@ -3,5 +3,5 @@ sphinx==6.2.1
 sphinx-autobuild==2021.3.14
 sphinx-git==11.0.0
 sphinx-tippy==0.4.1
-furo==2023.3.27
+furo==2023.07.26
 sphinxcontrib-spelling==8.0.0
