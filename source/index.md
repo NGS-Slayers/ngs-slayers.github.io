@@ -45,7 +45,6 @@ credits
 ```{todo}
 * Add Slug Shot to mechanics break down
 * Better Intro & How to play section
-* Add Focus and Rage per second values to Moveset tables
 * Add term switching for the Global and Japanese version
 ```
 
