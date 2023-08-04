@@ -1,6 +1,8 @@
+// load and start lozad
 const observer = lozad();
 observer.observe();
 
+// load and configure ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
 let allVideoDivs = gsap.utils.toArray('.wrapper');

@@ -95,6 +95,9 @@ NA123
 WA123
 : Weapon Action Stage 1 to 3
 
+SRHS
+: Short Range Hot Shot
+
 ```{raw} html
 <meta content="Glossary of the Slayer Guide" property="og:title">
 <meta content="A collection of textual glosses or of specialized terms with their meanings" property="og:description">

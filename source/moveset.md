@@ -8,18 +8,17 @@
 Slayer has many attacks available for use in combat. This page aims to show and explain their use cases. To make the following tables easier to read we will use some abbreviations, you can hover over them to if you do not know what they mean.
 
 ```{important}
-* Potency values and {term}`DPS` values are rounded in calculations.
+* Potency values are floored and {term}`DPS` values are rounded in calculations.
 
-* Class specific Critical Hit Rate multipliers are included.
+* {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade), [RBR](./skill-tree.md#relentless-blade-reinforce) and Class specific Critical Hit Rate multipliers.
 
-* {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade) and [RBR](./skill-tree.md#relentless-blade-reinforce).
+* Focus Multiplier against Bosses is 5 and is included in the Focus per second calculation
 
-* Rage Multiplier against Bosses is 3
-
-* Focus Multiplier against Bosses is 5
-```
+* Rage Multiplier against Bosses is 3 and is included in the Rage per second calculation
 
 More accurate and up-to-date information can be found in [Frame Data](#frame-data).
+```
+
 
 ## ![icon](_static/skill/38px-NGSUISkillRelentlessBlade.png) Relentless Blade
 During a {term}`PA`, a purple glow will appear on your character.
@@ -43,10 +42,10 @@ header: >
 widths: 5, 5, 5, 5, 5
 align: center
 ---
-"Weak w/ [RBR](./skill-tree.md#relentless-blade-reinforce)", "25", "3", "0.5", "0.5"
-"Weak w/o [RBR](./skill-tree.md#relentless-blade-reinforce)", "5", "3", "0.5", "0.5"
-"Strong w/ [RBR](./skill-tree.md#relentless-blade-reinforce)", "75", "3", "2.5", "3.5"
-"Strong w/o [RBR](./skill-tree.md#relentless-blade-reinforce)", "15", "3", "2.5", "3.5"
+"Weak w/ [RBR](./skill-tree.md#relentless-blade-reinforce)", "RB_Pot", "RB_PP", "RB_Focus", "RB_Rage"
+"Weak w/o [RBR](./skill-tree.md#relentless-blade-reinforce)", "RB_NoRBR_Pot", "RB_PP", "RB_Focus", "RB_Rage"
+"Strong w/ [RBR](./skill-tree.md#relentless-blade-reinforce)", "RB_Strong_Pot", "RB_Strong_PP", "RB_Strong_Focus", "RB_Strong_Rage"
+"Strong w/o [RBR](./skill-tree.md#relentless-blade-reinforce)", "RB_Strong_NoRBR_Pot", "RB_Strong_PP", "RB_Strong_Focus", "RB_Strong_Rage"
 ```
 
 ```{hint}
@@ -94,11 +93,11 @@ This {term}`PA` will grant you super armor throughout the entire duration.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"190+25", "0.60", "358", "399", "418", "14", "2.6", "0.2"
+"sSS_Pot", "sSS_Time", "sSS_F0", "sSS_F5", "sSS_OD", "sSS_PP", "sSS_Focus", "sSS_Rage", "sSS_FPS", "sSS_RPS"
 ```
 
 (mSS)=
@@ -117,11 +116,11 @@ This {term}`PA` will grant you super armor throughout the entire duration.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"371+25", "1.14", "348", "388", "406", "14", "5", "1.5"
+"mSS_Pot", "mSS_Time", "mSS_F0", "mSS_F5", "mSS_OD", "mSS_PP", "mSS_Focus", "mSS_Rage", "mSS_FPS", "mSS_RPS"
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtFlowingSirius.png) Flowing Sirius
@@ -138,11 +137,11 @@ Stay Arts Flowing Sirius will perform a series of slashes. When activated in suc
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"400+25", "1.25", "340", "378", "396", "25", "5.1", "1.5"
+"sFS1_Pot", "sFS1_Time", "sFS1_F0", "sFS1_F5", "sFS1_OD", "sFS1_PP", "sFS1_Focus", "sFS1_Rage", "sFS1_FPS", "sFS1_RPS"
 ```
 
 (sfs12)=
@@ -161,11 +160,11 @@ Stage 2 of this {term}`PA` has an increased potency on [RB](./skill-tree.md#rele
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"1080+25+75", "3.10", "381", "424", "444", "50", "14.2", "7.5"
+"sFS12_Pot", "sFS12_Time", "sFS12_F0", "sFS12_F5", "sFS12_OD", "sFS12_PP", "sFS12_Focus", "sFS12_Rage", "sFS12_FPS", "sFS12_RPS"
 ```
 
 (mFS)=
@@ -184,11 +183,11 @@ This {term}`PA` will grant you super armor until before performing the last slas
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"302+25", "0.93", "354", "394", "413", "25", "4.6", "1.5"
+"mFS_Pot", "mFS_Time", "mFS_F0", "mFS_F5", "mFS_OD", "mFS_PP", "mFS_Focus", "mFS_Rage", "mFS_FPS", "mFS_RPS"
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtReapingRegulus.png) Reaping Regulus
@@ -208,17 +207,11 @@ This {term}`PA` will grant you invincibility frames and super armor for 0.35 sec
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"210+25", "0.67", "351", "390", "409", "17", "4", "4"
-```
-
-```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
-  <source data-src="_static/PA/mRR.webm" type="video/webm">
-</video></div>
+"sRR_Pot", "sRR_Time", "sRR_F0", "sRR_F5", "sRR_OD", "sRR_PP", "sRR_Focus", "sRR_Rage", "sRR_FPS", "sRR_RPS"
 ```
 
 (mRR)=
@@ -228,14 +221,20 @@ Move Arts Reaping Regulus will kick the bomb in a curved manner that explodes a 
 This {term}`PA` will grant you invincibility frames for 0.2 seconds after using.
 ```
 
+```{raw} html
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+  <source data-src="_static/PA/mRR.webm" type="video/webm">
+</video></div>
+```
+
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"273+25", "0.87", "343", "381", "399", "17", "4", "1.5"
+"mRR_Pot", "mRR_Time", "mRR_F0", "mRR_F5", "mRR_OD", "mRR_PP", "mRR_Focus", "mRR_Rage", "mRR_FPS", "mRR_RPS"
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtWavingRigel.png) Waving Rigel
@@ -258,11 +257,11 @@ This {term}`PA` will grant you super armor and a frontal guard for 0.25 seconds 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"130+25", "0.44", "356", "397", "415", "18", "1.5", "0.4"
+"sWR_Pot", "sWR_Time", "sWR_F0", "sWR_F5", "sWR_OD", "sWR_PP", "sWR_Focus", "sWR_Rage", "sWR_FPS", "sWR_RPS"
 ```
 
 (mWR)=
@@ -281,11 +280,11 @@ This {term}`PA` will grant you super armor throughout the entire animation.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"332+25", "1.0", "357", "397", "416", "18", "5.1", "4.5"
+"mWR_Pot", "mWR_Time", "mWR_F0", "mWR_F5", "mWR_OD", "mWR_PP", "mWR_Focus", "mWR_Rage", "mWR_FPS", "mWR_RPS"
 ```
 
 ## [Slug Shot](./skill-tree.md#slug-shot)
@@ -311,11 +310,11 @@ The following example shows [Stay Arts Shifting Spica](#sSS) into Slug Shot
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"170", "0.51", "333", "371", "389", "10", "2.5"
+"SlugShot_Pot", "SlugShot_Time", "SlugShot_F0", "SlugShot_F5", "SlugShot_OD", "SlugShot_PP", "SlugShot_Focus", "SlugShot_FPS"
 ```
 
 ## ![icon](_static/PA/38px-NGSUINormalAttackGunblade.png) Normal Attack
@@ -337,12 +336,12 @@ Tapping the Normal Attack button fires a single shot ahead. Repeatedly tapping t
 ```{csv-table}
 ---
 header: >
-  "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"w/ Short Range Hot Shot", "250", "1.20", "271", "301", "316", "19", "6"
-"w/o Short Range Hot Shot", "175", "1.20", "208", "232", "243", "19", "6"
+"w/ [SRHS](./skill-tree.md#short-range-hot-shot)", "NA123_Pot", "NA123_Time", "NA123_F0", "NA123_F5", "NA123_OD", "NA123_PP", "NA123_Focus", "NA123_FPS"
+"w/o [SRHS](./skill-tree.md#short-range-hot-shot)", "NA123_NoSRHS_Pot", "NA123_Time", "NA123_NoSRHS_F0", "NA123_NoSRHS_F5", "NA123_NoSRHS_OD", "NA123_PP", "NA123_Focus", "NA123_FPS"
 ```
 
 (cna)=
@@ -358,12 +357,12 @@ Charging a Normal Attack, by holding down the button, initiates a Charged Normal
 ```{csv-table}
 ---
 header: >
-  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"w/ Short Range Hot Shot", "305", "1.45", "273", "304", "319", "21", "5.2"
-"w/o Short Range Hot Shot", "175", "1.45", "210", "234", "245", "21", "5.2"
+"w/ [SRHS](./skill-tree.md#short-range-hot-shot)", "cNA_Pot", "cNA_Time", "cNA_F0", "cNA_F5", "cNA_OD", "cNA_PP", "cNA_Focus", "cNA_FPS"
+"w/o [SRHS](./skill-tree.md#short-range-hot-shot)", "cNA_NoSRHS_Pot", "cNA_Time", "cNA_NoSRHS_F0", "cNA_NoSRHS_F5", "cNA_NoSRHS_OD", "cNA_PP", "cNA_Focus", "cNA_FPS"
 ```
 
 (scna)=
@@ -382,12 +381,12 @@ After releasing this charged attack you will receive super armor and frontal gua
 ```{csv-table}
 ---
 header: >
-  "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"w/ Short Range Hot Shot", "550", "2.60", "275", "306", "321", "20", "13"
-"w/o Short Range Hot Shot", "385", "2.60", "212", "235", "247", "20", "13"
+"w/ [SRHS](./skill-tree.md#short-range-hot-shot)", "sNA_Pot", "sNA_Time", "sNA_F0", "sNA_F5", "sNA_OD", "sNA_PP", "sNA_Focus", "sNA_FPS"
+"w/o [SRHS](./skill-tree.md#short-range-hot-shot)", "sNA_NoSRHS_Pot", "sNA_Time", "sNA_NoSRHS_F0", "sNA_NoSRHS_F5", "sNA_NoSRHS_OD", "sNA_PP", "sNA_Focus", "sNA_FPS"
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillChargedBlade.png) [Charged Blade](./skill-tree.md#charged-blade)
@@ -407,13 +406,13 @@ During this thrust you will be granted super armor and an omnidirectional guard 
 ```{csv-table}
 ---
 header: >
-  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+   "Variation", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"w/o", "220", "0.50", "440", "490", "513", "7", "4"
-"w/ [cNA](#cNA)", "616", "1.95", "316", "352", "369", "28", "9.2"
-"w/ [scNA](#sCNA)", "936", "3.10", "302", "336", "352", "27", "17"
+"w/o", "ChargedBlade_Pot", "ChargedBlade_Time", "ChargedBlade_F0", "ChargedBlade_F5", "ChargedBlade_OD", "ChargedBlade_PP", "ChargedBlade_Focus", "ChargedBlade_FPS"
+"w/ [cNA](#cNA)", "ChargedBlade_Table1_Pot", "ChargedBlade_Table1_Time", "ChargedBlade_Table1_F0", "ChargedBlade_Table1_F5", "ChargedBlade_Table1_OD", "ChargedBlade_Table1_PP", "ChargedBlade_Table1_Focus", "ChargedBlade_Table1_FPS"
+"w/ [scNA](#sCNA)", "ChargedBlade_Table2_Pot", "ChargedBlade_Table2_Time", "ChargedBlade_Table2_F0", "ChargedBlade_Table2_F5", "ChargedBlade_Table2_OD", "ChargedBlade_Table2_PP", "ChargedBlade_Table2_Focus", "ChargedBlade_Table2_FPS"
 ```
 
 ## ![icon](_static/PA/38px-NGSUIWeaponActionGunblade.png) Weapon Action
@@ -436,11 +435,11 @@ For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 se
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"330", "1.03", "319", "355", "372", "8", "6"
+"WA123_Pot", "WA123_Time", "WA123_F0", "WA123_F5", "WA123_OD", "WA123_PP", "WA123_Focus", "WA123_FPS"
 ```
 
 (mWA)=
@@ -459,11 +458,11 @@ During the slash you will be granted invincibility frames for 0.35 seconds.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"70", "0.47", "150", "167", "175", "3", "2.5"
+"mWA_Pot", "mWA_Time", "mWA_F0", "mWA_F5", "mWA_OD", "mWA_PP", "mWA_Focus", "mWA_FPS"
 ```
 
 ## Counters
@@ -479,9 +478,6 @@ After successfully countering an enemy attack you will be granted invincibility 
 (bc-na)=
 ### [BC](./skill-tree.md#blade-counter) {term}`NA`
 [Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be moved slightly forward after starting the counter sequence.
-```{important}
-This does not include the potency of the Weapon Action that was used to initiate the counter itself.
-```
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -492,19 +488,18 @@ This does not include the potency of the Weapon Action that was used to initiate
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"400", "0.77", "520", "578", "606", "13", "4"
+"w/ WA1", "BCNA_Table1_Pot", "BCNA_Table1_Time", "BCNA_Table1_F0", "BCNA_Table1_F5", "BCNA_Table1_OD", "BCNA_Table1_PP", "BCNA_Table1_Focus", "BCNA_Table1_FPS"
+"w/ WA2", "BCNA_Table2_Pot", "BCNA_Table2_Time", "BCNA_Table2_F0", "BCNA_Table2_F5", "BCNA_Table2_OD", "BCNA_Table2_PP", "BCNA_Table2_Focus", "BCNA_Table2_FPS"
+"w/ WA3", "BCNA_Table3_Pot", "BCNA_Table3_Time", "BCNA_Table3_F0", "BCNA_Table3_F5", "BCNA_Table3_OD", "BCNA_Table3_PP", "BCNA_Table3_Focus", "BCNA_Table3_FPS"
 ```
 
 (bc-wa)=
 ### [BC](./skill-tree.md#blade-counter) {term}`WA`
 [Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy is not attacking in quick succession. You will be able to move slightly after starting the counter sequence.
-```{important}
-This does not include the potency of the Weapon Action that was used to initiate the counter itself.
-```
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -515,11 +510,13 @@ This does not include the potency of the Weapon Action that was used to initiate
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"960", "2.17", "442", "429", "516", "6", "9"
+"w/ WA1", "BCWA_Table1_Pot", "BCWA_Table1_Time", "BCWA_Table1_F0", "BCWA_Table1_F5", "BCWA_Table1_OD", "BCWA_Table1_PP", "BCWA_Table1_Focus", "BCWA_Table1_FPS"
+"w/ WA2", "BCWA_Table2_Pot", "BCWA_Table2_Time", "BCWA_Table2_F0", "BCWA_Table2_F5", "BCWA_Table2_OD", "BCWA_Table2_PP", "BCWA_Table2_Focus", "BCWA_Table2_FPS"
+"w/ WA3", "BCWA_Table3_Pot", "BCWA_Table3_Time", "BCWA_Table3_F0", "BCWA_Table3_F5", "BCWA_Table3_OD", "BCWA_Table3_PP", "BCWA_Table3_Focus", "BCWA_Table3_FPS"
 ```
 
 (mbc-na)=
@@ -527,8 +524,6 @@ align: center
 [Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
-This does not include the potency of the Weapon Action that was used to initiate the counter itself.
-
 This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up).
 ```
 
@@ -541,11 +536,11 @@ This variation of the counter attack does not get the benefit of the skill [Blad
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"420", "0.87", "483", "537", "563", "13", "4"
+"BCNA_Mobile_Pot", "BCNA_Mobile_Time", "BCNA_Mobile_F0", "BCNA_Mobile_F5", "BCNA_Mobile_OD", "BCNA_Mobile_PP", "BCNA_Mobile_Focus", "BCNA_Mobile_FPS"
 ```
 
 (mbc-wa)=
@@ -553,8 +548,6 @@ align: center
 This counter is your go to option for when you have to move into an incoming attack hitbox. You will be able to move slightly after starting the counter sequence. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
-This does not include the potency of the Weapon Action that was used to initiate the counter itself.
-
 This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up).
 ```
 
@@ -567,11 +560,11 @@ This variation of the counter attack does not get the benefit of the skill [Blad
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"960", "2.27", "423", "471", "493", "6", "9"
+"BCWA_Mobile_Pot", "BCWA_Mobile_Time", "BCWA_Mobile_F0", "BCWA_Mobile_F5", "BCWA_Mobile_OD", "BCWA_Mobile_PP", "BCWA_Mobile_Focus", "BCWA_Mobile_FPS"
 ```
 
 (stepc-na)=
@@ -587,11 +580,11 @@ Step Counter Normal Attack is the fastest counter the Gunblade has to offer. It 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"380", "0.70", "543", "604", "633", "12", "4"
+"StepCNA_Pot", "StepCNA_Time", "StepCNA_F0", "StepCNA_F5", "StepCNA_OD", "StepCNA_PP", "StepCNA_Focus", "StepCNA_FPS"
 ```
 
 (stepc-wa)=
@@ -607,11 +600,11 @@ Step Counter Weapon Action is an amazing tool to build Focus and Rage, it serves
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"550", "1.02", "539", "600", "629", "4", "18", "3"
+"StepCWA_Pot", "StepCWA_Time", "StepCWA_F0", "StepCWA_F5", "StepCWA_OD", "StepCWA_PP", "StepCWA_Focus", "StepCWA_Rage", "StepCWA_FPS", "StepCWA_RPS"
 ```
 
 ## ![icon](_static/PA/38px-PhotonBlast.png) Photon Blast
@@ -632,11 +625,11 @@ This attack will dash you toward an enemy targeted by you, so make sure to targe
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "Focus"
-widths: 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"4450", "5.60", "795", "884", "927", "2530"
+"PB_Pot", "PB_Time", "PB_F0", "PB_F5", "PB_OD", "PB_Focus", "PB_FPS"
 ```
 
 ## Active Skills
@@ -658,11 +651,11 @@ Approach the enemy to deliver a powerful blow. Not only does this skill greatly 
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"1000", "1.27", "787", "876", "918", "20", "22"
+"UR_Pot", "UR_Time", "UR_F0", "UR_F5", "UR_OD", "UR_PP", "UR_Focus", "UR_FPS"
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusOverdrive.png) Gunblade Focus Overdrive
@@ -693,7 +686,7 @@ header: >
 widths: 5, 5, 5
 align: center
 ---
-"2695", "4.20", "642"
+"ODF_Pot", "ODF_Time", "ODF_OD"
 ```
 
 ## Relevant Gunblade Animation Cancels
@@ -701,7 +694,7 @@ You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge
 
 This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making [Slug Shot](./skill-tree.md#slug-shot) way less appealing.
 
-For more information please refer to [Slayer´s cancel timings](#frame-data).
+For more information please refer to [Slayer cancel timings](#frame-data).
 
 ```{warning}
 No input delay or human error is assumed here.
@@ -725,15 +718,15 @@ You can cancel sFS12 safely at 2.85 seconds.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"1410+25+75", "3.88", "389", "433", "454", "42", "14.2", "4.5"
+"sFS12_WA123_Cancel_Pot", "sFS12_WA123_Cancel_Time", "sFS12_WA123_Cancel_F0", "sFS12_WA123_Cancel_F5", "sFS12_WA123_Cancel_OD", "sFS12_WA123_Cancel_PP", "sFS12_WA123_Cancel_Focus", "sFS12_WA123_Cancel_Rage", "sFS12_WA123_Cancel_FPS", "sFS12_WA123_Cancel_RPS"
 ```
 
 ### [StepC WA](#stepc-wa) -> Chain
-Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, because of [Slayer´s cancel timings](#frame-data).
+Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, because of [Slayer cancel timings](#frame-data).
 
 ```{hint}
 You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodge input safely at 0.82 seconds.
@@ -748,15 +741,15 @@ You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodg
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"550", "0.82", "671", "747", "782", "4", "18", "3"
+"StepCWA_Chain_Pot", "StepCWA_Chain_Time", "StepCWA_Chain_F0", "StepCWA_Chain_F5", "StepCWA_Chain_OD", "StepCWA_Chain_PP", "StepCWA_Chain_Focus", "StepCWA_Chain_Rage", "StepCWA_Chain_FPS", "StepCWA_Chain_RPS"
 ```
 
 ### [StepC WA](#stepc-wa) -> [WA123](#wa123)
-Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter by making use of [Slayer´s cancel timings](#frame-data).
+Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter by making use of [Slayer cancel timings](#frame-data).
 
 ```{hint}
 You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
@@ -771,11 +764,11 @@ You can cancel out of the StepC WA animation with another WA input safely at 0.8
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"880", "1.85", "476", "529", "555", "4", "12", "3"
+"StepCWA_WA123_Cancel_Pot", "StepCWA_WA123_Cancel_Time", "StepCWA_WA123_Cancel_F0", "StepCWA_WA123_Cancel_F5", "StepCWA_WA123_Cancel_OD", "StepCWA_WA123_Cancel_PP", "StepCWA_WA123_Cancel_Focus", "StepCWA_WA123_Cancel_Rage", "StepCWA_WA123_Cancel_FPS", "StepCWA_WA123_Cancel_RPS"
 ```
 
 ### [BC WA](#bc-wa) -> [WA123](#wa123)
@@ -788,10 +781,6 @@ This is not safe and you can end up canceling the {term}`PA` early so make sure 
 The perfect timing for the cancel is at 1.92 seconds.
 ```
 
-```{important}
-This does not include the potency of the Weapon Action that was used to initiate the counter itself.
-```
-
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCWA-WA123.webm" type="video/webm">
@@ -801,11 +790,11 @@ This does not include the potency of the Weapon Action that was used to initiate
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus"
-widths: 5, 5, 5, 5, 5, 5, 5
+  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Focus/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"1290", "2.95", "437", "587", "510", "14", "15"
+"w/ WA1", "BCWA1_WA123_Cancel_Pot", "BCWA1_WA123_Cancel_Time", "BCWA1_WA123_Cancel_F0", "BCWA1_WA123_Cancel_F5", "BCWA1_WA123_Cancel_OD", "BCWA1_WA123_Cancel_PP", "BCWA1_WA123_Cancel_Focus", "BCWA1_WA123_Cancel_FPS"
 ```
 
 (srr-stepc-wa)=
@@ -827,11 +816,11 @@ The perfect timing for the cancel is at 0.42 seconds.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"760+25", "1.44", "545", "607", "636", "13", "22", "7"
+"sRR_StepCWA_Cancel_Pot", "sRR_StepCWA_Cancel_Time", "sRR_StepCWA_Cancel_F0", "sRR_StepCWA_Cancel_F5", "sRR_StepCWA_Cancel_OD", "sRR_StepCWA_Cancel_PP", "sRR_StepCWA_Cancel_Focus", "sRR_StepCWA_Cancel_Rage", "sRR_StepCWA_Cancel_FPS", "sRR_StepCWA_Cancel_RPS"
 ```
 
 ### [mWR](#mwr) -> Step Dodge -> Chain
@@ -852,11 +841,11 @@ The perfect timing for the cancel is at 0.75 seconds.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"332+25", "1.05", "340", "378", "396", "18", "5.1", "4.5"
+"mWR_StepDodge_Chain_Cancel_Pot", "mWR_StepDodge_Chain_Cancel_Time", "mWR_StepDodge_Chain_Cancel_F0", "mWR_StepDodge_Chain_Cancel_F5", "mWR_StepDodge_Chain_Cancel_OD", "mWR_StepDodge_Chain_Cancel_PP", "mWR_StepDodge_Chain_Cancel_Focus", "mWR_StepDodge_Chain_Cancel_Rage", "mWR_StepDodge_Chain_Cancel_FPS", "mWR_StepDodge_Chain_Cancel_RPS"
 ```
 
 ### [sWR](#swr) -> [StepC WA](#stepc-wa)
@@ -875,11 +864,11 @@ You can cancel out of the {term}`PA` safely at 0.18 seconds.
 ```{csv-table}
 ---
 header: >
-  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage"
-widths: 5, 5, 5, 5, 5, 5, 5, 5
+  "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Rage", "Focus/s", "Rage/s"
+widths: 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"680+25", "1.2", "588", "654", "685", "14", "19.5", "3.4"
+"sWR_StepCWA_Cancel_Pot", "sWR_StepCWA_Cancel_Time", "sWR_StepCWA_Cancel_F0", "sWR_StepCWA_Cancel_F5", "sWR_StepCWA_Cancel_OD", "sWR_StepCWA_Cancel_PP", "sWR_StepCWA_Cancel_Focus", "sWR_StepCWA_Cancel_Rage", "sWR_StepCWA_Cancel_FPS", "sWR_StepCWA_Cancel_RPS"
 ```
 
 ## Frame Data

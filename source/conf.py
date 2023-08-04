@@ -37,5 +37,5 @@ html_theme_options = {
 html_static_path = ["_static"]
 html_title = "Slayer Guide"
 html_favicon = "_static/favicon.ico"
-html_js_files = ["scripts/lozad.min.js", "scripts/gsap.min.js", "scripts/ScrollTrigger.min.js", "scripts/main.js"]
+html_js_files = ["scripts/lozad.min.js", "scripts/gsap.min.js", "scripts/ScrollTrigger.min.js", "scripts/lazyloadVideos.js", "scripts/replaceStringsInHTML.js"]
 html_css_files = ["cls.css"]
