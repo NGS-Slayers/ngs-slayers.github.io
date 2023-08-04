@@ -1,6 +1,6 @@
 # Credits
 
-Thanks to [iCYpIE](https://discordid.netlify.app/?id=402990790583910422) for helping me maintain this guide and reviewing the content.
+Thanks to [iCYpIE](https://discordid.netlify.app/?id=402990790583910422) for helping me build this guide.
 
 Thanks to [Uber](https://discordid.netlify.app/?id=141023874824404992) for helping me with game data.
 
@@ -11,6 +11,8 @@ Thanks to [Alsry](https://discordid.netlify.app/?id=352600767061950465) and [Ond
 Thanks to the members of the [Phantasy Star Fleet discord](http://discord.gg/PSO2) for all their feedback.
 
 Special thanks to [Aikoh](https://discordid.netlify.app/?id=778639220955938846) for letting me use their guide as a template. Please check out [Aikoh's Waker Guide](https://aikohh.github.io)!
+
+Thanks to [Uni](https://discordid.netlify.app/?id=756978075211661323) for giving me awesome feedback and helping me with mechanic breakdowns.
 
 ```{raw} html
 <meta content="Credits" property="og:title">
