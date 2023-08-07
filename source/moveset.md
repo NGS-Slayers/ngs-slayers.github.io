@@ -790,7 +790,7 @@ The perfect timing for the cancel is at 1.92 seconds.
 ```{csv-table}
 ---
 header: >
-  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Cost", "Focus", "Focus/s"
+  "Variant", "Potency", "Time (s)", "{term}`F0` {term}`DPS`", "{term}`F5` {term}`DPS`", "{term}`OD` {term}`DPS`", "{term}`PP` Gain", "Focus", "Focus/s"
 widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
