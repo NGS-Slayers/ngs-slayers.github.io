@@ -84,7 +84,7 @@ var sFS1_OD = Math.round(sFS1_DPS*MultiplierOD);
 // Stay Flowing Sirius12
 var sFS12_Pot = '1080+'+String(RB_Pot)+'+'+String(RB_Strong_Pot);
 var sFS12_Time = 3.1;
-var sFS12_PP = '25-'+String(RB_PP)+'-'+String(RB_Strong_PP);
+var sFS12_PP = '50-'+String(RB_PP)+'-'+String(RB_Strong_PP);
 var sFS12_Focus = '14.2+'+String(RB_Focus)+'+'+String(RB_Strong_Focus);
 var sFS12_FPS = (eval(sFS12_Focus)*BossMultiplierFocus)/sFS12_Time;
 var sFS12_Rage = '7.5+'+String(RB_Rage)+'+'+String(RB_Strong_Rage);
