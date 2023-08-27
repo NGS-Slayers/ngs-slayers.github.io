@@ -95,6 +95,15 @@ NA123
 WA123
 : Weapon Action Stage 1 to 3
 
+WA1
+: Weapon Action Stage 1
+
+WA2
+: Weapon Action Stage 2
+
+WA3
+: Weapon Action Stage 3
+
 SRHS
 : Short Range Hot Shot
 

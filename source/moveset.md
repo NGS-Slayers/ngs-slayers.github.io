@@ -22,7 +22,7 @@ More accurate and up-to-date information can be found in [Frame Data](#frame-dat
 
 ## ![icon](_static/skill/38px-NGSUISkillRelentlessBlade.png) Relentless Blade
 During a {term}`PA`, a purple glow will appear on your character.
-When using a [Normal Attack](#normal-attack) while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that can build Rage and recover some {term}`PP`.
+When using a [Normal Attack](#normal-attack) while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that builds Focus, Rage and recovers some {term}`PP`.
 ```{hint}
 The skill [Relentless Blade Reinforce](./skill-tree.md#relentless-blade-reinforce) will increase the potency of this attack.
 ```
@@ -294,9 +294,7 @@ This attack is a close range attack that grants you super armor and frontal guar
 ```
 
 ```{caution}
-This skill will make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
-
-If you wait out the activation window you will be able to perform them as usual.
+This skill is recommended to avoid. [Read More](./other.md#slugshot-break-down)
 ```
 
 The following example shows [Stay Arts Shifting Spica](#sSS) into Slug Shot
@@ -320,7 +318,7 @@ align: center
 ## ![icon](_static/PA/38px-NGSUINormalAttackGunblade.png) Normal Attack
 Gunblade has three different variations of Normal Attacks.
 ```{hint}
-The skill [Short Range Hot Shot](./skill-tree.md#short-range-hot-shot) increases the potency of all Normal Attacks by 30%.
+The skill [Short Range Hot Shot](./skill-tree.md#short-range-hot-shot) increases the potency of all Normal Attacks.
 ```
 
 (na123)=
@@ -418,7 +416,7 @@ align: center
 ## ![icon](_static/PA/38px-NGSUIWeaponActionGunblade.png) Weapon Action
 (wa123)=
 ### {term}`WA123`
-The Weapon Action enables you to guard against an enemy attack with a slash.
+The Weapon Action enables you to guard against an enemy attack with a slash. Repeatedly tapping the button will slash up to 3 times in succession with increasing {term}`DPS` for every Stage.
 
 ```{hint}
 After every slash you will be granted super armor and an omnidirectional guard for a short period of time depending on the stage.
@@ -477,7 +475,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 
 (bc-na)=
 ### [BC](./skill-tree.md#blade-counter) {term}`NA`
-[Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be moved slightly forward after starting the counter sequence.
+[Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be able to move slightly after starting the counter sequence, when no direcitonal input was pressed you will be moved towards your target.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -492,9 +490,9 @@ header: >
 widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"w/ WA1", "BCNA_Table1_Pot", "BCNA_Table1_Time", "BCNA_Table1_F0", "BCNA_Table1_F5", "BCNA_Table1_OD", "BCNA_Table1_PP", "BCNA_Table1_Focus", "BCNA_Table1_FPS"
-"w/ WA2", "BCNA_Table2_Pot", "BCNA_Table2_Time", "BCNA_Table2_F0", "BCNA_Table2_F5", "BCNA_Table2_OD", "BCNA_Table2_PP", "BCNA_Table2_Focus", "BCNA_Table2_FPS"
-"w/ WA3", "BCNA_Table3_Pot", "BCNA_Table3_Time", "BCNA_Table3_F0", "BCNA_Table3_F5", "BCNA_Table3_OD", "BCNA_Table3_PP", "BCNA_Table3_Focus", "BCNA_Table3_FPS"
+"w/ {term}`WA1`", "BCNA_Table1_Pot", "BCNA_Table1_Time", "BCNA_Table1_F0", "BCNA_Table1_F5", "BCNA_Table1_OD", "BCNA_Table1_PP", "BCNA_Table1_Focus", "BCNA_Table1_FPS"
+"w/ {term}`WA2`", "BCNA_Table2_Pot", "BCNA_Table2_Time", "BCNA_Table2_F0", "BCNA_Table2_F5", "BCNA_Table2_OD", "BCNA_Table2_PP", "BCNA_Table2_Focus", "BCNA_Table2_FPS"
+"w/ {term}`WA3`", "BCNA_Table3_Pot", "BCNA_Table3_Time", "BCNA_Table3_F0", "BCNA_Table3_F5", "BCNA_Table3_OD", "BCNA_Table3_PP", "BCNA_Table3_Focus", "BCNA_Table3_FPS"
 ```
 
 (bc-wa)=
@@ -514,14 +512,14 @@ header: >
 widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"w/ WA1", "BCWA_Table1_Pot", "BCWA_Table1_Time", "BCWA_Table1_F0", "BCWA_Table1_F5", "BCWA_Table1_OD", "BCWA_Table1_PP", "BCWA_Table1_Focus", "BCWA_Table1_FPS"
-"w/ WA2", "BCWA_Table2_Pot", "BCWA_Table2_Time", "BCWA_Table2_F0", "BCWA_Table2_F5", "BCWA_Table2_OD", "BCWA_Table2_PP", "BCWA_Table2_Focus", "BCWA_Table2_FPS"
-"w/ WA3", "BCWA_Table3_Pot", "BCWA_Table3_Time", "BCWA_Table3_F0", "BCWA_Table3_F5", "BCWA_Table3_OD", "BCWA_Table3_PP", "BCWA_Table3_Focus", "BCWA_Table3_FPS"
+"w/ {term}`WA1`", "BCWA_Table1_Pot", "BCWA_Table1_Time", "BCWA_Table1_F0", "BCWA_Table1_F5", "BCWA_Table1_OD", "BCWA_Table1_PP", "BCWA_Table1_Focus", "BCWA_Table1_FPS"
+"w/ {term}`WA2`", "BCWA_Table2_Pot", "BCWA_Table2_Time", "BCWA_Table2_F0", "BCWA_Table2_F5", "BCWA_Table2_OD", "BCWA_Table2_PP", "BCWA_Table2_Focus", "BCWA_Table2_FPS"
+"w/ {term}`WA3`", "BCWA_Table3_Pot", "BCWA_Table3_Time", "BCWA_Table3_F0", "BCWA_Table3_F5", "BCWA_Table3_OD", "BCWA_Table3_PP", "BCWA_Table3_Focus", "BCWA_Table3_FPS"
 ```
 
 (mbc-na)=
 ### [mBC](./skill-tree.md#mobile-blade-counter) {term}`NA`
-[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be moved slightly forward after starting the counter sequence. Try to avoid using this counter attack when it is not necessary.
+[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be able to move slightly after starting the counter sequence, when no direcitonal input was pressed you will be moved towards your target. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
 This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up).
@@ -636,7 +634,7 @@ align: center
 ### ![icon](_static/skill/38px-NGSUISkillUnleashedRage.png) Unleashed Rage
 Approach the enemy to deliver a powerful blow. Not only does this skill greatly help fill the Focus gauge, but through the skill [Unleashed Rage After Effect](./skill-tree.md#unleashed-rage-after-effect), the critical hit rate increases for a short period after using the skill.
 
-[Unleashed Rage](./skill-tree.md#unleashed-rage)´s gauge builds from {term}`PA`s, Relentless Blade and from [Step Counter Weapon Action](#stepc-wa).
+[Unleashed Rage](./skill-tree.md#unleashed-rage) gauge builds from {term}`PA`s, Relentless Blade and from [Step Counter Weapon Action](#stepc-wa).
 
 ```{hint}
 [Unleashed Rage](./skill-tree.md#unleashed-rage) requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
@@ -694,7 +692,7 @@ You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge
 
 This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making [Slug Shot](./skill-tree.md#slug-shot) way less appealing.
 
-For more information please refer to [Slayer cancel timings](#frame-data).
+For more information please refer to [Frame Data](#frame-data).
 
 ```{warning}
 No input delay or human error is assumed here.
@@ -703,7 +701,9 @@ When the description of the cancel includes the word “safely”, it means that
 ```
 
 ### [sFS12](#sfs12) -> [WA123](#wa123)
-Great for downs when low on {term}`PP` or not having [Gunblade Focus Over Drive Finisher](#gunblade-focus-overdrive) and [Unleashed Rage](#unleashed-rage) ready.
+Highest DPS for enemy downtime outside of [Unleashed Rage](#unleashed-rage) and [Gunblade Focus Over Drive Finisher](#gunblade-focus-overdrive).
+Reduces {term}`PP` Cost aswell but builds Rage at a slower rate than just chaining [sFS12](#sfs12).
+Takes longer than just chaining [sFS12](#sfs12) so make sure the time window is big enough so you can connect the last hit of the {term}`PA`.
 
 ```{hint}
 You can cancel sFS12 safely at 2.85 seconds.
@@ -726,7 +726,7 @@ align: center
 ```
 
 ### [StepC WA](#stepc-wa) -> Chain
-Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, because of [Slayer cancel timings](#frame-data).
+Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, which makes this the go to option for lingering hitboxes aslong as you can reach your enemy.
 
 ```{hint}
 You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodge input safely at 0.82 seconds.
@@ -749,7 +749,7 @@ align: center
 ```
 
 ### [StepC WA](#stepc-wa) -> [WA123](#wa123)
-Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter by making use of [Slayer cancel timings](#frame-data).
+Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter and recovers some additonal {term}`PP`.
 
 ```{hint}
 You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
@@ -772,7 +772,7 @@ align: center
 ```
 
 ### [BC WA](#bc-wa) -> [WA123](#wa123)
-You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the end lag of our counter attack with [WA123](#wa123).
+You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the end lag of with [WA123](#wa123).
 
 
 ```{danger}
@@ -872,9 +872,8 @@ align: center
 ```
 
 ## Frame Data
-For specific Potency distributions, Physical and Elemental down values, refer to the following frame data spreadsheets:
+For specific Potency distributions, Physical and Elemental down values and much more refer to the following frame data spreadsheet:
 * [NGS Verification Data Storage](https://docs.google.com/spreadsheets/d/1_OgubzM5QFe4rua4Xu0GSMAI8Idoq8r2yI8Ioyec6oY)
-* [Slayer Cancel Timing Sheet](https://docs.google.com/spreadsheets/d/1761j0Antcs4j1L_GhnNsergUQOsinbQlMW3TDydQEms)
 
 For other resources check out
 * [Resources](#resources)

@@ -15,11 +15,11 @@ A Skill Tree with Slayers Core Skills only in it. Those are the skills you shoul
 Great Skill Tree for beginners and casual play.
 ```
 
-```{admonition} [Experimental Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~dq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYesereberevIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
+```{admonition} [Advanced Skill Tree](https://arks-layer.com/skillsim/ngs/skillcalc.php?29cqIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIVIbIV~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~dq~f~f~f~f~dq~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~7SYesereberevIr~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~f~a)
 :class: caution
-This skill tree does not have [Slug Shot](#slug-shot) skilled.
+This skill tree does not have [Slug Shot](#slug-shot) skilled and is for more advanced players who do not struggle with managing their {term}`PP`.
 
-To find out more about why click [here](./moveset.md#relevant-gunblade-animation-cancels).
+[Read More](./other.md#slugshot-break-down)
 ```
 
 If you are looking for what subclass and subclass skills to use visit [Subclasses](#subclass)
@@ -27,7 +27,7 @@ If you are looking for what subclass and subclass skills to use visit [Subclasse
 ## Core Skills
 
 ### ![icon](_static/skill/38px-NGSUISkillBladeCounter.png) Gunblade Focus
-Build up the Focus Gauge by hitting enemies. Attack Potency and Offensive {term}`PP` Recovery increase and {term}`PP` Consumption decreases in accordance with the gauge level. The Focus Gauge will reset to zero after a certain amount of time passes without hitting an enemy.
+Build up the Focus Gauge by hitting enemies. Attack Potency and Offensive {term}`PP` Recovery increase and {term}`PP` Consumption decreases in accordance with the gauge level. The Focus Gauge will reset to zero after 10 seconds pass without hitting an enemy.
 
 ```{csv-table}
 ---
@@ -77,7 +77,7 @@ align: center
 ```{caution}
 Investing more than one point into this skill can cause slower [Gunblade Focus](#gunblade-focus) generation.
 
-To find out more about why click [here](./other.md#gunblade-focus-gauge-amplifier-break-down).
+[Read More](./other.md#gunblade-focus-gauge-amplifier-break-down)
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusCriticalUp.png) Gunblade Focus Critical Up
@@ -291,9 +291,7 @@ align: center
 Pressing the Normal Attack button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
 
 ```{caution}
-This skill will make you unable to perform a [Charged Normal Attack](#cna) right after using a {term}`PA`.
-
-If you wait out the activation window you will be able to perform them as usual.
+This skill is recommended to avoid. [Read More](./other.md#slugshot-break-down)
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) Gunblade Focus Quick Recharge
@@ -310,10 +308,10 @@ align: center
 ```
 
 ```{caution}
-Even though this skill sounds good on first glance it does have some drawbacks which makes justifying this as a core skill hard until we get access to more skill points.
-If you don not use [Slug Shot](#slug-shot) you could remove one point of [Critical Hit PP Gain](#critical-hit-pp-gain) for this skill.
+This skill has some drawbacks which makes justifying this as a core skill difficult until we get access to more skill points.
+If you do not use [Slug Shot](#slug-shot) and feel comfortable with your {term}`PP` you could remove one point of [Critical Hit PP Gain](#critical-hit-pp-gain) for this skill.
 
-To find out more about why click [here](./other.md#gunblade-focus-quick-recharge-break-down).
+[Read More](./other.md#gunblade-focus-quick-recharge-break-down)
 ```
 
 ```{raw} html
