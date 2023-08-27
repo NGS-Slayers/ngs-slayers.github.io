@@ -243,9 +243,9 @@ align: center
 Stay Arts Waving Rigel will thrust the weapon into the ground and release a shockwave around you. When performed in the air, you'll fall at high speed and attack upon landing.
 
 ```{hint}
-This attack may also be used to pull small mobs towards you.
-
 This {term}`PA` will grant you super armor and a frontal guard for 0.25 seconds after using.
+
+It will also pull small enemies towards you.
 ```
 
 ```{raw} html
