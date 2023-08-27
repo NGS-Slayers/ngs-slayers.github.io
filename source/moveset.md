@@ -475,7 +475,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 
 (bc-na)=
 ### [BC](./skill-tree.md#blade-counter) {term}`NA`
-[Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be able to move slightly after starting the counter sequence, when no direcitonal input was pressed you will be moved towards your target.
+[Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be able to move slightly after starting the counter sequence, when no directional input was pressed you will be moved towards your target.
 
 ```{raw} html
 <div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
@@ -519,7 +519,7 @@ align: center
 
 (mbc-na)=
 ### [mBC](./skill-tree.md#mobile-blade-counter) {term}`NA`
-[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be able to move slightly after starting the counter sequence, when no direcitonal input was pressed you will be moved towards your target. Try to avoid using this counter attack when it is not necessary.
+[Mobile Blade Counter](./skill-tree.md#mobile-blade-counter) Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it. You will be able to move slightly after starting the counter sequence, when no directional input was pressed you will be moved towards your target. Try to avoid using this counter attack when it is not necessary.
 
 ```{important}
 This variation of the counter attack does not get the benefit of the skill [Blade Counter Critical Up](./skill-tree.md#blade-counter-critical-up).
@@ -702,8 +702,8 @@ When the description of the cancel includes the word “safely”, it means that
 
 ### [sFS12](#sfs12) -> [WA123](#wa123)
 Highest DPS for enemy downtime outside of [Unleashed Rage](#unleashed-rage) and [Gunblade Focus Over Drive Finisher](#gunblade-focus-overdrive).
-Reduces {term}`PP` Cost aswell but builds Rage at a slower rate than just chaining [sFS12](#sfs12).
-Takes longer than just chaining [sFS12](#sfs12) so make sure the time window is big enough so you can connect the last hit of the {term}`PA`.
+Reduces {term}`PP` Cost but builds Rage at a slower rate than just chaining [sFS12](#sfs12).
+Takes longer than chaining [sFS12](#sfs12) so make sure the time window is big enough so you can connect the last hit of the {term}`PA`.
 
 ```{hint}
 You can cancel sFS12 safely at 2.85 seconds.
@@ -726,7 +726,7 @@ align: center
 ```
 
 ### [StepC WA](#stepc-wa) -> Chain
-Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, which makes this the go to option for lingering hitboxes aslong as you can reach your enemy.
+Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, which makes this the go to option for a lingering hitbox as long as you can reach your enemy.
 
 ```{hint}
 You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodge input safely at 0.82 seconds.
@@ -749,7 +749,7 @@ align: center
 ```
 
 ### [StepC WA](#stepc-wa) -> [WA123](#wa123)
-Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter and recovers some additonal {term}`PP`.
+Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter and recovers some additional {term}`PP`.
 
 ```{hint}
 You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.

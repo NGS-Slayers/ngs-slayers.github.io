@@ -71,7 +71,7 @@ This is a fundamental issue because the game handles the [Slug Shot](./moveset.m
 * only restores 2 more PP than [WA123](#wa123)
 * only has 3 more range than [WA123](#wa123)
 
-I made a table comparing a few different scenarios with [sFS12](#sfs12) which has a Weapon Action cancel time of 0.25 seconds and [sSS](#sSS) which has a canel time of 0.1 seconds.
+I made a table comparing a few different scenarios with [sFS12](#sfs12) which has a Weapon Action cancel time of 0.25 seconds and [sSS](#sSS) which has a cancel time of 0.1 seconds.
 ```{important}
 * Potency values are floored and {term}`DPS` values are rounded in calculations.
 

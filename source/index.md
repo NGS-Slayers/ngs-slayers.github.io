@@ -43,7 +43,6 @@ credits
 ```
 
 ```{todo}
-* Add Slug Shot to mechanics break down
 * Better Intro & How to play section
 * Add term switching for the Global and Japanese version
 ```
