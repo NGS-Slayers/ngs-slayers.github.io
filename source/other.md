@@ -87,11 +87,11 @@ header: >
 widths: 15, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"[sFS12](#sfs12)->[Slug Shot](./moveset.md#slug-shot)", "1350", "3.61", "374", "416", "436", "40", "16.7", "11"
-"[sFS12](#sfs12)->[WA123](#wa123)", "1510", "3.88", "389", "433", "454", "42", "20.2", "11"
-"[sSS](#sSS)->[Slug Shot](./moveset.md#slug-shot)", "385", "1.11", "347", "387", "405", "4", "5.1", "0.7"
-"[sSS](#sSS)->[WA123](#wa123)", "545", "1.53", "356", "396", "415", "6", "8.6", "0.7"
-"[sSS](#sSS)->[sWR](#sWR)", "370", "1.04", "356", "396", "415", "32", "4.1", "1.6"
+"[sFS12](#sfs12)->[Slug Shot](./moveset.md#slug-shot)", "1350", "3.61", "374", "416", "436", "34", "16.7", "11"
+"[sFS12](#sfs12)->[WA123](#wa123)", "1510", "3.88", "389", "433", "454", "36", "20.2", "11"
+"[sSS](#sSS)->[Slug Shot](./moveset.md#slug-shot)", "385", "1.11", "347", "387", "405", "1", "5.1", "0.7"
+"[sSS](#sSS)->[WA123](#wa123)", "545", "1.53", "356", "396", "415", "3", "8.6", "0.7"
+"[sSS](#sSS)->[sWR](#sWR)", "370", "1.04", "356", "396", "415", "26", "4.1", "1.6"
 ```
 
 This table already makes [Slug Shot](./moveset.md#slug-shot) look bad in terms of damage but it actually does not even account for the fact that the {term}`WA3` can be used to counter.
@@ -104,8 +104,8 @@ header: >
 widths: 20, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"[sFS12](#sfs12)->[Slug Shot](./moveset.md#slug-shot)->[BC WA](#bc-wa)", "2310", "5.68", "407", "453", "474", "32", "26.7", "11"
-"[sFS12](#sfs12)->[WA123](#wa123)->[BC WA](#bc-wa)", "2470", "5.68", "434", "484", "507", "36", "29.2", "11"
+"[sFS12](#sfs12)->[Slug Shot](./moveset.md#slug-shot)->[BC WA](#bc-wa)", "2310", "5.68", "407", "453", "474", "28", "26.7", "11"
+"[sFS12](#sfs12)->[WA123](#wa123)->[BC WA](#bc-wa)", "2470", "5.68", "434", "484", "507", "30", "29.2", "11"
 ```
 
 ```{raw} html
