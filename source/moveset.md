@@ -772,7 +772,7 @@ align: center
 ```
 
 ### [BC WA](#bc-wa) -> [WA123](#wa123)
-You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the end lag of with [WA123](#wa123).
+You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the end lag with [WA123](#wa123).
 
 
 ```{danger}
@@ -794,7 +794,7 @@ header: >
 widths: 5, 5, 5, 5, 5, 5, 5, 5, 5
 align: center
 ---
-"w/ WA1", "BCWA1_WA123_Cancel_Pot", "BCWA1_WA123_Cancel_Time", "BCWA1_WA123_Cancel_F0", "BCWA1_WA123_Cancel_F5", "BCWA1_WA123_Cancel_OD", "BCWA1_WA123_Cancel_PP", "BCWA1_WA123_Cancel_Focus", "BCWA1_WA123_Cancel_FPS"
+"w/ {term}`WA1`", "BCWA1_WA123_Cancel_Pot", "BCWA1_WA123_Cancel_Time", "BCWA1_WA123_Cancel_F0", "BCWA1_WA123_Cancel_F5", "BCWA1_WA123_Cancel_OD", "BCWA1_WA123_Cancel_PP", "BCWA1_WA123_Cancel_Focus", "BCWA1_WA123_Cancel_FPS"
 ```
 
 (srr-stepc-wa)=
