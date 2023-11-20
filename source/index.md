@@ -43,7 +43,10 @@ credits
 ```
 
 ```{todo}
-* Better Intro & How to play section
+* Finish Moveset calculator and implement it
+* Improve intro
+* Add Gameplay tips section with references
+* Improve example shown for Gunblade Focus Quick Recharge Break Down
 * Add term switching for the Global and Japanese version
 ```
 

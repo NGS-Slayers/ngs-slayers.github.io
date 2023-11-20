@@ -692,12 +692,14 @@ You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge
 
 This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making [Slug Shot](./skill-tree.md#slug-shot) way less appealing.
 
-For more information please refer to [Frame Data](#frame-data).
+You can read more about the problem with [Slug Shot](./skill-tree.md#slug-shot) on the [Slugshot Break Down](./other.md#slugshot-break-down)
 
 ```{warning}
-No input delay or human error is assumed here.
+No input delay or human error is assumed.
 
 When the description of the cancel includes the word “safely”, it means that it is impossible to mistime since the earliest time to cancel is the same as the attack hit timing.
+
+For more information about the cancel timings please refer to [Frame Data](#frame-data).
 ```
 
 ### [sFS12](#sfs12) -> [WA123](#wa123)

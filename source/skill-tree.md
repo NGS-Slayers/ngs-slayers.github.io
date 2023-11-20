@@ -254,6 +254,10 @@ These are the skills you dump the rest of your skill points into after taking al
 ### ![icon](_static/skill/38px-NGSUISkillCriticalHitPPGain.png) Critical Hit PP Gain
 There is a chance of recovering {term}`PP` when you land a Critical Hit.
 
+```{caution}
+This skill has a Cooldown of 1 second and therefore higher investment into this skill will only help when Gameplay is not optimal.
+```
+
 ```{csv-table}
 ---
 header: >
