@@ -443,7 +443,7 @@ var sFS12_WA123_Cancel_RPS = (eval(sFS12_WA123_Cancel_Rage)*BossMultiplierRage)/
 var sFS12_WA123_Cancel_DPS = eval(sFS12_WA123_Cancel_Pot)/sFS12_WA123_Cancel_Time;
 var sFS12_WA123_Cancel_F0 = Math.round(sFS12_WA123_Cancel_DPS);
 var sFS12_WA123_Cancel_F5 = Math.round(sFS12_WA123_Cancel_DPS*MultiplierF5);
-var sFS12_WA123_Cancel_OD = Math.round(sFS12_WA123_Cancel_DPS*MultiplierF5);
+var sFS12_WA123_Cancel_OD = Math.round(sFS12_WA123_Cancel_DPS*MultiplierOD);
 // Step Counter Weapon Action -> Chain
 var StepCWA_Chain_Pot = 550;
 var StepCWA_Chain_Time = StepCWA_Time-Step_Cancel_StepCWA_Time;
@@ -455,7 +455,7 @@ var StepCWA_Chain_RPS = (StepCWA_Chain_Rage*BossMultiplierRage)/StepCWA_Chain_Ti
 var StepCWA_Chain_DPS = StepCWA_Chain_Pot/StepCWA_Chain_Time;
 var StepCWA_Chain_F0 = Math.round(StepCWA_Chain_DPS);
 var StepCWA_Chain_F5 = Math.round(StepCWA_Chain_DPS*MultiplierF5);
-var StepCWA_Chain_OD = Math.round(StepCWA_Chain_DPS*MultiplierF5);
+var StepCWA_Chain_OD = Math.round(StepCWA_Chain_DPS*MultiplierOD);
 // Step Counter Weapon Action -> WA123
 var StepCWA_WA123_Cancel_Pot = StepCWA_Pot+WA123_Pot;
 var StepCWA_WA123_Cancel_Time = StepCWA_Time-WA_Cancel_StepCWA_Time+WA123_Time;
@@ -467,7 +467,7 @@ var StepCWA_WA123_Cancel_RPS = (StepCWA_WA123_Cancel_Rage*BossMultiplierRage)/St
 var StepCWA_WA123_Cancel_DPS = StepCWA_WA123_Cancel_Pot/StepCWA_WA123_Cancel_Time;
 var StepCWA_WA123_Cancel_F0 = Math.round(StepCWA_WA123_Cancel_DPS);
 var StepCWA_WA123_Cancel_F5 = Math.round(StepCWA_WA123_Cancel_DPS*MultiplierF5);
-var StepCWA_WA123_Cancel_OD = Math.round(StepCWA_WA123_Cancel_DPS*MultiplierF5);
+var StepCWA_WA123_Cancel_OD = Math.round(StepCWA_WA123_Cancel_DPS*MultiplierOD);
 // Blade Counter Weapon Action Stage 1 -> WA123
 var BCWA_WA123_Cancel_Pot = BCWA_Table1_Pot+WA123_Pot;
 var BCWA_WA123_Cancel_Time = BCWA_Table1_Time-WA_Cancel_BCWA_Time+WA123_Time;
@@ -477,7 +477,7 @@ var BCWA_WA123_Cancel_FPS = (BCWA_WA123_Cancel_Focus*BossMultiplierFocus)/BCWA_W
 var BCWA_WA123_Cancel_DPS = ((BCWA_WA123_Cancel_Pot-WA123_Pot)*MultiplierBC+WA123_Pot)/BCWA_WA123_Cancel_Time;
 var BCWA_WA123_Cancel_F0 = Math.round(BCWA_WA123_Cancel_DPS);
 var BCWA_WA123_Cancel_F5 = Math.round(BCWA_WA123_Cancel_DPS*MultiplierF5);
-var BCWA_WA123_Cancel_OD = Math.round(BCWA_WA123_Cancel_DPS*MultiplierF5);
+var BCWA_WA123_Cancel_OD = Math.round(BCWA_WA123_Cancel_DPS*MultiplierOD);
 // Stay Reaping Regulus -> Step Counter Weapon Action
 var sRR_StepCWA_Cancel_Pot = eval(sRR_Pot)+StepCWA_Pot;
 var sRR_StepCWA_Cancel_Time = sRR_Time-Step_Cancel_sRR_Time+StepCWA_Time;
@@ -489,7 +489,7 @@ var sRR_StepCWA_Cancel_RPS = (eval(sRR_StepCWA_Cancel_Rage)*BossMultiplierRage)/
 var sRR_StepCWA_Cancel_DPS = eval(sRR_StepCWA_Cancel_Pot)/sRR_StepCWA_Cancel_Time;
 var sRR_StepCWA_Cancel_F0 = Math.round(sRR_StepCWA_Cancel_DPS);
 var sRR_StepCWA_Cancel_F5 = Math.round(sRR_StepCWA_Cancel_DPS*MultiplierF5);
-var sRR_StepCWA_Cancel_OD = Math.round(sRR_StepCWA_Cancel_DPS*MultiplierF5);
+var sRR_StepCWA_Cancel_OD = Math.round(sRR_StepCWA_Cancel_DPS*MultiplierOD);
 // mWR -> Step Dodge -> Chain Missing
 var mWR_StepDodge_Chain_Cancel_Pot = eval(mWR_Pot);
 var mWR_StepDodge_Chain_Cancel_Time = mWR_Time-Step_Cancel_mWR_Time+0.3;
