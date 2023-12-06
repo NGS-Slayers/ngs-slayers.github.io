@@ -28,6 +28,7 @@ subclass
 addons
 equipment
 other
+pa-customs
 resources
 credits
 ```
