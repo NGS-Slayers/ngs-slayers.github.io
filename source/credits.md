@@ -12,7 +12,7 @@ Thanks to the members of the [Phantasy Star Fleet discord](http://discord.gg/PSO
 
 Special thanks to [Aikoh](https://discordid.netlify.app/?id=778639220955938846) for letting me use their guide as a template. Please check out [Aikoh's Waker Guide](https://aikohh.github.io)!
 
-Speical thanks to [Unicolon](https://discordid.netlify.app/?id=756978075211661323) for a lot of feedback helping me with the movset calculator and helping me with mechanic breakdowns. Please check out their [Twitter/X Profile](https://twitter.com/Unicolon_pso2)!
+Special thanks to [Unicolon](https://discordid.netlify.app/?id=756978075211661323) for a lot of feedback helping me with the Moveset calculator and helping me with mechanic breakdowns. Please check out their [Twitter/X Profile](https://twitter.com/Unicolon_pso2)!
 
 ```{raw} html
 <meta content="Credits" property="og:title">
