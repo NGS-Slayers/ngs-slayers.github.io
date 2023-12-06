@@ -44,7 +44,7 @@ All that being said this option could be useful for when not planning to repeate
 This option is only gonna excel at minor optimization levels in specific fights.
 
 ```{warning}
-The DPS showcased for Custom 3 sWR in the following table is not accurate or could be referred to as fake DPS since the remaining two shock-waves happen after the 0.43 seconds!
+The DPS showcased for Custom 3 sWR in the following table is not accurate or could be referred to as fake DPS since the remaining two shock-waves happen after the 0.43 seconds have already passed!
 ```
 
 ```{raw} html

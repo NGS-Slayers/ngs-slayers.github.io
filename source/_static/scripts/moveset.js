@@ -516,7 +516,7 @@ addProp(mWRplusStep)
 var sWRC3 = {
   Pot: ((130*0.35)*3) + RBR(RB).Pot,
   Time: 0.435,
-  PP: 18 + RB.PP,
+  PP: (18*1.1) + RB.PP,
   Focus: 1.5 + RB.Focus,
   Rage: 0.4 + RB.Rage,
   StepCancel: 0.18,
