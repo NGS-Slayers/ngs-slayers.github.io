@@ -19,7 +19,7 @@ Click on any of the contents below if you wish to learn more about Slayer!
 ```{toctree} 
 ---
 caption: Contents
-maxdepth: 2
+maxdepth: 1
 ---
 
 skill-tree
@@ -43,10 +43,12 @@ credits
 ```
 
 ```{todo}
-* Finish Moveset calculator and implement it
+* Eliminate CLS caused by genTable.js
+* Add back internal references to moveset.md tables
 * Improve intro
 * Add Gameplay tips section with references
 * Improve example shown for Gunblade Focus Quick Recharge Break Down
+* Improve moveset calculator and implement GUI
 * Add term switching for the Global and Japanese version
 ```
 
