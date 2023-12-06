@@ -48,9 +48,11 @@ The UI element at the bottom of your screen helps you identify your current Focu
 
 ![image](_static/skill/GunbladeFocus5.png) Focus Level 5: You have reached five levels of Focus
 
-![image](_static/skill/GunbladeFocusOD.png) Focus OD: You have activated Gunblade Focus Overdrive
+![image](_static/skill/GunbladeFocusOD.png) Focus OD: You have activated [Gunblade Focus Overdrive](#gunblade-focus-overdrive)
 
 ```{seealso}
+Each Bar represents 100 Focus.
+
 500 Focus is needed to reach Focus Level 5. The Focus Level Indicator will turn from blue to yellow.
 
 When [Gunblade Focus Overflow](#gunblade-focus-overflow) was learned the skill will then activate and make it easier for you to gain Rage.
