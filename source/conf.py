@@ -37,5 +37,5 @@ html_theme_options = {
 html_static_path = ["_static"]
 html_title = "Slayer Guide"
 html_favicon = "_static/favicon.ico"
-html_js_files = ["scripts/yall.min.js?v1", "scripts/gsap.min.js?v1", "scripts/ScrollTrigger.min.js?v1", "scripts/lazyloadVideos.js?v1.4" , "scripts/moveset.js?v1.2", "scripts/genTable.js?v1"]
+html_js_files = ["scripts/gsap.min.js?v1", "scripts/ScrollTrigger.min.js?v1", "scripts/lazyloadVideos.js?v1.5" , "scripts/moveset.js?v1.2", "scripts/genTable.js?v1"]
 html_css_files = ["cls.css"]
