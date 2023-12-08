@@ -6,25 +6,3 @@ const observer = lozad('.lozad', {
   }
 });
 observer.observe();
-
-document.addEventListener('DOMContentLoaded', function() {
-  // load and configure ScrollTrigger
-  gsap.registerPlugin(ScrollTrigger);
-
-  let allVideoDivs = gsap.utils.toArray('.wrapper');
-
-  allVideoDivs.forEach((videoDiv, i) => {
-    let videoElem = videoDiv.querySelector('video');
-
-    ScrollTrigger.create({
-      trigger: videoElem,
-      start: 'top top',
-      end: '+=500',
-      markers: false,
-      onEnter: () => videoElem.play(),
-      onEnterBack: () => videoElem.play(),
-      onLeave: () => videoElem.pause(),
-      onLeaveBack: () => videoElem.pause(),
-    });
-  });
-});
