@@ -1,26 +1,23 @@
-const observer = lozad('.lozad', {
-  rootMargin: '10px 0px', // syntax similar to that of CSS Margin
-  threshold: 0.1, // ratio of element convergence
-  enableAutoReload: true // it will reload the new image when validating attributes changes
-});
-observer.observe();
+document.addEventListener('DOMContentLoaded', function() {
+  yall();
 
-// load and configure ScrollTrigger
-gsap.registerPlugin(ScrollTrigger);
+  // load and configure ScrollTrigger
+  gsap.registerPlugin(ScrollTrigger);
 
-let allVideoDivs = gsap.utils.toArray('.wrapper');
+  let allVideoDivs = gsap.utils.toArray('.wrapper');
 
-allVideoDivs.forEach((videoDiv, i) => {
-  let videoElem = videoDiv.querySelector('video');
+  allVideoDivs.forEach((videoDiv, i) => {
+    let videoElem = videoDiv.querySelector('video:not(.completed):not(.selected)');
 
-  ScrollTrigger.create({
-    trigger: videoElem,
-    start: 'top top',
-    end: '+=500',
-    markers: false,
-    onEnter: () => videoElem.play(),
-    onEnterBack: () => videoElem.play(),
-    onLeave: () => videoElem.pause(),
-    onLeaveBack: () => videoElem.pause(),
+    ScrollTrigger.create({
+      trigger: videoElem,
+      start: 'top 80%',
+      end: 'top -40%',
+      markers: false,
+      onEnter: () => videoElem.play(),
+      onEnterBack: () => videoElem.play(),
+      onLeave: () => videoElem.pause(),
+      onLeaveBack: () => videoElem.pause(),
+    });
   });
-});
+})

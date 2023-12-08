@@ -69,7 +69,7 @@ Binding the [Normal Attack](#normal-attack) button to a slot with lower priority
 Here is an example of me binding [Normal Attack](#normal-attack) to Slot 6 of my Sub Palette which has a priority value of 9, while I am using a {term}`PA` on my Weapon Palette with a priority value of 2.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/EasyRB.webm" type="video/webm">
 </video></div>
 ```
@@ -92,7 +92,7 @@ This {term}`PA` will grant you super armor throughout the entire duration.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"> <video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"> <video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sSS.webm" type="video/webm">
 </video></div>
 ```
@@ -114,7 +114,7 @@ This {term}`PA` will grant you super armor throughout the entire duration.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mSS.webm" type="video/webm">
 </video></div>
 ```
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
 Stay Arts Flowing Sirius will perform a series of slashes. When activated in succession, it turns into a powerful attack.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS1.webm" type="video/webm">
 </video></div>
 ```
@@ -156,7 +156,7 @@ Stage 2 of this {term}`PA` has an increased potency on [RB](./skill-tree.md#rele
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS12.webm" type="video/webm">
 </video></div>
 ```
@@ -178,7 +178,7 @@ This {term}`PA` will grant you super armor until before performing the last slas
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mFS.webm" type="video/webm">
 </video></div>
 ```
@@ -201,7 +201,7 @@ This {term}`PA` will grant you invincibility frames and super armor for 0.35 sec
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sRR.webm" type="video/webm">
 </video></div>
 ```
@@ -223,7 +223,7 @@ This {term}`PA` will grant you invincibility frames for 0.2 seconds after using.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mRR.webm" type="video/webm">
 </video></div>
 ```
@@ -249,7 +249,7 @@ It will also pull small enemies towards you.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sWR.webm" type="video/webm">
 </video></div>
 ```
@@ -271,7 +271,7 @@ This {term}`PA` will grant you super armor throughout the entire animation.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWR.webm" type="video/webm">
 </video></div>
 ```
@@ -298,7 +298,7 @@ This skill is recommended to avoid. [Read More](./other.md#slugshot-break-down)
 The video example shows [Stay Arts Shifting Spica](#sSS) into Slug Shot
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/SlugShot.webm" type="video/webm">
 </video></div>
 ```
@@ -323,7 +323,7 @@ The skill [Short Range Hot Shot](./skill-tree.md#short-range-hot-shot) increases
 Tapping the Normal Attack button fires a single shot ahead. Repeatedly tapping the button will fire up to 3 shots in succession with increasing {term}`DPS` for every Stage.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/NA123.webm" type="video/webm">
 </video></div>
 ```
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function() {
 Charging a Normal Attack, by holding down the button, initiates a Charged Normal Attack. The first charged stage causes it to release several shots in quick succession.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/cNA.webm" type="video/webm">
 </video></div>
 ```
@@ -364,7 +364,7 @@ After releasing this charged attack you will receive super armor and frontal gua
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/scNA.webm" type="video/webm">
 </video></div>
 ```
@@ -387,7 +387,7 @@ During this thrust you will be granted super armor and an omnidirectional guard 
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/ChargedBlade.webm" type="video/webm">
 </video></div>
 ```
@@ -413,7 +413,7 @@ For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 se
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/WA123.webm" type="video/webm">
 </video></div>
 ```
@@ -435,7 +435,7 @@ During the slash you will be granted invincibility frames for 0.35 seconds.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWA.webm" type="video/webm">
 </video></div>
 ```
@@ -464,7 +464,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 [Blade Counter](./skill-tree.md#blade-counter) Normal Attack is useful for when there is multiple separate attacks incoming from an enemy and [Step Counter Weapon Action](#stepc-wa) would put you out of position or is unable to reach the enemy. This counter attack can also be used for when you are already performing a [Weapon Action Stage 1 to 3](#wa123). You will be able to move slightly after starting the counter sequence, when no directional input was pressed you will be moved towards your target.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCNA.webm" type="video/webm">
 </video></div>
 ```
@@ -483,7 +483,7 @@ document.addEventListener('DOMContentLoaded', function() {
 [Blade Counter](./skill-tree.md#blade-counter) Weapon Action has the highest total potency out of all of your [counters](#counters) and makes this your go to option for when the enemy is not attacking in quick succession. You will be able to move slightly after starting the counter sequence.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCWA.webm" type="video/webm">
 </video></div>
 ```
@@ -506,7 +506,7 @@ This variation of the counter attack does not get the benefit of the skill [Blad
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mBCNA.webm" type="video/webm">
 </video></div>
 ```
@@ -529,7 +529,7 @@ This variation of the counter attack does not get the benefit of the skill [Blad
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mBCWA.webm" type="video/webm">
 </video></div>
 ```
@@ -548,7 +548,7 @@ document.addEventListener('DOMContentLoaded', function() {
 Step Counter Normal Attack is the fastest counter the Gunblade has to offer. It is used for very quick double counters. Try to avoid this counter for anything other than the before mentioned purpose.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCNA.webm" type="video/webm">
 </video></div>
 ```
@@ -567,7 +567,7 @@ document.addEventListener('DOMContentLoaded', function() {
 Step Counter Weapon Action is an amazing tool to build Focus and Rage, it serves as a gap closer, has the highest {term}`DPS` when [chained in a lingering hitbox](#stepc-wa---chain), and is your highest potency “short counter”.
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA.webm" type="video/webm">
 </video></div>
 ```
@@ -591,7 +591,7 @@ This attack will dash you toward an enemy targeted by you, so make sure to targe
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/PB.webm" type="video/webm">
 </video></div>
 ```
@@ -616,7 +616,7 @@ Approach the enemy to deliver a powerful blow. Not only does this skill greatly 
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/UR.webm" type="video/webm">
 </video></div>
 ```
@@ -646,7 +646,7 @@ The activation takes 1.4 seconds when not inputting another attack and 0.67 seco
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/ODF.webm" type="video/webm">
 </video></div>
 ```
@@ -685,7 +685,7 @@ You can cancel sFS12 safely at 2.85 seconds.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sFS12-WA123.webm" type="video/webm">
 </video></div>
 ```
@@ -707,7 +707,7 @@ You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodg
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA-chain.webm" type="video/webm">
 </video></div>
 ```
@@ -729,7 +729,7 @@ You can cancel out of the StepC WA animation with another WA input safely at 0.8
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/StepCWA-WA123.webm" type="video/webm">
 </video></div>
 ```
@@ -754,7 +754,7 @@ The perfect timing for the cancel is at 1.92 seconds.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/BCWA-WA123.webm" type="video/webm">
 </video></div>
 ```
@@ -779,7 +779,7 @@ The perfect timing for the cancel is at 0.42 seconds.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sRR-StepCWA.webm" type="video/webm">
 </video></div>
 ```
@@ -803,7 +803,7 @@ The perfect timing for the cancel is at 0.75 seconds.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/mWR-Step-chain.webm" type="video/webm">
 </video></div>
 ```
@@ -825,7 +825,7 @@ You can cancel out of the {term}`PA` safely at 0.18 seconds.
 ```
 
 ```{raw} html
-<div class="wrapper" style="--aspect-ratio:160/90"><video class="lozad" autoplay muted loop playsinline>
+<div class="wrapper" style="--aspect-ratio:160/90"><video class="lazy" autoplay muted loop playsinline>
   <source data-src="_static/PA/sWR-StepCWA.webm" type="video/webm">
 </video></div>
 ```
