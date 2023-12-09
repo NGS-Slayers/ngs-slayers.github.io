@@ -5,10 +5,10 @@
 ```
 
 # PA Customization
-We will take a look at Slayers Tech Arts Customizations here.
+Deep-diving on Slayers Tech Arts Customizations.
 
 ```{warning}
-This is a very early look at the newly added feature and some statements might be subject to change so take everything said here with a grain of salt!
+This is a very early look at the newly added feature and some statements might be subject to change.
 ```
 
 ## ![icon](_static/PA/38px-NGSUIPhotonArtWavingRigel.png) [Waving Rigel](./moveset.md#waving-rigel)
@@ -31,17 +31,29 @@ Option 2 might have some use for mobbing but other than that, I would highly adv
 ### Customization 3
 * Shockwave activates 3 times and potency is decreased by 65% when using [sWR](#swr), {term}`PP` Cost increased by 30/26/22/18/15/14/13/12/11/10% depending on the level
 
-Option 3 is a lot harder to cover than the other two Option and comes with some problems.
+Option 3 changes [sWR](#swr) to spawn 3 shock-waves over time, each with 45.5 Potency. This results in a total Potency increase of 6.5 Potency.
 
-It changes [sWR](#swr) to spawn 3 shock-waves over time each with 45.5 Potency. Which results in a Potency increase of 6.5 Potency.
+The first shockwave occurs at 0.05 seconds just like the regular version and then 0.5 for every next shockwave. (0.05 -> 0.55 -> 1.05)
 
-Shockwave 2 seems to occur at around 0.735 seconds and the hit of the third shockwave connects with the target at around 1.235 seconds after using the {term}`PA`.
-
-These lingering shock-waves can not be overlapped which means that it locks you out from repeatedly using [sWR](#swr) without losing Potency.
+These lingering shock-waves can not be overlapped which means that using this version of [sWR](#swr) again before these hit timings have passed will cancel the remaining shock-waves.
 
 All that being said this option could be useful for when not planning to repeatedly using [sWR](#swr) e.g using [PB](./moveset.md#photon-blast), [ODF](./moveset.md#unleashed-rage), [UR](./moveset.md#gunblade-focus-overdrive) or [Step Counter WA](#stepc-wa) right after.
 
-This option is only gonna excel at minor optimization levels in specific fights.
+Keep in mind that another risk is that those shock-waves can miss entirely or miss weak points. When one of those shock-waves misses the weak-point then the DPS already breaks even with the regular version, however Option 3 is still gonna have slightly higher Focus, Rage, PB and Down accumulation.
+
+This option is gonna excel at minor optimization levels in specific fights.
+
+```{important}
+* {term}`DPS` values are rounded in calculations.
+
+* {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade), [RBR](./skill-tree.md#relentless-blade-reinforce) and Class specific Critical Hit Rate multipliers.
+
+* Focus Multiplier against Bosses is 5 and is included in the Focus per second calculation
+
+* Rage Multiplier against Bosses is 3 and is included in the Rage per second calculation
+
+More accurate and up-to-date information can be found in [Frame Data](./moveset.md#frame-data).
+```
 
 ```{warning}
 The DPS showcased for Custom 3 sWR in the following table is not accurate or could be referred to as fake DPS since the remaining two shock-waves happen after the 0.43 seconds have already passed!

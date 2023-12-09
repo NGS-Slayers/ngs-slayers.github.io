@@ -235,7 +235,7 @@ addProp(mRR)
 // Stay Waving Riegel
 var sWR = {
   Pot: 130 + RBR(RB).Pot,
-  Time: 0.435,
+  Time: 0.433333333333,
   PP: 18 + RB.PP,
   Focus: 1.5 + RB.Focus,
   Rage: 0.4 + RB.Rage,
@@ -514,11 +514,11 @@ addProp(mWRplusStep)
 
 // Stay Waving Riegel Custom 3
 var sWRC3 = {
-  Pot: ((130*0.35)*3) + RBR(RB).Pot,
-  Time: 0.435,
-  PP: (18*1.1) + RB.PP,
-  Focus: 1.5 + RB.Focus,
-  Rage: 0.4 + RB.Rage,
+  Pot: 3*(130*0.35) + RBR(RB).Pot,
+  Time: 0.433333333333,
+  PP: 18*1.1 + RB.PP,
+  Focus: 0.6*3 + RB.Focus,
+  Rage: 0.2*3 + RB.Rage,
   StepCancel: 0.18,
   WACancel: 0.33
 };
