@@ -101,15 +101,14 @@ function Cancel(obj, option) {
   };
 
   // Perform operations on the properties of the copied object based on the value of the option
-  if (option === 'WA') {
+  if (option === 'WA' && result.WACancel > 0) {
     result.Time = result.Time - (result.Time - result.WACancel);
-  } else if (option === 'Step') {
+  } else if (option === 'Step' && result.StepCancel > 0) {
     // Perform alternative operation based on the value of the option
     result.Time = result.Time - (result.Time - result.StepCancel);
   } else {
     // Handle the case when an invalid option is provided
-    console.error('Invalid option provided.');
-    return null; // or handle it in a way that makes sense for your application
+    console.error('Invalid option provided. or Cancel Timing not existing');
   }
 
   // Perform common operations regardless of the option
@@ -408,8 +407,8 @@ var BCWA = {
   PP: -6,
   Focus: 9,
   Rage: 0,
-  StepCancel: 0,
-  WACancel: 0,
+  StepCancel: 1.55,
+  WACancel: 1.55,
   BC: true
 };
 addProp(BCWA)
@@ -433,8 +432,8 @@ var mBCWA = {
   PP: -6,
   Focus: 9,
   Rage: 0,
-  StepCancel: 1.92,
-  WACancel: 1.92
+  StepCancel: 1.547,
+  WACancel: 1.547
 };
 addProp(mBCWA)
 
