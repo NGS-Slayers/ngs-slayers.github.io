@@ -297,7 +297,7 @@ align: center
 Pressing the Normal Attack button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
 
 ```{caution}
-This skill is recommended to avoid. [Read More](./other.md#slugshot-break-down)
+It is recommended to avoid this skill. [Read More](./other.md#slugshot-break-down)
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) Gunblade Focus Quick Recharge
