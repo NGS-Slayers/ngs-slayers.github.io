@@ -48,7 +48,6 @@ Meme of the current patch (outdated)
 ```
 
 ```{todo}
-* Find better solution for dark-light theme helper
 * Add internal references back to Moveset tables
 * Update myst-parser and sphinx
 * Make tables prettier and turn images into figures
