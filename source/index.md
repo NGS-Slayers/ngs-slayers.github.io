@@ -33,9 +33,13 @@ resources
 credits
 ```
 
-```{image} _static/meme.jpg
-:height: 250px
-:align: right
+```{figure} _static/meme.jpg
+---
+figclass: margin
+alt: meme
+name: meme
+---
+Meme of the current patch (outdated)
 ```
 
 ```{admonition} [Changelog (click to see full history)](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
@@ -44,11 +48,13 @@ credits
 ```
 
 ```{todo}
-* Eliminate CLS caused by genTable.js
-* Add back internal references to moveset.md tables
-* Improve intro
+* Find better solution for dark-light theme helper
+* Add internal references back to Moveset tables
+* Update myst-parser and sphinx
+* Make tables prettier and turn images into figures
+* Improve intro and general readability
 * Add Gameplay tips section with references
-* Improve example shown for Gunblade Focus Quick Recharge Break Down
+* Improve example shown for Gunblade Focus Quick Recharge Break Down and make the tables on that page use moveset.js
 * Improve moveset calculator and implement GUI
 * Add term switching for the Global and Japanese version
 ```

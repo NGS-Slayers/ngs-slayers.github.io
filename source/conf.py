@@ -20,21 +20,24 @@ myst_enable_extensions = ["attrs_block", "deflist", "colon_fence"]
 myst_heading_anchors = 3
 # MyST documentation: https://myst-parser.readthedocs.io/en/latest/
 
-templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 todo_include_todos = True
-tippy_anchor_parent_selector = "div.content"
+tippy_anchor_parent_selector = "article.bd-article"
 spelling_show_suggestions=True
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "furo"
-# Furo theme documentation: https://pradyunsg.me/furo/
+html_theme = "sphinx_book_theme"
+# Theme documentation: https://sphinx-book-theme.readthedocs.io
 html_theme_options = {
-#    "announcement": "<em>Important</em> announcement!",
+    "repository_url": "https://github.com/NGS-Slayers/ngs-slayers.github.io",
+    "use_repository_button": True,
+    "use_issues_button": True,
 }
 html_static_path = ["_static"]
 html_title = "Slayer Guide"
 html_favicon = "_static/favicon.ico"
-html_js_files = ["scripts/moveset.js?v1.4", "scripts/genTable.js?v1"]
+html_js_files = ["scripts/moveset.js?v1.5", "scripts/genTable.js?v1.1", "scripts/autoplay.js?v1"]
+html_css_files = ["scripts/tippy.css", "scripts/dark-light.css"]
+html_last_updated_fmt = ""
