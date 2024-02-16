@@ -37,7 +37,7 @@ function genTable(divId, ...args) {
 
   // Create the table element with the specified class
   let table = document.createElement('table');
-  table.className = 'table';
+  table.className = 'table table-center';
 
   // Create the table header
   let thead = document.createElement('thead');
