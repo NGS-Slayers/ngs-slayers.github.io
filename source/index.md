@@ -50,7 +50,6 @@ Meme of the current patch (outdated)
 ```{todo}
 * Add internal references back to Moveset tables
 * Update myst-parser and sphinx
-* Make tables prettier and turn images into figures
 * Improve intro and general readability
 * Add Gameplay tips section with references
 * Improve example shown for Gunblade Focus Quick Recharge Break Down and make the tables on that page use moveset.js

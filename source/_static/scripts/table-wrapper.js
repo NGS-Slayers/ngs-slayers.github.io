@@ -11,6 +11,23 @@ document.addEventListener('DOMContentLoaded', function () {
             // Insert the wrapper before the table, and then move the table inside the wrapper
             table.parentNode.insertBefore(wrapper, table);
             wrapper.appendChild(table);
+
+            // Remove empty rows
+            removeEmptyRows(table);
         }
-    });
+    })
+
+    function removeEmptyRows(table) {
+        var rows = table.querySelectorAll('tr');
+
+        rows.forEach(function (row) {
+            var isEmpty = Array.from(row.children).every(function (cell) {
+                return cell.textContent.trim() === '';
+            });
+
+            if (isEmpty) {
+                row.parentNode.removeChild(row);
+            }
+        });
+    };
 });
