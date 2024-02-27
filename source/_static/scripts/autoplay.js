@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     mediaPlayers.forEach(mediaPlayer => {
         observer.observe(mediaPlayer);
+        mediaPlayer.addEventListener('onCanPlay', () => {
+            observer.update(); // Trigger update once metadata is loaded
+        });
     });
 
     function handleIntersection(entries, observer) {
