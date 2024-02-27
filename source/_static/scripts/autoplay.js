@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (entry.isIntersecting) {
                 // Delay autoplay if the page is loaded via anchor link
                 setTimeout(() => {
-                    if (!entry.target.hasAttribute('data-playing')) {
+                    if (!entry.target.hasAttribute('data-playing') && entry.target.hasAttribute('data-can-play')) {
                         entry.target.play();
                     }
                 }, 200);

@@ -38,6 +38,6 @@ html_theme_options = {
 html_static_path = ["_static"]
 html_title = "Slayer Guide"
 html_favicon = "_static/favicon.ico"
-html_js_files = ["scripts/moveset.js?v1.5", "scripts/genTable.js?v1.2", "scripts/autoplay.js?v1", "scripts/table-wrapper.js?v1"]
+html_js_files = ["scripts/moveset.js?v1.5", "scripts/genTable.js?v1.2", "scripts/autoplay.js?v1.1", "scripts/table-wrapper.js?v1"]
 html_css_files = ["scripts/custom.css"]
 html_last_updated_fmt = ""

@@ -706,16 +706,16 @@ You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodg
 ```
 
 ```{raw} html
-<media-player muted loop playsinline src="_static/PA/StepCWA-Chain.webm">
+<media-player muted loop playsinline src="_static/PA/StepCWA-chain.webm">
   <media-provider></media-provider>
 </media-player>
 ```
 
 ```{raw} html
-<div id="StepCWA-Chain"></div>
+<div id="StepCWA-chain"></div>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  genTable("StepCWA-Chain",Cancel(StepCWA,'Step'));
+  genTable("StepCWA-chain",Cancel(StepCWA,'Step'));
 });
 </script>
 ```
