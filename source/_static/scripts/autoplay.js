@@ -23,10 +23,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 setTimeout(() => {
                     if (!entry.target.hasAttribute('data-playing') && entry.target.hasAttribute('data-can-play')) {
                         entry.target.play();
+                        entry.target.setAttribute('playing', 'true');
                     }
                 }, 200);
             } else {
                 entry.target.pause();
+                entry.target.setAttribute('paused', 'true');
             }
         });
     }

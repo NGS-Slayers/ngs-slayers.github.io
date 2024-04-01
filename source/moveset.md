@@ -1,6 +1,6 @@
 ```{raw} html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vidstack@^1.0.0/player/styles/default/theme.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/vidstack@^1.0.0/cdn/vidstack.js" type="module"></script>
+<link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css" />
+<script src="https://cdn.vidstack.io/player.core" type="module"></script>
 ```
 
 # Moveset
