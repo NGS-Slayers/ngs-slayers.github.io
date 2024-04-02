@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     mediaPlayers.forEach(mediaPlayer => {
         observer.observe(mediaPlayer);
-        mediaPlayer.addEventListener('onCanPlay', () => {
-            observer.update(); // Trigger update
+        mediaPlayer.addEventListener('can-play', () => {
+            observer.observe(mediaPlayer); // Trigger update
         });
     });
 
