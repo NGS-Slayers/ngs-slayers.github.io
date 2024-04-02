@@ -10,32 +10,37 @@ document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver(handleIntersection, options);
 
     mediaPlayers.forEach(mediaPlayer => {
-        observer.observe(mediaPlayer);
         mediaPlayer.addEventListener('can-play', () => {
-            observer.observe(mediaPlayer); // Trigger update
+            observer.observe(mediaPlayer); // Observe the media player once it's ready to play
         });
     });
 
     function handleIntersection(entries, observer) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                // Delay autoplay if the page is loaded via anchor link
-                setTimeout(() => {
-                    if (!entry.target.hasAttribute('data-playing') && entry.target.hasAttribute('data-can-play')) {
+                if (entry.target.hasAttribute('data-can-play')) {
+                    setTimeout(() => {
                         playMedia(entry.target)
                             .then(() => {
-                                entry.target.setAttribute('playing', 'true');
+                                setDataAttributes(entry.target, { playing: true, paused: false });
                             })
                             .catch(error => {
                                 console.error('Failed to play media:', error);
                             });
-                    }
-                }, 200);
+                    }, 200);
+                }
             } else {
                 entry.target.pause();
-                entry.target.setAttribute('paused', 'true');
+                setDataAttributes(entry.target, { playing: false, paused: true });
             }
         });
+    }
+
+    // Function to set data attributes on an element
+    function setDataAttributes(element, attributes) {
+        for (const key in attributes) {
+            element.setAttribute('data-' + key, attributes[key]);
+        }
     }
 
     // Function to play media with a promise-based API
@@ -45,10 +50,10 @@ document.addEventListener("DOMContentLoaded", function () {
             if (playPromise !== undefined) {
                 playPromise
                     .then(() => {
-                        resolve();
+                        resolve(); // Resolve the promise when playback starts
                     })
                     .catch(error => {
-                        reject(error);
+                        reject(error); // Reject the promise if playback fails
                     });
             } else {
                 resolve(); // For browsers that do not return a promise
