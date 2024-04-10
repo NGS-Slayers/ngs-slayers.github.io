@@ -12,7 +12,7 @@ Here is an explanation of the following tables
 ```{important}
 * {term}`DPS` values are rounded in calculations.
 
-* {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade), [RBR](./skill-tree.md#relentless-blade-reinforce) and Class specific Critical Hit Rate multipliers.
+* Potency and {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade), [RBR](./skill-tree.md#relentless-blade-reinforce) and Class specific Critical Hit Rate multipliers.
 
 * Focus Multiplier against Bosses is 5 and is included in the Focus per second calculation
 

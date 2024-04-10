@@ -210,7 +210,7 @@ addProp(mFS)
 // Stay Reaping Regulus
 var sRR = {
   Pot: 210 + RBR(RB).Pot,
-  Time: 0.93,
+  Time: 0.67,
   PP: 17 + RB.PP,
   Focus: 4 + RB.Focus,
   Rage: 4 + RB.Rage,
@@ -498,7 +498,6 @@ var ODF = {
 };
 addProp(ODF)
 
-// ------------- CONSIDER CHANGING THE FOLLOWING OBJECTS -------------
 // mWR+Step
 var mWRplusStep = {
   Pot: 332 + RBR(RB).Pot,
@@ -522,3 +521,27 @@ var sWRC3 = {
   WACancel: 0.33
 };
 addProp(sWRC3)
+
+// Stay Reaping Regulus Custom 2
+var sRRC2 = {
+  Pot: (210 * 0.84) + RBR(RB).Pot,
+  Time: 0.67 * 0.85,
+  PP: 17 + RB.PP,
+  Focus: 4 + RB.Focus,
+  Rage: 4 + RB.Rage,
+  StepCancel: 0.42 * 0.85,
+  WACancel: 0.57 * 0.85
+};
+addProp(sRRC2)
+
+// Move Reaping Regulus
+var mRRC2 = {
+  Pot: (273* 0.84) + RBR(RB).Pot,
+  Time: 0.87 * 0.85,
+  PP: 17 + RB.PP,
+  Focus: 4 + RB.Focus,
+  Rage: 1.5 + RB.Rage,
+  StepCancel: 0.62 * 0.85,
+  WACancel: 0.77 * 0.85
+};
+addProp(mRRC2)
