@@ -334,8 +334,8 @@ var ChargedBlade = {
   PP: -7,
   Focus: 4,
   Rage: 0,
-  StepCancel: 0.35,
-  WACancel: 0.35
+  StepCancel: 0.4,
+  WACancel: 0.5
 };
 addProp(ChargedBlade)
 
@@ -545,3 +545,15 @@ var mRRC2 = {
   WACancel: 0.77 * 0.85
 };
 addProp(mRRC2)
+
+// Charged Blade PA
+var ChargedBladePA = {
+  Pot: 220,
+  Time: 0.6,
+  PP: -7,
+  Focus: 4,
+  Rage: 0,
+  StepCancel: 0.5,
+  WACancel: 0.6
+};
+addProp(ChargedBladePA)

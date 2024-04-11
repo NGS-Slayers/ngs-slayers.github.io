@@ -59,7 +59,7 @@ Strong [Relentless Blade](./skill-tree.md#relentless-blade) only occurs during [
 ```
 
 ### Enhancing accessibility
-Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade) difficult or tiresome. To make things easier, you may change the location of your [Normal Attack](#normal-attack) button. There is a priority system for inputs.The game will process actions with a lower priority value first. The priority values are as follows:
+Some may find the window of [Relentless Blade](./skill-tree.md#relentless-blade) difficult or tiresome. To make things easier, you may change the location of your [Normal Attack](#normal-attack) button. There is a priority system for inputs. The game will process actions with a lower priority value first. The priority values are as follows:
 
 ![image](_static/skill/palette-priority.png)
 
@@ -79,7 +79,7 @@ Slayer {term}`PA`s change depending on if a directional input was pressed upon a
 If you are familiar with the Fighter Class, you might notice a similarity with Fighter Skip Arts.
 
 ```{tip}
-Cancelling a {term}`PA` with a Step Dodge- is more generous than cancelling with a Weapon Action input, so if you find yourself stuck in some {term}`PA`s consider using a [Step Counter](#stepc-wa) instead.
+Cancelling a {term}`PA` with a Step Dodge- is more generous than cancelling with a [Weapon Action](#weapon-action) input, so if you find yourself stuck in some {term}`PA`s consider using a [Step Counter](#stepc-wa) instead.
 ```
 
 ### ![icon](_static/PA/38px-NGSUIPhotonArtShiftingSpica.png) Shifting Spica
@@ -378,11 +378,11 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ### ![icon](_static/skill/38px-NGSUISkillChargedBlade.png) [Charged Blade](./skill-tree.md#charged-blade)
-Gunblade has several gap closers, one of which is the skill [Charged Blade](./skill-tree.md#charged-blade). After releasing a [charged Normal Attack](#cna), using the Weapon Action at a certain time will quickly thrust you closer to the enemy.
+Gunblade has several gap closers, one of which is the skill [Charged Blade](./skill-tree.md#charged-blade). After releasing a [charged Normal Attack](#cna), using the [Weapon Action](#weapon-action) at a certain time will quickly thrust you closer to the enemy.
 ```{hint}
 During this thrust you will be granted super armor and an omnidirectional guard for 0.4 seconds.
 
-[Charged Blade](./skill-tree.md#charged-blade) is treated as using the Weapon Action, so after learning the skill [Blade Counter](./skill-tree.md#blade-counter) you will be able to perform a [Blade Counter](#bc-wa) with it.
+[Charged Blade](./skill-tree.md#charged-blade) is treated as using the [Weapon Action](#weapon-action), so after learning the skill [Blade Counter](./skill-tree.md#blade-counter) you will be able to perform a [Blade Counter](#bc-wa) with it.
 ```
 
 ```{raw} html
@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ## Counters
-With the skill [Blade Counter](./skill-tree.md#blade-counter), you can perform a different counter attack based on the button used. After successfully guarding against an attack, you can use the Weapon Action to perform a long counter attack. When using a [Normal Attack](#normal-attack) input instead, a short counter attack occurs.
+With the skill [Blade Counter](./skill-tree.md#blade-counter), you can perform a different counter attack based on the button used. After successfully guarding against an attack, you can use the [Weapon Action](#weapon-action) to perform a long counter attack. When using a [Normal Attack](#normal-attack) input instead, a short counter attack occurs.
 These options are also available for your Step Counters but result in different counter attacks.
 
 ```{hint}
@@ -660,7 +660,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ## Relevant Gunblade Animation Cancels
-You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge- or Weapon Action input.
+You can cancel out most Gunblade {term}`PA`s and Actions early with a Step Dodge- or [Weapon Action](#weapon-action) input.
 
 This means you can increase the {term}`DPS` of some {term}`PA`s and Actions while gaining {term}`PP` making [Slug Shot](./skill-tree.md#slug-shot) way less appealing.
 
@@ -671,7 +671,7 @@ No input delay or human error is assumed.
 
 When the description of the cancel includes the word “safely”, it means that it is impossible to mistime since the earliest time to cancel is the same as the attack hit timing.
 
-For more information about the cancel timings please refer to [Frame Data](#frame-data).
+For more information about the timings please refer to [Frame Data](#frame-data).
 ```
 
 ### [sFS12](#sfs12) -> [WA123](#wa123)
@@ -699,7 +699,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ### [StepC WA](#stepc-wa) -> Chain
-Repeating Step Counter Weapon Action is stronger than chaining [BC NA](#bc-na)s together, which makes this the go to option for a lingering hitbox as long as you can reach your enemy.
+Repeating [Step Couter Weapon Action](#stepc-wa) is stronger than chaining [BC NA](#bc-na)s together, which makes this the go to option for a lingering hitbox as long as you can reach your enemy.
 
 ```{hint}
 You can cancel out of the [StepC WA](#stepc-wa) animation with another Step Dodge input safely at 0.82 seconds.
@@ -721,7 +721,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ### [StepC WA](#stepc-wa) -> [WA123](#wa123)
-Using the Weapon Action after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter and recovers some additional {term}`PP`.
+Using the [Weapon Action](#weapon-action) after a [Step Couter Weapon Action](#stepc-wa) increases the total potency of the counter and recovers some additional {term}`PP`.
 
 ```{hint}
 You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
@@ -743,7 +743,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ### [BC WA](#bc-wa) -> [WA123](#wa123)
-You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another Weapon Action input. This increases the total potency of the counter by cancelling the end lag with [WA123](#wa123).
+You can cancel your [Blade Counter Weapon Action](#bc-wa) after the sixth hit with another [Weapon Action](#weapon-action) input. This increases the total potency of the counter by cancelling the end lag with [WA123](#wa123).
 
 
 ```{danger}
