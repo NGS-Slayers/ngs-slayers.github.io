@@ -15,9 +15,9 @@ Here is an explanation of the following tables
 
 * Potency and {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade), [RBR](./skill-tree.md#relentless-blade-reinforce) and Class specific Critical Hit Rate multipliers.
 
-* Focus Multiplier against Bosses is 5 and is included in the Focus per second calculation
+* Focus multiplier against bosses is 5 and is included in the Focus per second calculation
 
-* Rage Multiplier against Bosses is 3 and is included in the Rage per second calculation
+* Rage multiplier against bosses is 3 and is included in the Rage per second calculation
 
 More accurate and up-to-date information can be found in [Frame Data](./moveset.md#frame-data).
 ```
@@ -43,7 +43,7 @@ The game provides us with the following options for our first customizable {term
 ### Customization 1 (Recommended)
 * Increases Gauge Generation by 50%, increases {term}`PP` cost by 20/17/14/12/10/9/8/7/6/5% depending on the level
 
-Option 1 seems very risk-free as it only increases {term}`PP` cost per use of [Waving Rigel](./moveset.md#waving-rigel) by 0.9 {term}`PP` at the highest level of Customization. This option also applies to both the stay and the move version of the {term}`PA`.
+Option 1 seems very risk-free as it only increases {term}`PP` cost per use of [Waving Rigel](./moveset.md#waving-rigel) by 0.9 {term}`PP` at the highest level of Customization. This option also applies to both the Stay and Move Arts version of the {term}`PA`.
 
 However, Slayer does not struggle with [Gunblade Focus](./skill-tree.md#gunblade-focus) generation while fighting bosses. So this option is rather nice to have than a must-have, but the value of this option increases for mobbing scenarios.
 
@@ -84,20 +84,14 @@ document.addEventListener('DOMContentLoaded', function() {
 With the patch from 10/04/2024, the ability to customize the {term}`PA` [Reaping Regulus](#srr) was added.
 
 ### Customization 1
-* Increases attack range and increases {term}`PP` Cost by 20/17/14/12/10/9/8/7/6/5% depending on the level
+* Increases attack range by 50% and increases {term}`PP` Cost by 20/17/14/12/10/9/8/7/6/5% depending on the level
 
 Option 1 might have some use for mobbing, apart from that the other customizations will be more desirable.
 
 ### Customization 2
 * Increases attack speed, reduces potency by 16% and increases {term}`PP` Cost by 20/17/14/12/10/9/8/7/6/5% depending on the level
 
-Option 2 seems to result in a slight increase in performance.
-
-```{warning}
-The attack speed increase from the customization is guessed to be 15% faster in the following table.
-
-It will be updated with accurate numbers at a later point
-```
+Option 2 results in a slight increase in performance.
 
 ```{raw} html
 <div id="RRC2"></div>
@@ -113,16 +107,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 Option 3 seems to take the cake without any downsides this time. It grants utility in the form of a more accessible gap close but also provides DPS numbers similar to [sFS12](#sfs12) when chained into [Weapon Action](./moveset.md#weapon-action) Stage 2 and 3.
 
-[Charged Blade](./moveset.md#charged-blade) becomes available 0.1 seconds after the {term}`PA` has finished.
+Chaining into [Weapon Action](./moveset.md#weapon-action) Stage 2 and 3 will also make this a {term}`PP`-neutral or even {term}`PP`-positive option.
+
+[Charged Blade](./moveset.md#charged-blade) becomes available 0.13 seconds after the {term}`PA` has finished.
 
 Since [Charged Blade](./moveset.md#charged-blade) is treated as [Weapon Action](./moveset.md#weapon-action) Stage 1 you will also be able to counter with it which makes it pretty safe to execute.
 
 You will want to use the variation chaining into the [Weapon Action](./moveset.md#weapon-action) during down phases in which you are not able to fit [sFS12->WA123](./moveset.md#sfs12---wa123) or during active phases whenever possible.
 
 ```{warning}
-No input delay or human error is assumed.
+Timing [Charged Blade](./moveset.md#charged-blade) correctly is important for the performance of this option, keep in mind that if the input was made too early you won't be able to access [Charged Blade](./moveset.md#charged-blade) anymore. The following table assumes slight human error.
 
-For more information about the timings please refer to [Frame Data](./moveset.md#frame-data).
+More accurate and up-to-date information can be found in [Frame Data](./moveset.md#frame-data).
 ```
 
 ```{raw} html
