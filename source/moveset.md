@@ -14,9 +14,9 @@ Here is an explanation of the following tables
 
 * Potency and {term}`DPS` values of {term}`PA`s include [RB](./skill-tree.md#relentless-blade), [RBR](./skill-tree.md#relentless-blade-reinforce) and Class specific Critical Hit Rate multipliers.
 
-* Focus Multiplier against Bosses is 5 and is included in the Focus per second calculation
+* Focus multiplier against bosses is 5 and is included in the Focus per second calculation
 
-* Rage Multiplier against Bosses is 3 and is included in the Rage per second calculation
+* Rage multiplier against bosses is 3 and is included in the Rage per second calculation
 
 More accurate and up-to-date information can be found in [Frame Data](#frame-data).
 ```
