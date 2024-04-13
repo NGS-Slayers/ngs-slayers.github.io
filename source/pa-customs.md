@@ -116,7 +116,7 @@ Since [Charged Blade](./moveset.md#charged-blade) is treated as [Weapon Action](
 You will want to use the variation chaining into the [Weapon Action](./moveset.md#weapon-action) during down phases in which you are not able to fit [sFS12->WA123](./moveset.md#sfs12---wa123) or during active phases whenever possible.
 
 ```{warning}
-Timing [Charged Blade](./moveset.md#charged-blade) correctly is important for the performance of this option, keep in mind that if the input was made too early you won't be able to access [Charged Blade](./moveset.md#charged-blade) anymore. The following table assumes slight human error.
+Timing [Charged Blade](./moveset.md#charged-blade) correctly is important for the performance of this option, keep in mind that if the input was made too early you won't be able to access [Charged Blade](./moveset.md#charged-blade) anymore. The following table assumes 0.05 seconds of input delay.
 
 More accurate and up-to-date information can be found in [Frame Data](./moveset.md#frame-data).
 ```
