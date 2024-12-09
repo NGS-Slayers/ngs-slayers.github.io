@@ -13,25 +13,3 @@ html[data-theme="dark"] img:not(.only-dark):not(.dark-light) {
     color: var(--pst-color-text-base);
     border: 1px solid var(--pst-color-border);
 }
-
-/* Custom CSS */
-.table-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    padding: 0.2rem 0.2rem 0.75rem;
-}
-
-tbody,
-td,
-tfoot,
-th,
-thead,
-tr {
-    border: 1px solid #666;
-}
-
-thead {
-    background: color-mix(in srgb, currentColor 10%, transparent)
-}

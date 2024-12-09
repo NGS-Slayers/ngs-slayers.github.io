@@ -33,7 +33,7 @@ function genTable(divId, ...args) {
 
   // Create a container div with the specified class
   let containerDiv = document.createElement('div');
-  containerDiv.className = 'table-wrapper docutils container';
+  containerDiv.className = 'pst-scrollable-table-container';
 
   // Create the table element with the specified class
   let table = document.createElement('table');
