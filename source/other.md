@@ -82,7 +82,7 @@ Using the skill at Level 5 will generate 220 [Gunblade Focus](./skill-tree.md#gu
 (65*2)+90 = 220
 ```
 
-The above example was taken from [ものさし](https://twitter.com/flowerint1034/status/1647830827160731654).
+The above example was taken from [ものさし](https://x.com/flowerint1034/status/1647830827160731654).
 
 ## ![icon](_static/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png) [Slugshot](./skill-tree.md#slug-shot) Break Down
 The skill would not be bad by itself, however since we are able to deal damage with our [Weapon Action](./moveset.md#weapon-action), the skill is in a rather sorry state.
