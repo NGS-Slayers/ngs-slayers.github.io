@@ -524,9 +524,9 @@ addProp(sWRC3)
 
 // Stay Reaping Regulus Custom 2
 var sRRC2 = {
-  Pot: (210 * 0.84) + RBR(RB).Pot,
+  Pot: 210 * 0.84 + RBR(RB).Pot,
   Time: 0.56,
-  PP: 17 + RB.PP,
+  PP: 17 * 1.05 + RB.PP,
   Focus: 4 + RB.Focus,
   Rage: 4 + RB.Rage,
   StepCancel: 0.35,
@@ -534,11 +534,11 @@ var sRRC2 = {
 };
 addProp(sRRC2)
 
-// Move Reaping Regulus
+// Move Reaping Regulus Custom 2
 var mRRC2 = {
-  Pot: (273* 0.84) + RBR(RB).Pot,
+  Pot: 273 * 0.84 + RBR(RB).Pot,
   Time: 0.73,
-  PP: 17 + RB.PP,
+  PP: 17 * 1.05 + RB.PP,
   Focus: 4 + RB.Focus,
   Rage: 1.5 + RB.Rage,
   StepCancel: 0.53,
@@ -557,3 +557,27 @@ var ChargedBladePA = {
   WACancel: 0.58
 };
 addProp(ChargedBladePA)
+
+// Slug Shot Shifting Spica Custom 1 
+var SlugShotSSC1 = {
+  Pot: 170 * 1.07,
+  Time: 0.51,
+  PP: -10,
+  Focus: 2.5,
+  Rage: 3.2,
+  StepCancel: 0.41,
+  WACancel: 0.41
+};
+addProp(SlugShotSSC1)
+
+// Move Shifting Spica Custom 2
+var mSSC2 = {
+  Pot: 371 * 0.89 + RBR(RB).Pot,
+  Time: 1.0,
+  PP: 14 * 1.05 + RB.PP,
+  Focus: 5 + RB.Focus,
+  Rage: 1.5 + RB.Rage,
+  StepCancel: 0.82,
+  WACancel: 0.90
+};
+addProp(mSSC2)
