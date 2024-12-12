@@ -6,6 +6,7 @@ function addProp(obj) {
     obj.FPS = (obj.Focus * MP.BossFocus) / obj.Time;
     obj.DPS = obj.Pot / obj.Time;
     obj.RPS = (obj.Rage * MP.BossRage) / obj.Time;
+    obj.Pot = Math.round(obj.Pot)
 
     if (obj.ODF) {
       obj.OD = Math.round(obj.DPS * MP.OD);
