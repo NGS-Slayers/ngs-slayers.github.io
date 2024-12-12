@@ -33,15 +33,6 @@ resources
 credits
 ```
 
-```{figure} _static/meme.jpg
----
-figclass: margin
-alt: meme
-name: meme
----
-Meme of the current patch (outdated)
-```
-
 ```{admonition} [Changelog (click to see full history)](https://github.com/NGS-Slayers/ngs-slayers.github.io/commits/main)
 ```{git_changelog}
 :revisions: 1
