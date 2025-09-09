@@ -1,0 +1,12 @@
+.video {
+  width: 100%;
+  border-radius: var(--ifm-global-radius);
+}
+
+/* Docusaurus's desktop breakpoint is 996px */
+@media (min-width: 997px) {
+  .video {
+    max-width: 800px;
+    display: block;
+  }
+}

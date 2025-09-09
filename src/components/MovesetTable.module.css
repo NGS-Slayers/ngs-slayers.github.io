@@ -1,0 +1,8 @@
+.movesetTable {
+  margin-top: 1em;
+}
+ 
+.movesetTable th,
+.movesetTable td {
+  text-align: center;
+}
