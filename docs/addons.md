@@ -1,6 +1,6 @@
 ---
 title: "Add-on Skills"
-description: "Add-on Skills are permanent buffs for the player regardless of which class is being played. Here are the ones you should prioritize."
+description: "Add-on Skills are permanent buffs for the player regardless of which class is being played."
 ---
 
 # Add-on Skills

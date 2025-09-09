@@ -1,6 +1,6 @@
 ---
 title: "Reaping Regulus"
-description: "Tech Arts Customization for Reaping Regulus"
+description: "Explaining Tech Arts Customization for Reaping Regulus"
 ---
 import MovesetTable from '@site/src/components/MovesetTable';
 import Tooltip from '@site/src/components/Tooltip';

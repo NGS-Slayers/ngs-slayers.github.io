@@ -1,6 +1,6 @@
 ---
 title: "Equipment"
-description: "Information about equipment."
+description: "Information about what augments and preset skills to use."
 ---
 
 The preferred Preset Skill for Slayer is **Termina** due to the class’s high inherit crit rate.

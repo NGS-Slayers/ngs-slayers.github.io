@@ -1,5 +1,6 @@
 ---
 title: "Slug Shot"
+description: "Explaining Slug Shot"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

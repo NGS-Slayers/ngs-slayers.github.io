@@ -1,5 +1,6 @@
 ---
 title: "Normal Attack"
+description: "Explaining Normal Attacks"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

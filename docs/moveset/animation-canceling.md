@@ -1,5 +1,6 @@
 ---
 title: "Animation Canceling"
+description: "Explaining Animation Canceling and the benefits"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

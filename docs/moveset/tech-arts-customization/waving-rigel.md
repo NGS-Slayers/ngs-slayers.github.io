@@ -1,6 +1,6 @@
 ---
 title: "Waving Rigel"
-description: "Tech Arts Customization for Waving Rigel"
+description: "Explaining Tech Arts Customization for Waving Rigel"
 ---
 import MovesetTable from '@site/src/components/MovesetTable';
 import Tooltip from '@site/src/components/Tooltip';

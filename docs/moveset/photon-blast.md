@@ -1,5 +1,6 @@
 ---
 title: "Photon Blast"
+description: "Explaining the Photon Blast"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

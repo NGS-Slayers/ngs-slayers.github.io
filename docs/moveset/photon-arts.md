@@ -1,6 +1,6 @@
 ---
 title: "Photon Arts"
-description: "Slayer has alot of options in their arsenal so hopefully this guide will help you decide which one to use."
+description: "Explaining Photon Arts"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

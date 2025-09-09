@@ -1,9 +1,8 @@
 ---
-id: ex-augments
 title: Ex-Augments
+description: "Information about what Ex-Augments to use."
 ---
 
-# Ex-Augments
 Slayer can use most of the EX Augments just fine, however the following should be avoided:
 * Critical Enliven
 * Critical Follow

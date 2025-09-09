@@ -3,7 +3,6 @@ title: "Credits"
 description: "Thanks to everyone who made this guide possible."
 ---
 
-# Credits
 Thanks to the members of the [Phantasy Star Fleet discord](http://discord.gg/PSO2) for all their feedback.
 
 Thanks to [iCYpIE](https://discord.com/users/402990790583910422) for helping me build this guide.

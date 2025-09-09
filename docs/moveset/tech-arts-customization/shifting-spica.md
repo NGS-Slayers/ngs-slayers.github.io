@@ -1,6 +1,6 @@
 ---
 title: "Shifting Spica"
-description: "Tech Arts Customization for Shifting Spica"
+description: "Explaining Tech Arts Customization for Shifting Spica"
 ---
 import MovesetTable from '@site/src/components/MovesetTable';
 import Tooltip from '@site/src/components/Tooltip';

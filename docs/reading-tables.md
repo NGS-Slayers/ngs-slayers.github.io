@@ -1,5 +1,6 @@
 ---
 title: "Reading Tables"
+description: "Explaining how to read tables containing Frame Data"
 ---
 
 import Tooltip from '@site/src/components/Tooltip';

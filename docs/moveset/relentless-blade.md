@@ -1,5 +1,6 @@
 ---
 title: "Relentless Blade"
+description: "Explaining the skill Relentless Blade and how to use it easily"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

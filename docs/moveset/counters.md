@@ -1,5 +1,6 @@
 ---
 title: "Counters"
+description: "Explaining Counters"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

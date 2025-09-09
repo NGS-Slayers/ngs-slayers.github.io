@@ -3,8 +3,6 @@ title: "Subclasses"
 description: "Not all subclasses are worth using. Here are some recommendations."
 ---
 
-# Subclasses
-
 ## Recommended
 
 :::info

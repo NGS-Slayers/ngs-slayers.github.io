@@ -1,5 +1,6 @@
 ---
 title: "Suggestions"
+description: "Linking skill tree presets"
 ---
 
 import Tabs from '@theme/Tabs';

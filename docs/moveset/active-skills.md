@@ -1,5 +1,6 @@
 ---
 title: "Active Skills"
+description: "Explaining Active Skills"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

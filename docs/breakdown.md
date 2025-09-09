@@ -1,6 +1,6 @@
 ---
 title: "Mechanics Breakdown"
-description: "Analyzing some mechanics that might otherwise be difficult to comprehend"
+description: "Explaining difficult mechanics"
 ---
 
 import MovesetTable from '@site/src/components/MovesetTable';

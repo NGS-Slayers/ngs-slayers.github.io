@@ -3,7 +3,6 @@ title: "Resources"
 description: "These are the Resources used to create the guide"
 ---
 
-# Resources
 Here is a compiled list of resources used.
 
 <Button label="NGS Verification Data Storage" link="https://docs.google.com/spreadsheets/d/1h3gSISqcFIkZUiV_Z4thvFmycuTajw5-6V1Y36rx64w" margin="5px 0" />
