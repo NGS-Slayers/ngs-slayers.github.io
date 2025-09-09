@@ -44,8 +44,6 @@ You will want to use the variation chaining into the [Weapon Action](/moveset/we
 
 :::warning
 Timing [Charged Blade](/moveset/normal-attack#charged-blade) correctly is important for the performance of this option, keep in mind that if the input was made too early you won't be able to access [Charged Blade](/moveset/normal-attack#charged-blade) anymore. The following table assumes 0.05 seconds of input delay.
-
-More accurate and up-to-date information can be found in [Frame Data](/moveset/framedata).
 :::
 
 <MovesetTable tableId="RRC3" args={(moveset) => [moveset.calcProp(moveset.sRR,moveset.ChargedBladePA),'sRR>Charged Blade', moveset.calcProp(moveset.sRR,moveset.Cancel(moveset.ChargedBladePA,'WA'),moveset.WA2,moveset.WA3), 'sRR>Charged Blade>WA23', moveset.calcProp(moveset.mRR,moveset.ChargedBladePA),'mRR>Charged Blade', moveset.calcProp(moveset.mRR,moveset.Cancel(moveset.ChargedBladePA,'WA'),moveset.WA2,moveset.WA3), 'mRR>Charged Blade>WA23']} />

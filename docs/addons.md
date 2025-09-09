@@ -11,7 +11,7 @@ Each class gives their own unique buffs which are separated into two categories:
 There is only one Main Effect per class, and it is guaranteed every time you generate an Add-on Skill from that class.
 Sub Effects are randomly selected from a pool of possible effects from the given class, and is assigned a random level from 1 to 20.
 The Main Effect's level monotonically increases from 1 to 20 with each Add-on Skill generation (i.e., its level can never drop).
-For more information about Add-on Skills, refer to the [Arks-Visiphone](https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/Add-on_Skills).
+For more information about Add-on Skills, visit <Button label="Arks-Visiphone" link="https://pso2na.arks-visiphone.com/wiki/Portal:New_Genesis/Add-on_Skills" />
 
 You should prioritize Main Effects first before the Sub Effects because Main Effects are guaranteed, monotonically increase in level, and are typically more impactful to Gameplay than Sub Effects.
 It can also cost a lot to get Add-on Skills to level 20, so Level 18 is considered to be a suitable stopping point.

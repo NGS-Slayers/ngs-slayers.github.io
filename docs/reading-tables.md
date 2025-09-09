@@ -15,7 +15,7 @@ If you find yourself overwhelmed with the tables found in the later pages, here 
 
 * Rage multiplier against bosses is 3 and is included in the Rage per second calculation
 
-More accurate and up-to-date information can be found in [Frame Data](/moveset/framedata).
+More accurate and up-to-date information can be found in <Button label="Frame Data" variant="secondary" link="/moveset/framedata" />
 :::
 
 | Variation | Potency | Time (s) | PP Cost | Focus | Rage | Focus/s | Rage/s | F0 DPS | F5 DPS | OD DPS |

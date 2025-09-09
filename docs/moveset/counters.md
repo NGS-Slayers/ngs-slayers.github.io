@@ -22,7 +22,7 @@ After successfully countering an enemy attack you will be granted invincibility 
 
 <MovesetTable tableId="BCNA" args={(moveset) => [moveset.BCNA,'BCNA', moveset.calcProp(moveset.WA1,moveset.BCNA),'WA1>BCNA', moveset.calcProp(moveset.WA2,moveset.BCNA),'WA2>BCNA', moveset.calcProp(moveset.WA3,moveset.BCNA),'WA3>BCNA']} />
 
-### [BC](/skill-tree/skills#blade-counter) WA
+### BC WA
 [Blade Counter](/skill-tree/skills#blade-counter) Weapon Action has the highest total potency out of all of your [counters](/moveset/counters) and makes this your go to option for when the enemy is not attacking in quick succession. You will be able to move slightly after starting the counter sequence.
 
 <VideoPlayer src="/PA/BCWA.webm" />

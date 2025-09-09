@@ -12,7 +12,9 @@ const Button = ({
     className, // Custom classes for the button
     style, // Custom styles for the button
     link, // The URL the button should link to
-    label // The text of the button
+    label, // The text of the button
+    margin = null // The margin for the button
+    
 }) => {
     const sizeMap = {
         sm: 'sm',
@@ -29,7 +31,8 @@ const Button = ({
     const disabledClass = disabled ? 'disabled' : '';
     // If the button is disabled, set the destination to null.
     const destination = disabled ? null : link;
-    return (
+
+    const button = (
         <Link to={destination}>
             <button
                 className={clsx('button', sizeClass, outlineClass, variantClass, blockClass, disabledClass, className)}
@@ -41,6 +44,12 @@ const Button = ({
             </button>
         </Link>
     );
+
+    if (margin) {
+        return <div style={{ margin }}>{button}</div>;
+    }
+
+    return button;
 };
 
 export default Button;
