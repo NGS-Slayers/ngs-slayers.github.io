@@ -20,7 +20,7 @@ When the description of the cancel includes the word “safely”, it means that
 For more information about the timings please refer to [Frame Data](/moveset/framedata).
 :::
 
-### sFS12>WA123
+## sFS12>WA123
 Highest DPS for enemy downtime outside of [Unleashed Rage](/moveset/active-skills#unleashed-rage) and [Gunblade Focus Over Drive Finisher](/moveset/active-skills#gunblade-focus-overdrive).
 Reduces <Tooltip term="PP" /> Cost but builds Rage at a slower rate than just chaining [<Tooltip term="sFS12" />](/moveset/photon-arts#sfs12).
 Takes longer than chaining [<Tooltip term="sFS12" />](/moveset/photon-arts#sfs12) so make sure the time window is big enough so you can connect the last hit of the <Tooltip term="PA" />.
@@ -33,7 +33,7 @@ You can cancel sFS12 safely at 2.85 seconds.
 
 <MovesetTable tableId="sFS12-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sFS12,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
-### StepC WA>Chain
+## StepC WA>Chain
 Repeating [Step Couter Weapon Action](/moveset/counters#stepc-wa) is stronger than chaining [<Tooltip term="BC" /> <Tooltip term="NA" />](/moveset/counters#bc-na)s together, which makes this the go to option for a lingering hitbox as long as you can reach your enemy.
 
 :::tip
@@ -44,7 +44,7 @@ You can cancel out of the [<Tooltip term="StepC" /> <Tooltip term="WA" />](/move
 
 <MovesetTable tableId="StepCWA-Chain" args={(moveset) => [moveset.Cancel(moveset.StepCWA,'Step')]} />
 
-### StepC WA>WA123
+## StepC WA>WA123
 Using the [Weapon Action](/moveset/weapon-action#wa123) after a [<Tooltip term="StepC" />outer Weapon Action](/moveset/counters#stepc-wa) increases the total potency of the counter and recovers some additional <Tooltip term="PP" />.
 
 :::tip
@@ -55,7 +55,7 @@ You can cancel out of the StepC WA animation with another WA input safely at 0.8
 
 <MovesetTable tableId="StepCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.StepCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
-### BC WA>WA123
+## BC WA>WA123
 You can cancel your [Blade Counter Weapon Action](/moveset/counters#bc-wa) after the sixth hit with another [Weapon Action](/moveset/weapon-action#wa123) input. This increases the total potency of the counter by canceling the end lag with [<Tooltip term="WA123" />](/moveset/weapon-action#wa123).
 
 
@@ -69,7 +69,7 @@ The perfect timing for the cancel is at 1.92 seconds.
 
 <MovesetTable tableId="BCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA1>BCWA>WA123', moveset.calcProp(moveset.WA2,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA2>BCWA>WA123', moveset.calcProp(moveset.WA3,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA3>BCWA>WA123']} />
 
-### sRR>StepC WA
+## sRR>StepC WA
 The combo known as <Tooltip term="RBC" /> is fastest way to build Focus and Rage in a small time window. Because of the Step Dodge input you will be able to cancel the recoil of the <Tooltip term="PA" />s animation allowing you to chain into a [<Tooltip term="StepC" /> <Tooltip term="WA" />](/moveset/counters#stepc-wa).
 
 :::danger
@@ -82,7 +82,7 @@ The perfect timing for the cancel is at 0.42 seconds.
 
 <MovesetTable tableId="sRR-StepCWA" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sRR,'Step'),moveset.StepCWA)]} />
 
-### sWR>StepC WA
+## sWR>StepC WA
 You can cancel out of [Stay Arts Waving Rigel](/moveset/photon-arts#swr) with a Step Dodge input super early meaning this has ridiculous <Tooltip term="DPS" /> if you can make use of the small time window.
 
 :::tip

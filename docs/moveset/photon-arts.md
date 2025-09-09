@@ -15,9 +15,9 @@ If you are familiar with the Fighter Class, you might notice a similarity with F
 Cancelling a <Tooltip term="PA" /> with a Step Dodge- is more generous than canceling with a [Weapon Action](/moveset/weapon-action#wa123) input, so if you find yourself stuck in some <Tooltip term="PA" />s consider using a [<Tooltip term="StepC" />](/moveset/counters#stepc-wa) instead.
 :::
 
-### <img src="/PA/38px-NGSUIPhotonArtShiftingSpica.png" alt="icon" className="heading-icon"/>Shifting Spica
+## <img src="/PA/38px-NGSUIPhotonArtShiftingSpica.png" alt="icon" className="heading-icon"/>Shifting Spica
 
-#### sSS
+### sSS
 Stay Arts Shifting Spica will perform a forward slash and fire a Photon Bullet in quick succession.
 
 :::tip
@@ -28,7 +28,7 @@ This <Tooltip term="PA" /> will grant you super armor throughout the entire dura
 
 <MovesetTable tableId="sSS" args={(moveset) => [moveset.sSS]} />
 
-#### mSS
+### mSS
 Move Arts Shifting Spica will approach the enemy at high speed with a thrust attack then shoot at close range.
 
 :::tip
@@ -39,16 +39,16 @@ This <Tooltip term="PA" /> will grant you super armor throughout the entire dura
 
 <MovesetTable tableId="mSS" args={(moveset) => [moveset.mSS]} />
 
-### <img src="/PA/38px-NGSUIPhotonArtFlowingSirius.png" alt="icon" className="heading-icon"/>Flowing Sirius
+## <img src="/PA/38px-NGSUIPhotonArtFlowingSirius.png" alt="icon" className="heading-icon"/>Flowing Sirius
 
-#### sFS1
+### sFS1
 Stay Arts Flowing Sirius will perform a series of slashes. When activated in succession, it turns into a powerful attack.
 
 <VideoPlayer src="/PA/sFS1.webm" />
 
 <MovesetTable tableId="sFS1" args={(moveset) => [moveset.sFS1]} />
 
-#### sFS12
+### sFS12
 Stage 2 of Stay Arts Flowing Sirius turns the <Tooltip term="PA" /> into a powerful Attack.
 
 :::tip
@@ -59,7 +59,7 @@ Stage 2 of this <Tooltip term="PA" /> has an increased potency on [<Tooltip term
 
 <MovesetTable tableId="sFS12" args={(moveset) => [moveset.sFS12]} />
 
-#### mFS
+### mFS
 Move Arts Flowing Sirius will perform an attack that sweeps the surrounding area while moving.
 
 :::tip
@@ -70,9 +70,9 @@ This <Tooltip term="PA" /> will grant you super armor until before performing th
 
 <MovesetTable tableId="mFS" args={(moveset) => [moveset.mFS]} />
 
-### <img src="/PA/38px-NGSUIPhotonArtReapingRegulus.png" alt="icon" className="heading-icon"/>Reaping Regulus
+## <img src="/PA/38px-NGSUIPhotonArtReapingRegulus.png" alt="icon" className="heading-icon"/>Reaping Regulus
 
-#### sRR
+### sRR
 Stay Arts Reaping Regulus will throw a photon bomb while retreating back as the photon bomb explodes.
 
 :::tip
@@ -83,7 +83,7 @@ This <Tooltip term="PA" /> will grant you invincibility frames and super armor f
 
 <MovesetTable tableId="sRR" args={(moveset) => [moveset.sRR]} />
 
-#### mRR
+### mRR
 Move Arts Reaping Regulus will kick the bomb in a curved manner that explodes a certain distance away.
 
 :::tip
@@ -94,9 +94,9 @@ This <Tooltip term="PA" /> will grant you invincibility frames for 0.2 seconds a
 
 <MovesetTable tableId="mRR" args={(moveset) => [moveset.mRR]} />
 
-### <img src="/PA/38px-NGSUIPhotonArtWavingRigel.png" alt="icon" className="heading-icon"/>Waving Rigel
+## <img src="/PA/38px-NGSUIPhotonArtWavingRigel.png" alt="icon" className="heading-icon"/>Waving Rigel
 
-#### sWR
+### sWR
 Stay Arts Waving Rigel will thrust the weapon into the ground and release a shockwave around you. When performed in the air, you'll fall at high speed and attack upon landing.
 
 :::tip
@@ -109,7 +109,7 @@ It will also pull small enemies towards you.
 
 <MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR]} />
 
-#### mWR
+### mWR
 Move Arts Waving Rigel will slash the surrounding area while ascending your character.
 
 :::tip

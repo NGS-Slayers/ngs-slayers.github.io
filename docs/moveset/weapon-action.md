@@ -8,7 +8,7 @@ import Tooltip from '@site/src/components/Tooltip';
 
 # <img src="/PA/38px-NGSUIWeaponActionGunblade.png" alt="icon" className="heading-icon"/>Weapon Action
 
-### WA123
+## WA123
 The Weapon Action enables you to guard against an enemy attack with a slash. Repeatedly tapping the button will slash up to 3 times in succession with increasing <Tooltip term="DPS" /> for every Stage.
 
 :::tip
@@ -21,7 +21,7 @@ For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 se
 
 <MovesetTable tableId="WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
-### mWA
+## mWA
 If the skill [Mobile Blade](/skill-tree/skills#mobile-blade) was learned you can use the directional input to perform a slash while evading attacks.
 
 :::tip

@@ -6,7 +6,7 @@ import MovesetTable from '@site/src/components/MovesetTable';
 import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
-### <img src="/skill/38px-NGSUISkillUnleashedRage.png" alt="icon" className="heading-icon"/>Unleashed Rage
+## <img src="/skill/38px-NGSUISkillUnleashedRage.png" alt="icon" className="heading-icon"/>Unleashed Rage
 Approach the enemy to deliver a powerful blow. Not only does this skill greatly help fill the Focus gauge, but through the skill [Unleashed Rage After Effect](/skill-tree/skills#unleashed-rage-after-effect), the critical hit rate increases for a short period after using the skill.
 
 [Unleashed Rage](/skill-tree/skills#unleashed-rage) gauge builds from <Tooltip term="PA" />s, Relentless Blade and from [<Tooltip term="StepC" /> Weapon Action](/moveset/counters#stepc-wa).
@@ -19,7 +19,7 @@ Approach the enemy to deliver a powerful blow. Not only does this skill greatly 
 
 <MovesetTable tableId="UR" args={(moveset) => [moveset.UR]} />
 
-### <img src="/skill/38px-NGSUISkillGunbladeFocusOverdrive.png" alt="icon" className="heading-icon"/>Gunblade Focus Overdrive
+## <img src="/skill/38px-NGSUISkillGunbladeFocusOverdrive.png" alt="icon" className="heading-icon"/>Gunblade Focus Overdrive
 Activating this skill will start a short animation. After the activation, you will be granted buffs for a short time period.
 For more information on the buffs check out [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive)
 

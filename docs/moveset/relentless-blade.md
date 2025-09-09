@@ -28,7 +28,7 @@ The skill [Relentless Blade Reinforce](/skill-tree/skills#relentless-blade-reinf
 Strong [Relentless Blade](/skill-tree/skills#relentless-blade) only occurs during [Stay Arts Flowing Sirius Stage 2](/moveset/photon-arts#sfs12).
 :::
 
-### Enhancing accessibility
+## Enhancing accessibility
 Some may find the window of [Relentless Blade](/skill-tree/skills#relentless-blade) difficult or tiresome. To make things easier, you may change the location of your [Normal Attack](/moveset/normal-attack) button. There is a priority system for inputs. The game will process actions with a lower priority value first. The priority values are as follows:
 
 ![image](/skill/palette-priority.png)
