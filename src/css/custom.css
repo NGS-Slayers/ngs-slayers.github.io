@@ -48,7 +48,7 @@
 
 .navbar__item.header-icon-link:hover {
   color: var(--ifm-navbar-link-color);
-  background-color: var(--ifm-hover-overlay);
+  background-color: var(--ifm-color-emphasis-200);
 }
 
 .navbar__item.header-icon-link::before {

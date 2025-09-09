@@ -91,12 +91,16 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      colorMode: {
+        defaultMode: 'dark',
+      },
       navbar: {
         title: "Theowyn’s Slayer Guide",
         logo: {
           alt: "Slayer Guide Logo",
           src: "/logo.png",
         },
+        hideOnScroll: true,
         items: [
           {
             href: "https://github.com/NGS-Slayers/ngs-slayers.github.io",
