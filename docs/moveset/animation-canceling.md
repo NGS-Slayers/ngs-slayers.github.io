@@ -3,7 +3,6 @@ title: "Animation Canceling"
 description: "Explaining Animation Canceling and the benefits"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 You can cancel out most Gunblade <Tooltip term="PA" />s and Actions early with a Step Dodge- or [Weapon Action](/moveset/weapon-action#wa123) input.

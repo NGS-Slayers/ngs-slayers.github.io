@@ -3,7 +3,6 @@ title: "Counters"
 description: "Explaining Counters"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 With the skill [Blade Counter](/skill-tree/skills#blade-counter), you can perform a different counter attack based on the button used. After successfully guarding against an attack, you can use the [Weapon Action](/moveset/weapon-action#wa123) to perform a long counter attack. When using a [Normal Attack](/moveset/normal-attack) input instead, a short counter attack occurs.

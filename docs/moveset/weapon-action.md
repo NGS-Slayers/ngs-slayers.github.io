@@ -3,7 +3,6 @@ title: "Weapon Action"
 description: "Explaining the Weapon Action"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 # <img src="/PA/38px-NGSUIWeaponActionGunblade.png" alt="icon" className="heading-icon"/>Weapon Action

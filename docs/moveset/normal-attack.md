@@ -3,7 +3,6 @@ title: "Normal Attack"
 description: "Explaining Normal Attacks"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 # <img src="/PA/38px-NGSUINormalAttackGunblade.png" alt="icon" className="heading-icon"/>Normal Attack

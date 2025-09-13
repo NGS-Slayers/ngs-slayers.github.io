@@ -3,7 +3,6 @@ title: "Photon Blast"
 description: "Explaining the Photon Blast"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 # <img src="/PA/38px-PhotonBlast.png" alt="icon" className="heading-icon"/>Photon Blast

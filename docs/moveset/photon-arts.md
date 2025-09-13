@@ -3,7 +3,6 @@ title: "Photon Arts"
 description: "Explaining Photon Arts"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 Slayer <Tooltip term="PA" />s change depending on if a directional input was pressed upon activation of the <Tooltip term="PA" />.

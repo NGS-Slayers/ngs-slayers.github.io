@@ -3,7 +3,6 @@ title: "Active Skills"
 description: "Explaining Active Skills"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 ## <img src="/skill/38px-NGSUISkillUnleashedRage.png" alt="icon" className="heading-icon"/>Unleashed Rage

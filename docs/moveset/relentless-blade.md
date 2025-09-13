@@ -3,7 +3,6 @@ title: "Relentless Blade"
 description: "Explaining the skill Relentless Blade and how to use it easily"
 ---
 
-import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 
 During a <Tooltip term="PA" />, a purple glow will appear on your character.
