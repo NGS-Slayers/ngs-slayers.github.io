@@ -3,8 +3,6 @@ title: "Active Skills"
 description: "Explaining Active Skills"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-
 ## <img src="/skill/38px-NGSUISkillUnleashedRage.png" alt="icon" className="heading-icon"/>Unleashed Rage
 Approach the enemy to deliver a powerful blow. Not only does this skill greatly help fill the Focus gauge, but through the skill [Unleashed Rage After Effect](/skill-tree/skills#unleashed-rage-after-effect), the critical hit rate increases for a short period after using the skill.
 

@@ -3,8 +3,6 @@ title: "Normal Attack"
 description: "Explaining Normal Attacks"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-
 # <img src="/PA/38px-NGSUINormalAttackGunblade.png" alt="icon" className="heading-icon"/>Normal Attack
 Gunblade has three different variations of Normal Attacks.
 

@@ -1,5 +1,5 @@
-import Tooltip from './Tooltip';
-import { glossary } from '../data/glossary';
+import Tooltip from '../Tooltip';
+import { glossary } from '@site/src/data/glossary';
 
 const TooltipText = ({ text }) => {
   let result = [text]; // Start with the full text as a single element

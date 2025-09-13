@@ -3,8 +3,6 @@ title: "Reading Tables"
 description: "Explaining how to read tables containing Frame Data"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-
 If you find yourself overwhelmed with the tables found in the later pages, here is an explanation of what these tables contain.
 
 :::info

@@ -3,8 +3,6 @@ title: "Relentless Blade"
 description: "Explaining the skill Relentless Blade and how to use it easily"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-
 During a <Tooltip term="PA" />, a purple glow will appear on your character.
 When using a [Normal Attack](/moveset/normal-attack) while the glow is visible, you will do an additional [hitscan](https://en.wikipedia.org/wiki/Hitscan) attack that builds Focus, Rage and recovers some <Tooltip term="PP" />.
 

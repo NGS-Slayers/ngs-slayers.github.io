@@ -1,5 +1,5 @@
 import * as moveset from '/src/data/moveset';
-import TooltipText from '/src/components/TooltipText';
+import TooltipText from '@site/src/components/TooltipText';
 import styles from './styles.module.css';
 
 const MovesetTable = ({ tableId, args }) => {

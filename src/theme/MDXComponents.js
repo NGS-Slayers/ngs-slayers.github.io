@@ -5,6 +5,8 @@ import Button from "@site/src/components/Button";
 import ImageTable, { ImageTableFigure } from "@site/src/components/ImageTable";
 import MovesetTable from "@site/src/components/MovesetTable";
 import VideoPlayer from "@site/src/components/VideoPlayer";
+import Tooltip from "@site/src/components/Tooltip";
+import TooltipText from "@site/src/components/TooltipText";
 export default {
   // Reusing the default mapping
   ...MDXComponents,
@@ -13,4 +15,6 @@ export default {
   ImageTableFigure,
   MovesetTable,
   VideoPlayer,
+  Tooltip,
+  TooltipText,
 };

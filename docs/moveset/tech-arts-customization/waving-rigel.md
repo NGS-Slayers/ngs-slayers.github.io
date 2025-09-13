@@ -2,8 +2,7 @@
 title: "Waving Rigel"
 description: "Explaining Tech Arts Customization for Waving Rigel"
 ---
-import Tooltip from '@site/src/components/Tooltip';
-import TooltipText from '@site/src/components/TooltipText';
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

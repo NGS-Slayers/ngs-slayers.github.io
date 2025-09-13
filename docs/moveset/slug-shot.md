@@ -3,8 +3,6 @@ title: "Slug Shot"
 description: "Explaining Slug Shot"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-
 Changes the behavior of the [Normal Attack](/moveset/normal-attack) when immediatly used after a <Tooltip term="PA" /> and no directional input was pressed.
 
 :::tip

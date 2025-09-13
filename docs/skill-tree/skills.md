@@ -3,9 +3,6 @@ title: "Skills"
 description: "How to allocate skill points in the Slayer Skill Tree, and a brief explanation of each skill with some tips along the way."
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-import TooltipText from '@site/src/components/TooltipText';
-
 Explaining Slayers skills and dividing them into two categories for ones that you should always allocate skill points to referred to as the core skills and optional skills.
 
 ## Core Skills

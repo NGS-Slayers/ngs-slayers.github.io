@@ -3,8 +3,6 @@ title: "Animation Canceling"
 description: "Explaining Animation Canceling and the benefits"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-
 You can cancel out most Gunblade <Tooltip term="PA" />s and Actions early with a Step Dodge- or [Weapon Action](/moveset/weapon-action#wa123) input.
 
 This means you can increase the <Tooltip term="DPS" /> of some <Tooltip term="PA" />s and Actions while gaining <Tooltip term="PP" /> making [Slug Shot](/skill-tree/skills#slug-shot) way less appealing.

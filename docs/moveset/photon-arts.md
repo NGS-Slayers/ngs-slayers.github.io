@@ -3,8 +3,6 @@ title: "Photon Arts"
 description: "Explaining Photon Arts"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-
 Slayer <Tooltip term="PA" />s change depending on if a directional input was pressed upon activation of the <Tooltip term="PA" />.
 
 If you are familiar with the Fighter Class, you might notice a similarity with Fighter Skip Arts.

@@ -3,9 +3,6 @@ title: "Mechanics Breakdown"
 description: "Explaining difficult mechanics"
 ---
 
-import Tooltip from '@site/src/components/Tooltip';
-import TooltipText from '@site/src/components/TooltipText';
-
 Breaking down mechanics of the Slayer class for a better understanding.
 
 ## <img src="/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png" alt="icon" className="heading-icon"/>Gunblade Focus Quick Recharge
