@@ -30,14 +30,14 @@ const MovesetTable = ({ tableId, args }) => {
     const renderHeader = () => {
         let headers = [];
         if (isMultipleObjects) {
-            headers.push(<th key="variation">{propertyMappings.Variation}</th>);
+            headers.push(<th key="variation"><TooltipText text={propertyMappings.Variation} /></th>);
         }
 
         uniqueProperties.forEach(property => {
             if (propertyMappings.hasOwnProperty(property) && property !== 'Variation') {
                 const anyValueNonZero = processedArgs.some(obj => typeof obj === 'object' && obj.hasOwnProperty(property) && obj[property] !== 0);
                 if (anyValueNonZero) {
-                    headers.push(<th key={property}>{propertyMappings[property]}</th>);
+                    headers.push(<th key={property}><TooltipText text={propertyMappings[property]} /></th>);
                 }
             }
         });
