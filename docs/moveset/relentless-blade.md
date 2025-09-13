@@ -3,7 +3,6 @@ title: "Relentless Blade"
 description: "Explaining the skill Relentless Blade and how to use it easily"
 ---
 
-import MovesetTable from '@site/src/components/MovesetTable';
 import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 

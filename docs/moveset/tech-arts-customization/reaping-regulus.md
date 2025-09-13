@@ -2,7 +2,6 @@
 title: "Reaping Regulus"
 description: "Explaining Tech Arts Customization for Reaping Regulus"
 ---
-import MovesetTable from '@site/src/components/MovesetTable';
 import Tooltip from '@site/src/components/Tooltip';
 import TooltipText from '@site/src/components/TooltipText';
 import Tabs from '@theme/Tabs';

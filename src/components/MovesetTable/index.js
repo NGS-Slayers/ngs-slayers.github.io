@@ -1,6 +1,6 @@
-import * as moveset from '../data/moveset';
-import TooltipText from './TooltipText';
-import styles from './MovesetTable.module.css';
+import * as moveset from '/src/data/moveset';
+import TooltipText from '/src/components/TooltipText';
+import styles from './styles.module.css';
 
 const MovesetTable = ({ tableId, args }) => {
     const processedArgs = args(moveset);

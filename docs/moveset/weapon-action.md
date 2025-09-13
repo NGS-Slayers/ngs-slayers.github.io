@@ -3,7 +3,6 @@ title: "Weapon Action"
 description: "Explaining the Weapon Action"
 ---
 
-import MovesetTable from '@site/src/components/MovesetTable';
 import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 

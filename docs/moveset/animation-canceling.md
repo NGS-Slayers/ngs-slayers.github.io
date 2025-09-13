@@ -3,7 +3,6 @@ title: "Animation Canceling"
 description: "Explaining Animation Canceling and the benefits"
 ---
 
-import MovesetTable from '@site/src/components/MovesetTable';
 import VideoPlayer from '@site/src/components/VideoPlayer';
 import Tooltip from '@site/src/components/Tooltip';
 

@@ -3,10 +3,12 @@ import React from "react";
 import MDXComponents from "@theme-original/MDXComponents";
 import Button from "@site/src/components/Button";
 import ImageTable, { ImageTableFigure } from "@site/src/components/ImageTable";
+import MovesetTable from "@site/src/components/MovesetTable";
 export default {
   // Reusing the default mapping
   ...MDXComponents,
   Button,
   ImageTable,
   ImageTableFigure,
+  MovesetTable,
 };
