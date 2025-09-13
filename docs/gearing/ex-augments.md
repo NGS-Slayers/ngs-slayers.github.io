@@ -1,13 +1,13 @@
 ---
-title: Ex-Augments
-description: "Information about what Ex-Augments to use."
+title: EX-Augments
+description: "Information about what EX-Augments to use."
 ---
 
-Slayer can use most of the EX Augments just fine, however the following should be avoided:
+Slayer can use most of the EX-Augments just fine, however the following should be avoided:
 * Critical Enliven
 * Critical Follow
 * Consume PP Onslaught
 
-For a combo list please check the resource linked below.
+You can find a useful list with great-EX Augment combos below.
 
 <Button label="Keans EX Combo List" link="https://docs.google.com/spreadsheets/d/17pbTn8QnhA62lr93YwNsff_Jy8G35owwX1FKIH_R2ZU/edit?gid=0#gid=0"/>
