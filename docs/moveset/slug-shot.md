@@ -16,6 +16,6 @@ Changes behavior of the [Normal Attack](/moveset/normal-attack) when used immedi
 
 The following video example shows [Stay Arts Shifting Spica](/moveset/photon-arts#sss) into Slug Shot.
 
-<VideoPlayer src="/PA/SlugShot.webm" />
+<VideoPlayer src="/vid/SlugShot.webm" />
 
 <MovesetTable tableId="SlugShot" args={(moveset) => [moveset.SlugShot]} />

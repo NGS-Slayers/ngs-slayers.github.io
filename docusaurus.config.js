@@ -90,7 +90,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "social-card.png",
+      image: "/img/social-card.png",
       colorMode: {
         defaultMode: 'dark',
       },
@@ -98,7 +98,7 @@ const config = {
         title: "Theowyn’s Slayer Guide",
         logo: {
           alt: "Slayer Guide Logo",
-          src: "/logo.png",
+          src: "/img/logo.png",
         },
         hideOnScroll: true,
         items: [

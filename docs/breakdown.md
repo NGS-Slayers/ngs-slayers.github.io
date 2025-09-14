@@ -5,7 +5,7 @@ description: "Explaining difficult mechanics"
 
 Breaking down mechanics of the Slayer class for a better understanding.
 
-## <img src="/skill/38px-NGSUISkillGunbladeFocusQuickRecharge.png" alt="icon" className="heading-icon"/>Gunblade Focus Quick Recharge
+## <img src="/img/38px-NGSUISkillGunbladeFocusQuickRecharge.png" alt="icon" className="heading-icon"/>Gunblade Focus Quick Recharge
 With the Patch from 06/07/2023 came a new Slayer Class skill which might sound good at first but looking further into it might not be worth your skill point.
 
 * The skill amplifies our [Gunblade Focus](/skill-tree/skills#gunblade-focus) generation by 120% after using the finisher from [Gunblade Focus Overdrive](/moveset/active-skills#gunblade-focus-overdrive) for a duration of 20 seconds.
@@ -47,7 +47,7 @@ The above example is a 14% difference since we are not able to make use of the 2
 * We usually build and want to build [Gunblade Focus](/skill-tree/skills#gunblade-focus) when an enemy is able to move so using [Counters](/moveset/counters) will shrink the difference in time even more.
 * The skill does not help if you happen to use your [Photon Blast](/moveset/photon-blast) right after using [Gunblade Focus Overdrive Finisher](/moveset/active-skills#gunblade-focus-overdrive).
 
-## <img src="/skill/38px-NGSUISkillGunbladeFocusGaugeAmplifier.png" alt="icon" className="heading-icon"/>Gunblade Focus Gauge Amplifier
+## <img src="/img/38px-NGSUISkillGunbladeFocusGaugeAmplifier.png" alt="icon" className="heading-icon"/>Gunblade Focus Gauge Amplifier
 The reason why we do not put more than one point into that skill is because it can cause diminishing returns.
 
 For example if you use a [Supercharged Normal Attack](/moveset/normal-attack#scna) into a [Step Counter Weapon Action](/moveset/counters#stepc-wa) you will generate less [Gunblade Focus](/skill-tree/skills#gunblade-focus) with the skill at Level 5 than at Level 1.
@@ -64,7 +64,7 @@ $
 
 The above example was taken from [ものさし](https://x.com/flowerint1034/status/1647830827160731654).
 
-## <img src="/skill/38px-NGSUISkillSlugShot.png" alt="icon" className="heading-icon"/>Slugshot
+## <img src="/img/38px-NGSUISkillSlugShot.png" alt="icon" className="heading-icon"/>Slugshot
 The skill would not be bad by itself, however since we are able to deal damage with our [Weapon Action](/moveset/weapon-action#wa123), the skill is in a rather sorry state.
 
 This is a fundamental issue because the game handles [Slug Shot](/moveset/slug-shot) like a PA which makes it unable to cancel another PA unlike the [Weapon Action](/moveset/weapon-action#wa123) which then leads to the following drawbacks:

@@ -3,7 +3,7 @@ title: "Weapon Action"
 description: "Explaining the Weapon Action"
 ---
 
-# <img src="/PA/38px-NGSUIWeaponActionGunblade.png" alt="icon" className="heading-icon"/>Weapon Action
+# <img src="/img/38px-NGSUIWeaponActionGunblade.png" alt="icon" className="heading-icon"/>Weapon Action
 
 ## WA123
 The Weapon Action lets you guard against an enemy attack with a slashing move. Tap repeatedly to perform up to three consecutive slashes; each successive stage stronger than the previous.
@@ -15,7 +15,7 @@ The Weapon Action lets you guard against an enemy attack with a slashing move. T
 * For Weapon Action Stage 3 they will last 0.4 seconds.
 :::
 
-<VideoPlayer src="/PA/WA123.webm" />
+<VideoPlayer src="/vid/WA123.webm" />
 
 <MovesetTable tableId="WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
@@ -26,6 +26,6 @@ If the skill [Mobile Blade](/skill-tree/skills#mobile-blade) was learned you can
 During the slash you will be granted invincibility frames for 0.35 seconds.
 :::
 
-<VideoPlayer src="/PA/mWA.webm" />
+<VideoPlayer src="/vid/mWA.webm" />
 
 <MovesetTable tableId="mWA" args={(moveset) => [moveset.mWA]} />

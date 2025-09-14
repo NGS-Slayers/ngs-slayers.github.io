@@ -11,7 +11,7 @@ If you are familiar with the Fighter Class, you might notice a similarity with F
 * Canceling a PA with a Step Dodge is more generous than with a [Weapon Action](/moveset/weapon-action), so if you find yourself stuck in some Photon Arts consider using a [Step Counter](/moveset/counters#stepc-na) instead.
 :::
 
-## <img src="/PA/38px-NGSUIPhotonArtShiftingSpica.png" alt="icon" className="heading-icon"/>Shifting Spica
+## <img src="/img/38px-NGSUIPhotonArtShiftingSpica.png" alt="icon" className="heading-icon"/>Shifting Spica
 
 ### sSS
 _Type: Filler_
@@ -22,7 +22,7 @@ Stay Arts Shifting Spica will perform a forward slash and fire a Photon Bullet i
 * You are granted super armor throughout the entire duration.
 :::
 
-<VideoPlayer src="/PA/sSS.webm" />
+<VideoPlayer src="/vid/sSS.webm" />
 
 <MovesetTable tableId="sSS" args={(moveset) => [moveset.sSS]} />
 
@@ -35,18 +35,18 @@ Move Arts Shifting Spica will approach the enemy at high speed with a thrust att
 * You are granted super armor throughout the entire duration.
 :::
 
-<VideoPlayer src="/PA/mSS.webm" />
+<VideoPlayer src="/vid/mSS.webm" />
 
 <MovesetTable tableId="mSS" args={(moveset) => [moveset.mSS]} />
 
-## <img src="/PA/38px-NGSUIPhotonArtFlowingSirius.png" alt="icon" className="heading-icon"/>Flowing Sirius
+## <img src="/img/38px-NGSUIPhotonArtFlowingSirius.png" alt="icon" className="heading-icon"/>Flowing Sirius
 
 ### sFS1
 _Type: Filler_
 
 Stay Arts Flowing Sirius will perform a series of slashes.
 
-<VideoPlayer src="/PA/sFS1.webm" />
+<VideoPlayer src="/vid/sFS1.webm" />
 
 <MovesetTable tableId="sFS1" args={(moveset) => [moveset.sFS1]} />
 
@@ -60,7 +60,7 @@ Stage 2 of Stay Arts Flowing Sirius continues the series of slashes and finishes
 * Potency of [Relentless Blade](/skill-tree/skills#relentless-blade) is increased during this stage.
 :::
 
-<VideoPlayer src="/PA/sFS12.webm" />
+<VideoPlayer src="/vid/sFS12.webm" />
 
 <MovesetTable tableId="sFS12" args={(moveset) => [moveset.sFS12]} />
 
@@ -73,11 +73,11 @@ Move Arts Flowing Sirius will perform an attack that sweeps the surrounding area
 * You are granted super armor until before performing the last slash of the attack.
 :::
 
-<VideoPlayer src="/PA/mFS.webm" />
+<VideoPlayer src="/vid/mFS.webm" />
 
 <MovesetTable tableId="mFS" args={(moveset) => [moveset.mFS]} />
 
-## <img src="/PA/38px-NGSUIPhotonArtReapingRegulus.png" alt="icon" className="heading-icon"/>Reaping Regulus
+## <img src="/img/38px-NGSUIPhotonArtReapingRegulus.png" alt="icon" className="heading-icon"/>Reaping Regulus
 
 ### sRR
 _Type: Rage-building, Repositioning_
@@ -88,7 +88,7 @@ Stay Arts Reaping Regulus will throw a photon bomb while retreating back as the 
 * You are granted invincibility frames and super armor for 0.35 seconds.
 :::
 
-<VideoPlayer src="/PA/sRR.webm" />
+<VideoPlayer src="/vid/sRR.webm" />
 
 <MovesetTable tableId="sRR" args={(moveset) => [moveset.sRR]} />
 
@@ -101,11 +101,11 @@ Move Arts Reaping Regulus will kick a photon bomb in a curved manner that explod
 * You are granted invincibility frames for 0.2 seconds.
 :::
 
-<VideoPlayer src="/PA/mRR.webm" />
+<VideoPlayer src="/vid/mRR.webm" />
 
 <MovesetTable tableId="mRR" args={(moveset) => [moveset.mRR]} />
 
-## <img src="/PA/38px-NGSUIPhotonArtWavingRigel.png" alt="icon" className="heading-icon"/>Waving Rigel
+## <img src="/img/38px-NGSUIPhotonArtWavingRigel.png" alt="icon" className="heading-icon"/>Waving Rigel
 
 ### sWR
 _Type: Filler, AoE_
@@ -117,7 +117,7 @@ Stay Arts Waving Rigel will thrust the weapon into the ground and release a shoc
 * It will also pull small enemies towards you.
 :::
 
-<VideoPlayer src="/PA/sWR.webm" />
+<VideoPlayer src="/vid/sWR.webm" />
 
 <MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR]} />
 
@@ -130,6 +130,6 @@ Move Arts Waving Rigel will slash the surrounding area while ascending your char
 * You are granted super armor throughout the entire animation.
 :::
 
-<VideoPlayer src="/PA/mWR.webm" />
+<VideoPlayer src="/vid/mWR.webm" />
 
 <MovesetTable tableId="mWR" args={(moveset) => [moveset.mWR]} />

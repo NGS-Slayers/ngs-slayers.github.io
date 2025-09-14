@@ -3,7 +3,7 @@ title: "Reaping Regulus"
 description: "Explaining Tech Arts Customization for Reaping Regulus"
 ---
 
-# <img src="/PA/38px-NGSUIPhotonArtReapingRegulus.png" alt="icon" className="heading-icon"/> Reaping Regulus
+# <img src="/img/38px-NGSUIPhotonArtReapingRegulus.png" alt="icon" className="heading-icon"/> Reaping Regulus
 With the patch from 10/04/2024, the ability to customize the PA [Reaping Regulus](/moveset/photon-arts#srr) was added.
 
 <Tabs>

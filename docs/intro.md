@@ -5,7 +5,7 @@ description: "A comprehensive guide to the Slayer class in Phantasy Star Online 
 hide_title: true
 ---
 
-![banner](/banner.png)
+![banner](/img/banner.png)
 
 ## Intro
 Welcome to Theowyn’s comprehensive Slayer class guide for Phantasy Star Online 2: New Genesis!

@@ -24,13 +24,13 @@ If you play Melee and Tech classes, then the Hunter and Force Add-on Skills shou
 
 | Class | Main Effect | Sub Effect |
 | :---: | :---: | :---: |
-| ![icon](/class/UINGSClassRa.png) Ranger | Ranged Potency Up | Photon Blast Potency Up |
-| ![icon](/class/UINGSClassBr.png) Braver | Critical Hit Rate Up | Restasigne Heal Amount Up |
-| ![icon](/class/UINGSClassFi.png) Fighter | Critical Hit Potency Up | Jump Power Up |
-| ![icon](/class/UINGSClassSl.png) Slayer | Downed Critical Hit Rate Up | Reduced Photon Blast Cooldown |
-| ![icon](/class/UINGSClassWa.png) Waker | PP Up | Stationary HP Recovery |
-| ![icon](/class/UINGSClassTe.png) Techter | Natural PB Gauge Accumulation Up | Damage Resistance Up |
-| ![icon](/class/UINGSClassGu.png) Gunner | Offensive PB Gauge Accumulation Up | Offensive PP Recovery Up |
-| ![icon](/class/UINGSClassFo.png) Force | Technique Potency Up | Natural PP Recovery Up |
-| ![icon](/class/UINGSClassHu.png) Hunter | Melee Potency Up | PA Charge Movement Speed Up |
-| ![icon](/class/UINGSClassBo.png) Bouncer | Dash and Glide PP Recovery | Encore Jump |
+| ![icon](/img/UINGSClassRa.png) Ranger | Ranged Potency Up | Photon Blast Potency Up |
+| ![icon](/img/UINGSClassBr.png) Braver | Critical Hit Rate Up | Restasigne Heal Amount Up |
+| ![icon](/img/UINGSClassFi.png) Fighter | Critical Hit Potency Up | Jump Power Up |
+| ![icon](/img/UINGSClassSl.png) Slayer | Downed Critical Hit Rate Up | Reduced Photon Blast Cooldown |
+| ![icon](/img/UINGSClassWa.png) Waker | PP Up | Stationary HP Recovery |
+| ![icon](/img/UINGSClassTe.png) Techter | Natural PB Gauge Accumulation Up | Damage Resistance Up |
+| ![icon](/img/UINGSClassGu.png) Gunner | Offensive PB Gauge Accumulation Up | Offensive PP Recovery Up |
+| ![icon](/img/UINGSClassFo.png) Force | Technique Potency Up | Natural PP Recovery Up |
+| ![icon](/img/UINGSClassHu.png) Hunter | Melee Potency Up | PA Charge Movement Speed Up |
+| ![icon](/img/UINGSClassBo.png) Bouncer | Dash and Glide PP Recovery | Encore Jump |

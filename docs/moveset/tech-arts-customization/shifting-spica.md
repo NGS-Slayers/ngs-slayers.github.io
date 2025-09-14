@@ -3,7 +3,7 @@ title: "Shifting Spica"
 description: "Explaining Tech Arts Customization for Shifting Spica"
 ---
 
-# <img src="/PA/38px-NGSUIPhotonArtShiftingSpica.png" alt="icon" className="heading-icon"/> Shifting Spica
+# <img src="/img/38px-NGSUIPhotonArtShiftingSpica.png" alt="icon" className="heading-icon"/> Shifting Spica
 With the patch from 12/4/2024, the ability to customize the PA [Shifting Spica](/moveset/photon-arts#sss) was added.
 
 <Tabs>
