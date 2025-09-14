@@ -24,7 +24,7 @@ const config = {
   url: "https://ngs-slayers.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/ngs-slayers.github.io/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -76,14 +76,14 @@ const config = {
   ],
 
   themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        hashed: true,
-        language: ["en"],
-        docsRouteBasePath: "/",
-      },
-    ],
+    // [
+    //   require.resolve("@easyops-cn/docusaurus-search-local"),
+    //   {
+    //     hashed: true,
+    //     language: ["en"],
+    //     docsRouteBasePath: "/",
+    //   },
+    // ],
   ],
 
   themeConfig:
