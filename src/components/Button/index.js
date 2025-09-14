@@ -2,18 +2,17 @@ import React, { CSSProperties } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 
-// Build the Button component with the specified props
 const Button = ({ 
-    size = null, // The size of the button (e.g., 'sm', 'lg', or null)
-    outline = false, // Whether the button should be an outline button
-    variant = 'primary', // The color variant of the button
-    block = false, // Whether the button should be a block-level button
-    disabled = false, // Whether the button should be disabled
-    className, // Custom classes for the button
-    style, // Custom styles for the button
-    link, // The URL the button should link to
-    label, // The text of the button
-    margin = null // The margin for the button
+    size = null, // (e.g., 'sm', 'lg', or null)
+    outline = false,
+    variant = 'primary',
+    block = false,
+    disabled = false,
+    className,
+    style,
+    link,
+    label,
+    margin = null
     
 }) => {
     const sizeMap = {
