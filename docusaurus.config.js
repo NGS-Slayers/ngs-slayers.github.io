@@ -76,14 +76,14 @@ const config = {
   ],
 
   themes: [
-    // [
-    //   require.resolve("@easyops-cn/docusaurus-search-local"),
-    //   {
-    //     hashed: true,
-    //     language: ["en"],
-    //     docsRouteBasePath: "/",
-    //   },
-    // ],
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en"],
+        docsRouteBasePath: "/",
+      },
+    ],
   ],
 
   themeConfig:
