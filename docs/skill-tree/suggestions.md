@@ -3,13 +3,8 @@ title: "Suggestions"
 description: "Linking skill tree presets"
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import Tooltip from '@site/src/components/Tooltip';
-
-You can find presets for your Skill Tree here depending on your current level of experience with the Slayer Class.
-
-Or pick the core Skill Tree and spend the remaining points according to your personal preference!
+Find Slayer skill-tree presets here tailored to your experience level.
+Or choose the Core Skill Tree and allocate remaining points to suit your own playstyle.
 
 <Tabs>
   <TabItem value="skilltree1" label="Beginner-Friendly Skill Tree" default>

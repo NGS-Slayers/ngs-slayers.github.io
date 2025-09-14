@@ -6,12 +6,13 @@ description: "Explaining the Weapon Action"
 # <img src="/PA/38px-NGSUIWeaponActionGunblade.png" alt="icon" className="heading-icon"/>Weapon Action
 
 ## WA123
-The Weapon Action enables you to guard against an enemy attack with a slash. Repeatedly tapping the button will slash up to 3 times in succession with increasing <Tooltip term="DPS" /> for every Stage.
+The Weapon Action lets you guard against an enemy attack with a slashing move. Tap repeatedly to perform up to three consecutive slashes; each successive stage stronger than the previous.
 
 :::tip
-After every slash you will be granted super armor and an omnidirectional guard for a short period of time depending on the stage.
-
-For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 seconds, for the second Weapon Action Stage 0.2 seconds and for third Weapon Action Stage 0.4 seconds.
+* After every slash you will be granted super armor and an omnidirectional guard for a short period of time depending on the stage.
+* For Weapon Action Stage 1 the above mentioned defensive effects will last 0.3 seconds
+* For Weapon Action Stage 2 they will last 0.2 seconds 
+* For Weapon Action Stage 3 they will last 0.4 seconds.
 :::
 
 <VideoPlayer src="/PA/WA123.webm" />

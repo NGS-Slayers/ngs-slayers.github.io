@@ -3,16 +3,16 @@ title: "Reading Tables"
 description: "Explaining how to read tables containing Frame Data"
 ---
 
-If you find yourself overwhelmed with the tables found in the later pages, here is an explanation of what these tables contain.
+If the tables on the later pages feel overwhelming, here’s a quick guide to what they contain.
 
 :::info
-* <Tooltip term="DPS" /> values are rounded in calculations.
+* DPS values are rounded in calculations.
 
-* Potency and <Tooltip term="DPS" /> values of <Tooltip term="PA" />s include [<Tooltip term="RB" />](/skill-tree/skills#relentless-blade), [<Tooltip term="RBR" />](/skill-tree/skills#relentless-blade-reinforce) and Class specific Critical Hit Rate multipliers.
+* Potency and DPS values of Photon Arts include [RB](/skill-tree/skills#relentless-blade), [RBR](/skill-tree/skills#relentless-blade-reinforce) and class-specific Critical Hit Rate multipliers.
 
-* Focus multiplier against bosses is 5 and is included in the Focus per second calculation
+* Focus multiplier versus bosses is 5 and is included in the Focus-per-second calculation
 
-* Rage multiplier against bosses is 3 and is included in the Rage per second calculation
+* Rage multiplier versus bosses is 3 and is included in the Rage-per-second calculation
 
 More accurate and up-to-date information can be found in <Button label="Frame Data" variant="secondary" link="/moveset/framedata" />
 :::

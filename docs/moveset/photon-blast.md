@@ -4,12 +4,14 @@ description: "Explaining the Photon Blast"
 ---
 
 # <img src="/PA/38px-PhotonBlast.png" alt="icon" className="heading-icon"/>Photon Blast
-A powerful attack that generates a special field around you.
+The Photon Blast is a powerful, weapon-specific attack.  
+The Gunblade’s Photon Blast is a two-stage move: 
+The first stage dashes you to a nearby targeted enemy and releases a series of slashes.
+The second stage fires multiple projectiles at the enemy from range.
 
 :::tip
-You will be granted invincibility frames during the entire animation of the attack.
-
-This attack will dash you toward an enemy targeted by you, so make sure to target the right enemy.
+* You gain invincibility frames throughout the entire attack animation.
+* You can change targets before the second stage takes place.
 :::
 
 <VideoPlayer src="/PA/PB.webm" />

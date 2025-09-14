@@ -242,7 +242,7 @@ export var mRR = {
 };
 addProp(mRR)
 
-// Stay Waving Riegel
+// Stay Waving Rigel
 export var sWR = {
   Pot: 130 + RBR(RB).Pot,
   Time: 0.433333333333,
@@ -254,7 +254,7 @@ export var sWR = {
 };
 addProp(sWR)
 
-// Move Waving Riegel
+// Move Waving Rigel
 export var mWR = {
   Pot: 332 + RBR(RB).Pot,
   Time: 1,
@@ -509,7 +509,7 @@ export var ODF = {
 };
 addProp(ODF)
 
-// Stay Waving Riegel Custom 3
+// Stay Waving Rigel Custom 3
 export var sWRC3 = {
   Pot: 3 * 130 * 0.35 + RBR(RB).Pot,
   Time: 0.433333333333,

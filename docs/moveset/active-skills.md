@@ -4,12 +4,12 @@ description: "Explaining Active Skills"
 ---
 
 ## <img src="/skill/38px-NGSUISkillUnleashedRage.png" alt="icon" className="heading-icon"/>Unleashed Rage
-Approach the enemy to deliver a powerful blow. Not only does this skill greatly help fill the Focus gauge, but through the skill [Unleashed Rage After Effect](/skill-tree/skills#unleashed-rage-after-effect), the critical hit rate increases for a short period after using the skill.
-
-[Unleashed Rage](/skill-tree/skills#unleashed-rage) gauge builds from <Tooltip term="PA" />s, Relentless Blade and from [<Tooltip term="StepC" /> Weapon Action](/moveset/counters#stepc-wa).
+When the bar above this skill icon fills, you can activate it to dash to a nearby selected enemy and attack it with a powerful slash.
+It’s excellent for filling [Gunblade Focus](/skill-tree/skills#gunblade-focus), and with [Unleashed Rage After Effect](/skill-tree/skills#unleashed-rage-after-effect) the skill also grants a short-term increase to Critical Hit Rate after use.
 
 :::tip
-[Unleashed Rage](/skill-tree/skills#unleashed-rage) requires 100 Rage to be used and will grant you invincibility frames for the entire duration of the skill.
+* [Unleashed Rage](/skill-tree/skills#unleashed-rage) builds from Photon Arts, Relentless Blade and from [Step Counter Weapon Action](/moveset/counters#stepc-wa).
+* The bar requires 100 Rage to be full and grants invincibility frames for the skill's entire duration.
 :::
 
 <VideoPlayer src="/PA/UR.webm" />
@@ -17,18 +17,14 @@ Approach the enemy to deliver a powerful blow. Not only does this skill greatly 
 <MovesetTable tableId="UR" args={(moveset) => [moveset.UR]} />
 
 ## <img src="/skill/38px-NGSUISkillGunbladeFocusOverdrive.png" alt="icon" className="heading-icon"/>Gunblade Focus Overdrive
-Activating this skill will start a short animation. After the activation, you will be granted buffs for a short time period.
-For more information on the buffs check out [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive)
-
-When [Gunblade Focus Reset <Tooltip term="PP" /> Gain](/skill-tree/skills#gunblade-focus-reset-pp-gain) was learned, the skill will trigger and recover some <Tooltip term="PP" />.
-
-Re-activating this skill while it's in effect, unleashes a powerful finishing move that generates a special zone similar to the visuals seen in the [<Tooltip term="PB" />](/moveset/photon-blast).
-You will be granted invincibility frames during the entire animation of the finisher as well.
+Activating this skill triggers a short animation, then grants temporary buffs.
+For details on the buffs, see [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive)
+If [Gunblade Focus Reset PP Gain](/skill-tree/skills#gunblade-focus-reset-pp-gain) is learned, resetting Focus will additionally restore some PP.
+Re-activating this skill while it's in effect, unleashes a powerful finishing move.
 
 :::tip
-During both the activation and the finisher animation you will be granted invincibility frames.
-
-The activation takes 1.4 seconds when not inputting another attack and 0.67 seconds if you do.
+* You gain invincibility frames during both the activation and the finisher animations.
+* The activation takes 1.4 seconds when not following up with another attack and 0.67 seconds if you do.
 :::
 
 <VideoPlayer src="/PA/ODF.webm" />

@@ -3,18 +3,18 @@ title: "Slug Shot"
 description: "Explaining Slug Shot"
 ---
 
-Changes the behavior of the [Normal Attack](/moveset/normal-attack) when immediatly used after a <Tooltip term="PA" /> and no directional input was pressed.
+Changes behavior of the [Normal Attack](/moveset/normal-attack) when used immediately after a PA with no directional input.
 
 :::tip
-This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
+* This attack is a close range attack that grants you super armor and frontal guard for 0.35 seconds.
 :::
 
 :::caution
-It is recommended to avoid this skill. 
+* It is recommended to avoid this skill. 
 <Button label="Read More" variant="secondary" link="/breakdown#slugshot" />
 :::
 
-The video example shows [Stay Arts Shifting Spica](/moveset/photon-arts#sss) into Slug Shot
+The following video example shows [Stay Arts Shifting Spica](/moveset/photon-arts#sss) into Slug Shot.
 
 <VideoPlayer src="/PA/SlugShot.webm" />
 

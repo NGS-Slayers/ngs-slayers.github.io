@@ -3,27 +3,23 @@ title: "Animation Canceling"
 description: "Explaining Animation Canceling and the benefits"
 ---
 
-You can cancel out most Gunblade <Tooltip term="PA" />s and Actions early with a Step Dodge- or [Weapon Action](/moveset/weapon-action#wa123) input.
-
-This means you can increase the <Tooltip term="DPS" /> of some <Tooltip term="PA" />s and Actions while gaining <Tooltip term="PP" /> making [Slug Shot](/skill-tree/skills#slug-shot) way less appealing.
-
-You can read more about the problem with [Slug Shot](/skill-tree/skills#slug-shot) in the [Mechanics Breakdown Page](/breakdown#slugshot)
+You can cancel out most Gunblade Photon Arts and Actions early with a Step Dodge- or Weapon Action input.
+This means you can increase the DPS of some Photon Arts and Actions while gaining PP making [Slug Shot](/skill-tree/skills#slug-shot) way less appealing.
+You can read more about the problem with [Slug Shot](/skill-tree/skills#slug-shot) in [Mechanics Breakdown](/breakdown#slugshot)
 
 :::warning
-No input delay or human error is assumed.
-
-When the description of the cancel includes the word “safely”, it means that it is impossible to mistime since the earliest time to cancel is the same as the attack hit timing.
-
-For more information about the timings please refer to [Frame Data](/moveset/framedata).
+* No input delay or human error is assumed.
+* When the description of the cancel includes the word “safely”, it means that it is impossible to mistime since the earliest time to cancel is the same as the attack hit timing.
+* For more information about the timings please refer to [Frame Data](/moveset/framedata).
 :::
 
 ## sFS12>WA123
-Highest DPS for enemy downtime outside of [Unleashed Rage](/moveset/active-skills#unleashed-rage) and [Gunblade Focus Over Drive Finisher](/moveset/active-skills#gunblade-focus-overdrive).
-Reduces <Tooltip term="PP" /> Cost but builds Rage at a slower rate than just chaining [<Tooltip term="sFS12" />](/moveset/photon-arts#sfs12).
-Takes longer than chaining [<Tooltip term="sFS12" />](/moveset/photon-arts#sfs12) so make sure the time window is big enough so you can connect the last hit of the <Tooltip term="PA" />.
+Canceling [Stay Arts Flowing Sirius Stage 1 and 2](/moveset/photon-arts#sfs12) into [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) has the highest DPS for enemy downtime outside of [Unleashed Rage](/moveset/active-skills#unleashed-rage) and [Gunblade Focus Over Drive Finisher](/moveset/active-skills#gunblade-focus-overdrive).
+Reduces PP Cost but builds Rage at a slower rate than just chaining [Stay Arts Flowing Sirius Stage 1 and 2](/moveset/photon-arts#sfs12).
+It also takes longer so make sure the time window is big enough so you can connect the last hit of the PA when chaining them.
 
 :::tip
-You can cancel sFS12 safely at 2.85 seconds.
+* You can safely cancel after 2.85 seconds.
 :::
 
 <VideoPlayer src="/PA/sFS12-WA123.webm" />
@@ -31,10 +27,10 @@ You can cancel sFS12 safely at 2.85 seconds.
 <MovesetTable tableId="sFS12-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sFS12,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
 ## StepC WA>Chain
-Repeating [Step Couter Weapon Action](/moveset/counters#stepc-wa) is stronger than chaining [<Tooltip term="BC" /> <Tooltip term="NA" />](/moveset/counters#bc-na)s together, which makes this the go to option for a lingering hitbox as long as you can reach your enemy.
+Repeating [Step Couter Weapon Action](/moveset/counters#stepc-wa) is stronger than chaining [Blade Counter Normal Attack](/moveset/counters#bc-na) together, which makes this the go to option for a lingering hitbox as long as you can reach your enemy.
 
 :::tip
-You can cancel out of the [<Tooltip term="StepC" /> <Tooltip term="WA" />](/moveset/counters#stepc-wa) animation with another Step Dodge input safely at 0.82 seconds.
+* You can safely cancel after 0.82 seconds.
 :::
 
 <VideoPlayer src="/PA/StepCWA-chain.webm" />
@@ -42,10 +38,10 @@ You can cancel out of the [<Tooltip term="StepC" /> <Tooltip term="WA" />](/move
 <MovesetTable tableId="StepCWA-Chain" args={(moveset) => [moveset.Cancel(moveset.StepCWA,'Step')]} />
 
 ## StepC WA>WA123
-Using the [Weapon Action](/moveset/weapon-action#wa123) after a [<Tooltip term="StepC" />outer Weapon Action](/moveset/counters#stepc-wa) increases the total potency of the counter and recovers some additional <Tooltip term="PP" />.
+Using [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) after a [Step Counter Weapon Action](/moveset/counters#stepc-wa) increases the total potency of the counter and recovers some additional PP.
 
 :::tip
-You can cancel out of the StepC WA animation with another WA input safely at 0.82 seconds.
+* You can safely cancel after 0.82 seconds.
 :::
 
 <VideoPlayer src="/PA/StepCWA-WA123.webm" />
@@ -53,13 +49,11 @@ You can cancel out of the StepC WA animation with another WA input safely at 0.8
 <MovesetTable tableId="StepCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.StepCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
 ## BC WA>WA123
-You can cancel your [Blade Counter Weapon Action](/moveset/counters#bc-wa) after the sixth hit with another [Weapon Action](/moveset/weapon-action#wa123) input. This increases the total potency of the counter by canceling the end lag with [<Tooltip term="WA123" />](/moveset/weapon-action#wa123).
-
+Canceling [Blade Counter Weapon Action](/moveset/counters#bc-wa) after the sixth hit into a [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) increases the total potency of the sequence by elimnating the endlag of the animation.
 
 :::danger
-This is not safe and you can end up canceling the <Tooltip term="PA" /> early so make sure to be careful.
-
-The perfect timing for the cancel is at 1.92 seconds.
+* This is unsafe and you can end up canceling early resulting in a loss of potency.
+* The perfect timing for the cancel is at 1.92 seconds.
 :::
 
 <VideoPlayer src="/PA/BCWA-WA123.webm" />
@@ -67,12 +61,11 @@ The perfect timing for the cancel is at 1.92 seconds.
 <MovesetTable tableId="BCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA1>BCWA>WA123', moveset.calcProp(moveset.WA2,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA2>BCWA>WA123', moveset.calcProp(moveset.WA3,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA3>BCWA>WA123']} />
 
 ## sRR>StepC WA
-The combo known as <Tooltip term="RBC" /> is fastest way to build Focus and Rage in a small time window. Because of the Step Dodge input you will be able to cancel the recoil of the <Tooltip term="PA" />s animation allowing you to chain into a [<Tooltip term="StepC" /> <Tooltip term="WA" />](/moveset/counters#stepc-wa).
+Canceling [Stay Arts Reaping Regulus](/moveset/photon-arts#srr) into a [Step Counter Weapon Action](/moveset/counters#stepc-wa) is fastest way to build Focus and Rage in a small time window.
 
 :::danger
-This is not safe and you can end up canceling the <Tooltip term="PA" /> early so make sure to be careful.
-
-The perfect timing for the cancel is at 0.42 seconds.
+* This is unsafe and you can end up canceling early resulting in a loss of potency.
+* The perfect timing for the cancel is at 0.42 seconds.
 :::
 
 <VideoPlayer src="/PA/sRR-StepCWA.webm" />
@@ -80,10 +73,10 @@ The perfect timing for the cancel is at 0.42 seconds.
 <MovesetTable tableId="sRR-StepCWA" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sRR,'Step'),moveset.StepCWA)]} />
 
 ## sWR>StepC WA
-You can cancel out of [Stay Arts Waving Rigel](/moveset/photon-arts#swr) with a Step Dodge input super early meaning this has ridiculous <Tooltip term="DPS" /> if you can make use of the small time window.
+You can cancel out of [Stay Arts Waving Rigel](/moveset/photon-arts#swr) with a Step Dodge input super early meaning this has amazing DPS when you can make use of the small time window.
 
 :::tip
-You can cancel out of the <Tooltip term="PA" /> safely at 0.18 seconds.
+* You can safely cancel the PA at 0.18 seconds.
 :::
 
 <VideoPlayer src="/PA/sWR-StepCWA.webm" />

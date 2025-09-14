@@ -7,6 +7,8 @@ import MovesetTable from "@site/src/components/MovesetTable";
 import VideoPlayer from "@site/src/components/VideoPlayer";
 import Tooltip from "@site/src/components/Tooltip";
 import TooltipText from "@site/src/components/TooltipText";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 export default {
   // Reusing the default mapping
   ...MDXComponents,
@@ -17,4 +19,6 @@ export default {
   VideoPlayer,
   Tooltip,
   TooltipText,
+  Tabs,
+  TabItem,
 };

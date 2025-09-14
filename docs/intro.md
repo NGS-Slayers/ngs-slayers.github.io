@@ -10,16 +10,16 @@ hide_title: true
 ## Intro
 Welcome to Theowyn’s comprehensive Slayer class guide for Phantasy Star Online 2: New Genesis!
 
-Slayer is the newest Precision based class that’s been released into the game.
+Slayer is the newest precision-based class added to the game.
 
-It’s a high mobility, fast-hitting class that specializes in close-quarters combat utilizing a Gunblade as its primary and only weapon.
+A high-mobility, fast-hitting close-quarters specialist, it uses a Gunblade as its sole primary weapon.
 
-If you like high mobility, speedy attacks, and rewarding Gameplay that incorporates new mechanics, you might like this class.
+If you enjoy swift attacks, fluid movement, and gameplay that rewards skillful use of fresh mechanics, Slayer is likely a great fit.
 
-Slayer’s only Mainclass weapon is the Gunblade, this is also the only weapon that can build [Gunblade Focus](/skill-tree/skills#gunblade-focus).
+The Gunblade is also the only weapon that can build [Gunblade Focus](/skill-tree/skills#gunblade-focus).
 
 ## To-Do
 * Improve intro and general readability
+* Improve Mechanics Breakdown section
 * Add Gameplay tips section
 * Improve moveset calculator and implement GUI
-* Maybe remove tooltips

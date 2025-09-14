@@ -3,19 +3,22 @@ title: "Skills"
 description: "How to allocate skill points in the Slayer Skill Tree, and a brief explanation of each skill with some tips along the way."
 ---
 
-Explaining Slayers skills and dividing them into two categories for ones that you should always allocate skill points to referred to as the core skills and optional skills.
+Explaining each skills, dividing them into two categories: [Core skills](/skill-tree/skills#core-skills) (always allocate points to) and [Optional skills](/skill-tree/skills#optional-skills) (situational or build-dependent).
 
 ## Core Skills
 
 ### <img src="/skill/38px-NGSUISkillBladeCounter.png" alt="icon" className="heading-icon"/>Gunblade Focus
-Build up the Focus Gauge by hitting enemies. Attack Potency and Offensive <Tooltip term="PP" /> Recovery increase and <Tooltip term="PP" /> Consumption decreases in accordance with the gauge level. The Focus Gauge will reset to zero after 10 seconds pass without hitting an enemy.
+Build up the Focus Gauge by hitting enemies. 
+Attack Potency and Offensive PP Recovery increase and PP Consumption decreases in accordance with the gauge level.
+The Focus Gauge will reset to zero after 10 seconds pass without hitting an enemy.
 
 | Skill Level | Potency Increase Per Level  | <Tooltip term="PP" /> Consumption Reduction Per Level  | Offensive <Tooltip term="PP" /> Recovery Per Level  |
 | :---: | :---: | :---: | :---: |
 | 1 | 1% | 1% | 2% |
 
-The UI element at the bottom of your screen helps you identify your current Focus Level and shows you the time that is left until your Focus Level will be reset.
-The small bar degressing over time shows when your Focus Level will reeset and the big bar split into five rectangles shows your Focus Level.
+The Gunblade Focus indicator at the bottom of your screen helps you identify your current Focus Level:
+* The small bar that depletes over time indicates when your Focus Level will reset.
+* The large bar divided into five segments displays your current Focus Level.
 
 <ImageTable>
   <ImageTableFigure src="/skill/GunbladeFocusGauges.png" alt="Focus Reset Indicator" width="175">
@@ -27,22 +30,20 @@ The small bar degressing over time shows when your Focus Level will reeset and t
     <ImageTableFigure src="/skill/GunbladeFocus1.png" alt="Focus Level 1" width="175">
     Focus Level 1: You have reached one level of Focus.
   </ImageTableFigure>
-    <ImageTableFigure src="/skill/GunbladeFocus0.png" alt="Focus Level 5" width="175">
+    <ImageTableFigure src="/skill/GunbladeFocus5.png" alt="Focus Level 5" width="175">
     Focus Level 5: You have reached five levels of Focus
   </ImageTableFigure>
-    <ImageTableFigure src="/skill/GunbladeFocus0.png" alt="Focus Level OD" width="175">
-    Focus <Tooltip term="OD" />: You have activated [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive)
+    <ImageTableFigure src="/skill/GunbladeFocusOD.png" alt="Focus Level OD" width="175">
+    Focus OD: You have activated [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive)
   </ImageTableFigure>
 </ImageTable>
 
 :::info
-Each Bar represents 100 Focus.
-
-500 Focus is needed to reach Focus Level 5. The Focus Level Indicator will turn from blue to yellow.
-
-When [Gunblade Focus Overflow](/skill-tree/skills#gunblade-focus-overflow) was learned the skill will then activate and make it easier for you to gain Rage.
-
-When [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) was learned you will also be able to activate it. It is generally treated the same as Gunblade Focus Level 5
+* Each segment of the large bar represent 100 Focus.
+* 500 Focus is needed to reach Focus Level 5. 
+* The Focus Level Indicator will turn from blue to yellow after reaching Focus Level 5.
+* When [Gunblade Focus Overflow](/skill-tree/skills#gunblade-focus-overflow) was learned the skill will then activate and make it easier for you to gain Rage.
+* When [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) was learned you will also be able to activate it. It is generally treated the same as Gunblade Focus Level 5
 :::
 
 ### <img src="/skill/38px-NGSUISkillGunbladeFocusGaugeAmplifier.png" alt="icon" className="heading-icon"/>Gunblade Focus Gauge Amplifier
@@ -57,8 +58,7 @@ Increased Focus Gauge charging up to Gunblade Focus Gauge level one.
 | 5 | 200% | 150% |
 
 :::caution
-Investing more than one point into this skill can cause slower [Gunblade Focus](/skill-tree/skills#gunblade-focus) generation.
-
+* Putting more than one skill-point into this skill may slow [Gunblade Focus](/skill-tree/skills#gunblade-focus) generation.
 <Button label="Read More" variant="secondary" link="/breakdown#gunblade-focus-gauge-amplifier" />
 :::
 
@@ -186,7 +186,7 @@ These are the skills you dump the rest of your skill points into after taking al
 There is a chance of recovering <Tooltip term="PP" /> when you land a Critical Hit.
 
 :::caution
-This skill has a Cooldown of 1 second and therefore higher investment into this skill will only help when Gameplay is not optimal.
+* There is a Cooldown of 1 second and therefore higher investment into this skill will only help when Gameplay is not optimal.
 :::
 
 | Skill Level | Activation Probability | <Tooltip term="PP" /> Recovery (Main) | <Tooltip term="PP" /> Recovery (Sub) | Cooldown |
@@ -201,7 +201,7 @@ This skill has a Cooldown of 1 second and therefore higher investment into this 
 When the Gunblade Focus Gauge is reset, recover an amount of <Tooltip term="PP" /> in accordance with the Focus Gauge level.
 
 :::info 
-This skill also activates when entering [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive)
+* Also activates when entering [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive)
 :::
 
 | Skill Level | <Tooltip term="PP" /> Recovery Rate Per Level (Main) | <Tooltip term="PP" /> Recovery Rate Per Level (Sub) |
@@ -216,8 +216,7 @@ This skill also activates when entering [Gunblade Focus Overdrive](/skill-tree/s
 Pressing the Normal Attack button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
 
 :::caution
-It is recommended to avoid this skill. 
-
+* It is recommended to avoid this skill. 
 <Button label="Read More" variant="secondary" link="/breakdown#slugshot" />
 :::
 
@@ -230,8 +229,7 @@ The Gunblade Focus gauge charge rate temporarily increases after the effects of 
 | 1 | 120% | 20 sec |
 
 :::caution
-This skill has some drawbacks which makes justifying this as a core skill difficult until we get access to more skill points.
-If you do not use [Slug Shot](/skill-tree/skills#slug-shot) and feel comfortable with your <Tooltip term="PP" /> you could remove one point of [Critical Hit PP Gain](/skill-tree/skills#critical-hit-pp-gain) for this skill.
-
+* This skill has some drawbacks which makes justifying this as a core skill difficult until we get access to more skill points.
+* If you aren’t using [Slug Shot](/skill-tree/skills#slug-shot) and feel comfortable with your PP, consider removing 1 skill-point from [Critical Hit PP Gain](/skill-tree/skills#critical-hit-pp-gain) for this skill.
 <Button label="Read More" variant="secondary" link="/breakdown#gunblade-focus-quick-recharge" />
 :::
