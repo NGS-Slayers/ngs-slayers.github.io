@@ -90,7 +90,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "social-card.png",
       colorMode: {
         defaultMode: 'dark',
       },
@@ -122,12 +122,12 @@ const config = {
         style: "dark",
         links: [
           {
-            label: "Discord",
-            href: "https://discord.com/invite/pso2",
-          },
-          {
             label: "GitHub",
             href: "https://github.com/NGS-Slayers/ngs-slayers.github.io",
+          },
+          {
+            label: "Discord",
+            href: "https://discord.com/invite/pso2",
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Theowyn | Built with Docusaurus.`,
