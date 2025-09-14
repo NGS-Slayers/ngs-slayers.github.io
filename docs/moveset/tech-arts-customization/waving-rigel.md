@@ -4,7 +4,7 @@ description: "Explaining Tech Arts Customization for Waving Rigel"
 ---
 
 # <img src="/PA/38px-NGSUIPhotonArtWavingRigel.png" alt="icon" className="heading-icon"/> Waving Rigel
-With the patch from 12/06/2023, the ability to customize Photon Arts and Techniques was added, along with the ability to customize the PA [Waving Rigel](/moveset/photon-arts#waving-rigel).
+With the patch from 12/06/2023, the ability to customize [PAs](/moveset/photon-arts) and Techniques was added, along with the ability to customize the PA [Waving Rigel](/moveset/photon-arts#waving-rigel).
 
 <Tabs>
 <TabItem value="c1" label="Customization 1 (Recommended)" default>

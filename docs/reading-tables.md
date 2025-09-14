@@ -8,7 +8,7 @@ If the tables on the later pages feel overwhelming, here’s a quick guide to wh
 :::info
 * DPS values are rounded in calculations.
 
-* Potency and DPS values of Photon Arts include [RB](/skill-tree/skills#relentless-blade), [RBR](/skill-tree/skills#relentless-blade-reinforce) and class-specific Critical Hit Rate multipliers.
+* Potency and DPS values of [PAs](/moveset/photon-arts) include [RB](/skill-tree/skills#relentless-blade), [RBR](/skill-tree/skills#relentless-blade-reinforce) and class-specific Critical Hit Rate multipliers.
 
 * Focus multiplier versus bosses is 5 and is included in the Focus-per-second calculation
 

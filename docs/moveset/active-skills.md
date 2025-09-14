@@ -8,7 +8,7 @@ When the bar above this skill icon fills, you can activate it to dash to a nearb
 It’s excellent for filling [Gunblade Focus](/skill-tree/skills#gunblade-focus), and with [Unleashed Rage After Effect](/skill-tree/skills#unleashed-rage-after-effect) the skill also grants a short-term increase to Critical Hit Rate after use.
 
 :::tip
-* [Unleashed Rage](/skill-tree/skills#unleashed-rage) builds from Photon Arts, Relentless Blade and from [Step Counter Weapon Action](/moveset/counters#stepc-wa).
+* [Unleashed Rage](/skill-tree/skills#unleashed-rage) builds from [PAs](/moveset/photon-arts), Relentless Blade and from [Step Counter Weapon Action](/moveset/counters#stepc-wa).
 * The bar requires 100 Rage to be full and grants invincibility frames for the skill's entire duration.
 :::
 

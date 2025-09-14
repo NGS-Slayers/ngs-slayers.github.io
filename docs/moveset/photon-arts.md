@@ -3,7 +3,7 @@ title: "Photon Arts"
 description: "Explaining Photon Arts"
 ---
 
-Gunblade Photon Arts change based on whether a directional input is held when the PA is activated.
+Gunblade PAs change based on whether a directional input is held when the PA is activated.
 
 If you are familiar with the Fighter Class, you might notice a similarity with Fighter Skip Arts.
 
