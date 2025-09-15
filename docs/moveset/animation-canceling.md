@@ -5,7 +5,7 @@ description: "Explaining Animation Canceling and the benefits"
 
 You can cancel out most Gunblade [PAs](/moveset/photon-arts) and Actions early with a Step Dodge- or Weapon Action input.
 This means you can increase your DPS while gaining PP making [Slug Shot](/skill-tree/skills#slug-shot) way less appealing.
-You can read more about the problem with [Slug Shot](/skill-tree/skills#slug-shot) in [Mechanics Breakdown](/breakdown#slugshot)
+You can read more about the problem with [Slug Shot](/skill-tree/skills#slug-shot) in [Mechanics Breakdown](/mechanics/slugshot)
 
 :::warning
 * No input delay or human error is assumed.

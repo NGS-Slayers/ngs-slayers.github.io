@@ -59,7 +59,7 @@ Increased Focus Gauge charging up to Gunblade Focus Gauge level one.
 
 :::caution
 * Putting more than one skill-point into this skill may slow [Gunblade Focus](/skill-tree/skills#gunblade-focus) generation.
-<Button label="Read More" variant="secondary" link="/breakdown#gunblade-focus-gauge-amplifier" />
+<Button label="Read More" variant="secondary" link="/mechanics/gunblade-focus-gauge-amplifier" />
 :::
 
 ### <img src="/img/38px-NGSUISkillGunbladeFocusCriticalUp.png" alt="icon" className="heading-icon"/>Gunblade Focus Critical Up
@@ -217,7 +217,7 @@ Pressing the Normal Attack button without inputting a direction right after perf
 
 :::caution
 * It is recommended to avoid this skill. 
-<Button label="Read More" variant="secondary" link="/breakdown#slugshot" />
+<Button label="Read More" variant="secondary" link="/mechanics/slugshot" />
 :::
 
 ### <img src="/img/38px-NGSUISkillGunbladeFocusQuickRecharge.png" alt="icon" className="heading-icon"/>Gunblade Focus Quick Recharge
@@ -231,5 +231,5 @@ The Gunblade Focus gauge charge rate temporarily increases after the effects of 
 :::caution
 * This skill has some drawbacks which makes justifying this as a core skill difficult until we get access to more skill points.
 * If you aren’t using [Slug Shot](/skill-tree/skills#slug-shot) and feel comfortable with your PP, consider removing 1 skill-point from [Critical Hit PP Gain](/skill-tree/skills#critical-hit-pp-gain) for this skill.
-<Button label="Read More" variant="secondary" link="/breakdown#gunblade-focus-quick-recharge" />
+<Button label="Read More" variant="secondary" link="/mechanics/slugshot" />
 :::

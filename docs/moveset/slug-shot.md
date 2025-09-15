@@ -11,7 +11,7 @@ Changes behavior of the [Normal Attack](/moveset/normal-attack) when used immedi
 
 :::caution
 * It is recommended to avoid this skill. 
-<Button label="Read More" variant="secondary" link="/breakdown#slugshot" />
+<Button label="Read More" variant="secondary" link="/mechanics/slugshot" />
 :::
 
 The following video example shows [Stay Arts Shifting Spica](/moveset/photon-arts#sss) into Slug Shot.

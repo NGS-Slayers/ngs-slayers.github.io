@@ -43,7 +43,15 @@ const sidebars = {
       label: 'Gearing',
       items: ['gearing/equipment', 'gearing/ex-augments'],
     },
-    'breakdown',
+    {
+      type: 'category',
+      label: 'Mechanics Breakdown',
+      items: [
+        'mechanics/gunblade-focus-quick-recharge',
+        'mechanics/gunblade-focus-gauge-amplifier',
+        'mechanics/slugshot',
+      ],
+    },
     'resources',
     'credits',
   ],
