@@ -75,7 +75,7 @@ This is a fundamental issue because the game handles [Slug Shot](/moveset/slug-s
 * only restores 2 more PP than [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123)
 * only has 3 more range than [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123)
 
-I made a table comparing a few different scenarios with [sFS12](/moveset/photon-arts#sfs12) which has a Weapon Action cancel time of 0.25 seconds and [sSS](/moveset/photon-arts#sss) which has a Weapon Action cancel time of 0.1 seconds.
+I made a table comparing a few different scenarios with [Stay Arts Flowing Sirius Stage 1 and 2](/moveset/photon-arts#sfs12) which has a Weapon Action cancel time of 0.25 seconds and [Stay Arts Shifting Spica](/moveset/photon-arts#sss) which has a Weapon Action cancel time of 0.1 seconds.
 
 <MovesetTable tableId="SlugShotComparison" args={(moveset) => [moveset.calcProp(moveset.sFS12,moveset.SlugShot),'sFS12>Slug Shot', moveset.calcProp(moveset.Cancel(moveset.sFS12,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'sFS12>WA123', moveset.calcProp(moveset.sSS,moveset.SlugShot),'sSS>Slug Shot', moveset.calcProp(moveset.Cancel(moveset.sSS,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'sFS12>WA123',]} />
 
