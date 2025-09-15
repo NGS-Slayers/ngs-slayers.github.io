@@ -14,7 +14,7 @@ If the enemies you are fighting have breakable parts, or you need to get downs q
 Partial Destroy Advantage increases the damage you deal by 1% for each part broken on an enemy (and also reduces damage taken by 2%). This stacks up to 3 times!
 Defeat Amplifier increases Physical and Elemental Down Factor by 15%, allowing you to get faster downs.
 
-| Skill | Unlock Level |
+| Skill | Skill Points |
 |-------------------------------|--------------|
 | Defeat Amplifier | 15 |
 | Partial Destroy Advantage | 5 |
@@ -25,7 +25,7 @@ Defeat Amplifier increases Physical and Elemental Down Factor by 15%, allowing y
 Force is the best subclass for mobbing thanks to Eradication PP Gain which restores PP for each nearby enemy defeated.
 It is not as useful for bossing, but it does still help by providing increased natural PP recovery (from PP Recovery Boost) and the ability to very quickly restore PP using the PP Conversion skill at the cost of some HP.
 
-| Skill | Unlock Level |
+| Skill | Skill Points |
 |-------------------------------|--------------|
 | PP Conversion | 5 |
 | PP Recovery Boost | 15 |
@@ -41,7 +41,7 @@ Weak Element Amplifier further boosts Photon Blast accumulation rate by 20% if y
 Techter subclass is great for bossing because it allows you to generate Photon Blasts faster which could be helpful in fights where you do not have the Photon Blast ready in time or in longer fights it could even give you an additional Photon Blast.
 Synergizes well with weapons that come with Potentials that further increase Photon Blast accumulation.
 
-| Skill | Unlock Level |
+| Skill | Skill Points |
 |-------------------------------|--------------|
 | Weak Element Amplifier | 15 |
 | Awake Aile | 10 |
@@ -53,7 +53,7 @@ Synergizes well with weapons that come with Potentials that further increase Pho
 Increases damage against downed enemies by 5% and increases PP recovery when attacking downed enemies by 40% thanks to Defeat Advantage and Defeat PP Recovery.
 This can be a decent option if the above mentioned subclass benefits don't come into play or you can ensure the enemy being downed often enough.
 
-| Skill | Unlock Level |
+| Skill | Skill Points |
 |---------------------------|--------------|
 | Defeat Advantage | 10 |
 | Defeat PP Recovery | 15 |
