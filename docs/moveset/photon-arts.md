@@ -22,7 +22,7 @@ Stay Arts Shifting Spica will perform a forward slash and fire a Photon Bullet i
 * You are granted super armor throughout the entire duration.
 :::
 
-<VideoPlayer src="/vid/sSS.webm" />
+<VideoPlayer src="/vid/sSS.mp4" />
 
 <MovesetTable tableId="sSS" args={(moveset) => [moveset.sSS]} />
 
@@ -35,7 +35,7 @@ Move Arts Shifting Spica will approach the enemy at high speed with a thrust att
 * You are granted super armor throughout the entire duration.
 :::
 
-<VideoPlayer src="/vid/mSS.webm" />
+<VideoPlayer src="/vid/mSS.mp4" />
 
 <MovesetTable tableId="mSS" args={(moveset) => [moveset.mSS]} />
 
@@ -46,7 +46,7 @@ _Type: Filler_
 
 Stay Arts Flowing Sirius will perform a series of slashes.
 
-<VideoPlayer src="/vid/sFS1.webm" />
+<VideoPlayer src="/vid/sFS1.mp4" />
 
 <MovesetTable tableId="sFS1" args={(moveset) => [moveset.sFS1]} />
 
@@ -60,7 +60,7 @@ Stage 2 of Stay Arts Flowing Sirius continues the series of slashes and finishes
 * Potency of [Relentless Blade](/skill-tree/skills#relentless-blade) is increased during this stage.
 :::
 
-<VideoPlayer src="/vid/sFS12.webm" />
+<VideoPlayer src="/vid/sFS12.mp4" />
 
 <MovesetTable tableId="sFS12" args={(moveset) => [moveset.sFS12]} />
 
@@ -73,7 +73,7 @@ Move Arts Flowing Sirius will perform an attack that sweeps the surrounding area
 * You are granted super armor until before performing the last slash of the attack.
 :::
 
-<VideoPlayer src="/vid/mFS.webm" />
+<VideoPlayer src="/vid/mFS.mp4" />
 
 <MovesetTable tableId="mFS" args={(moveset) => [moveset.mFS]} />
 
@@ -88,7 +88,7 @@ Stay Arts Reaping Regulus will throw a photon bomb while retreating back as the 
 * You are granted invincibility frames and super armor for 0.35 seconds.
 :::
 
-<VideoPlayer src="/vid/sRR.webm" />
+<VideoPlayer src="/vid/sRR.mp4" />
 
 <MovesetTable tableId="sRR" args={(moveset) => [moveset.sRR]} />
 
@@ -101,7 +101,7 @@ Move Arts Reaping Regulus will kick a photon bomb in a curved manner that explod
 * You are granted invincibility frames for 0.2 seconds.
 :::
 
-<VideoPlayer src="/vid/mRR.webm" />
+<VideoPlayer src="/vid/mRR.mp4" />
 
 <MovesetTable tableId="mRR" args={(moveset) => [moveset.mRR]} />
 
@@ -117,7 +117,7 @@ Stay Arts Waving Rigel will thrust the weapon into the ground and release a shoc
 * It will also pull small enemies towards you.
 :::
 
-<VideoPlayer src="/vid/sWR.webm" />
+<VideoPlayer src="/vid/sWR.mp4" />
 
 <MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR]} />
 
@@ -130,6 +130,6 @@ Move Arts Waving Rigel will slash the surrounding area while ascending your char
 * You are granted super armor throughout the entire animation.
 :::
 
-<VideoPlayer src="/vid/mWR.webm" />
+<VideoPlayer src="/vid/mWR.mp4" />
 
 <MovesetTable tableId="mWR" args={(moveset) => [moveset.mWR]} />

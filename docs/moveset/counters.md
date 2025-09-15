@@ -21,7 +21,7 @@ Blade Counter Normal Attack is useful for when there is multiple separate attack
 * After starting the counter sequence you can move slightly. If no directional input is held, you will slightly move toward your target.
 :::
 
-<VideoPlayer src="/vid/BCNA.webm" />
+<VideoPlayer src="/vid/BCNA.mp4" />
 
 <MovesetTable tableId="BCNA" args={(moveset) => [moveset.BCNA,'BCNA', moveset.calcProp(moveset.WA1,moveset.BCNA),'WA1>BCNA', moveset.calcProp(moveset.WA2,moveset.BCNA),'WA2>BCNA', moveset.calcProp(moveset.WA3,moveset.BCNA),'WA3>BCNA']} />
 
@@ -32,7 +32,7 @@ Blade Counter Normal Attack is useful for when there is multiple separate attack
 * After starting the counter sequence you can move slightly.
 :::
 
-<VideoPlayer src="/vid/BCWA.webm" />
+<VideoPlayer src="/vid/BCWA.mp4" />
 
 <MovesetTable tableId="BCWA" args={(moveset) => [moveset.BCWA,'BCWA', moveset.calcProp(moveset.WA1,moveset.BCWA),'WA1>BCWA', moveset.calcProp(moveset.WA2,moveset.BCWA),'WA2>BCWA', moveset.calcProp(moveset.WA3,moveset.BCWA),'WA3>BCWA']} />
 
@@ -44,7 +44,7 @@ Mobile Blade Counter Normal Attack is used for when you need a quick ranged coun
 * Avoid using this counter when not needed. as it does not benefit from [Blade Counter Critical Up](/skill-tree/skills#blade-counter-critical-up)
 :::
 
-<VideoPlayer src="/vid/mBCNA.webm" />
+<VideoPlayer src="/vid/mBCNA.mp4" />
 
 <MovesetTable tableId="mBCNA" args={(moveset) => [moveset.calcProp(moveset.mBCNA,moveset.mWA)]} />
 
@@ -56,7 +56,7 @@ Mobile Blade Counter Weapon Action is your go to option for when you have to mov
 * Avoid using this counter when not needed. as it does not benefit from [Blade Counter Critical Up](/skill-tree/skills#blade-counter-critical-up)
 :::
 
-<VideoPlayer src="/vid/mBCWA.webm" />
+<VideoPlayer src="/vid/mBCWA.mp4" />
 
 <MovesetTable tableId="mBCWA" args={(moveset) => [moveset.calcProp(moveset.mBCWA,moveset.mWA)]} />
 
@@ -67,13 +67,13 @@ Step Counter Normal Attack is the fastest counter the Gunblade has to offer. It 
 * Try avoiding this counter when not needed since it has the lowest potency out of all of your options
 :::
 
-<VideoPlayer src="/vid/StepCNA.webm" />
+<VideoPlayer src="/vid/StepCNA.mp4" />
 
 <MovesetTable tableId="StepCNA" args={(moveset) => [moveset.StepCNA]} />
 
 ## StepC WA
 Step Counter Weapon Action is an amazing tool to build Focus and Rage, it serves as a gap closer, has the highest DPS when [chained in a lingering hitbox](/moveset/animation-canceling#stepc-wachain), and has great potency for a the time it takes to execute.
 
-<VideoPlayer src="/vid/StepCWA.webm" />
+<VideoPlayer src="/vid/StepCWA.mp4" />
 
 <MovesetTable tableId="StepCWA" args={(moveset) => [moveset.StepCWA]} />

@@ -12,7 +12,7 @@ It’s excellent for filling [Gunblade Focus](/skill-tree/skills#gunblade-focus)
 * The bar requires 100 Rage to be full and grants invincibility frames for the skill's entire duration.
 :::
 
-<VideoPlayer src="/vid/UR.webm" />
+<VideoPlayer src="/vid/UR.mp4" />
 
 <MovesetTable tableId="UR" args={(moveset) => [moveset.UR]} />
 
@@ -27,6 +27,6 @@ Re-activating this skill while it's in effect, unleashes a powerful finishing mo
 * The activation takes 1.4 seconds when not following up with another attack and 0.67 seconds if you do.
 :::
 
-<VideoPlayer src="/vid/ODF.webm" />
+<VideoPlayer src="/vid/ODF.mp4" />
 
 <MovesetTable tableId="ODF" args={(moveset) => [moveset.ODF]} />

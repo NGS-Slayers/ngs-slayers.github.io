@@ -14,6 +14,6 @@ The second stage fires multiple projectiles at the enemy from range.
 * You can change targets before the second stage takes place.
 :::
 
-<VideoPlayer src="/vid/PB.webm" />
+<VideoPlayer src="/vid/PB.mp4" />
 
 <MovesetTable tableId="PB" args={(moveset) => [moveset.PB]} />

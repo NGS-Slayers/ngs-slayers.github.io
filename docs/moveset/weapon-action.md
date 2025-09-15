@@ -15,7 +15,7 @@ The Weapon Action lets you guard against an enemy attack with a slashing move. T
 * For Weapon Action Stage 3 they will last 0.4 seconds.
 :::
 
-<VideoPlayer src="/vid/WA123.webm" />
+<VideoPlayer src="/vid/WA123.mp4" />
 
 <MovesetTable tableId="WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
@@ -26,6 +26,6 @@ If the skill [Mobile Blade](/skill-tree/skills#mobile-blade) was learned you can
 During the slash you will be granted invincibility frames for 0.35 seconds.
 :::
 
-<VideoPlayer src="/vid/mWA.webm" />
+<VideoPlayer src="/vid/mWA.mp4" />
 
 <MovesetTable tableId="mWA" args={(moveset) => [moveset.mWA]} />

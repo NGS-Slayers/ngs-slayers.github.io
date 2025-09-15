@@ -22,7 +22,7 @@ It also takes longer so make sure the time window is big enough so you can conne
 * You can safely cancel after 2.85 seconds.
 :::
 
-<VideoPlayer src="/vid/sFS12-WA123.webm" />
+<VideoPlayer src="/vid/sFS12-WA123.mp4" />
 
 <MovesetTable tableId="sFS12-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sFS12,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
@@ -33,7 +33,7 @@ Repeating [Step Couter Weapon Action](/moveset/counters#stepc-wa) is stronger th
 * You can safely cancel after 0.82 seconds.
 :::
 
-<VideoPlayer src="/vid/StepCWA-chain.webm" />
+<VideoPlayer src="/vid/StepCWA-chain.mp4" />
 
 <MovesetTable tableId="StepCWA-Chain" args={(moveset) => [moveset.Cancel(moveset.StepCWA,'Step')]} />
 
@@ -44,7 +44,7 @@ Using [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) after a [Step C
 * You can safely cancel after 0.82 seconds.
 :::
 
-<VideoPlayer src="/vid/StepCWA-WA123.webm" />
+<VideoPlayer src="/vid/StepCWA-WA123.mp4" />
 
 <MovesetTable tableId="StepCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.StepCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
 
@@ -56,7 +56,7 @@ Canceling [Blade Counter Weapon Action](/moveset/counters#bc-wa) after the sixth
 * The perfect timing for the cancel is at 1.92 seconds.
 :::
 
-<VideoPlayer src="/vid/BCWA-WA123.webm" />
+<VideoPlayer src="/vid/BCWA-WA123.mp4" />
 
 <MovesetTable tableId="BCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA1>BCWA>WA123', moveset.calcProp(moveset.WA2,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA2>BCWA>WA123', moveset.calcProp(moveset.WA3,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA3>BCWA>WA123']} />
 
@@ -68,7 +68,7 @@ Canceling [Stay Arts Reaping Regulus](/moveset/photon-arts#srr) into a [Step Cou
 * The perfect timing for the cancel is at 0.42 seconds.
 :::
 
-<VideoPlayer src="/vid/sRR-StepCWA.webm" />
+<VideoPlayer src="/vid/sRR-StepCWA.mp4" />
 
 <MovesetTable tableId="sRR-StepCWA" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sRR,'Step'),moveset.StepCWA)]} />
 
@@ -79,6 +79,6 @@ You can cancel out of [Stay Arts Waving Rigel](/moveset/photon-arts#swr) with a 
 * You can safely cancel the PA at 0.18 seconds.
 :::
 
-<VideoPlayer src="/vid/sWR-StepCWA.webm" />
+<VideoPlayer src="/vid/sWR-StepCWA.mp4" />
 
 <MovesetTable tableId="sWR-StepCWA" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sWR,'Step'),moveset.StepCWA)]} />

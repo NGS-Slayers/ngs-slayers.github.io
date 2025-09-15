@@ -33,4 +33,4 @@ Binding the [Normal Attack](/moveset/normal-attack) button to a slot with higher
 
 Here is an example of me binding [Normal Attack](/moveset/normal-attack) to Slot 6 of my Sub Palette which has a priority value of 9, while I am using a <Tooltip term="PA" /> on my Weapon Palette with a priority value of 2.
 
-<VideoPlayer src="/vid/EasyRB.webm" />
+<VideoPlayer src="/vid/EasyRB.mp4" />
