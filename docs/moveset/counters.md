@@ -26,7 +26,7 @@ Blade Counter Normal Attack is useful for when there is multiple separate attack
 <MovesetTable tableId="BCNA" args={(moveset) => [moveset.BCNA,'BCNA', moveset.calcProp(moveset.WA1,moveset.BCNA),'WA1>BCNA', moveset.calcProp(moveset.WA2,moveset.BCNA),'WA2>BCNA', moveset.calcProp(moveset.WA3,moveset.BCNA),'WA3>BCNA']} />
 
 ## BC WA
-[Blade Counter](/skill-tree/skills#blade-counter) Weapon Action has the highest total potency out of all of your Counter Attacks and makes this your go to option for when the enemy is not attacking in quick succession.
+Blade Counter Weapon Action has the highest total potency out of all of your Counter Attacks and makes this your go to option for when the enemy is not attacking in quick succession.
 
 :::tip
 * After starting the counter sequence you can move slightly.
