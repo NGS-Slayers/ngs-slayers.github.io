@@ -38,6 +38,7 @@ const sidebars = {
     },
     'subclasses',
     'addons',
+    'ex-styles',
     {
       type: 'category',
       label: 'Gearing',

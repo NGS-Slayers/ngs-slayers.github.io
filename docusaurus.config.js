@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Theowyn’s Slayer Guide",
+  title: "Theowyn's Slayer Guide",
   tagline:
     "A comprehensive guide to the Slayer class in Phantasy Star Online 2: New Genesis",
   favicon: "/favicon.ico",
@@ -95,7 +95,7 @@ const config = {
         defaultMode: 'dark',
       },
       navbar: {
-        title: "Theowyn’s Slayer Guide",
+        title: "Theowyn's Slayer Guide",
         logo: {
           alt: "Slayer Guide Logo",
           src: "/img/logo.png",
