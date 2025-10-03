@@ -3,7 +3,7 @@ title: "Relentless Blade"
 description: "Explaining the skill Relentless Blade and how to use it easily"
 ---
 
-During a PA, a purple glow appears on your character. While it’s active, performing a [Normal Attack](/moveset/normal-attack) triggers an additional hitscan strike instead that builds Focus, Rage and restores some PP.
+During a PA, a purple glow appears on your character. While it's active, performing a [Normal Attack](/moveset/normal-attack) triggers an additional hitscan strike instead that builds Focus, Rage and restores some PP.
 
 :::tip
 * [Relentless Blade Reinforce](/skill-tree/skills#relentless-blade-reinforce) increases the potency of this attack.

@@ -5,7 +5,7 @@ description: "Explaining Active Skills"
 
 ## <img src="/img/38px-NGSUISkillUnleashedRage.png" alt="icon" className="heading-icon"/>Unleashed Rage
 When the bar above this skill icon fills, you can activate it to dash to a nearby selected enemy and attack it with a powerful slash.
-It’s excellent for filling [Gunblade Focus](/skill-tree/skills#gunblade-focus), and with [Unleashed Rage After Effect](/skill-tree/skills#unleashed-rage-after-effect) the skill also grants a short-term increase to Critical Hit Rate after use.
+It's excellent for filling [Gunblade Focus](/skill-tree/skills#gunblade-focus), and with [Unleashed Rage After Effect](/skill-tree/skills#unleashed-rage-after-effect) the skill also grants a short-term increase to Critical Hit Rate after use.
 
 :::tip
 * [Unleashed Rage](/skill-tree/skills#unleashed-rage) builds from [PAs](/moveset/photon-arts), Relentless Blade and from [Step Counter Weapon Action](/moveset/counters#stepc-wa).

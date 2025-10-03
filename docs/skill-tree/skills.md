@@ -70,7 +70,7 @@ Critical Hit Rate increases according to the Gunblade Focus Gauge level. The Foc
 | 1 | 2% |
 
 ### <img src="/img/38px-NGSUISkillGunbladeFocusOverflow.png" alt="icon" className="heading-icon"/>Gunblade Focus Overflow
-When the Gunblade Focus Gauge is at its maximum level or while Gunblade Focus Overdrive is active, the Unleashed Rage gauge will charge up and its Cooldown time will be reduced.
+When the Gunblade Focus Gauge is at its maximum level or while Gunblade Focus Overdrive is active, the Unleashed Rage gauge will charge up and its cooldown time will be reduced.
 
 | Skill Level | Gauge Accumulation Rate | Cooldown Reduction |
 | :---: | :---: | :---: |
@@ -186,7 +186,7 @@ These are the skills you dump the rest of your skill points into after taking al
 There is a chance of recovering <Tooltip term="PP" /> when you land a Critical Hit.
 
 :::caution
-* There is a Cooldown of 1 second and therefore higher investment into this skill will only help when Gameplay is not optimal.
+* There is a cooldown of 1 second and therefore higher investment into this skill will only help when Gameplay is not optimal.
 :::
 
 | Skill Level | Activation Probability | <Tooltip term="PP" /> Recovery (Main) | <Tooltip term="PP" /> Recovery (Sub) | Cooldown |

@@ -3,7 +3,7 @@ title: "Reading Tables"
 description: "Explaining how to read tables containing Frame Data"
 ---
 
-If the tables on the later pages feel overwhelming, here’s a quick guide to what they contain.
+If the tables on the later pages feel overwhelming, here's a quick guide to what they contain.
 
 :::info
 * DPS values are rounded in calculations.

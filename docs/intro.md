@@ -8,7 +8,7 @@ hide_title: true
 ![banner](/img/banner.png)
 
 ## Intro
-Welcome to Theowyn’s comprehensive Slayer class guide for Phantasy Star Online 2: New Genesis!
+Welcome to Theowyn's comprehensive Slayer class guide for Phantasy Star Online 2: New Genesis!
 
 Slayer is the newest precision-based class added to the game.
 
