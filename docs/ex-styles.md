@@ -7,17 +7,20 @@ With the patch from 10/01/2025, we can now pick from one of three EX-Styles to g
 ## Slayer's Choice
 The generally recommended EX-Style for Slayer is Adras. The next best is Blitz. Celeste should be avoided and here is why:
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 <Tabs>
-<TabItem value="adras" label="Adras (Recommended)">
+<TabItem value="adras" label={<span><img src="/img/38px-Adras.png" alt="Adras" style={{marginRight: "5px", verticalAlign: "middle"}} className="tab-icon" />Adras (Recommended)</span>} default attributes={{className: 'adras-tab'}}>
 Adras, while at first glance might look weaker than the other two options, actually seems to have the highest ceiling. Adras Perfection gives a free counter every 20 seconds, which is awesome and also makes it incredibly easy to get the 420 potency from the additional attack it generates. This is a massive boost to overall DPS when used correctly and it is available at the start of a fight. Make sure not to waste the free counter from Adras Perfection and fit it whenever possible. If you do not have much time before the next enemy attack, consider using the [Normal Attack version of the Counter](/moveset/counters#bc-na).
 </TabItem>
 
-<TabItem value="blitz" label="Blitz">
+<TabItem value="blitz" label={<span><img src="/img/38px-Blitz.png" alt="Blitz" style={{marginRight: "5px", verticalAlign: "middle"}} className="tab-icon" />Blitz</span>} attributes={{className: 'blitz-tab'}}>
 Blitz gives strong buffs through its Decay Rounds. However, triggering Blitz Cascade requires adjusting your gameplay, which can lower your DPS. In fights with very aggressive enemies, you might not have time to trigger Blitz Cascade on cooldown and therefore lowers the value of the 420 potency bonus.
 </TabItem>
 
-<TabItem value="celeste" label="Celeste">
-While Celeste's ability to lower the cooldown of Gunblade Overdrive may sound enticing, it is not as effective as it seems. It will desync your Photon Blast and [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) timings, making it ineffective. On top of that, triggering Celeste Flawless is difficult. You must sacrifice a regular Counter to trigger it and wait for the enemy to attack before it can activate. This will cause you to miss out on the 420 potency often and reduces your DPS as the fight drags on.
+<TabItem value="celeste" label={<span><img src="/img/38px-Celeste.png" alt="Celeste" style={{marginRight: "5px", verticalAlign: "middle"}} className="tab-icon" />Celeste</span>} attributes={{className: 'celeste-tab'}}>
+While Celeste's ability to lower the cooldown of [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) may sound enticing, it is not as effective as it seems. It will desync your [Photon Blast](/moveset/photon-blast) and [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) timings, making it ineffective. On top of that, triggering Celeste Flawless is difficult. You must sacrifice a regular Counter to trigger it and wait for the enemy to attack before it can activate and therefore significantly lowers the value of the 420 potency bonus. 
 </TabItem>
 </Tabs>
 

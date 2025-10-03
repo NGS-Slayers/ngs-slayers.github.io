@@ -60,3 +60,23 @@
     display: none !important;
   }
 }
+
+.adras-tab.tabs__item--active {
+  color: #e14343;
+  border-color: #e14343;
+}
+
+.blitz-tab.tabs__item--active {
+  color: #4367e1;
+  border-color: #4367e1;
+}
+
+.celeste-tab.tabs__item--active {
+  color: #f5ee3c;
+  border-color: #f5ee3c;
+}
+
+.tab-icon {
+  width: 24px;
+  height: 24px;
+}
