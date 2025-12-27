@@ -231,5 +231,5 @@ The Gunblade Focus gauge charge rate temporarily increases after the effects of 
 :::caution
 * This skill has some drawbacks which makes justifying this as a core skill difficult until we get access to more skill points.
 * If you aren’t using [Slug Shot](/skill-tree/skills#slug-shot) and feel comfortable with your PP, consider removing 1 skill-point from [Critical Hit PP Gain](/skill-tree/skills#critical-hit-pp-gain) for this skill.
-<Button label="Read More" variant="secondary" link="/mechanics/slugshot" />
+<Button label="Read More" variant="secondary" link="/mechanics/gunblade-focus-quick-recharge" />
 :::
