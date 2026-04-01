@@ -94,7 +94,7 @@ export function SRHS(obj) {
   result.DPS = result.Pot / result.Time;
   result.F0 = Math.round(result.DPS);
   result.F5 = Math.round(result.DPS * MP.F5);
-  if (obj.AD) {
+  if (obj.OD) {
     result.OD = Math.round(result.DPS * MP.OD);
   }
 
