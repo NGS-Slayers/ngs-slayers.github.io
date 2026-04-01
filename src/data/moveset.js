@@ -15,9 +15,10 @@ export function addProp(obj) {
       obj.F0 = Math.round(obj.DPS * MP.BC);
       obj.F5 = Math.round(obj.DPS * MP.F5 * MP.BC);
       obj.OD = Math.round(obj.DPS * MP.OD * MP.BC);
-    } else if (obj.Super) {
+    } else if (obj.AD) {
       obj.F0 = Math.round(obj.DPS);
       obj.F5 = Math.round(obj.DPS * MP.F5);
+      delete obj.OD;
     } else {
       obj.F0 = Math.round(obj.DPS);
       obj.F5 = Math.round(obj.DPS * MP.F5);
@@ -93,7 +94,9 @@ export function SRHS(obj) {
   result.DPS = result.Pot / result.Time;
   result.F0 = Math.round(result.DPS);
   result.F5 = Math.round(result.DPS * MP.F5);
-  result.OD = Math.round(result.DPS * MP.OD);
+  if (obj.AD) {
+    result.OD = Math.round(result.DPS * MP.OD);
+  }
 
   // Return the modified object
   return result;
@@ -124,6 +127,22 @@ export function Cancel(obj, option) {
 
   // Return the modified object
   return result;
+}
+
+// Simplifies creation of Another Drive (_AD) variants
+export function AD_Calc(base, ...bladePairs) {
+  const res = { ...base, AD: true };
+  
+  bladePairs.forEach(([oldB, newB]) => {
+    res.Pot = res.Pot - RBR(oldB).Pot + RBR(newB).Pot;
+    res.PP = res.PP - oldB.PP + newB.PP;
+    res.Focus = res.Focus - oldB.Focus + newB.Focus;
+    res.Rage = res.Rage - oldB.Rage + newB.Rage;
+  });
+
+  // Recalculate derived properties (DPS, FPS, etc.) with the AD flag
+  addProp(res);
+  return res;
 }
 
 // Multipliers
@@ -188,16 +207,7 @@ export var sSS = {
 addProp(sSS)
 
 // Stay Shifting Spica AD
-export var sSS_AD = {
-  Pot: 200 + RBR(RB_AD).Pot,
-  Time: 0.6,
-  PP: 14 + RB_AD.PP,
-  Focus: 2.6 + RB_AD.Focus,
-  Rage: 0.2 + RB_AD.Rage,
-  StepCancel: 0.35,
-  WACancel: 0.50
-};
-addProp(sSS_AD)
+export var sSS_AD = AD_Calc(sSS, [RB, RB_AD]);
 
 // Move Shifting Spica
 export var mSS = {
@@ -212,16 +222,7 @@ export var mSS = {
 addProp(mSS)
 
 // Move Shifting Spica AD
-export var mSS_AD = {
-  Pot: 396 + RBR(RB_AD).Pot,
-  Time: 1.14,
-  PP: 14 + RB_AD.PP,
-  Focus: 5 + RB_AD.Focus,
-  Rage: 1.5 + RB_AD.Rage,
-  StepCancel: 0.55,
-  WACancel: 1.04
-};
-addProp(mSS_AD)
+export var mSS_AD = AD_Calc(mSS, [RB, RB_AD]);
 
 // Stay Flowing Sirius1
 export var sFS1 = {
@@ -236,22 +237,13 @@ export var sFS1 = {
 addProp(sFS1)
 
 // Stay Flowing Sirius1 AD
-export var sFS1_AD = {
-  Pot: 429.2 + RBR(RB_AD).Pot,
-  Time: 1.25,
-  PP: 25 + RB_AD.PP,
-  Focus: 5.1 + RB_AD.Focus,
-  Rage: 1.5 + RB_AD.Rage,
-  StepCancel: 0.95,
-  WACancel: 1.10
-};
-addProp(sFS1_AD)
+export var sFS1_AD = AD_Calc(sFS1, [RB, RB_AD]);
 
 // Stay Flowing Sirius12
 export var sFS12 = {
   Pot: 1160 + RBR(RB).Pot + RBR(Strong_RB).Pot,
   Time: 3.1,
-  PP: 50 + RB.PP + RB.PP,
+  PP: 50 + RB.PP + Strong_RB.PP,
   Focus: 14.2 + RB.Focus + Strong_RB.Focus,
   Rage: 7.5 + RB.Rage + Strong_RB.Rage,
   StepCancel: 2.85,
@@ -260,16 +252,7 @@ export var sFS12 = {
 addProp(sFS12)
 
 // Stay Flowing Sirius12 AD
-export var sFS12_AD = {
-  Pot: 1160 + RBR(RB_AD).Pot + RBR(Strong_RB_AD).Pot,
-  Time: 3.1,
-  PP: 50 + RB_AD.PP + RB_AD.PP,
-  Focus: 14.2 + RB_AD.Focus + Strong_RB.Focus,
-  Rage: 7.5 + RB_AD.Rage + Strong_RB.Rage,
-  StepCancel: 2.85,
-  WACancel: 2.85
-};
-addProp(sFS12_AD)
+export var sFS12_AD = AD_Calc(sFS12, [RB, RB_AD], [Strong_RB, Strong_RB_AD]);
 
 // Move Flowing Sirius
 export var mFS = {
@@ -284,16 +267,7 @@ export var mFS = {
 addProp(mFS)
 
 // Move Flowing Sirius AD
-export var mFS_AD = {
-  Pot: 324.8 + RBR(RB_AD).Pot,
-  Time: 0.93,
-  PP: 25 + RB_AD.PP,
-  Focus: 4.6 + RB_AD.Focus,
-  Rage: 1.5 + RB_AD.Rage,
-  StepCancel: 0.73,
-  WACancel: 0.83
-};
-addProp(mFS_AD)
+export var mFS_AD = AD_Calc(mFS, [RB, RB_AD]);
 
 // Stay Reaping Regulus
 export var sRR = {
@@ -308,16 +282,7 @@ export var sRR = {
 addProp(sRR)
 
 // Stay Reaping Regulus AD
-export var sRR_AD = {
-  Pot: 210 + RBR(RB_AD).Pot,
-  Time: 0.67,
-  PP: 17 + RB_AD.PP,
-  Focus: 4 + RB_AD.Focus,
-  Rage: 4 + RB_AD.Rage,
-  StepCancel: 0.42,
-  WACancel: 0.57
-};
-addProp(sRR_AD)
+export var sRR_AD = AD_Calc(sRR, [RB, RB_AD]);
 
 // Move Reaping Regulus
 export var mRR = {
@@ -332,16 +297,7 @@ export var mRR = {
 addProp(mRR)
 
 // Move Reaping Regulus AD
-export var mRR_AD = {
-  Pot: 279.3 + RBR(RB_AD).Pot,
-  Time: 0.87,
-  PP: 17 + RB_AD.PP,
-  Focus: 4 + RB_AD.Focus,
-  Rage: 1.5 + RB_AD.Rage,
-  StepCancel: 0.62,
-  WACancel: 0.77
-};
-addProp(mRR_AD)
+export var mRR_AD = AD_Calc(mRR, [RB, RB_AD]);
 
 // Stay Waving Rigel
 export var sWR = {
@@ -356,16 +312,7 @@ export var sWR = {
 addProp(sWR)
 
 // Stay Waving Rigel AD
-export var sWR_AD = {
-  Pot: 135 + RBR(RB_AD).Pot,
-  Time: 0.433333333333,
-  PP: 18 + RB_AD.PP,
-  Focus: 1.5 + RB_AD.Focus,
-  Rage: 0.4 + RB_AD.Rage,
-  StepCancel: 0.18,
-  WACancel: 0.33
-};
-addProp(sWR_AD)
+export var sWR_AD = AD_Calc(sWR, [RB, RB_AD]);
 
 // Move Waving Rigel
 export var mWR = {
@@ -380,16 +327,7 @@ export var mWR = {
 addProp(mWR)
 
 // Move Waving Rigel AD
-export var mWR_AD = {
-  Pot: 344.25 + RBR(RB_AD).Pot,
-  Time: 1,
-  PP: 18 + RB_AD.PP,
-  Focus: 5.1 + RB_AD.Focus,
-  Rage: 4.5 + RB_AD.Rage,
-  StepCancel: 0.75,
-  WACancel: 0.90
-};
-addProp(mWR_AD)
+export var mWR_AD = AD_Calc(mWR, [RB, RB_AD]);
 
 // Slug Shot
 export var SlugShot = {
@@ -412,7 +350,7 @@ export var SuperSlugShot = {
   Rage: 0, //?
   StepCancel: 0.41, //?
   WACancel: 0.41, //?
-  Super: true
+  AD: true
 };
 addProp(SuperSlugShot)
 
@@ -660,16 +598,7 @@ export var sWRC3 = {
 addProp(sWRC3)
 
 // Stay Waving Rigel Custom 3 AD
-export var sWRC3_AD = {
-  Pot: 3 * 135 * 0.36 + RBR(RB_AD).Pot,
-  Time: 0.433333333333,
-  PP: 18 * 1.1 + RB_AD.PP,
-  Focus: 0.6 * 3 + RB_AD.Focus,
-  Rage: 0.2 * 3 + RB_AD.Rage,
-  StepCancel: 0.18,
-  WACancel: 0.33
-};
-addProp(sWRC3_AD)
+export var sWRC3_AD = AD_Calc(sWRC3, [RB, RB_AD]);
 
 // Stay Reaping Regulus Custom 2
 export var sRRC2 = {
@@ -684,16 +613,7 @@ export var sRRC2 = {
 addProp(sRRC2)
 
 // Stay Reaping Regulus Custom 2 AD
-export var sRRC2_AD = {
-  Pot: 210 * 0.84 + RBR(RB_AD).Pot,
-  Time: 0.56,
-  PP: 17 * 1.05 + RB_AD.PP,
-  Focus: 4 + RB_AD.Focus,
-  Rage: 4 + RB_AD.Rage,
-  StepCancel: 0.35,
-  WACancel: 0.46
-};
-addProp(sRRC2_AD)
+export var sRRC2_AD = AD_Calc(sRRC2, [RB, RB_AD]);
 
 // Move Reaping Regulus Custom 2
 export var mRRC2 = {
@@ -708,16 +628,7 @@ export var mRRC2 = {
 addProp(mRRC2)
 
 // Move Reaping Regulus Custom 2 AD
-export var mRRC2_AD = {
-  Pot: 279.3 * 0.84 + RBR(RB_AD).Pot,
-  Time: 0.73,
-  PP: 17 * 1.05 + RB_AD.PP,
-  Focus: 4 + RB_AD.Focus,
-  Rage: 1.5 + RB_AD.Rage,
-  StepCancel: 0.53,
-  WACancel: 0.65
-};
-addProp(mRRC2_AD)
+export var mRRC2_AD = AD_Calc(mRRC2, [RB, RB_AD]);
 
 // Charged Blade PA
 export var ChargedBladePA = {
@@ -756,16 +667,7 @@ export var mSSC2 = {
 addProp(mSSC2)
 
 // Move Shifting Spica Custom 2 AD
-export var mSSC2_AD = {
-  Pot: 396 * 0.89 + RBR(RB_AD).Pot,
-  Time: 1.0,
-  PP: 14 * 1.05 + RB_AD.PP,
-  Focus: 5 + RB_AD.Focus,
-  Rage: 1.5 + RB_AD.Rage,
-  StepCancel: 0.82,
-  WACancel: 0.90
-};
-addProp(mSSC2_AD)
+export var mSSC2_AD = AD_Calc(mSSC2, [RB, RB_AD]);
 
 // Stay Shifting Spica Custom 3
 export var sSSC3 = {
