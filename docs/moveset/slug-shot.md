@@ -18,4 +18,4 @@ The following video example shows [Stay Arts Shifting Spica](/moveset/photon-art
 
 <VideoPlayer src="/vid/SlugShot.mp4" />
 
-<MovesetTable tableId="SlugShot" args={(moveset) => [moveset.SlugShot]} />
+<MovesetTable tableId="SlugShot" args={(moveset) => [moveset.SlugShot, 'Regular', moveset.SuperSlugShot, 'Super']} />

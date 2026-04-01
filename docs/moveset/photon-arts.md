@@ -24,7 +24,7 @@ Stay Arts Shifting Spica will perform a forward slash and fire a Photon Bullet i
 
 <VideoPlayer src="/vid/sSS.mp4" />
 
-<MovesetTable tableId="sSS" args={(moveset) => [moveset.sSS]} />
+<MovesetTable tableId="sSS" args={(moveset) => [moveset.sSS, 'Regular', moveset.sSS_AD, 'AD']} />
 
 ### mSS
 _Type: Gap-closer_
@@ -37,7 +37,7 @@ Move Arts Shifting Spica will approach the enemy at high speed with a thrust att
 
 <VideoPlayer src="/vid/mSS.mp4" />
 
-<MovesetTable tableId="mSS" args={(moveset) => [moveset.mSS]} />
+<MovesetTable tableId="mSS" args={(moveset) => [moveset.mSS, 'Regular', moveset.mSS_AD, 'AD']} />
 
 ## <img src="/img/38px-NGSUIPhotonArtFlowingSirius.png" alt="icon" className="heading-icon"/>Flowing Sirius
 
@@ -48,7 +48,7 @@ Stay Arts Flowing Sirius will perform a series of slashes.
 
 <VideoPlayer src="/vid/sFS1.mp4" />
 
-<MovesetTable tableId="sFS1" args={(moveset) => [moveset.sFS1]} />
+<MovesetTable tableId="sFS1" args={(moveset) => [moveset.sFS1, 'Regular', moveset.sFS1_AD, 'AD']} />
 
 ### sFS12
 _Type: Sandbag_
@@ -62,7 +62,7 @@ Stage 2 of Stay Arts Flowing Sirius continues the series of slashes and finishes
 
 <VideoPlayer src="/vid/sFS12.mp4" />
 
-<MovesetTable tableId="sFS12" args={(moveset) => [moveset.sFS12]} />
+<MovesetTable tableId="sFS12" args={(moveset) => [moveset.sFS12, 'Regular', moveset.sFS12_AD, 'AD']} />
 
 ### mFS
 _Type: Repositioning_
@@ -75,7 +75,7 @@ Move Arts Flowing Sirius will perform an attack that sweeps the surrounding area
 
 <VideoPlayer src="/vid/mFS.mp4" />
 
-<MovesetTable tableId="mFS" args={(moveset) => [moveset.mFS]} />
+<MovesetTable tableId="mFS" args={(moveset) => [moveset.mFS, 'Regular', moveset.mFS_AD, 'AD']} />
 
 ## <img src="/img/38px-NGSUIPhotonArtReapingRegulus.png" alt="icon" className="heading-icon"/>Reaping Regulus
 
@@ -90,7 +90,7 @@ Stay Arts Reaping Regulus will throw a photon bomb while retreating back as the 
 
 <VideoPlayer src="/vid/sRR.mp4" />
 
-<MovesetTable tableId="sRR" args={(moveset) => [moveset.sRR]} />
+<MovesetTable tableId="sRR" args={(moveset) => [moveset.sRR, 'Regular', moveset.sRR_AD, 'AD']} />
 
 ### mRR
 _Type: Ranged, AoE_
@@ -103,7 +103,7 @@ Move Arts Reaping Regulus will kick a photon bomb in a curved manner that explod
 
 <VideoPlayer src="/vid/mRR.mp4" />
 
-<MovesetTable tableId="mRR" args={(moveset) => [moveset.mRR]} />
+<MovesetTable tableId="mRR" args={(moveset) => [moveset.mRR, 'Regular', moveset.mRR_AD, 'AD']} />
 
 ## <img src="/img/38px-NGSUIPhotonArtWavingRigel.png" alt="icon" className="heading-icon"/>Waving Rigel
 
@@ -119,7 +119,7 @@ Stay Arts Waving Rigel will thrust the weapon into the ground and release a shoc
 
 <VideoPlayer src="/vid/sWR.mp4" />
 
-<MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR]} />
+<MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR, 'Regular', moveset.sWR_AD, 'AD']} />
 
 ### mWR
 _Type: Rage-building, AoE_
@@ -132,4 +132,4 @@ Move Arts Waving Rigel will slash the surrounding area while ascending your char
 
 <VideoPlayer src="/vid/mWR.mp4" />
 
-<MovesetTable tableId="mWR" args={(moveset) => [moveset.mWR]} />
+<MovesetTable tableId="mWR" args={(moveset) => [moveset.mWR, 'Regular', moveset.mWR_AD, 'AD']} />

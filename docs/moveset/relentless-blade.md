@@ -18,7 +18,7 @@ During a PA, a purple glow appears on your character. While it's active, perform
   </ImageTableFigure>
 </ImageTable>
 
-<MovesetTable tableId="RB" args={(moveset) => [moveset.RB, 'Weak w/o RBR', moveset.RBR(moveset.RB), 'Weak w/ RBR', moveset.Strong_RB, 'Strong w/o RBR', moveset.RBR(moveset.Strong_RB), 'Strong w/ RBR']} />
+<MovesetTable tableId="RB" args={(moveset) => [moveset.RBR(moveset.RB), 'Weak w/ RBR', moveset.RBR(moveset.RB_AD), 'Weak w/ RBR (AD)', moveset.RBR(moveset.Strong_RB), 'Strong w/ RBR', moveset.RBR(moveset.Strong_RB_AD), 'Strong w/ RBR (AD)']} />
 
 :::tip
 * Strong [Relentless Blade](/skill-tree/skills#relentless-blade) occurs only during [Stay Arts Flowing Sirius Stage 2](/moveset/photon-arts#sfs12).
