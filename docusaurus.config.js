@@ -89,7 +89,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      announcementBar: {
+        id: 'temp_message_v1',
+        content:
+          'The guide is currently outdated due to the Slayer adjustment update. It will be updated once enough information is gathered.',
+        backgroundColor: '#48AC9C',
+        textColor: '#242526',
+        isCloseable: true,
+      },
       image: "/img/social-card.png",
       colorMode: {
         defaultMode: 'dark',
