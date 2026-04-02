@@ -178,6 +178,23 @@ Increases Relentless Blade Potency.
 | :---: | :---: |
 | 1 | 500% |
 
+### <img src="/img/38px-NGSUISkillSlugShot.png" alt="icon" className="heading-icon"/>Slug Shot
+Pressing the Normal Attack button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
+
+:::tip
+* Slug Shot is now a core skill!
+<Button label="Read More" variant="secondary" link="/mechanics/slugshot" />
+:::
+
+### <img src="/img/38px-NGSUISkillGunbladeFocusExtraDrive.png" alt="icon" className="heading-icon"/>Gunblade Focus Extra Drive
+[_Active Skill_](/moveset/slug-shot)
+
+Expend 3 Gunblade Focus Gauge levels to temporarily increase Relentless Blade Potency and increase Focus Gauge charge rate. In addition, the first Slug Shot used while the skill is active changes to a powerful attack.
+
+| Skill Level | Effect Duration | Cooldown |
+| :---: | :---: | :---: |
+| 1 | 30 sec | 90 sec |
+
 ## Optional Skills
 
 These are the skills you dump the rest of your skill points into after taking all the [Core Skills](#core-skills).
@@ -212,14 +229,6 @@ When the Gunblade Focus Gauge is reset, recover an amount of <Tooltip term="PP" 
 | 4 | 17.00% | 8.50% |
 | 5 | 20.00% | 10.00% |
 
-### <img src="/img/38px-NGSUISkillSlugShot.png" alt="icon" className="heading-icon"/>Slug Shot
-Pressing the Normal Attack button without inputting a direction right after performing a Photon Art will unleash a short-range shot.
-
-:::caution
-* It is recommended to avoid this skill. 
-<Button label="Read More" variant="secondary" link="/mechanics/slugshot" />
-:::
-
 ### <img src="/img/38px-NGSUISkillGunbladeFocusQuickRecharge.png" alt="icon" className="heading-icon"/>Gunblade Focus Quick Recharge
 
 The Gunblade Focus gauge charge rate temporarily increases after the effects of Gunblade Focus Overdrive have ended.
@@ -230,6 +239,5 @@ The Gunblade Focus gauge charge rate temporarily increases after the effects of 
 
 :::caution
 * This skill has some drawbacks which makes justifying this as a core skill difficult until we get access to more skill points.
-* If you aren’t using [Slug Shot](/skill-tree/skills#slug-shot) and feel comfortable with your PP, consider removing 1 skill-point from [Critical Hit PP Gain](/skill-tree/skills#critical-hit-pp-gain) for this skill.
 <Button label="Read More" variant="secondary" link="/mechanics/gunblade-focus-quick-recharge" />
 :::

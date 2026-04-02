@@ -5,7 +5,11 @@ description: "Explaining the Slugshot skill"
 
 # <img src="/img/38px-NGSUISkillSlugShot.png" alt="icon" className="heading-icon"/>Slugshot
 
-The skill would not be bad by itself, however since we are able to deal damage with our [Weapon Action](/moveset/weapon-action#wa123), the skill is in a rather sorry state.
+With the Patch from 04/01/2026 [Slug Shot](/moveset/slug-shot) is now a core skill of Slayers since the first time used during [Gunblade Focus Extra Drive](/skill-tree/skills#gunblade-focus-extra-drive) turns it into a massive burst damage skill.
+
+Make sure to only use the Super version during [Gunblade Focus Extra Drive](/skill-tree/skills#gunblade-focus-extra-drive) because within the duration of this active skill the damage of [Relentless Blade](/moveset/relentless-blade) is boosted which [Slug Shot](/moveset/slug-shot) is unable to make use of.
+
+Outside of the [Shifting Spica Customization 1](/moveset/tech-arts-customization/shifting-spica) it is still not optimal to use since we are able to deal damage with our [Weapon Action](/moveset/weapon-action#wa123) which is capable of canceling the endlag of a majority of PAs. Check out the relevant [Animation Cancels](/moveset/animation-canceling) here.
 
 This is a fundamental issue because the game handles [Slug Shot](/moveset/slug-shot) like a PA which makes it unable to cancel another PA unlike the [Weapon Action](/moveset/weapon-action#wa123) which then leads to the following drawbacks:
 
