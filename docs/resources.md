@@ -7,7 +7,7 @@ Here is a compiled list of resources used.
 
 <Button label="NGS Verification Data Storage" link="https://docs.google.com/spreadsheets/d/1h3gSISqcFIkZUiV_Z4thvFmycuTajw5-6V1Y36rx64w" margin="5px 0" />
 <Button label="Slayer Cancel Timing Sheet" link="https://docs.google.com/spreadsheets/d/1761j0Antcs4j1L_GhnNsergUQOsinbQlMW3TDydQEms" margin="5px 0" />
-<Button label="Deathcream's Sheet Pile" link="https://docs.google.com/spreadsheets/d/1brkmwBMJG1u-NthiE-ib6rjc1hJOpYDwWHPWSOgVJms0" margin="5px 0" />
+<Button label="Deathcream's PSO2:NGS Attack Tables" link="https://docs.google.com/spreadsheets/d/e/2PACX-1vQj8D29IiNYuH3-Vx474oYbyjWNrbTcUDE6z4g6XuWYTvHAfPpufnGygZxenANvMzYrdVylc3TqeGZ3/pubhtml" margin="5px 0" />
 <Button label="TheuberClips" link="https://x.com/TheuberClips" margin="5px 0" />
 <Button label="ものさし" link="https://x.com/flowerint1034" margin="5px 0" />
 <Button label="Arks-Visiphone" link="https://pso2na.arks-visiphone.com/wiki/Main_Page" margin="5px 0" />
