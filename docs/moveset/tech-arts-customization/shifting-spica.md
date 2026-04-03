@@ -7,7 +7,7 @@ description: "Explaining Tech Arts Customization for Shifting Spica"
 With the patch from 12/4/2024, the ability to customize the PA [Shifting Spica](/moveset/photon-arts#sss) was added.
 
 <Tabs>
-<TabItem value="c1" label="Customization 1">
+<TabItem value="c1" label="Customization 1 (Recommended)" default>
 
 * Potency of Slug Shot fired immediately after +7%, adds Unleashed Rage charge effect to that attack and increases PP Cost by 20/17/14/12/10/9/8/7/6/5% depending on the level
 
@@ -16,7 +16,7 @@ Option 1 is a decent buff to Slug Shot considering it can now build Unleashed Ra
 <MovesetTable tableId="SSC1" args={(moveset) => [moveset.calcProp(moveset.sSS,moveset.SlugShot),'sSS>Slug Shot', moveset.calcProp(moveset.sSS,moveset.SlugShotSSC1),'sSSC1>Slug Shot', moveset.calcProp(moveset.mSS,moveset.SlugShot),'mSS>Slug Shot', moveset.calcProp(moveset.mSS,moveset.SlugShotSSC1),'mSSC1>Slug Shot']} />
 
 </TabItem>
-<TabItem value="c2" label="Customization 2 (Recommended)" default>
+<TabItem value="c2" label="Customization 2">
 
 * Increases attack speed for [Move Arts Shifting Spica](/moveset/photon-arts#mss), reduces potency by 11% and increases PP Cost by 20/17/14/12/10/9/8/7/6/5% depending on the level
 
