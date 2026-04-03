@@ -33,5 +33,5 @@ export const glossary = {
   "WA2": "Weapon Action Stage 2",
   "WA3": "Weapon Action Stage 3",
   "SRHS": "Short Range Hot Shot",
-  "AD": "Another Drive"
+  "ED": "Extra Drive"
 }

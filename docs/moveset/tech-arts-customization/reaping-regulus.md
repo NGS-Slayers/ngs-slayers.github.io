@@ -20,7 +20,7 @@ Option 1 is pretty straightforward and brings utility for mobbing scenarios.
 
 Option 2 results in a slight increase in performance.
 
-<MovesetTable tableId="RRC2" args={(moveset) => [moveset.sRR,'sRR', moveset.sRRC2,'sRRC2', moveset.sRRC2_AD,'sRRC2 (AD)', moveset.mRR,'mRR', moveset.mRRC2,'mRRC2', moveset.mRRC2_AD,'mRRC2 (AD)']} />
+<MovesetTable tableId="RRC2" args={(moveset) => [moveset.sRR,'sRR', moveset.sRRC2,'sRRC2', moveset.sRRC2_ED,'sRRC2 (ED)', moveset.mRR,'mRR', moveset.mRRC2,'mRRC2', moveset.mRRC2_ED,'mRRC2 (ED)']} />
 
 </TabItem>
 <TabItem value="c3" label="Customization 3 (Recommended)" default>

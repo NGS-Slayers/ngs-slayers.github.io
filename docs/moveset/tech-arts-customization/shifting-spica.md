@@ -22,7 +22,7 @@ Option 1 is a decent buff to Slug Shot considering it can now build Unleashed Ra
 
 Option 2 results in a slight increase in performance and utility in form of quicker gap closing.
 
-<MovesetTable tableId="SSC2" args={(moveset) => [moveset.mSS,'mSS', moveset.mSSC2,'mSSC2', moveset.mSSC2_AD,'mSSC2 (AD)']} />
+<MovesetTable tableId="SSC2" args={(moveset) => [moveset.mSS,'mSS', moveset.mSSC2,'mSSC2', moveset.mSSC2_ED,'mSSC2 (ED)']} />
 
 </TabItem>
 <TabItem value="c3" label="Customization 3">

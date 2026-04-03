@@ -15,7 +15,7 @@ export function addProp(obj) {
       obj.F0 = Math.round(obj.DPS * MP.BC);
       obj.F5 = Math.round(obj.DPS * MP.F5 * MP.BC);
       obj.OD = Math.round(obj.DPS * MP.OD * MP.BC);
-    } else if (obj.AD) {
+    } else if (obj.ED) {
       obj.F0 = Math.round(obj.DPS);
       obj.F5 = Math.round(obj.DPS * MP.F5);
       delete obj.OD;
@@ -129,9 +129,9 @@ export function Cancel(obj, option) {
   return result;
 }
 
-// Simplifies creation of Another Drive (_AD) variants
-export function AD_Calc(base, ...bladePairs) {
-  const res = { ...base, AD: true };
+// Simplifies creation of Extra Drive (_ED) variants
+export function calcED(base, ...bladePairs) {
+  const res = { ...base, ED: true };
   
   bladePairs.forEach(([oldB, newB]) => {
     res.Pot = res.Pot - RBR(oldB).Pot + RBR(newB).Pot;
@@ -140,7 +140,7 @@ export function AD_Calc(base, ...bladePairs) {
     res.Rage = res.Rage - oldB.Rage + newB.Rage;
   });
 
-  // Recalculate derived properties (DPS, FPS, etc.) with the AD flag
+  // Recalculate derived properties (DPS, FPS, etc.) with the ED flag
   addProp(res);
   return res;
 }
@@ -171,14 +171,14 @@ export var Strong_RB = {
   Rage: 3
 };
 
-export var RB_AD = {
+export var RB_ED = {
   Pot: 5 + 3,
   PP: -4 - 4,
   Focus: 0.5 + 0.3,
   Rage: 0.5 + 0.3
 };
 
-export var Strong_RB_AD = {
+export var Strong_RB_ED = {
   Pot: 15 + 9,
   PP: -5 - 5,
   Focus: 2.5 + 1.5,
@@ -206,8 +206,8 @@ export var sSS = {
 };
 addProp(sSS)
 
-// Stay Shifting Spica AD
-export var sSS_AD = AD_Calc(sSS, [RB, RB_AD]);
+// Stay Shifting Spica ED
+export var sSS_ED = calcED(sSS, [RB, RB_ED]);
 
 // Stay Shifting Spica Custom 3
 export var sSSC3 = {
@@ -233,8 +233,8 @@ export var mSS = {
 };
 addProp(mSS)
 
-// Move Shifting Spica AD
-export var mSS_AD = AD_Calc(mSS, [RB, RB_AD]);
+// Move Shifting Spica ED
+export var mSS_ED = calcED(mSS, [RB, RB_ED]);
 
 // Move Shifting Spica Custom 2
 export var mSSC2 = {
@@ -248,8 +248,8 @@ export var mSSC2 = {
 };
 addProp(mSSC2)
 
-// Move Shifting Spica Custom 2 AD
-export var mSSC2_AD = AD_Calc(mSSC2, [RB, RB_AD]);
+// Move Shifting Spica Custom 2 ED
+export var mSSC2_ED = calcED(mSSC2, [RB, RB_ED]);
 
 // Stay Flowing Sirius1
 export var sFS1 = {
@@ -263,8 +263,8 @@ export var sFS1 = {
 };
 addProp(sFS1)
 
-// Stay Flowing Sirius1 AD
-export var sFS1_AD = AD_Calc(sFS1, [RB, RB_AD]);
+// Stay Flowing Sirius1 ED
+export var sFS1_ED = calcED(sFS1, [RB, RB_ED]);
 
 // Stay Flowing Sirius12
 export var sFS12 = {
@@ -278,8 +278,8 @@ export var sFS12 = {
 };
 addProp(sFS12)
 
-// Stay Flowing Sirius12 AD
-export var sFS12_AD = AD_Calc(sFS12, [RB, RB_AD], [Strong_RB, Strong_RB_AD]);
+// Stay Flowing Sirius12 ED
+export var sFS12_ED = calcED(sFS12, [RB, RB_ED], [Strong_RB, Strong_RB_ED]);
 
 // Move Flowing Sirius
 export var mFS = {
@@ -293,8 +293,8 @@ export var mFS = {
 };
 addProp(mFS)
 
-// Move Flowing Sirius AD
-export var mFS_AD = AD_Calc(mFS, [RB, RB_AD]);
+// Move Flowing Sirius ED
+export var mFS_ED = calcED(mFS, [RB, RB_ED]);
 
 // Stay Reaping Regulus
 export var sRR = {
@@ -308,8 +308,8 @@ export var sRR = {
 };
 addProp(sRR)
 
-// Stay Reaping Regulus AD
-export var sRR_AD = AD_Calc(sRR, [RB, RB_AD]);
+// Stay Reaping Regulus ED
+export var sRR_ED = calcED(sRR, [RB, RB_ED]);
 
 // Stay Reaping Regulus Custom 2
 export var sRRC2 = {
@@ -323,8 +323,8 @@ export var sRRC2 = {
 };
 addProp(sRRC2)
 
-// Stay Reaping Regulus Custom 2 AD
-export var sRRC2_AD = AD_Calc(sRRC2, [RB, RB_AD]);
+// Stay Reaping Regulus Custom 2 ED
+export var sRRC2_ED = calcED(sRRC2, [RB, RB_ED]);
 
 // Move Reaping Regulus Custom 2
 export var mRRC2 = {
@@ -338,8 +338,8 @@ export var mRRC2 = {
 };
 addProp(mRRC2)
 
-// Move Reaping Regulus Custom 2 AD
-export var mRRC2_AD = AD_Calc(mRRC2, [RB, RB_AD]);
+// Move Reaping Regulus Custom 2 ED
+export var mRRC2_ED = calcED(mRRC2, [RB, RB_ED]);
 
 // Move Reaping Regulus
 export var mRR = {
@@ -353,8 +353,8 @@ export var mRR = {
 };
 addProp(mRR)
 
-// Move Reaping Regulus AD
-export var mRR_AD = AD_Calc(mRR, [RB, RB_AD]);
+// Move Reaping Regulus ED
+export var mRR_ED = calcED(mRR, [RB, RB_ED]);
 
 // Stay Waving Rigel
 export var sWR = {
@@ -368,8 +368,8 @@ export var sWR = {
 };
 addProp(sWR)
 
-// Stay Waving Rigel AD
-export var sWR_AD = AD_Calc(sWR, [RB, RB_AD]);
+// Stay Waving Rigel ED
+export var sWR_ED = calcED(sWR, [RB, RB_ED]);
 
 // Stay Waving Rigel Custom 3
 export var sWRC3 = {
@@ -383,8 +383,8 @@ export var sWRC3 = {
 };
 addProp(sWRC3)
 
-// Stay Waving Rigel Custom 3 AD
-export var sWRC3_AD = AD_Calc(sWRC3, [RB, RB_AD]);
+// Stay Waving Rigel Custom 3 ED
+export var sWRC3_ED = calcED(sWRC3, [RB, RB_ED]);
 
 // Move Waving Rigel
 export var mWR = {
@@ -398,8 +398,8 @@ export var mWR = {
 };
 addProp(mWR)
 
-// Move Waving Rigel AD
-export var mWR_AD = AD_Calc(mWR, [RB, RB_AD]);
+// Move Waving Rigel ED
+export var mWR_ED = calcED(mWR, [RB, RB_ED]);
 
 // Slug Shot
 export var SlugShot = {
@@ -434,7 +434,7 @@ export var SuperSlugShot = {
   Rage: 100,
   StepCancel: 0.41, //?
   WACancel: 0.41, //?
-  AD: true
+  ED: true
 };
 addProp(SuperSlugShot)
 
