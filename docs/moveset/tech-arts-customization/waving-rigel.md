@@ -43,7 +43,7 @@ This option is gonna excel at minor optimization levels in specific fights.
 * The DPS showcased for Custom 3 sWR in the following table is not accurate or could be referred to as fake DPS since the remaining two shock-waves happen after the 0.43 seconds have already passed!
 :::
 
-<MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR,'regular sWR', moveset.sWRC3,'Custom 3 sWR', moveset.sWRC3_AD,'Custom 3 sWR (AD)']} />
+<MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR,'sWR', moveset.sWRC3,'sWRC3', moveset.sWRC3_AD,'sWRC3 (AD)']} />
 
 </TabItem>
 </Tabs>
