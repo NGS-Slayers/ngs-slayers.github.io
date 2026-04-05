@@ -3,7 +3,7 @@ title: "Suggestions"
 description: "Linking skill tree presets"
 ---
 
-Find Slayer skill-tree presets here tailored to your experience level.
+Find a Slayer skill-tree preset here.
 Or choose the Core Skill Tree and allocate remaining points to suit your own playstyle.
 
 <Tabs>

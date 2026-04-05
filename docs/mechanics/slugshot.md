@@ -21,7 +21,7 @@ This is a fundamental issue because the game handles [Slug Shot](/moveset/slug-s
 
 I made a table comparing a few different scenarios with [Stay Arts Flowing Sirius Stage 1 and 2](/moveset/photon-arts#sfs12) which has a Weapon Action cancel time of 0.25 seconds and [Stay Arts Shifting Spica](/moveset/photon-arts#sss) which has a Weapon Action cancel time of 0.1 seconds.
 
-<MovesetTable tableId="SlugShotComparison" args={(moveset) => [moveset.calcProp(moveset.sFS12,moveset.SlugShot),'sFS12>Slug Shot', moveset.calcProp(moveset.Cancel(moveset.sFS12,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'sFS12>WA123', moveset.calcProp(moveset.sSS,moveset.SlugShot),'sSS>Slug Shot', moveset.calcProp(moveset.Cancel(moveset.sSS,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'sFS12>WA123',]} />
+<MovesetTable tableId="SlugShotComparison" args={(moveset) => [moveset.calcProp(moveset.sFS12,moveset.SlugShot),'sFS12>Slug Shot', moveset.calcProp(moveset.Cancel(moveset.sFS12,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'sFS12>WA123', moveset.calcProp(moveset.sSS,moveset.SlugShot),'sSS>Slug Shot', moveset.calcProp(moveset.Cancel(moveset.sSS,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'sSS>WA123',]} />
 
 This table already makes [Slug Shot](/moveset/slug-shot) look bad in terms of damage but it actually does not even account for the fact that Weapon Action Stage 3 can be used to counter.
 So let us look at a counter scenario.
