@@ -283,8 +283,8 @@ export var sFS12_ED = calcED(sFS12, [RB, RB_ED], [Strong_RB, Strong_RB_ED]);
 
 // Move Flowing Sirius
 export var mFS = {
-  Pot: 324.8 + RBR(RB).Pot,
-  Time: 0.93,
+  Pot: 313.2 + RBR(RB).Pot,
+  Time: 0.925,
   PP: 25 + RB.PP,
   Focus: 4.6 + RB.Focus,
   Rage: 1.5 + RB.Rage,
