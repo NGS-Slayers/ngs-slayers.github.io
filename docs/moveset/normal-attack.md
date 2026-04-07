@@ -15,14 +15,14 @@ Tap Normal Attack to fire a single shot forward. Re-tap up to two more times to 
 
 <VideoPlayer src="/vid/NA123.mp4" />
 
-<MovesetTable tableId="NA123" args={(moveset) => [moveset.calcProp(moveset.NA1,moveset.NA2,moveset.NA3),'NA123', moveset.calcProp(moveset.SRHS(moveset.NA1),moveset.SRHS(moveset.NA2),moveset.SRHS(moveset.NA3)),'NA123(SRHS)']} />
+<MovesetTable tableId="NA123" args={(m) => [m.calcProp(m.NA1,m.NA2,m.NA3),'NA123', m.calcProp(m.SRHS(m.NA1),m.SRHS(m.NA2),m.SRHS(m.NA3)),'NA123(SRHS)']} />
 
 ## cNA
 Holding the Normal Attack button performs a Charged Normal Attack. The first charged stage unleashes several shots in rapid succession.
 
 <VideoPlayer src="/vid/cNA.mp4" />
 
-<MovesetTable tableId="cNA" args={(moveset) => [moveset.cNA,'cNA', moveset.SRHS(moveset.cNA),'cNA(SRHS)']} />
+<MovesetTable tableId="cNA" args={(m) => [m.cNA,'cNA', m.SRHS(m.cNA),'cNA(SRHS)']} />
 
 ## scNA
 Charging the Normal Attack up to the second charged stage releases a powerful AoE blast attack.
@@ -33,7 +33,7 @@ Charging the Normal Attack up to the second charged stage releases a powerful Ao
 
 <VideoPlayer src="/vid/scNA.mp4" />
 
-<MovesetTable tableId="scNA" args={(moveset) => [moveset.scNA,'scNA', moveset.SRHS(moveset.scNA),'scNA(SRHS)']} />
+<MovesetTable tableId="scNA" args={(m) => [m.scNA,'scNA', m.SRHS(m.scNA),'scNA(SRHS)']} />
 
 ## <img src="/img/38px-NGSUISkillChargedBlade.png" alt="icon" className="heading-icon"/>Charged Blade
 After releasing a charged Normal Attack using the Weapon Action button at the right moment will quickly thrust you toward the enemy.
@@ -45,4 +45,4 @@ After releasing a charged Normal Attack using the Weapon Action button at the ri
 
 <VideoPlayer src="/vid/ChargedBlade.mp4" />
 
-<MovesetTable tableId="ChargedBlade" args={(moveset) => [moveset.ChargedBlade,'Charged Blade', moveset.calcProp(moveset.ChargedBlade,moveset.cNA),'cNA>Charged Blade', moveset.calcProp(moveset.ChargedBlade,moveset.scNA),'scNA>Charged Blade']} />
+<MovesetTable tableId="ChargedBlade" args={(m) => [m.ChargedBlade,'Charged Blade', m.calcProp(m.ChargedBlade,m.cNA),'cNA>Charged Blade', m.calcProp(m.ChargedBlade,m.scNA),'scNA>Charged Blade']} />

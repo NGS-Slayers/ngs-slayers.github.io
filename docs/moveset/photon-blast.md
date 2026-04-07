@@ -16,4 +16,4 @@ The second stage fires multiple projectiles at the enemy from range.
 
 <VideoPlayer src="/vid/PB.mp4" />
 
-<MovesetTable tableId="PB" args={(moveset) => [moveset.PB]} />
+<MovesetTable tableId="PB" args={(m) => [m.PB]} />

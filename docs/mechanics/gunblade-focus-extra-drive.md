@@ -16,9 +16,9 @@ Additionally it enhances our [PAs](/moveset/photon-arts) by adding an additional
 
 Canceling [Stay Arts Flowing Sirius Stage 1 and 2](/moveset/photon-arts#sfs12) into [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) is still an increase in DPS, canceling into only [Weapon Action Stage 1](/moveset/weapon-action#wa123) is even better.
 
-<MovesetTable tableId="sFS12-ED" args={(moveset) => [moveset.sFS12_ED, 'sFS12(ED)', moveset.calcProp(moveset.Cancel(moveset.sFS12_ED,'WA'),moveset.WA1,moveset.WA2,moveset.WA3), 'sFS12(ED)>WA123', moveset.calcProp(moveset.Cancel(moveset.sFS12_ED,'WA'),moveset.WA1), 'sFS12(ED)>WA1']} />
+<MovesetTable tableId="sFS12-ED" args={(m) => [m.sFS12_ED, 'sFS12(ED)', m.calcProp(m.Cancel(m.sFS12_ED,'WA'),m.WA1,m.WA2,m.WA3), 'sFS12(ED)>WA123', m.calcProp(m.Cancel(m.sFS12_ED,'WA'),m.WA1), 'sFS12(ED)>WA1']} />
 
 Stay Arts Reaping Regulus Customization 3 still does decent DPS but the above mentioned [PAs](/moveset/photon-arts) do better.
-<MovesetTable tableId="RRC3-ED" args={(moveset) => [moveset.calcProp(moveset.sRR_ED,moveset.Cancel(moveset.ChargedBladePA,'WA'),moveset.WA2,moveset.WA3), 'sRR(ED)>Charged Blade>WA23']} />
+<MovesetTable tableId="RRC3-ED" args={(m) => [m.calcProp(m.sRR_ED,m.Cancel(m.ChargedBladePA,'WA'),m.WA2,m.WA3), 'sRR(ED)>Charged Blade>WA23']} />
 
 Other animation cancels into [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) should be avoided while [Gunblade Focus Extra Drive](/skill-tree/skills#gunblade-focus-extra-drive) is active.

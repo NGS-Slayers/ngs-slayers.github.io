@@ -13,7 +13,7 @@ With the patch from 12/4/2024, the ability to customize the PA [Shifting Spica](
 
 Option 1 is a decent buff to Slug Shot considering it can now build Unleashed Rage. 
 
-<MovesetTable tableId="SSC1" args={(moveset) => [moveset.calcProp(moveset.sSS,moveset.SlugShot),'sSS>Slug Shot', moveset.calcProp(moveset.sSS,moveset.SlugShotSSC1),'sSSC1>Slug Shot', moveset.calcProp(moveset.mSS,moveset.SlugShot),'mSS>Slug Shot', moveset.calcProp(moveset.mSS,moveset.SlugShotSSC1),'mSSC1>Slug Shot']} />
+<MovesetTable tableId="SSC1" args={(m) => [m.calcProp(m.sSS,m.SlugShot),'sSS>Slug Shot', m.calcProp(m.sSS,m.SlugShotSSC1),'sSSC1>Slug Shot', m.calcProp(m.mSS,m.SlugShot),'mSS>Slug Shot', m.calcProp(m.mSS,m.SlugShotSSC1),'mSSC1>Slug Shot']} />
 
 </TabItem>
 <TabItem value="c2" label="Customization 2">
@@ -22,7 +22,7 @@ Option 1 is a decent buff to Slug Shot considering it can now build Unleashed Ra
 
 Option 2 results in a slight increase in performance and utility in form of quicker gap closing.
 
-<MovesetTable tableId="SSC2" args={(moveset) => [moveset.mSS,'mSS', moveset.mSSC2,'mSSC2', moveset.mSSC2_ED,'mSSC2(ED)']} />
+<MovesetTable tableId="SSC2" args={(m) => [m.mSS,'mSS', m.mSSC2,'mSSC2', m.mSSC2_ED,'mSSC2(ED)']} />
 
 </TabItem>
 <TabItem value="c3" label="Customization 3">

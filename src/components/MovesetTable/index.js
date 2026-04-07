@@ -1,9 +1,9 @@
-import * as moveset from '/src/data/moveset';
+import * as m from '@site/src/data/moveset';
 import TooltipText from '@site/src/components/TooltipText';
 import styles from './styles.module.css';
 
 const MovesetTable = ({ tableId, args }) => {
-    const processedArgs = args(moveset);
+    const processedArgs = args(m);
 
     const isMultipleObjects = processedArgs.length > 1;
 

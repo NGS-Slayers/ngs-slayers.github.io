@@ -24,7 +24,7 @@ It also takes longer so make sure the time window is big enough so you can conne
 
 <VideoPlayer src="/vid/sFS12-WA123.mp4" />
 
-<MovesetTable tableId="sFS12-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sFS12,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
+<MovesetTable tableId="sFS12-WA123" args={(m) => [m.calcProp(m.Cancel(m.sFS12,'WA'),m.WA1,m.WA2,m.WA3)]} />
 
 ## StepC WA>Chain
 Repeating [Step Couter Weapon Action](/moveset/counters#stepc-wa) is stronger than chaining [Blade Counter Normal Attack](/moveset/counters#bc-na) together, which makes this the go to option for a lingering hitbox as long as you can reach your enemy.
@@ -35,7 +35,7 @@ Repeating [Step Couter Weapon Action](/moveset/counters#stepc-wa) is stronger th
 
 <VideoPlayer src="/vid/StepCWA-chain.mp4" />
 
-<MovesetTable tableId="StepCWA-Chain" args={(moveset) => [moveset.Cancel(moveset.StepCWA,'Step')]} />
+<MovesetTable tableId="StepCWA-Chain" args={(m) => [m.Cancel(m.StepCWA,'Step')]} />
 
 ## StepC WA>WA123
 Using [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) after a [Step Counter Weapon Action](/moveset/counters#stepc-wa) increases the total potency of the counter and recovers some additional PP.
@@ -46,7 +46,7 @@ Using [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) after a [Step C
 
 <VideoPlayer src="/vid/StepCWA-WA123.mp4" />
 
-<MovesetTable tableId="StepCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.StepCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3)]} />
+<MovesetTable tableId="StepCWA-WA123" args={(m) => [m.calcProp(m.Cancel(m.StepCWA,'WA'),m.WA1,m.WA2,m.WA3)]} />
 
 ## BC WA>WA123
 Canceling [Blade Counter Weapon Action](/moveset/counters#bc-wa) after the sixth hit into a [Weapon Action Stage 1 to 3](/moveset/weapon-action#wa123) increases the total potency of the sequence by elimnating the endlag of the animation.
@@ -58,7 +58,7 @@ Canceling [Blade Counter Weapon Action](/moveset/counters#bc-wa) after the sixth
 
 <VideoPlayer src="/vid/BCWA-WA123.mp4" />
 
-<MovesetTable tableId="BCWA-WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA1>BCWA>WA123', moveset.calcProp(moveset.WA2,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA2>BCWA>WA123', moveset.calcProp(moveset.WA3,moveset.Cancel(moveset.BCWA,'WA'),moveset.WA1,moveset.WA2,moveset.WA3),'WA3>BCWA>WA123']} />
+<MovesetTable tableId="BCWA-WA123" args={(m) => [m.calcProp(m.WA1,m.Cancel(m.BCWA,'WA'),m.WA1,m.WA2,m.WA3),'WA1>BCWA>WA123', m.calcProp(m.WA2,m.Cancel(m.BCWA,'WA'),m.WA1,m.WA2,m.WA3),'WA2>BCWA>WA123', m.calcProp(m.WA3,m.Cancel(m.BCWA,'WA'),m.WA1,m.WA2,m.WA3),'WA3>BCWA>WA123']} />
 
 ## sRR>StepC WA
 Canceling [Stay Arts Reaping Regulus](/moveset/photon-arts#srr) into a [Step Counter Weapon Action](/moveset/counters#stepc-wa) is fastest way to build Focus and Rage in a small time window.
@@ -70,7 +70,7 @@ Canceling [Stay Arts Reaping Regulus](/moveset/photon-arts#srr) into a [Step Cou
 
 <VideoPlayer src="/vid/sRR-StepCWA.mp4" />
 
-<MovesetTable tableId="sRR-StepCWA" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sRR,'Step'),moveset.StepCWA)]} />
+<MovesetTable tableId="sRR-StepCWA" args={(m) => [m.calcProp(m.Cancel(m.sRR,'Step'),m.StepCWA)]} />
 
 ## sWR>StepC WA
 You can cancel out of [Stay Arts Waving Rigel](/moveset/photon-arts#swr) with a Step Dodge input super early meaning this has amazing DPS when you can make use of the small time window.
@@ -81,4 +81,4 @@ You can cancel out of [Stay Arts Waving Rigel](/moveset/photon-arts#swr) with a 
 
 <VideoPlayer src="/vid/sWR-StepCWA.mp4" />
 
-<MovesetTable tableId="sWR-StepCWA" args={(moveset) => [moveset.calcProp(moveset.Cancel(moveset.sWR,'Step'),moveset.StepCWA)]} />
+<MovesetTable tableId="sWR-StepCWA" args={(m) => [m.calcProp(m.Cancel(m.sWR,'Step'),m.StepCWA)]} />

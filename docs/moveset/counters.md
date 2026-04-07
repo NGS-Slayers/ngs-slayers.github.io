@@ -23,7 +23,7 @@ Blade Counter Normal Attack is useful for when there is multiple separate attack
 
 <VideoPlayer src="/vid/BCNA.mp4" />
 
-<MovesetTable tableId="BCNA" args={(moveset) => [moveset.BCNA,'BCNA', moveset.calcProp(moveset.WA1,moveset.BCNA),'WA1>BCNA', moveset.calcProp(moveset.WA2,moveset.BCNA),'WA2>BCNA', moveset.calcProp(moveset.WA3,moveset.BCNA),'WA3>BCNA']} />
+<MovesetTable tableId="BCNA" args={(m) => [m.BCNA,'BCNA', m.calcProp(m.WA1,m.BCNA),'WA1>BCNA', m.calcProp(m.WA2,m.BCNA),'WA2>BCNA', m.calcProp(m.WA3,m.BCNA),'WA3>BCNA']} />
 
 ## BC WA
 Blade Counter Weapon Action has the highest total potency out of all of your Counter Attacks and makes this your go to option for when the enemy is not attacking in quick succession.
@@ -34,7 +34,7 @@ Blade Counter Weapon Action has the highest total potency out of all of your Cou
 
 <VideoPlayer src="/vid/BCWA.mp4" />
 
-<MovesetTable tableId="BCWA" args={(moveset) => [moveset.BCWA,'BCWA', moveset.calcProp(moveset.WA1,moveset.BCWA),'WA1>BCWA', moveset.calcProp(moveset.WA2,moveset.BCWA),'WA2>BCWA', moveset.calcProp(moveset.WA3,moveset.BCWA),'WA3>BCWA']} />
+<MovesetTable tableId="BCWA" args={(m) => [m.BCWA,'BCWA', m.calcProp(m.WA1,m.BCWA),'WA1>BCWA', m.calcProp(m.WA2,m.BCWA),'WA2>BCWA', m.calcProp(m.WA3,m.BCWA),'WA3>BCWA']} />
 
 ## mBC NA
 Mobile Blade Counter Normal Attack is used for when you need a quick ranged counter and need to move into an incoming attack hitbox for it.
@@ -46,7 +46,7 @@ Mobile Blade Counter Normal Attack is used for when you need a quick ranged coun
 
 <VideoPlayer src="/vid/mBCNA.mp4" />
 
-<MovesetTable tableId="mBCNA" args={(moveset) => [moveset.calcProp(moveset.mBCNA,moveset.mWA)]} />
+<MovesetTable tableId="mBCNA" args={(m) => [m.calcProp(m.mBCNA,m.mWA)]} />
 
 ## mBC WA
 Mobile Blade Counter Weapon Action is your go to option for when you have to move into an incoming attack hitbox, you are unable to catch it a Step Counter and the enemy isn't attacking in quick succession.
@@ -58,7 +58,7 @@ Mobile Blade Counter Weapon Action is your go to option for when you have to mov
 
 <VideoPlayer src="/vid/mBCWA.mp4" />
 
-<MovesetTable tableId="mBCWA" args={(moveset) => [moveset.calcProp(moveset.mBCWA,moveset.mWA)]} />
+<MovesetTable tableId="mBCWA" args={(m) => [m.calcProp(m.mBCWA,m.mWA)]} />
 
 ## StepC NA
 Step Counter Normal Attack is the fastest counter the Gunblade has to offer. It is used for very quick double counters.
@@ -69,11 +69,11 @@ Step Counter Normal Attack is the fastest counter the Gunblade has to offer. It 
 
 <VideoPlayer src="/vid/StepCNA.mp4" />
 
-<MovesetTable tableId="StepCNA" args={(moveset) => [moveset.StepCNA]} />
+<MovesetTable tableId="StepCNA" args={(m) => [m.StepCNA]} />
 
 ## StepC WA
 Step Counter Weapon Action is an amazing tool to build Focus and Rage, it serves as a gap closer, has the highest DPS when [chained in a lingering hitbox](/moveset/animation-canceling#stepc-wachain), and has great potency for a the time it takes to execute.
 
 <VideoPlayer src="/vid/StepCWA.mp4" />
 
-<MovesetTable tableId="StepCWA" args={(moveset) => [moveset.StepCWA]} />
+<MovesetTable tableId="StepCWA" args={(m) => [m.StepCWA]} />

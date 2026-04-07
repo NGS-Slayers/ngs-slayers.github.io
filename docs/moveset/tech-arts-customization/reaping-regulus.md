@@ -20,7 +20,7 @@ Option 1 is pretty straightforward and brings utility for mobbing scenarios.
 
 Option 2 results in a slight increase in performance.
 
-<MovesetTable tableId="RRC2" args={(moveset) => [moveset.sRR,'sRR', moveset.sRRC2,'sRRC2', moveset.sRRC2_ED,'sRRC2(ED)', moveset.mRR,'mRR', moveset.mRRC2,'mRRC2', moveset.mRRC2_ED,'mRRC2(ED)']} />
+<MovesetTable tableId="RRC2" args={(m) => [m.sRR,'sRR', m.sRRC2,'sRRC2', m.sRRC2_ED,'sRRC2(ED)', m.mRR,'mRR', m.mRRC2,'mRRC2', m.mRRC2_ED,'mRRC2(ED)']} />
 
 </TabItem>
 <TabItem value="c3" label="Customization 3 (Recommended)" default>
@@ -39,7 +39,7 @@ You will want to use the variation chaining into the [Weapon Action](/moveset/we
 * The following table assumes 0.05 seconds of input delay.
 :::
 
-<MovesetTable tableId="RRC3" args={(moveset) => [moveset.calcProp(moveset.sRR,moveset.ChargedBladePA),'sRR>Charged Blade', moveset.calcProp(moveset.sRR,moveset.Cancel(moveset.ChargedBladePA,'WA'),moveset.WA2,moveset.WA3), 'sRR>Charged Blade>WA23', moveset.calcProp(moveset.mRR,moveset.ChargedBladePA),'mRR>Charged Blade', moveset.calcProp(moveset.mRR,moveset.Cancel(moveset.ChargedBladePA,'WA'),moveset.WA2,moveset.WA3), 'mRR>Charged Blade>WA23']} />
+<MovesetTable tableId="RRC3" args={(m) => [m.calcProp(m.sRR,m.ChargedBladePA),'sRR>Charged Blade', m.calcProp(m.sRR,m.Cancel(m.ChargedBladePA,'WA'),m.WA2,m.WA3), 'sRR>Charged Blade>WA23', m.calcProp(m.mRR,m.ChargedBladePA),'mRR>Charged Blade', m.calcProp(m.mRR,m.Cancel(m.ChargedBladePA,'WA'),m.WA2,m.WA3), 'mRR>Charged Blade>WA23']} />
 
 </TabItem>
 </Tabs>

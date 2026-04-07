@@ -14,7 +14,7 @@ It's excellent for filling [Gunblade Focus](/skill-tree/skills#gunblade-focus), 
 
 <VideoPlayer src="/vid/UR.mp4" />
 
-<MovesetTable tableId="UR" args={(moveset) => [moveset.UR]} />
+<MovesetTable tableId="UR" args={(m) => [m.UR]} />
 
 ## <img src="/img/38px-NGSUISkillGunbladeFocusOverdrive.png" alt="icon" className="heading-icon"/>Gunblade Focus Overdrive
 Activating this skill triggers a short animation, then grants temporary buffs.
@@ -29,4 +29,4 @@ Re-activating this skill while it's in effect, unleashes a powerful finishing mo
 
 <VideoPlayer src="/vid/ODF.mp4" />
 
-<MovesetTable tableId="ODF" args={(moveset) => [moveset.ODF]} />
+<MovesetTable tableId="ODF" args={(m) => [m.ODF]} />

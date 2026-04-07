@@ -17,7 +17,7 @@ The Weapon Action lets you guard against an enemy attack with a slashing move. T
 
 <VideoPlayer src="/vid/WA123.mp4" />
 
-<MovesetTable tableId="WA123" args={(moveset) => [moveset.calcProp(moveset.WA1,moveset.WA2,moveset.WA3)]} />
+<MovesetTable tableId="WA123" args={(m) => [m.calcProp(m.WA1,m.WA2,m.WA3)]} />
 
 ## mWA
 If the skill [Mobile Blade](/skill-tree/skills#mobile-blade) was learned you can use the directional input to perform a slash while evading attacks.
@@ -28,4 +28,4 @@ During the slash you will be granted invincibility frames for 0.35 seconds.
 
 <VideoPlayer src="/vid/mWA.mp4" />
 
-<MovesetTable tableId="mWA" args={(moveset) => [moveset.mWA]} />
+<MovesetTable tableId="mWA" args={(m) => [m.mWA]} />
