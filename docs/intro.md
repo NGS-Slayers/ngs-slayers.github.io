@@ -19,7 +19,4 @@ If you enjoy swift attacks, fluid movement, and gameplay that rewards skillful u
 The Gunblade is also the only weapon that can build [Gunblade Focus](/skill-tree/skills#gunblade-focus).
 
 ## To-Do
-* Improve intro and general readability
-* Improve Mechanics Breakdown section
 * Add Gameplay tips section
-* Improve moveset calculator and implement GUI
