@@ -56,7 +56,18 @@
 }
 
 @media (max-width: 996px) {
-  .navbar__item.hide-on-mobile-tablet {
+  .hide-on-mobile-tablet {
+    display: none !important;
+  }
+
+  /* Hide the 'Back to main menu' button as the menu is empty on mobile */
+  .navbar-sidebar__back {
+    display: none !important;
+  }
+}
+
+@media (min-width: 997px) {
+  .hide-on-desktop {
     display: none !important;
   }
 }

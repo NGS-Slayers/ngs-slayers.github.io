@@ -21,14 +21,23 @@ const sidebars = {
     {
       type: 'category',
       label: 'Skill Tree',
+      link: {
+        type: 'generated-index',
+      },
       items: ['skill-tree/skills', 'skill-tree/suggestions'],
     },
     {
       type: 'category',
       label: 'Moveset',
+      link: {
+        type: 'generated-index',
+      },
       items: ['moveset/relentless-blade', 'moveset/active-skills', 'moveset/photon-blast', 'moveset/photon-arts', 'moveset/normal-attack', 'moveset/slug-shot', 'moveset/weapon-action', 'moveset/counters', 'moveset/animation-canceling',       {
         type: 'category',
         label: 'Tech Arts Customization',
+        link: {
+          type: 'generated-index',
+        },
         items: [
           'moveset/tech-arts-customization/waving-rigel',
           'moveset/tech-arts-customization/reaping-regulus',
@@ -42,11 +51,17 @@ const sidebars = {
     {
       type: 'category',
       label: 'Gearing',
+      link: {
+        type: 'generated-index',
+      },
       items: ['gearing/equipment', 'gearing/ex-augments'],
     },
     {
       type: 'category',
       label: 'Mechanics Breakdown',
+      link: {
+        type: 'generated-index',
+      },
       items: [
         'mechanics/gunblade-focus-quick-recharge',
         'mechanics/gunblade-focus-gauge-amplifier',
@@ -56,6 +71,18 @@ const sidebars = {
     },
     'resources',
     'credits',
+    {
+      type: 'link',
+      label: 'GitHub',
+      href: 'https://github.com/NGS-Slayers/ngs-slayers.github.io',
+      className: 'hide-on-desktop',
+    },
+    {
+      type: 'link',
+      label: 'Discord',
+      href: 'https://discord.com/invite/pso2',
+      className: 'hide-on-desktop',
+    },
   ],
 };
 
