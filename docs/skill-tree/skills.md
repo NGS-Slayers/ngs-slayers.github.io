@@ -191,6 +191,11 @@ Pressing the Normal Attack button without inputting a direction right after perf
 
 Expend 3 Gunblade Focus Gauge levels to temporarily increase Relentless Blade Potency and increase Focus Gauge charge rate. In addition, the first Slug Shot used while the skill is active changes to a powerful attack.
 
+:::info
+* You can find an entire page with more information about this skill below.
+<Button label="Read More" variant="secondary" link="/mechanics/gunblade-focus-extra-drive" />
+:::
+
 | Skill Level | Effect Duration | Cooldown |
 | :---: | :---: | :---: |
 | 1 | 30 sec | 90 sec |

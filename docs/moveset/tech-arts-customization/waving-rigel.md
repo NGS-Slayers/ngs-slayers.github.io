@@ -27,7 +27,7 @@ Option 2 might have some use for mobbing but other than that, I would highly adv
 
 * Shockwave activates 3 times and potency is decreased by 65% when using [Stay Arts Waving Rigel](/moveset/photon-arts#swr), PP Cost increased by 30/26/22/18/15/14/13/12/11/10% depending on the level
 
-Option 3 changes [Stay Arts Waving Rigel](/moveset/photon-arts#swr) to spawn 3 shock waves over time, each with 45.5 potency. This results in a total potency increase of 6.5 potency.
+Option 3 changes [Stay Arts Waving Rigel](/moveset/photon-arts#swr) to spawn 3 shock waves over time, each with 48.6 potency. This results in a total potency increase of 6.5 potency.
 
 The first shockwave occurs at 0.05 seconds just like the regular version and then 0.5 seconds for every next shockwave. (0.05s > 0.55s > 1.05s)
 
@@ -43,7 +43,7 @@ This option is gonna excel at minor optimization levels in specific fights.
 * The DPS showcased for Custom 3 sWR in the following table is not accurate or could be referred to as fake DPS since the remaining two shock-waves happen after the 0.43 seconds have already passed!
 :::
 
-<MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR,'sWR', moveset.sWRC3,'sWRC3', moveset.sWRC3_ED,'sWRC3 (ED)']} />
+<MovesetTable tableId="sWR" args={(moveset) => [moveset.sWR,'sWR', moveset.sWRC3,'sWRC3', moveset.sWRC3_ED,'sWRC3(ED)']} />
 
 </TabItem>
 </Tabs>

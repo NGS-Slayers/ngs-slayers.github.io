@@ -51,6 +51,7 @@ const sidebars = {
         'mechanics/gunblade-focus-quick-recharge',
         'mechanics/gunblade-focus-gauge-amplifier',
         'mechanics/slugshot',
+        'mechanics/gunblade-focus-extra-drive',
       ],
     },
     'resources',

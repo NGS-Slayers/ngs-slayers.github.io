@@ -9,7 +9,7 @@ With the Patch from 04/01/2026 [Slug Shot](/moveset/slug-shot) is now a core ski
 
 Make sure to only use the Super version during [Gunblade Focus Extra Drive](/skill-tree/skills#gunblade-focus-extra-drive) because within the duration of this active skill the damage of [Relentless Blade](/moveset/relentless-blade) is boosted which [Slug Shot](/moveset/slug-shot) is unable to make use of.
 
-Outside of the [Shifting Spica Customization 1](/moveset/tech-arts-customization/shifting-spica) it is still not optimal to use since we are able to deal damage with our [Weapon Action](/moveset/weapon-action#wa123) which is capable of canceling the endlag of a majority of PAs. Check out the relevant [Animation Cancels](/moveset/animation-canceling) here.
+Outside of the [Shifting Spica Customization 1](/moveset/tech-arts-customization/shifting-spica) it is still not optimal to use since we are able to deal damage with our [Weapon Action](/moveset/weapon-action#wa123) which is capable of canceling the endlag of a majority of [PAs](/moveset/photon-arts). Check out the relevant [Animation Cancels](/moveset/animation-canceling) here.
 
 This is a fundamental issue because the game handles [Slug Shot](/moveset/slug-shot) like a PA which makes it unable to cancel another PA unlike the [Weapon Action](/moveset/weapon-action#wa123) which then leads to the following drawbacks:
 
