@@ -20,7 +20,7 @@ Blitz gives strong buffs through its Decay Rounds. However, triggering Blitz Cas
 </TabItem>
 
 <TabItem value="celeste" label={<span><img src="/img/38px-Celeste.png" alt="Celeste" style={{marginRight: "5px", verticalAlign: "middle"}} className="tab-icon" />Celeste</span>} attributes={{className: 'celeste-tab'}}>
-While Celeste's ability to lower the cooldown of [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) may sound enticing, it is not as effective as it seems. It will desync your [Photon Blast](/moveset/photon-blast) and [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) timings, making it ineffective. On top of that, triggering Celeste Flawless is difficult. You must sacrifice a regular Counter to trigger it and wait for the enemy to attack before it can activate and therefore significantly lowers the value of the 420 potency bonus. 
+While Celeste's ability to lower the cooldown of [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) may sound enticing, it is not as effective as it seems. It will desync your [Photon Blast](/moveset/photon-blast) and [Gunblade Focus Overdrive](/skill-tree/skills#gunblade-focus-overdrive) timings, making it ineffective. However it can now be used on [Gunblade Focus Extra Drive](/skill-tree/skills#gunblade-focus-extra-drive) which makes it slightly better. Unfortunately, triggering Celeste Flawless remains trivial. You must wait for the enemy to attack and sacrifice a Counter to trigger it before it can activate and therefore significantly lowers the value of the 420 potency bonus. 
 </TabItem>
 </Tabs>
 
